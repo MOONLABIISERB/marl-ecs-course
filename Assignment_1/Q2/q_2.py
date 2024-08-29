@@ -23,7 +23,7 @@ for i in range(grid_sz[0]):
     for j in range(grid_sz[1]):
         policy[(i, j)] = actions[0]
 
-gamma = 0.79 #Discount factor
+gamma = 0.9 #Discount factor
 theta = 10e-6 #Threshold value
 
 # Rewards for each state
