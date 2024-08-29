@@ -1,5 +1,18 @@
+The MDP is attached in the MDP.pdf file.
+
 For both value iteration and policy iteration, there is convergence at gamma=0.9.
-The optimal policy at hostel is to attend class, at academic building is to attend class
-and at canteen is to attend class.
+
+VALUE ITERATION:
+Optimal Policy: Hostel - attend class, academic building - attend class, canteen - attend class.
+v(hostel) = 13.008543451307535
+v(academic building) = 13.696504144569033
+v(canteen) = 9.912720364319124
+
+POLICY ITERATION:
+Optimal Policy: attend class, academic building - attend class, canteen - attend class.
+v(hostel) = 13.011061807729416
+v(academic building) = 13.699022485028735
+v(canteen) = 9.91523869413737
+
 
 The algorithm was taken from Reinforcement Learning: An Introduction, Book by Andrew Barto and Richard S. Sutton
