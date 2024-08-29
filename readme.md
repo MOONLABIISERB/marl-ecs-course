@@ -6,6 +6,8 @@ Brief description of your project.
 
 1. [Question 1](#question-1)
 2. [Question 2](#question-2)
+3. [Requirements](#requirements)
+4. [Author](#requirements)
 
 ## Question 1
 
@@ -29,8 +31,13 @@ Policy iteration:
 ![Image 4](value_policy_iteration.png)
 ![Image 5](quiver_policy_iteration.png)
 
-Requirements:
+##Requirements:
+
 The code has been run on python 3.10.6
 And the additional libraries used are numpy and matplotlib.
 
-Author: Manish Gayen 21161
+##Author: 
+
+Manish Gayen
+Roll- 21161
+IISERB
