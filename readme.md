@@ -17,6 +17,19 @@ The MDP designed can be represented by the following diagram:
 
 ![Image 1](mdp.jpg)
 
+The results obtained are:
+Value Iteration Results: 
+Values:  [12.98306307 12.98306307 12.98306307 13.39809229 13.3145874  
+13.3145874 ] 
+Policy:  ['Eat_Food', 'Eat_Food', 'Eat_Food', 'Attend_Class', 'Attend_Class', 
+'Attend_Class']
+
+Policy Iteration Results: 
+Values:  [12.98304403 12.98304403 12.98304403 13.39807276 13.31457007 
+13.31457007] 
+Policy:  ['Eat_Food', 'Eat_Food', 'Eat_Food', 'Attend_Class', 'Attend_Class', 
+'Attend_Class']
+
 The results from both Value Iteration and Policy Iteration are consistent. Both methods produce nearly identical value functions and the same optimal policy. The optimal actions are: Eat_Food in the Hostel and when Hungry. Attend_Class in the Academic Building and Canteen. This consistency indicates that both algorithms have successfully identified the optimal policy for the student’s task, validating the MDP solution.
 
 ## Question 2
