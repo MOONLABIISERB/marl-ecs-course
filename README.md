@@ -14,7 +14,7 @@ import numpy as np
 Values:\\
 Value for Hostel: -1.00\\
 Value for AB: 3.00 \\
-Value for Canteen: 1.00 \\
+Value for Canteen: 1.00\ \
 
 # Policy:
 \\Best action for Hostel: Class
@@ -60,10 +60,9 @@ import sys
 
 # Result Graphs of Q2
 
-# For the policy iteration
+\ For the policy iteration
 
 ![policy_iteration.png](moonlab@sparrow:~/marl-ecs-course/policy_iteration.png?raw=true)
 
-# For the value iteration
-
+\ For the value iteration
 ![value_iteration.png](moonlab@sparrow:~/marl-ecs-course/value_iteration.png?raw=true)
