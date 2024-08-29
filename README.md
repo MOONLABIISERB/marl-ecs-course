@@ -11,10 +11,10 @@ import numpy as np
 # For gamma = 0
 
 # Value Iteration Results:
-Values:
-\\Value for Hostel: -1.00
-\\Value for AB: 3.00
-\\Value for Canteen: 1.00
+Values:\\
+Value for Hostel: -1.00\\
+Value for AB: 3.00 \\
+Value for Canteen: 1.00 \\
 
 # Policy:
 \\Best action for Hostel: Class
@@ -44,7 +44,7 @@ Values:
 
 
 # Policy:
-\\Best action for Hostel: Class
+Best action for Hostel: Class \
 \\Best action for AB: Class
 \\Best action for Canteen: Class
 
@@ -58,11 +58,11 @@ import sys
 
 ```
 
-# Result Graphs
+# Result Graphs of Q2
 
-\\ For the policy iteration
+\ For the policy iteration
 
-![alt text](policy_iteration.png?raw=true)
+![policy_iteration.png](policy_iteration.png?raw=true)
 
-\\ For the value iteration
-![alt text](value_iteration.png?raw=true)
+\ For the value iteration
+![value_iteration.png](value_iteration.png?raw=true)
