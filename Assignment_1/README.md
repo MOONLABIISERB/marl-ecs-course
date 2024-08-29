@@ -16,6 +16,11 @@ Canteen: Study
 ![image](images/Pg2.jpg)
 
 # Question_2
+## Assumptions:\
+>The robot can only move in up, down, left, and right directions\
+>Expect above the robot can also stay in a single position
+>It cannot move in diagonal
+>gamma = 0.79
 ## Policy Diagram for Value Iteration 
 ![image](images/Figure_1.png)
 ## Policy Diagram For Policy Iteration
