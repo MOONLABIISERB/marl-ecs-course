@@ -14,7 +14,15 @@ class ValueIteration:
         self.value_function = np.zeros(grid_size)
         self.policy = {state: np.random.choice(actions) for state in np.ndindex(grid_size)}
     
-    def value_iteration(self):
+    def value_iteration(self) -> tuple:
+        '''
+        Value Iteration Algorithm
+
+        Returns:
+        value_function: dict, value function
+        policy: dict, optimal policy
+        '''
+
         while True:
             delta = 0
             for state in np.ndindex(self.grid_size):
@@ -58,7 +66,8 @@ class PolicyIteration:
         self.value_function = np.zeros(grid_size)
         self.policy = {state: np.random.choice(actions) for state in np.ndindex(grid_size)}
     
-    def policy_evaluation(self):
+
+    def policy_evaluation(self) -> None:
         '''
         Policy Evaluation
 
@@ -84,7 +93,7 @@ class PolicyIteration:
     
 
 
-    def policy_improvement(self):
+    def policy_improvement(self) -> bool:
         '''
         Policy Improvement
 
@@ -114,7 +123,7 @@ class PolicyIteration:
     
 
 
-    def policy_iteration(self):
+    def policy_iteration(self) -> tuple:
         '''
         Policy Iteration Algorithm
 
@@ -246,7 +255,7 @@ def main():
     print(_)
     print(policy_v_it)
     plot_policy(policy_v_it, grid_size, walls)
-    plt.savefig('value_iteration.png')  
+    # plt.savefig('value_iteration.png')  
 
     print('\n')
     print("---------------------------------")
@@ -258,7 +267,7 @@ def main():
     print(_)
     print(policy_p_it)
     plot_policy(policy_p_it, grid_size, walls)
-    plt.savefig('policy_iteration.png')
+    # plt.savefig('policy_iteration.png')
 
 
 
