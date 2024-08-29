@@ -45,4 +45,5 @@ poetry install                          # Install all project dependencies
 ## Assignments
 
 - To evaluate assignments, please navigate to the [`assignments`](https://github.com/sattwik-sahu/ecs427/tree/310da37b9f13a625314a113887589e008f51de9b/assignments) directory.
-- Open the file named `ecs427__assignment-XX.ipynb` to evaluate assignments. For example, `XX = 01` for assignment #1.
+- Open the file named `ecs427__assignment-XX.ipynb` to evaluate the assignment code. For example, `XX = 01` for assignment #1.
+- To evaluate the assignment report, open `ecs427__assignment-XX.pdf`. For example, `XX = 01` for assignment #1.
