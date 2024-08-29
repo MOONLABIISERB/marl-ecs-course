@@ -3,13 +3,6 @@
 ## Overview
 This repository contains the report and related files for the first assignment in the Multi-Agent Reinforcement Learning course (ECS/DSE-427/627). The assignment involves designing a Markov Decision Process (MDP) for a student's activities on campus and solving a 9x9 grid-world environment using Value Iteration and Policy Iteration techniques.
 
-## Contents
-- **Report.pdf**: Detailed report explaining the methodology, implementation, and results of the assignment.
-- **Code**: [Link to code, if any is provided]
-- **Results**: Summarized results for the MDP and Grid-World tasks.
-
-## Assignment Details
-
 ### Question 1: Designing and Solving a Finite MDP
 - **Task**: Design a finite MDP to model the decision-making process of a student navigating between the hostel, academic building, and canteen.
 - **Methods Used**: 
