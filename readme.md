@@ -15,7 +15,7 @@ Question 1 involves modelling the college life of a student into a MDP and findi
 
 The results from both Value Iteration and Policy Iteration are consistent. Both methods produce nearly identical value functions and the same optimal policy. The optimal actions are: Eat_Food in the Hostel and when Hungry. Attend_Class in the Academic Building and Canteen. This consistency indicates that both algorithms have successfully identified the optimal policy for the student’s task, validating the MDP solution.
 
-![Image 1](mdp.png)
+![Image 1](mdp.jpg)
 
 ## Question 2
 
