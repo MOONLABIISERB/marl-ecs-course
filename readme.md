@@ -31,12 +31,12 @@ Policy iteration:
 ![Image 4](value_policy_iteration.png)
 ![Image 5](quiver_policy_iteration.png)
 
-##Requirements:
+## Requirements:
 
 The code has been run on python 3.10.6
 And the additional libraries used are numpy and matplotlib.
 
-##Author: 
+## Author: 
 
 Manish Gayen
 Roll- 21161
