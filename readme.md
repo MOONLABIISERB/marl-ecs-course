@@ -13,6 +13,8 @@ Brief description of your project.
 
 Question 1 involves modelling the college life of a student into a MDP and finding out optimal policies for his actions using value iteration and policy iteration methods.
 
+The results from both Value Iteration and Policy Iteration are consistent. Both methods produce nearly identical value functions and the same optimal policy. The optimal actions are: Eat_Food in the Hostel and when Hungry. Attend_Class in the Academic Building and Canteen. This consistency indicates that both algorithms have successfully identified the optimal policy for the student’s task, validating the MDP solution.
+
 ![Image 1](mdp.png)
 
 ## Question 2
@@ -39,5 +41,7 @@ And the additional libraries used are numpy and matplotlib.
 ## Author: 
 
 Manish Gayen
+
 Roll- 21161
+
 IISERB
