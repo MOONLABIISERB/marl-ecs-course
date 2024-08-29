@@ -1,6 +1,6 @@
 # MARL Assignment 1
 
-Brief description of your project.
+This is a solution for the MARL course Assignment 1
 
 ## Contents
 
@@ -18,15 +18,19 @@ The MDP designed can be represented by the following diagram:
 ![Image 1](mdp.jpg)
 
 The results obtained are:
+
 Value Iteration Results: 
+
 Values:  [12.98306307 12.98306307 12.98306307 13.39809229 13.3145874  
 13.3145874 ] 
 Policy:  ['Eat_Food', 'Eat_Food', 'Eat_Food', 'Attend_Class', 'Attend_Class', 
 'Attend_Class']
 
 Policy Iteration Results: 
+
 Values:  [12.98304403 12.98304403 12.98304403 13.39807276 13.31457007 
 13.31457007] 
+
 Policy:  ['Eat_Food', 'Eat_Food', 'Eat_Food', 'Attend_Class', 'Attend_Class', 
 'Attend_Class']
 
