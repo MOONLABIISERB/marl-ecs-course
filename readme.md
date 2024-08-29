@@ -25,6 +25,7 @@ Value iteration:
 
 
 Policy iteration:
+
 ![Image 4](value_policy_iteration.png)
 ![Image 5](quiver_policy_iteration.png)
 
