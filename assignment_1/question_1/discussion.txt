@@ -2,4 +2,4 @@ For both value iteration and policy iteration, there is convergence at gamma=0.9
 The optimal policy at hostel is to attend class, at academic building is to attend class
 and at canteen is to attend class.
 
-The algorithm was taken from einforcement Learning: An Introduction, Book by Andrew Barto and Richard S. Sutton
+The algorithm was taken from Reinforcement Learning: An Introduction, Book by Andrew Barto and Richard S. Sutton
