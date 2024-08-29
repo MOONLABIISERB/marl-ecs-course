@@ -11,7 +11,7 @@ Brief description of your project.
 
 Question 1 involves modelling the college life of a student into a MDP and finding out optimal policies for his actions using value iteration and policy iteration methods.
 
-![Image 1](path/to/mdp.png)
+![Image 1](mdp.png)
 
 ## Question 2
 
@@ -20,13 +20,13 @@ Value iteration and Policy iteration methods were used to find the optimal polic
 
 Value iteration:
 
-![Image 2](path/to/value_value_iteration.png)
-![Image 3](path/to/quiver_value_iteration.png)
+![Image 2](value_value_iteration.png)
+![Image 3](quiver_value_iteration.png)
 
 
 Policy iteration:
-![Image 4](path/to/value_policy_iteration.png)
-![Image 5](path/to/quiver_policy_iteration.png)
+![Image 4](value_policy_iteration.png)
+![Image 5](quiver_policy_iteration.png)
 
 Requirements:
 The code has been run on python 3.10.6
