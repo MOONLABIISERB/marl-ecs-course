@@ -1,0 +1,12 @@
+/home/shir0/Projects/PB Sujit/MARL/Assignment_1/Classes/bin/Debug/net8.0/Classes.deps.json
+/home/shir0/Projects/PB Sujit/MARL/Assignment_1/Classes/bin/Debug/net8.0/Classes.dll
+/home/shir0/Projects/PB Sujit/MARL/Assignment_1/Classes/bin/Debug/net8.0/Classes.pdb
+/home/shir0/Projects/PB Sujit/MARL/Assignment_1/Classes/obj/Debug/net8.0/Classes.GeneratedMSBuildEditorConfig.editorconfig
+/home/shir0/Projects/PB Sujit/MARL/Assignment_1/Classes/obj/Debug/net8.0/Classes.AssemblyInfoInputs.cache
+/home/shir0/Projects/PB Sujit/MARL/Assignment_1/Classes/obj/Debug/net8.0/Classes.AssemblyInfo.cs
+/home/shir0/Projects/PB Sujit/MARL/Assignment_1/Classes/obj/Debug/net8.0/Classes.csproj.CoreCompileInputs.cache
+/home/shir0/Projects/PB Sujit/MARL/Assignment_1/Classes/obj/Debug/net8.0/Classes.dll
+/home/shir0/Projects/PB Sujit/MARL/Assignment_1/Classes/obj/Debug/net8.0/refint/Classes.dll
+/home/shir0/Projects/PB Sujit/MARL/Assignment_1/Classes/obj/Debug/net8.0/Classes.pdb
+/home/shir0/Projects/PB Sujit/MARL/Assignment_1/Classes/obj/Debug/net8.0/ref/Classes.dll
+/home/shir0/Projects/PB Sujit/MARL/Assignment_1/Classes/obj/Debug/net8.0/Classes.sourcelink.json

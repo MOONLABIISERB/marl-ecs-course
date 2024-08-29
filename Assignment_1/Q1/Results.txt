@@ -1,0 +1,21 @@
+Optimal Values With Value Iterations:
+value(Hostel) = 2038.8797
+value(Academic_Building) = 2044.9636
+value(Canteen) = 2041.7769
+
+Optimal Policy:
+π(Hostel) = Class
+π(Academic_Building) = Class
+π(Canteen) = Class
+
+*************************
+
+Optimal Values With Policy Iterations:
+value(Hostel) = 2038.8797
+value(Academic_Building) = 2044.9636
+value(Canteen) = 2041.7769
+
+Optimal Policy:
+π(Hostel) = Class
+π(Academic_Building) = Class
+π(Canteen) = Class
