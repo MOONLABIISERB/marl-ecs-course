@@ -23,9 +23,12 @@ policy(Academic Building) = Class\
 policy(Canteen) = Class
 
 ### MDP
+![alt text](https://github.com/MOONLABIISERB/marl-ecs-course/blob/karthik_2320702/Assignement%20-%201/mdp.jpeg)
 
 
 ## Question 2
 gamma = 0.99
 ### Value Iteration
+![alt text](https://github.com/MOONLABIISERB/marl-ecs-course/blob/karthik_2320702/Assignement%20-%201/value_iteration_plot.png)
 ### Policy Iteration
+![alt text](https://github.com/MOONLABIISERB/marl-ecs-course/blob/karthik_2320702/Assignement%20-%201/policy_iteration_plot.png)
