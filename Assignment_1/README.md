@@ -5,7 +5,7 @@ Value:- \
 Hostel: 16.05619186 \
 Academic Building: 21.84646991\
 Canteen: 18.82666486 \
-\Policy:- \
+Policy:- \
 Hostel: Study\
 Academic Building: Study\
 Canteen: Study
@@ -16,5 +16,7 @@ Canteen: Study
 ![image](images/Pg2.jpg)
 
 # Question_2
+## Policy Diagram for Value Iteration 
 ![image](images/Figure_1.png)
+## Policy Diagram For Policy Iteration
 ![image](images/Figure_2.png)
