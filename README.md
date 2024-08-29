@@ -1,6 +1,15 @@
 # marl-ecs-course
 ## Assignment 1
 
+## Usage
+ To reproduce the output, just clone this branch and run the python file Q1.py for 1st question and Q2.py for 2nd question.
+ 
+    git clone 
+
+    python3 Q1.py
+    
+    python3 Q2.py
+
 ### Q1
 
 ![alt text](Q1_MDP.jpg)
