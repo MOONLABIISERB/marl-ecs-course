@@ -60,9 +60,10 @@ import sys
 
 # Result Graphs of Q2
 
-\ For the policy iteration
+<For the policy iteration>
 
 ![policy_iteration.png](moonlab@sparrow:~/marl-ecs-course/policy_iteration.png?raw=true)
 
-\ For the value iteration
-![value_iteration.png](moonlab@sparrow:~/marl-ecs-course/value_iteration.png?raw=true)
+<For the value iteration>
+
+![value_iteration.png](marl-ecs-course/policy_iteration.png?raw=true)
