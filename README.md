@@ -3,12 +3,18 @@
 
 ## Usage
  To reproduce the output, just clone this branch and run the python file Q1.py for 1st question and Q2.py for 2nd question.
- 
-    git clone 
 
-    python3 Q1.py
+ 1. Clone the repo
+
+        git clone https://github.com/MOONLABIISERB/marl-ecs-course.git
     
-    python3 Q2.py
+2. Run the file
+
+       python3 Q1.py
+   
+4. Run the file
+
+       python3 Q2.py
 
 ### Q1
 
