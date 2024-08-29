@@ -59,8 +59,8 @@ And the additional libraries used are numpy and matplotlib.
 
 ## Author: 
 
-Manish Gayen
+The project has been done by [Manish Gayen](https://github.com/GayenManish07)
 
-Roll- 21161
+Roll Number: 21161
 
 IISERB
