@@ -1,4 +1,6 @@
 # Structure 
+All code is inside src folder
+
 Q1Marl.java contains code for question 1
 
 Q2Marl.java contains code for question 2
