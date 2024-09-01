@@ -30,7 +30,7 @@
 | Canteen          | Eat Food       | Canteen           | 1.0                    | +1     |
 
 ### Diagram
-
+![alt text](https://github.com/MOONLABIISERB/marl-ecs-course/blob/gavit_20114/Assignment-1/MDP.png)
 
 ### Convergence
 The algorithm converged with a discount factor of γ (gamma) = 0.9.
