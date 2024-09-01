@@ -116,6 +116,5 @@ The Policy Iteration algorithm was also applied, yielding the following optimal 
 | 8    | down | down | down | down | down | up   | right| right| up   |
 
 ### Quiver Plot
-![alt text](https://github.com/MOONLABIISERB/marl-ecs-course/blob/gavit_20114/Assignment-1/policy_iteration.png)
-
+![alt text](https://github.com/MOONLABIISERB/marl-ecs-course/blob/gavit_20114/Assignment-1/policy_iteratioin.png)
 
