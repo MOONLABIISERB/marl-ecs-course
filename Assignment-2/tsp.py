@@ -73,6 +73,7 @@ class TSP(gym.Env):
         self.steps: int = 0
 
         self.loc: int = 0
+        self.visited_targets: List = []
         self.clocks: np.ndarray = np.zeros(self.num_targets)
         self.dist: List = self.distances[self.loc]
 
@@ -106,6 +107,7 @@ class TSP(gym.Env):
         self.steps += 1
         past_loc = self.loc
         next_loc = action
+        self.visited_targets.append(next_loc)
 
         self.distances[self.loc, next_loc]
 
@@ -164,16 +166,19 @@ class TSP(gym.Env):
         return distances
 
     def _get_rewards(self, past_loc: int, next_loc: int) -> float:
-        """Calculate the reward based on the distance traveled.
+        """Calculate the reward based on the distance traveled, however if a target gets visited again then it incurs a high penalty.
 
         Args:
             past_loc (int): Previous location of the agent.
             next_loc (int): Next location of the agent.
 
         Returns:
-            float: Reward based on the travel distance between past and next locations.
+            float: Reward based on the travel distance between past and next locations, or negative reward if repeats visit.
         """
-        reward = -self.distances[past_loc][next_loc]
+        if next_loc not in self.visited_targets:
+            reward = -self.distances[past_loc][next_loc]
+        else:
+            reward = -10000
         return reward
 
 
@@ -188,7 +193,9 @@ if __name__ == "__main__":
         ret = 0
         obs = env.reset()
         for _ in range(100):
-            action = env.action_space.sample() # You need to replace this with your algorithm that predicts the action.
+            action = (
+                env.action_space.sample()
+            )  # You need to replace this with your algorithm that predicts the action.
 
             obs_, reward, terminated, truncated, info = env.step(action)
             done = terminated or truncated
