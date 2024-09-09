@@ -173,7 +173,7 @@ class TSP(gym.Env):
         Returns:
             float: Reward based on the travel distance between past and next locations.
         """
-        reward = self.distances[past_loc][next_loc]
+        reward = -self.distances[past_loc][next_loc]
         return reward
 
 
