@@ -14,6 +14,7 @@ namespace Q2.Environment
         public GameObject[,] Map { get; set; }
         public GameObject Player { get; set; }        
         public GameObject[] Boxes { get; set; }
+        public GameObject[] Goals{ get; set; }
         Texture2D PlayerTexture, BoxTexture, FloorTexture, WallTexture, GoalTexture;
         public int Rows => Map.GetLength(1);
         public int Columns => Map.GetLength(0);
@@ -53,9 +54,11 @@ namespace Q2.Environment
 
         public void AddGoals(params Point[] coordinates)
         {
+            Goals = new GameObject[coordinates.Length];
             for (int i = 0; i < coordinates.Length; i++)
             {
-               Map[coordinates[i].X, coordinates[i].Y] = new GameObject(coordinates[i].X, coordinates[i].Y, GameObjectType.Goal, GoalTexture);
+                Goals[i] = new GameObject(coordinates[i].X, coordinates[i].Y, GameObjectType.Goal, GoalTexture);
+                Map[coordinates[i].X, coordinates[i].Y] = Goals[i];
             }
         }
 
@@ -65,6 +68,14 @@ namespace Q2.Environment
             {
                 Map[coordinates[i].X, coordinates[i].Y] = new GameObject(coordinates[i].X, coordinates[i].Y, GameObjectType.Wall, WallTexture);
             }
+        }
+
+        public void InitializeLevel(Point[] walls, Point[] goals, Point[] boxes, Point player)
+        {
+            AddWalls(walls);
+            AddGoals(goals);
+            AddBoxes(boxes);
+            AddPlayer(player.X, player.Y);
         }
 
         public void DrawLevel(SpriteBatch spriteBatch)
@@ -97,5 +108,112 @@ namespace Q2.Environment
             gameObjectPos.Y += (floorTexture.Height - gameObject.Sprite.Height) / 2f;
             spriteBatch.Draw(gameObject.Sprite, gameObjectPos, Color.White);
         }
+
+        public void MovePlayer(Action action)
+        {
+            int deltaX = 0;
+            int deltaY = 0;
+            switch (action)
+            {
+                case Action.Up:
+                    deltaY = 1;
+                    break;
+                case Action.Down:
+                    deltaY = -1;
+                    break;
+                case Action.Left:
+                    deltaX = -1;
+                    break;
+                case Action.Right:
+                    deltaX = 1;
+                    break;
+            }
+
+
+
+            Point newPlayerPos = new Point(Player.Position.X + deltaX, Player.Position.Y + deltaY);
+
+            if (CheckOutOfBound(newPlayerPos))
+                return;            
+                
+            // Move Player, if box is there move box or move player again
+            if (Map[newPlayerPos.X, newPlayerPos.Y].Type != GameObjectType.Wall)
+            {
+                Player.Position = newPlayerPos;
+            }
+
+            //Check if newPlayerPos is box
+            foreach (var box in Boxes)
+            {
+                if (newPlayerPos == box.Position)
+                {
+                    Point newBoxPos = new Point(newPlayerPos.X + deltaX, newPlayerPos.Y + deltaY);
+
+                    if (!CheckOutOfBound(newBoxPos) &&
+                         Map[newBoxPos.X, newBoxPos.Y].Type != GameObjectType.Wall &&
+                         !CheckBoxOverlapping(newBoxPos))
+                    {
+                        Player.Position = newPlayerPos;
+                        box.Position = newBoxPos;
+                    }
+                    else
+                    {
+                        Player.Position = new Point(newPlayerPos.X - deltaX, newPlayerPos.Y - deltaY);
+                    }
+                }
+            }
+
+
+        }
+
+        bool CheckOutOfBound(Point pos)
+        {
+            if (!(pos.X >= 0 && pos.X < Columns && pos.Y >= 0 && pos.Y < Rows))
+            {
+                return true;
+            }
+            return false;
+        }
+
+        bool CheckBoxOverlapping(Point pos)
+        {
+            foreach (var box in Boxes)
+            {
+                if (box.Position == pos)
+                    return true;
+            }
+            return false;
+        }
+
+        public bool LevelComplete()
+        {
+            for (int i = 0; i < Boxes.Length; i++)
+            {
+                if (!(Boxes[i].Position == Goals[i].Position))
+                {
+                    return false;
+                }
+            }
+            return true;
+        }
+
+        // public bool ReachedGoal(GameObject box)
+        // {
+        //     if (Map[box.Position.X, box.Position.Y].Type == GameObjectType.Goal)
+        //         return true ;
+        //     return false;
+        // }
+
+        public static bool UnMovable(GameObject box)
+        {
+            if (box.Position != new Point(1,5) ||
+                box.Position != new Point(2,5) ||
+                box.Position != new Point(1,1) ||
+                box.Position != new Point(2,1) ||
+                box.Position != new Point(4,2) ||
+                box.Position != new Point(4,3))
+                return true;
+            return false;
+        } 
     }
 }
