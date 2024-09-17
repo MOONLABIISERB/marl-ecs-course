@@ -65,8 +65,8 @@ public class GameWindow : Game
         if (RLEnabled)
         {
             RL = new Reinforcement_Learning(this,level);
-            RL.ValueIteration(out OptimalValue, out OptimalPolicy, 1,110);
-
+            // RL.ValueIteration(out OptimalValue, out OptimalPolicy, 1,110);
+            RL.MCESFirstVisit(out OptimalPolicy, 0.9, 100000, 50);
             InitializeLevel();
         }
     }
@@ -114,7 +114,7 @@ public class GameWindow : Game
                         points.Add(box.Position);
                     }
                     State key = new State(points.ToArray());
-                    System.Console.WriteLine($"Value at X:{level.Player.Position.X} Y:{level.Player.Position.Y} = {OptimalValue[key]}");
+                    // System.Console.WriteLine($"Policy at X:{level.Player.Position.X} Y:{level.Player.Position.Y} is {OptimalPolicy[key]}");
                     level.MovePlayer(OptimalPolicy[key]);
                 }
                 currentFrame = 0;

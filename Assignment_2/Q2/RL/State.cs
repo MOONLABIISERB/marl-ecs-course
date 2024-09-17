@@ -41,16 +41,16 @@ namespace Q2.RL
         }
         public bool Equals(State state)
         {
-        if (state.PlayerPosition != this.PlayerPosition)
-            return false;
-        if (BoxesPosition.Length != state.BoxesPosition.Length)
-            return false;
-        for (int i = 0; i < BoxesPosition.Length; i++)
-        {
-            if (this.BoxesPosition[i] != state.BoxesPosition[i])
+            if (state.PlayerPosition != this.PlayerPosition)
                 return false;
-        }
-        return true;
+            if (BoxesPosition.Length != state.BoxesPosition.Length)
+                return false;
+            for (int i = 0; i < BoxesPosition.Length; i++)
+            {
+                if (this.BoxesPosition[i] != state.BoxesPosition[i])
+                    return false;
+            }
+            return true;
         }
 
         public override int GetHashCode()
@@ -61,6 +61,28 @@ namespace Q2.RL
                 hashCode = (hashCode * 397) ^ point.GetHashCode();
             }
             return hashCode;
+        }
+
+        public static bool operator == (State s1, State s2)
+        {
+            // Check if both are null or both refer to the same object
+            if (ReferenceEquals(s1, s2))
+            {
+                return true;
+            }
+
+            // If one is null, but not both, return false
+            if (s1 is null || s2 is null)
+            {
+                return false;
+            }
+
+            return s1.Equals(s2);
+        }
+
+        public static bool operator !=(State s1, State s2)
+        {
+            return !(s1 == s2);
         }
     }
 }

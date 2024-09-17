@@ -79,47 +79,58 @@ namespace Q2.RL
             // Initialization
             States = GenerateStates();
             policy = new Dictionary<State, Environment.Action>();
-            Dictionary<(State, Environment.Action), double> Qvalue = new Dictionary<(State, Environment.Action), double>();
-            
-            HashSet<(State, Environment.Action)> stateAction = new HashSet<(State, Environment.Action)>();
+            Dictionary<StateAction, double> Qvalue = new();
+            Dictionary<StateAction, List<double>> Returns = new();
+            HashSet<StateAction> stateAction = new();
 
             foreach (State state in States)
             {
                 foreach (Environment.Action action in Enum.GetValues(typeof(Environment.Action)))
                 {
-                    Qvalue[(state, action)] = 0;
+                    Qvalue[new(state, action)] = double.NegativeInfinity;
                 }
-                policy[state] = Environment.Action.Up;
+                policy[state] = (Environment.Action)Enum.GetValues(typeof(Environment.Action))
+                     .GetValue(random.Next(Enum.GetValues(typeof(Environment.Action)).Length));
             }
 
 
             // Loop
             for (int episode = 0; episode < numEpisodes; episode++)
             {
+                
                 List<EpisodeStep> episodeSteps = GenerateEpisode(policy, maxSteps);
                 double G = 0;
-
+                // Console.WriteLine($"Episode {episode + 1} started with steps:{episodeSteps.Count} ");
                 for (int t = episodeSteps.Count - 2; t >= 0; t--)
                 {
-                    List<double> returns = new List<double>();
                     G = gamma * G + episodeSteps[t + 1].Reward;
-                    if (stateAction.Add((episodeSteps[t].State, episodeSteps[t].Action)))
+                    StateAction stateActionPair = new StateAction(episodeSteps[t].State, episodeSteps[t].Action);
+                    // Console.WriteLine($"Prev State X:{episodeSteps[t+1].State.PlayerPosition.X} Y:{episodeSteps[t+1].State.PlayerPosition.Y} " +
+                                        // $"Current State X:{episodeSteps[t].State.PlayerPosition.X} Y:{episodeSteps[t].State.PlayerPosition.Y}");
+                    if (stateAction.Add(stateActionPair))
                     {
-                        returns.Add(G);
-                        Qvalue[(episodeSteps[t].State, episodeSteps[t].Action)] = Average(returns);
-
-                        Environment.Action bestAction = Environment.Action.Up;
-                        double bestQ = double.NegativeInfinity;
-
+                        if (!Returns.ContainsKey(stateActionPair))
+                        {
+                            Returns[stateActionPair] = new List<double>();
+                        }
+                        Returns[stateActionPair].Add(G);
+                        Qvalue[stateActionPair] = Average(Returns[stateActionPair]);
+                        Environment.Action bestAction = stateActionPair.Action;
+                        double bestQ = Qvalue[stateActionPair];
                         foreach (Environment.Action action in Enum.GetValues(typeof(Environment.Action)))
                         {
-                            if (Qvalue[(episodeSteps[t].State, action)] > bestQ)
+                            stateActionPair = new StateAction(episodeSteps[t].State, action);
+                            if (Qvalue[stateActionPair] > bestQ)
                             {
-                                bestQ = Qvalue[(episodeSteps[t].State, action)];
+                                bestQ = Qvalue[stateActionPair];
                                 bestAction = action;
                             }
                         }
                         policy[episodeSteps[t].State] = bestAction;
+                    }
+                    else
+                    {
+                        break;
                     }
                 }
             }
@@ -130,17 +141,16 @@ namespace Q2.RL
             Gamewindow.InitializeLevel();
             List<EpisodeStep> episode = new();
             State state = States[random.Next(States.Length)];
+            Environment.Action action = (Environment.Action)Enum.GetValues(typeof(Environment.Action))
+                     .GetValue(random.Next(Enum.GetValues(typeof(Environment.Action)).Length));
             Level.Player.Position = state.PlayerPosition;
             for (int i = 0; i < Level.Boxes.Length; i++)
             {
                 Level.Boxes[i].Position = state.BoxesPosition[i];
             }
-
             int step = 0;
             while (!Level.LevelComplete() && step < maxSteps)
-            {
-                var action = policy[state];
-                
+            {   
                 Level.MovePlayer(action);
                 Point[] boxesPos = new Point[Level.Boxes.Length];
                 for (int i = 0; i < boxesPos.Length; i++)
@@ -154,6 +164,7 @@ namespace Q2.RL
                 }
                 episode.Add(new EpisodeStep(state, action, reward));
                 state = new State(Level.Player.Position, boxesPos);
+                action = policy[state];
                 step++;
             }
 
