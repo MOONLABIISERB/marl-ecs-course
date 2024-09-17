@@ -6,15 +6,16 @@ using Q2.Environment;
 
 namespace Q2.RL
 {
-    public class MDP
+    public class Reinforcement_Learning
     {
         GameWindow Gamewindow;
         Level Level;
         State[] States;
+        static Random random = new Random();
         
         public Dictionary<Point[], double> OptimalValue { get; set; }
 
-        public MDP(GameWindow window, Level level, double gamma = 0.9, double epsilon = 1e-6)
+        public Reinforcement_Learning(GameWindow window, Level level, double gamma = 0.9, double epsilon = 1e-6)
         {
             Gamewindow = window;
             Level = level;
@@ -73,6 +74,99 @@ namespace Q2.RL
             }
         }
 
+        public void MCESFirstVisit(out Dictionary<State, Environment.Action> policy, double gamma, int numEpisodes, int maxSteps)
+        {
+            // Initialization
+            States = GenerateStates();
+            policy = new Dictionary<State, Environment.Action>();
+            Dictionary<(State, Environment.Action), double> Qvalue = new Dictionary<(State, Environment.Action), double>();
+            
+            HashSet<(State, Environment.Action)> stateAction = new HashSet<(State, Environment.Action)>();
+
+            foreach (State state in States)
+            {
+                foreach (Environment.Action action in Enum.GetValues(typeof(Environment.Action)))
+                {
+                    Qvalue[(state, action)] = 0;
+                }
+                policy[state] = Environment.Action.Up;
+            }
+
+
+            // Loop
+            for (int episode = 0; episode < numEpisodes; episode++)
+            {
+                List<EpisodeStep> episodeSteps = GenerateEpisode(policy, maxSteps);
+                double G = 0;
+
+                for (int t = episodeSteps.Count - 2; t >= 0; t--)
+                {
+                    List<double> returns = new List<double>();
+                    G = gamma * G + episodeSteps[t + 1].Reward;
+                    if (stateAction.Add((episodeSteps[t].State, episodeSteps[t].Action)))
+                    {
+                        returns.Add(G);
+                        Qvalue[(episodeSteps[t].State, episodeSteps[t].Action)] = Average(returns);
+
+                        Environment.Action bestAction = Environment.Action.Up;
+                        double bestQ = double.NegativeInfinity;
+
+                        foreach (Environment.Action action in Enum.GetValues(typeof(Environment.Action)))
+                        {
+                            if (Qvalue[(episodeSteps[t].State, action)] > bestQ)
+                            {
+                                bestQ = Qvalue[(episodeSteps[t].State, action)];
+                                bestAction = action;
+                            }
+                        }
+                        policy[episodeSteps[t].State] = bestAction;
+                    }
+                }
+            }
+        }
+
+        private List<EpisodeStep> GenerateEpisode(Dictionary<State, Environment.Action> policy, int maxSteps)
+        {
+            Gamewindow.InitializeLevel();
+            List<EpisodeStep> episode = new();
+            State state = States[random.Next(States.Length)];
+            Level.Player.Position = state.PlayerPosition;
+            for (int i = 0; i < Level.Boxes.Length; i++)
+            {
+                Level.Boxes[i].Position = state.BoxesPosition[i];
+            }
+
+            int step = 0;
+            while (!Level.LevelComplete() && step < maxSteps)
+            {
+                var action = policy[state];
+                
+                Level.MovePlayer(action);
+                Point[] boxesPos = new Point[Level.Boxes.Length];
+                for (int i = 0; i < boxesPos.Length; i++)
+                {
+                    boxesPos[i] = Level.Boxes[i].Position;
+                }
+                double reward = -1;
+                if (Level.LevelComplete())
+                {
+                    reward = 0;
+                }
+                episode.Add(new EpisodeStep(state, action, reward));
+                state = new State(Level.Player.Position, boxesPos);
+                step++;
+            }
+
+            return episode;
+        }
+
+        public static double Average(List<double> list)
+        {
+            double sum = 0;
+            foreach (double x in list)
+                sum += x;
+            return sum / list.Count;
+        }
         private void InitializePolicyAndValue(out Dictionary<State, Environment.Action> policy, out Dictionary<State, double> value)
         {
             // Initialize Policies and values

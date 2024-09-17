@@ -15,7 +15,7 @@ namespace Q2;
 public class GameWindow : Game
 {
     bool RLEnabled = true;
-    MDP mdp;
+    Reinforcement_Learning RL;
     int TileSize = 64;
     int GridRows = 7;
     int GridColumns = 6;
@@ -64,8 +64,8 @@ public class GameWindow : Game
 
         if (RLEnabled)
         {
-            mdp = new MDP(this,level);
-            mdp.ValueIteration(out OptimalValue, out OptimalPolicy, 1, (1 + level.Boxes.Length) * 25 + 10);
+            RL = new Reinforcement_Learning(this,level);
+            RL.ValueIteration(out OptimalValue, out OptimalPolicy, 1,110);
 
             InitializeLevel();
         }
@@ -73,10 +73,9 @@ public class GameWindow : Game
 
     protected override void Update(GameTime gameTime)
     {
+        currentKeyboardState = Keyboard.GetState();
         if (!RLEnabled)
         {
-            currentKeyboardState = Keyboard.GetState();
-
             if (General.IsKeyJustPressed(Keys.W, currentKeyboardState, previousKeyboardState) ||
                 General.IsKeyJustPressed(Keys.Up, currentKeyboardState, previousKeyboardState))
             {
@@ -97,8 +96,6 @@ public class GameWindow : Game
             {
                 level.MovePlayer(Action.Right);
             }
-
-            previousKeyboardState = currentKeyboardState;
         }
         else
         {
@@ -125,11 +122,13 @@ public class GameWindow : Game
             
         }
 
-        if (level.LevelComplete())
+        if (level.LevelComplete() && General.IsKeyJustPressed(Keys.Space, currentKeyboardState, previousKeyboardState))
         {
             InitializeLevel();
+            currentFrame = 0;
         }
-            
+
+        previousKeyboardState = currentKeyboardState;    
         base.Update(gameTime);
     }
 
@@ -150,34 +149,34 @@ public class GameWindow : Game
         
         // Level 1
 
-        // Point[] walls = {new Point(0,0),
-        //                  new Point(0,1),
-        //                  new Point(0,2),
-        //                  new Point(0,3),
-        //                  new Point(0,4),
-        //                  new Point(0,5),
-        //                  new Point(0,6),
-        //                  new Point(1,0),
-        //                  new Point(1,6),
-        //                  new Point(2,0),
-        //                  new Point(2,6),
-        //                  new Point(3,0),
-        //                  new Point(3,1),
-        //                  new Point(3,4),
-        //                  new Point(3,5),
-        //                  new Point(3,6),
-        //                  new Point(4,1),
-        //                  new Point(4,4),
-        //                  new Point(5,1),
-        //                  new Point(5,2),
-        //                  new Point(5,3),
-        //                  new Point(5,4)};
+        Point[] walls = {new Point(0,0),
+                         new Point(0,1),
+                         new Point(0,2),
+                         new Point(0,3),
+                         new Point(0,4),
+                         new Point(0,5),
+                         new Point(0,6),
+                         new Point(1,0),
+                         new Point(1,6),
+                         new Point(2,0),
+                         new Point(2,6),
+                         new Point(3,0),
+                         new Point(3,1),
+                         new Point(3,4),
+                         new Point(3,5),
+                         new Point(3,6),
+                         new Point(4,1),
+                         new Point(4,4),
+                         new Point(5,1),
+                         new Point(5,2),
+                         new Point(5,3),
+                         new Point(5,4)};
         
-        // Point[] goals = {new Point(1,3)};
+        Point[] goals = {new Point(1,3)};
         
-        // Point[] boxes = {new Point(3,2)};
+        Point[] boxes = {new Point(3,2)};
         
-        // Point player = new Point(2,5);
+        Point player = new Point(2,5);
 
         
 
@@ -240,35 +239,35 @@ public class GameWindow : Game
 
         // Level 5
 
-        Point[] walls = {new Point(0,0),
-                         new Point(0,4),
-                         new Point(0,5),
-                         new Point(0,6),
-                         new Point(1,0),
-                         new Point(1,6),
-                         new Point(2,0),
-                         new Point(2,2),
-                         new Point(2,4),
-                         new Point(2,6),
-                         new Point(3,0),
-                         new Point(3,4),
-                         new Point(3,6),
-                         new Point(4,0),
-                         new Point(4,1),
-                         new Point(4,6),
-                         new Point(5,1),
-                         new Point(5,5),
-                         new Point(5,6)};
+        // Point[] walls = {new Point(0,0),
+        //                  new Point(0,4),
+        //                  new Point(0,5),
+        //                  new Point(0,6),
+        //                  new Point(1,0),
+        //                  new Point(1,6),
+        //                  new Point(2,0),
+        //                  new Point(2,2),
+        //                  new Point(2,4),
+        //                  new Point(2,6),
+        //                  new Point(3,0),
+        //                  new Point(3,4),
+        //                  new Point(3,6),
+        //                  new Point(4,0),
+        //                  new Point(4,1),
+        //                  new Point(4,6),
+        //                  new Point(5,1),
+        //                  new Point(5,5),
+        //                  new Point(5,6)};
 
-        Point[] goals = {new Point(1,3),
-                         new Point(1,4),
-                         new Point(2,3)};
+        // Point[] goals = {new Point(1,3),
+        //                  new Point(1,4),
+        //                  new Point(2,3)};
 
-        Point[] boxes = {new Point(4,4),
-                         new Point(3,3),
-                         new Point(3,2)};
+        // Point[] boxes = {new Point(4,4),
+        //                  new Point(3,3),
+        //                  new Point(3,2)};
 
-        Point player = new Point(2,1);
+        // Point player = new Point(2,1);
 
         // Create Level
         level.AddWalls(walls);
