@@ -74,13 +74,11 @@ class TSP(gym.Env):
 
         self.loc: int = 0
         self.visited_targets: List = []
-        self.clocks: np.ndarray = np.zeros(self.num_targets)
         self.dist: List = self.distances[self.loc]
 
         state = np.concatenate(
             (
                 np.array([self.loc]),
-                np.array(self.clocks),
                 np.array(self.dist),
                 np.array(self.locations).reshape(-1),
             ),
@@ -107,11 +105,9 @@ class TSP(gym.Env):
         self.steps += 1
         past_loc = self.loc
         next_loc = action
-        self.visited_targets.append(next_loc)
-
-        self.distances[self.loc, next_loc]
 
         reward = self._get_rewards(past_loc, next_loc)
+        self.visited_targets.append(next_loc)
 
         next_dist = self.distances[next_loc]
         terminated = bool(self.steps == self.max_steps)
@@ -196,7 +192,7 @@ if __name__ == "__main__":
             action = (
                 env.action_space.sample()
             )  # You need to replace this with your algorithm that predicts the action.
-
+    
             obs_, reward, terminated, truncated, info = env.step(action)
             done = terminated or truncated
             ret += reward
