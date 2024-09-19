@@ -20,5 +20,27 @@ namespace Q2.Extension
             return currentKeyboardState.IsKeyDown(key) && previousKeyboardState.IsKeyUp(key);
         }
 
+        public static T[] Shuffle<T>(T[] array)
+        {
+            Random rng = new Random();
+            int n = array.Length;
+
+            // Create a copy of the array so we don't modify the original array
+            T[] shuffledArray = (T[])array.Clone();
+
+            while (n > 1)
+            {
+                n--;
+                int k = rng.Next(n + 1);
+                T value = shuffledArray[k];
+                shuffledArray[k] = shuffledArray[n];
+                shuffledArray[n] = value;
+            }
+
+            // Return the shuffled array
+            return shuffledArray;
+        }
+
+
     }
 }

@@ -1,6 +1,4 @@
 using System.Collections.Generic;
-using System.Linq;
-using System.Runtime.ConstrainedExecution;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
@@ -30,6 +28,7 @@ public class GameWindow : Game
 
     Dictionary<State, double> OptimalValue = new Dictionary<State, double>();
     Dictionary<State, Action> OptimalPolicy = new Dictionary<State, Action>();
+    Dictionary<StateAction, double> OptimalQValue = new();
 
     public GameWindow()
     {
@@ -66,7 +65,9 @@ public class GameWindow : Game
         {
             RL = new Reinforcement_Learning(this,level);
             // RL.ValueIteration(out OptimalValue, out OptimalPolicy, 1,110);
-            RL.MCESFirstVisit(out OptimalPolicy, 0.9, 100000, 50);
+
+            RL.MCESFirstVisit(out OptimalPolicy, out OptimalQValue, 0.9, (int)1e4, 20);
+
             InitializeLevel();
         }
     }
@@ -107,22 +108,22 @@ public class GameWindow : Game
             {
                 if (!level.LevelComplete())
                 {
-                    List<Point> points = new List<Point>();
-                    points.Add(level.Player.Position);
+                    List<Point> points = [level.Player.Position];
                     foreach(var box in level.Boxes)
                     {
                         points.Add(box.Position);
                     }
                     State key = new State(points.ToArray());
-                    // System.Console.WriteLine($"Policy at X:{level.Player.Position.X} Y:{level.Player.Position.Y} is {OptimalPolicy[key]}");
+                    StateAction stateAction = new StateAction(key, OptimalPolicy[key]);
+                    double QValue = OptimalQValue[stateAction];
+                    System.Console.WriteLine($"Policy:{OptimalPolicy[key]} with QValue:{OptimalQValue[stateAction]}");
                     level.MovePlayer(OptimalPolicy[key]);
                 }
                 currentFrame = 0;
             }
-            
         }
 
-        if (level.LevelComplete() && General.IsKeyJustPressed(Keys.Space, currentKeyboardState, previousKeyboardState))
+        if ((level.LevelComplete() || level.LevelUnsolvable()) && General.IsKeyJustPressed(Keys.Space, currentKeyboardState, previousKeyboardState) )
         {
             InitializeLevel();
             currentFrame = 0;
@@ -165,19 +166,24 @@ public class GameWindow : Game
                          new Point(3,4),
                          new Point(3,5),
                          new Point(3,6),
+                         new Point(4,0),
                          new Point(4,1),
                          new Point(4,4),
+                         new Point(4,5),
+                         new Point(4,6),
+                         new Point(5,0),
                          new Point(5,1),
                          new Point(5,2),
                          new Point(5,3),
-                         new Point(5,4)};
+                         new Point(5,4),
+                         new Point(5,5),
+                         new Point(5,6),};
         
         Point[] goals = {new Point(1,3)};
         
         Point[] boxes = {new Point(3,2)};
         
         Point player = new Point(2,5);
-
         
 
 

@@ -1,9 +1,11 @@
 using Q2.Environment;
+
 namespace Q2.RL
-{
+{   
     public class StateAction
     {
         public State State { get; set; }
+        
         public Action Action { get; set; }
 
         public StateAction(State state, Action action)

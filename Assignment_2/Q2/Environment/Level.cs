@@ -1,7 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Runtime.InteropServices;
-using System.Security.Authentication.ExtendedProtection;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Q2.Extension;
@@ -187,6 +183,46 @@ namespace Q2.Environment
 
         public bool LevelComplete()
         {
+            if (AreAllBoxesOnGoals() && IsPlayerCloseToAnyBox())
+            {
+                return true;
+            }
+            return false;
+        }
+
+        public bool LevelUnsolvable()
+        {
+            foreach (var box in Boxes)
+            {
+                Point place1 = new Point(box.Position.X, box.Position.Y + 1);
+                Point place2 = new Point(box.Position.X, box.Position.Y - 1);
+                Point place3 = new Point(box.Position.X - 1, box.Position.Y);
+                Point place4 = new Point(box.Position.X + 1, box.Position.Y);
+                
+                int counter = 0;
+
+                if (!CheckOutOfBound(place1) && !CheckOutOfBound(place2) && !CheckOutOfBound(place3) && !CheckOutOfBound(place4))
+                {
+                    if (Map[place1.X, place1.Y].Type == GameObjectType.Wall)
+                        counter++;
+                    if (Map[place2.X, place2.Y].Type == GameObjectType.Wall)
+                        counter++;
+                    if (Map[place3.X, place3.Y].Type == GameObjectType.Wall)
+                        counter++;
+                    if (Map[place4.X, place4.Y].Type == GameObjectType.Wall)
+                        counter++;
+                }                
+                if (counter > 1)
+                {
+                    return true;
+                }
+            }
+            return false;
+        }
+
+
+        public bool AreAllBoxesOnGoals()
+        {
             for (int i = 0; i < Boxes.Length; i++)
             {
                 if (!(Boxes[i].Position == Goals[i].Position))
@@ -197,6 +233,26 @@ namespace Q2.Environment
             return true;
         }
 
+        public bool IsPlayerCloseToAnyBox()
+        {
+            
+            foreach (var box in Boxes)
+            {
+                Point place1 = new Point(box.Position.X, box.Position.Y + 1);
+                Point place2 = new Point(box.Position.X, box.Position.Y - 1);
+                Point place3 = new Point(box.Position.X - 1, box.Position.Y);
+                Point place4 = new Point(box.Position.X + 1, box.Position.Y);
+
+                // Calculate the Manhattan distance between the player and the box
+                if (Player.Position == place1 ||
+                    Player.Position == place2 ||
+                    Player.Position == place3 ||
+                    Player.Position == place4)
+                    return true;
+            }
+            return false;
+        }
+
         // public bool ReachedGoal(GameObject box)
         // {
         //     if (Map[box.Position.X, box.Position.Y].Type == GameObjectType.Goal)
@@ -204,16 +260,16 @@ namespace Q2.Environment
         //     return false;
         // }
 
-        public static bool UnMovable(GameObject box)
-        {
-            if (box.Position != new Point(1,5) ||
-                box.Position != new Point(2,5) ||
-                box.Position != new Point(1,1) ||
-                box.Position != new Point(2,1) ||
-                box.Position != new Point(4,2) ||
-                box.Position != new Point(4,3))
-                return true;
-            return false;
-        } 
+        // public static bool UnMovable(GameObject box)
+        // {
+        //     if (box.Position != new Point(1,5) ||
+        //         box.Position != new Point(2,5) ||
+        //         box.Position != new Point(1,1) ||
+        //         box.Position != new Point(2,1) ||
+        //         box.Position != new Point(4,2) ||
+        //         box.Position != new Point(4,3))
+        //         return true;
+        //     return false;
+        // } 
     }
 }
