@@ -55,10 +55,6 @@ class TSP(gym.Env):
         self.observation_space = gym.spaces.Box(low=self.obs_low, high=self.obs_high)
         self.action_space = gym.spaces.Discrete(self.num_targets)
 
-        # Initialize state values for DP
-        self.state_values = np.zeros(self.num_targets)
-        self.policy = np.zeros(self.num_targets, dtype=int)
-
     def reset(
         self,
         *,
@@ -78,13 +74,11 @@ class TSP(gym.Env):
 
         self.loc: int = 0
         self.visited_targets: List = []
-        self.clocks: np.ndarray = np.zeros(self.num_targets)
         self.dist: List = self.distances[self.loc]
 
         state = np.concatenate(
             (
                 np.array([self.loc]),
-                np.array(self.clocks),
                 np.array(self.dist),
                 np.array(self.locations).reshape(-1),
             ),
@@ -111,11 +105,9 @@ class TSP(gym.Env):
         self.steps += 1
         past_loc = self.loc
         next_loc = action
-        self.visited_targets.append(next_loc)
-
-        self.distances[self.loc, next_loc]
 
         reward = self._get_rewards(past_loc, next_loc)
+        self.visited_targets.append(next_loc)
 
         next_dist = self.distances[next_loc]
         terminated = bool(self.steps == self.max_steps)
@@ -185,56 +177,22 @@ class TSP(gym.Env):
             reward = -10000
         return reward
 
-    # Dynamic Programming (Value Iteration) Algorithm
-    def value_iteration(self, gamma=0.99, threshold=1e-4):
-        """Perform value iteration to solve the TSP problem."""
-        while True:
-            delta = 0
-            for state in range(self.num_targets):
-                old_value = self.state_values[state]
-                action_values = self.get_action_values(state, gamma)
-                self.state_values[state] = max(action_values)  # Update state value
-                delta = max(delta, abs(old_value - self.state_values[state]))
-            if delta < threshold:
-                break
-
-        # Extract the policy from the final state values
-        for state in range(self.num_targets):
-            action_values = self.get_action_values(state, gamma)
-            self.policy[state] = np.argmax(action_values)
-
-    def get_action_values(self, state, gamma):
-        """Return the action values (expected return) for each action from a given state."""
-        action_values = np.zeros(self.num_targets)
-        for action in range(self.num_targets):
-            if action != state:
-                next_loc = action
-                reward = -self.distances[state][next_loc]
-                action_values[action] = reward + gamma * self.state_values[next_loc]
-        return action_values
-
-    def predict_action(self, state):
-        """Predict the best action based on the value iteration policy."""
-        return self.policy[state]
 
 if __name__ == "__main__":
-    num_targets = 50
+    num_targets = 6
 
     env = TSP(num_targets)
-    env.value_iteration()  # Perform value iteration to get the optimal policy
-    # obs = env.reset()
+    obs = env.reset()
     ep_rets = []
 
     for ep in range(100):
         ret = 0
-        # obs = env.reset()
-        obs, _ = env.reset()
+        obs = env.reset()
         for _ in range(100):
-            state = int(obs[0])
-            # action = (
-            #     env.action_space.sample()
-            # )  # You need to replace this with your algorithm that predicts the action.
-            action = env.predict_action(state)  # Replace random action with predicted DP action
+            action = (
+                env.action_space.sample()
+            )  # You need to replace this with your algorithm that predicts the action.
+    
             obs_, reward, terminated, truncated, info = env.step(action)
             done = terminated or truncated
             ret += reward

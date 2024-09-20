@@ -65,8 +65,8 @@ public class GameWindow : Game
         {
             RL = new Reinforcement_Learning(this,level);
             // RL.ValueIteration(out OptimalValue, out OptimalPolicy, 1,110);
-
-            RL.MCESFirstVisit(out OptimalPolicy, out OptimalQValue, 0.9, (int)1e4, 20);
+            // RL.MCESFirstVisit(out OptimalPolicy, out OptimalQValue, 0.9, (int)1e4, 20);
+            RL.MCESEveryVisit(out OptimalPolicy, out OptimalQValue, 0.9, (int)1e4, 20);
 
             InitializeLevel();
         }
@@ -115,8 +115,12 @@ public class GameWindow : Game
                     }
                     State key = new State(points.ToArray());
                     StateAction stateAction = new StateAction(key, OptimalPolicy[key]);
-                    double QValue = OptimalQValue[stateAction];
-                    System.Console.WriteLine($"Policy:{OptimalPolicy[key]} with QValue:{OptimalQValue[stateAction]}");
+                    if (OptimalQValue.ContainsKey(stateAction))
+                    {
+                        double QValue = OptimalQValue[stateAction];
+                        System.Console.WriteLine($"Policy:{OptimalPolicy[key]} with QValue:{OptimalQValue[stateAction]}");
+                    }
+                    
                     level.MovePlayer(OptimalPolicy[key]);
                 }
                 currentFrame = 0;

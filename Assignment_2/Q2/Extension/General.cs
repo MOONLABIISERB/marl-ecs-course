@@ -1,7 +1,5 @@
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Input;
 
@@ -39,6 +37,13 @@ namespace Q2.Extension
 
             // Return the shuffled array
             return shuffledArray;
+        }
+        public static double Average(List<double> list)
+        {
+            double sum = 0;
+            foreach (double x in list)
+                sum += x;
+            return sum / list.Count;
         }
 
 
