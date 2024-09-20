@@ -1,0 +1,277 @@
+import gymnasium as gym
+import numpy as np
+from typing import Dict, List, Tuple, Optional
+
+
+class TSP(gym.Env):
+    """Traveling Salesman Problem (TSP) RL environment for persistent monitoring.
+
+    The agent navigates a set of targets based on precomputed distances. It aims to visit
+    all targets in the least number of steps, with rewards determined by the distance traveled.
+    """
+
+    def __init__(self, num_targets: int, max_area: int = 30, seed: int = None) -> None:
+        """Initialize the TSP environment.
+
+        Args:
+            num_targets (int): Number of targets the agent needs to visit.
+            max_area (int): Max Square area where the targets are defined. Defaults to 30
+            seed (int, optional): Random seed for reproducibility. Defaults to None.
+        """
+        super().__init__()
+        if seed is not None:
+            np.random.seed(seed=seed)
+
+        self.steps: int = 0
+        self.num_targets: int = num_targets
+
+        self.max_steps: int = num_targets
+        self.max_area: int = max_area
+
+        self.locations: np.ndarray = self._generate_points(self.num_targets)
+        self.distances: np.ndarray = self._calculate_distances(self.locations)
+
+        # Observation Space : {current loc (loc), dist_array (distances), coordintates (locations)}
+        self.obs_low = np.concatenate(
+            [
+                np.array([0], dtype=np.float32),
+                np.zeros(self.num_targets, dtype=np.float32),
+                np.zeros(2 * self.num_targets, dtype=np.float32),
+            ]
+        )
+
+        self.obs_high = np.concatenate(
+            [
+                np.array([self.num_targets], dtype=np.float32),
+                2 * self.max_area * np.ones(self.num_targets, dtype=np.float32),
+                self.max_area * np.ones(2 * self.num_targets, dtype=np.float32),
+            ]
+        )
+
+        # Action Space : {next_target}
+        self.observation_space = gym.spaces.Box(low=self.obs_low, high=self.obs_high)
+        self.action_space = gym.spaces.Discrete(self.num_targets)
+
+        # Initialize state values for DP
+        self.state_values = np.zeros(self.num_targets)
+        self.policy = np.zeros(self.num_targets, dtype=int)
+
+    def reset(
+        self,
+        *,
+        seed: Optional[int] = None,
+        options: Optional[dict] = None,
+    ) -> Tuple[np.ndarray, Dict[str, None]]:
+        """Reset the environment to the initial state.
+
+        Args:
+            seed (Optional[int], optional): Seed to reset the environment. Defaults to None.
+            options (Optional[dict], optional): Additional reset options. Defaults to None.
+
+        Returns:
+            Tuple[np.ndarray, Dict[str, None]]: The initial state of the environment and an empty info dictionary.
+        """
+        self.steps: int = 0
+
+        self.loc: int = 0
+        self.visited_targets: List = []
+        self.clocks: np.ndarray = np.zeros(self.num_targets)
+        self.dist: List = self.distances[self.loc]
+
+        state = np.concatenate(
+            (
+                np.array([self.loc]),
+                np.array(self.clocks),
+                np.array(self.dist),
+                np.array(self.locations).reshape(-1),
+            ),
+            dtype=np.float32,
+        )
+        return state, {}
+
+    def step(
+        self, action: int
+    ) -> Tuple[np.ndarray, float, bool, bool, Dict[str, None]]:
+        """Take an action (move to the next target).
+
+        Args:
+            action (int): The index of the next target to move to.
+
+        Returns:
+            Tuple[np.ndarray, float, bool, bool, Dict[str, None]]:
+                - The new state of the environment.
+                - The reward for the action.
+                - A boolean indicating whether the episode has terminated.
+                - A boolean indicating if the episode is truncated.
+                - An empty info dictionary.
+        """
+        self.steps += 1
+        past_loc = self.loc
+        next_loc = action
+        self.visited_targets.append(next_loc)
+
+        self.distances[self.loc, next_loc]
+
+        reward = self._get_rewards(past_loc, next_loc)
+
+        next_dist = self.distances[next_loc]
+        terminated = bool(self.steps == self.max_steps)
+        truncated = False
+
+        next_state = np.concatenate(
+            [
+                np.array([next_loc]),
+                next_dist,
+                np.array(self.locations).reshape(-1),
+            ],
+            dtype=np.float32,
+        )
+
+        self.loc, self.dist = next_loc, next_dist
+        return (next_state, reward, terminated, truncated, {})
+
+    def _generate_points(self, num_points: int) -> np.ndarray:
+        """Generate random 2D points representing target locations.
+
+        Args:
+            num_points (int): Number of points to generate.
+
+        Returns:
+            np.ndarray: Array of 2D coordinates for each target.
+        """
+        points = []
+        # Generate n random 2D points within the 10x10 grid
+        while len(points) < num_points:
+            x = np.random.random() * self.max_area
+            y = np.random.random() * self.max_area
+            if [x, y] not in points:
+                points.append([x, y])
+
+        return np.array(points)
+
+    def _calculate_distances(self, locations: List) -> float:
+        """Calculate the distance matrix between all target locations.
+
+        Args:
+            locations (List): List of 2D target locations.
+
+        Returns:
+            np.ndarray: Matrix of pairwise distances between targets.
+        """
+        n = len(locations)
+
+        distances = np.zeros((n, n))
+        for i in range(n):
+            for j in range(n):
+                distances[i, j] = np.linalg.norm(locations[i] - locations[j])
+        return distances
+
+    def _get_rewards(self, past_loc: int, next_loc: int) -> float:
+        """Calculate the reward based on the distance traveled, however if a target gets visited again then it incurs a high penalty.
+
+        Args:
+            past_loc (int): Previous location of the agent.
+            next_loc (int): Next location of the agent.
+
+        Returns:
+            float: Reward based on the travel distance between past and next locations, or negative reward if repeats visit.
+        """
+        if next_loc not in self.visited_targets:
+            reward = -self.distances[past_loc][next_loc]
+        else:
+            reward = -10000
+        return reward
+
+    def monte_carlo_first_visit(self, num_episodes: int, gamma=0.99):
+        """Perform first-visit Monte Carlo control."""
+        state_action_values = np.zeros((self.num_targets, self.num_targets))
+        returns = np.zeros((self.num_targets, self.num_targets))
+        visit_counts = np.zeros((self.num_targets, self.num_targets))
+
+        for _ in range(num_episodes):
+            obs, _ = self.reset()
+            episode = []
+            done = False
+
+            while not done:
+                state = int(obs[0])
+                action = self.action_space.sample()  # Random action for exploring starts
+                obs_, reward, terminated, truncated, _ = self.step(action)
+                episode.append((state, action, reward))
+                obs = obs_
+                done = terminated or truncated
+
+            # Process the episode for first visit
+            G = 0
+            for t in reversed(range(len(episode))):
+                state, action, reward = episode[t]
+                G = gamma * G + reward
+
+                # Check if this is the first visit to (state, action)
+                if (state, action) not in [(s, a) for s, a, r in episode[:t]]:
+                    returns[state, action] += G
+                    visit_counts[state, action] += 1
+                    state_action_values[state, action] = returns[state, action] / visit_counts[state, action]
+
+        self.policy = np.argmax(state_action_values, axis=1)
+
+    def monte_carlo_every_visit(self, num_episodes: int, gamma=0.99):
+        """Perform every-visit Monte Carlo control."""
+        state_action_values = np.zeros((self.num_targets, self.num_targets))
+        returns = np.zeros((self.num_targets, self.num_targets))
+        visit_counts = np.zeros((self.num_targets, self.num_targets))
+
+        for _ in range(num_episodes):
+            obs, _ = self.reset()
+            episode = []
+            done = False
+
+            while not done:
+                state = int(obs[0])
+                action = self.action_space.sample()  # Random action for exploring starts
+                obs_, reward, terminated, truncated, _ = self.step(action)
+                episode.append((state, action, reward))
+                obs = obs_
+                done = terminated or truncated
+
+            # Process the episode for every visit
+            G = 0
+            for t in reversed(range(len(episode))):
+                state, action, reward = episode[t]
+                G = gamma * G + reward
+                returns[state, action] += G
+                visit_counts[state, action] += 1
+                state_action_values[state, action] = returns[state, action] / visit_counts[state, action]
+
+        self.policy = np.argmax(state_action_values, axis=1)
+
+
+if __name__ == "__main__":
+    num_targets = 50
+    env = TSP(num_targets)
+
+    # Perform Monte Carlo First Visit
+    env.monte_carlo_first_visit(num_episodes=1000)
+    print("First Visit Policy:", env.policy)
+
+    # Perform Monte Carlo Every Visit
+    env.monte_carlo_every_visit(num_episodes=1000)
+    print("Every Visit Policy:", env.policy)
+
+    # Evaluate performance
+    ep_rets = []
+    for ep in range(100):
+        ret = 0
+        obs, _ = env.reset()
+        for _ in range(100):
+            state = int(obs[0])
+            action = env.policy[state]
+            obs_, reward, terminated, truncated, info = env.step(action)
+            done = terminated or truncated
+            ret += reward
+            if done:
+                break
+        ep_rets.append(ret)
+        print(f"Episode {ep} : {ret}")
+
+    print("Average Return:", np.mean(ep_rets))
