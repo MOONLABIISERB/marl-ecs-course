@@ -242,3 +242,14 @@ if __name__ == "__main__":
 
     print(f"Average return: {np.mean(ep_rets)}")
     print(policy)
+
+     # Test
+    env.reset()
+
+    print()
+    for i in range(num_targets):
+        action = (
+                    policy[env.loc]
+        )
+        obs_, reward, terminated, truncated, info = env.step(action)
+        print(f"Taken action {action}")
