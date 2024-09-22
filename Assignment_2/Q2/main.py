@@ -61,12 +61,5 @@ def main():
     print(f"MC Average Reward: {mc_avg_reward:.2f}")
     print(f"MC Average Steps: {mc_avg_steps:.2f}")
 
-    # print("Comparison:")
-    # print(f"Training Time - DP: {dp_training_time:.2f}s, MC: {mc_training_time:.2f}s")
-    # print(f"Average Reward - DP: {dp_avg_reward:.2f}, MC: {mc_avg_reward:.2f}")
-    # print(f"Average Steps - DP: {dp_avg_steps:.2f}, MC: {mc_avg_steps:.2f}")
-
-
-
 if __name__ == "__main__":
     main()
