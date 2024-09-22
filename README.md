@@ -23,7 +23,7 @@ Value Iteration and Policy iteration values have been uploaded along with code a
 
 # Assignment2 (Folder name: Assignment2)
 ## Q1 a)
-### Value Iteration result
+### Value Iteration result and Optimum Policy
 ```bash
 Value iteration converged after 3 iterations
 Optimal Path: [0, 2, 4, 1, 3]
