@@ -1,4 +1,4 @@
-# For Dynamic Programming method (Value Iteration)
+# For Dynamic Programming (Value Iteration) method
 
 Average Return: -500000.0
 
