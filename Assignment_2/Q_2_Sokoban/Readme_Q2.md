@@ -15,7 +15,7 @@ This markdown file provides a comparative analysis of two reinforcement learning
 - **Values Obtained**: After a specified number of iterations, the value function converged to values around \(-1.0, -1.9, 0.0, -1.0\).
 
 ### Visual Output of DP method 
-![Diagram Description](DP.PNG)
+![Diagram Description](DP.png)
 
 ### Monte Carlo (MC)
 
@@ -24,8 +24,8 @@ This markdown file provides a comparative analysis of two reinforcement learning
 - **Variance**: The MC approach exhibited higher variance in its estimates, particularly in the early episodes.
 - **Values Obtained**: After 5,000 episodes, the value function stabilized around values like \(-40.1, -39.2, -42.4\).
 
-### Visual Output of DP method 
-![Diagram Description](MC.PNG)
+### Visual Output of MC method 
+![Diagram Description](MC.png)
 
 ## Comparison
 
