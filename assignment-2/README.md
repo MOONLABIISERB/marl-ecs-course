@@ -193,3 +193,167 @@ Environment usage:
     python3 sokoban.py
 
 ![alt text](sokoban.png)
+
+Implementation usage:
+
+    python3 sokoban_implementations.py
+
+Output:
+
+Value Function after Value Iteration:
+</br>State           Value
+</br>------------------------------
+
+(0, 0)          -99.99992      
+(0, 1)          25.42940       
+(1, 1)          29.36600       
+(0, 2)          29.36600       
+(1, 2)          33.74000       
+(0, 3)          -99.99992      
+(0, 4)          -99.99992      
+(0, 5)          -99.99992      
+(1, 0)          25.42940       
+(2, 1)          33.74000       
+(2, 2)          38.60000       
+(1, 3)          29.36600       
+(1, 4)          -99.99992      
+(1, 5)          -99.99992      
+(2, 0)          29.36600       
+(3, 1)          38.60000       
+(3, 2)          44.00000       
+(2, 3)          33.74000       
+(3, 3)          38.60000       
+(2, 4)          38.60000       
+(3, 4)          44.00000       
+(2, 5)          -99.99992      
+(3, 0)          33.74000       
+(4, 1)          44.00000       
+(4, 2)          50.00000       
+(4, 3)          44.00000       
+(4, 4)          50.00000
+</br>(3, 5)          38.60000
+</br>(4, 0)          38.60000
+</br>(5, 1)          38.60000
+</br>(5, 2)          44.00000
+</br>(4, 5)          44.00000
+</br>(5, 0)          33.74000
+</br>(5, 3)          39.74000
+</br>(5, 4)          44.00000
+</br>(5, 5)          -99.99992
+</br>(6, 0)          -99.99992
+</br>(6, 1)          33.74000
+</br>(6, 2)          38.60000
+</br>(6, 3)          -99.99992
+</br>(6, 4)          -99.99992
+</br>(6, 5)          -99.99992
+</br>
+</br>Optimal Policy after Value Iteration:
+</br>State           Optimal Action
+</br>------------------------------
+</br>(0, 0)          UP
+</br>(0, 1)          DOWN
+</br>(0, 2)          DOWN
+</br>(0, 3)          UP
+</br>(0, 4)          UP
+</br>(0, 5)          UP
+</br>(1, 0)          RIGHT
+</br>(1, 1)          DOWN
+</br>(1, 2)          DOWN
+</br>(1, 3)          LEFT
+</br>(1, 4)          UP
+</br>(1, 5)          UP
+</br>(2, 0)          RIGHT
+</br>(2, 1)          DOWN
+</br>(2, 2)          DOWN
+</br>(2, 3)          DOWN
+</br>(2, 4)          DOWN
+</br>(2, 5)          UP
+</br>(3, 0)          RIGHT
+</br>(3, 1)          DOWN
+</br>(3, 2)          DOWN
+</br>(3, 3)          DOWN
+</br>(3, 4)          DOWN
+</br>(3, 5)          LEFT
+</br>(4, 0)          RIGHT
+</br>(4, 1)          RIGHT
+</br>(4, 2)          RIGHT
+</br>(4, 3)          RIGHT
+</br>(4, 4)          LEFT
+</br>(4, 5)          LEFT
+</br>(5, 0)          RIGHT
+</br>(5, 1)          RIGHT
+</br>(5, 2)          UP
+</br>(5, 3)          UP
+</br>(5, 4)          UP
+</br>(5, 5)          UP
+</br>(6, 0)          UP
+</br>(6, 1)          UP
+</br>(6, 2)          UP
+</br>(6, 3)          UP
+</br>(6, 4)          UP
+</br>(6, 5)          UP
+</br>All boxes are placed in storage! Episode complete.
+</br>
+</br>Value Function after Monte Carlo Control:
+</br>State           Value
+</br>------------------------------
+</br>(5, 1)          -1.00000
+</br>(5, 2)          -2.71000
+</br>(4, 2)          -8.14698
+</br>(4, 3)          -9.41850
+</br>(4, 4)          -9.47665
+</br>(3, 4)          -9.65663
+</br>(3, 3)          -9.69097
+</br>(3, 2)          -9.94846
+</br>(2, 2)          -9.95362
+</br>(1, 2)          -9.96619
+</br>(1, 1)          -9.98003
+</br>(2, 1)          -9.99304
+</br>(3, 1)          -9.99436
+</br>(4, 1)          0.00000
+</br>
+</br>Optimal Policy after Monte Carlo Control:
+</br>State           Optimal Action
+</br>------------------------------
+</br>(0, 0)          RIGHT
+</br>(0, 1)          UP
+</br>(0, 2)          UP
+</br>(0, 3)          UP
+</br>(0, 4)          UP
+</br>(0, 5)          RIGHT
+</br>(1, 0)          RIGHT
+</br>(1, 1)          RIGHT
+</br>(1, 2)          DOWN
+</br>(1, 3)          UP
+</br>(1, 4)          LEFT
+</br>(1, 5)          DOWN
+</br>(2, 0)          RIGHT
+</br>(2, 1)          DOWN
+</br>(2, 2)          DOWN
+</br>(2, 3)          UP
+</br>(2, 4)          DOWN
+</br>(2, 5)          DOWN
+</br>(3, 0)          RIGHT
+</br>(3, 1)          DOWN
+</br>(3, 2)          DOWN
+</br>(3, 3)          DOWN
+</br>(3, 4)          DOWN
+</br>(3, 5)          DOWN
+</br>(4, 0)          RIGHT
+</br>(4, 1)          DOWN
+</br>(4, 2)          LEFT
+</br>(4, 3)          LEFT
+</br>(4, 4)          LEFT
+</br>(4, 5)          RIGHT
+</br>(5, 0)          RIGHT
+</br>(5, 1)          UP
+</br>(5, 2)          LEFT
+</br>(5, 3)          LEFT
+</br>(5, 4)          DOWN
+</br>(5, 5)          UP
+</br>(6, 0)          DOWN
+</br>(6, 1)          DOWN
+</br>(6, 2)          LEFT
+</br>(6, 3)          LEFT
+</br>(6, 4)          LEFT
+</br>(6, 5)          DOWN
