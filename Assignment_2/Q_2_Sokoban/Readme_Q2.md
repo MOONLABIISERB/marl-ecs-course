@@ -14,12 +14,18 @@ This markdown file provides a comparative analysis of two reinforcement learning
 - **Efficiency**: DP systematically evaluates all possible actions and state transitions, leading to a precise and optimal solution.
 - **Values Obtained**: After a specified number of iterations, the value function converged to values around \(-1.0, -1.9, 0.0, -1.0\).
 
+### Visual Output of DP method 
+![Diagram Description](DP.PNG)
+
 ### Monte Carlo (MC)
 
 - **Implementation**: The MC method utilized both First-Visit and Every-Visit strategies to estimate the value function through sample episodes.
 - **Exploration**: The agent generated episodes from random starting positions, and the values were updated based on the returns from these episodes.
 - **Variance**: The MC approach exhibited higher variance in its estimates, particularly in the early episodes.
-- **Values Obtained**: After 8,000 episodes, the value function stabilized around values like \(-40.1, -39.2, -42.4\).
+- **Values Obtained**: After 5,000 episodes, the value function stabilized around values like \(-40.1, -39.2, -42.4\).
+
+### Visual Output of DP method 
+![Diagram Description](MC.PNG)
 
 ## Comparison
 

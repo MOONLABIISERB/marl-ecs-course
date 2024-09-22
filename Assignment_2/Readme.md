@@ -1,6 +1,8 @@
 
 ### `README.md`
 
+If you are using Google colab then you just require Gymnansium library to run the code
+for other code editor's requirements are given below :
 ## Requirements
 
 To install the required libraries, create a `requirements.txt` file with the following content:
