@@ -191,7 +191,7 @@ if __name__ == "__main__":
 
 # Dynamic Programming:
 
-    disc_factor = 0.9
+    disc_factor = 0.95
     learning_rate = 0.1
     num_episodes = 1000
     
