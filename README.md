@@ -21,12 +21,18 @@ value(canteen)= 18.82669839
 Value Iteration and Policy iteration values have been uploaded along with code and quiver plot
 
 # MultiAgent-Rl_Assignment2
-## Q1
+## Q1 a)
 ### Value Iteration result
 ```bash
 Value iteration converged after 3 iterations
 Optimal Path: [0, 2, 4, 1, 3]
 ```
+#### Value iteration converts and output shows optimum policy along with optimum values.
+
+## Q1 b)
+### Monte Carlo result
+#### Monte carlo using exploring starts was performed.
+
 
 #### Value iteration converts and output shows optimum policy along with optimum values.
 
