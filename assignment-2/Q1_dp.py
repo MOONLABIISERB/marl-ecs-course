@@ -190,6 +190,8 @@ if __name__ == "__main__":
     obs = env.reset()
 
 # Dynamic Programming:
+
+    disc_factor = 0.9
     learning_rate = 0.1
     num_episodes = 1000
     
@@ -197,23 +199,28 @@ if __name__ == "__main__":
     Q = np.zeros((env.num_targets, env.num_targets))
 
     for episode in range(num_episodes):
-        state, _ = env.reset() 
+        # Get the initial state
+        state, _ = env.reset()  
         state = int(state[0])
 
         done = False
         while not done:
-            action = np.argmax(Q[state])  
+            # Choose action with the current maximum Q-value
+            action = np.argmax(Q[state])  # Choose action with the current maximum Q-value
             
+            #Bell-man equation
             next_state, reward, terminated, truncated, _ = env.step(action)
             next_state = int(next_state[0])
 
-            Q[state, action] += learning_rate * (reward + discount_factor * np.max(Q[next_state]) - Q[state, action])
-    
+            # Update the Q-values 
+            Q[state, action] += learning_rate * (reward + disc_factor * np.max(Q[next_state]) - Q[state, action])
+            
             state = next_state
             done = terminated or truncated
 
         if episode % 200 == 0:
             print(f"Episode {episode}, Q-values: {Q}")
 
+    # After convergence, extract the best policy
     policy = np.argmax(Q, axis=1)
     print("Optimal Policy:", policy)
