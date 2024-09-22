@@ -208,7 +208,7 @@ if __name__ == "__main__":
 
             obs_ = next_obs
 
-            action = policy.get(obs_.tobytes(), env.action_space.sample())
+            action = policy.get(env.loc, env.action_space.sample())
 
             if done:
                 break
@@ -219,7 +219,7 @@ if __name__ == "__main__":
         for obs_, action, reward in reversed(episode):
             G = reward + gamma * G  
 
-            state_action_key = (obs_.tobytes(), action)
+            state_action_key = (env.loc, action)
             if state_action_key not in visited_state_actions:
                 visited_state_actions.add(state_action_key)
 
@@ -231,12 +231,14 @@ if __name__ == "__main__":
 
 
                 best_action = max(
-                    [a for a in range(env.action_space.n)],
-                    key=lambda a: Qvalue.get((obs_.tobytes(), a), float('-inf'))
+                    [a for a in range(env.action_space.n) if a != state_action_key[0]],
+                    key=lambda a: Qvalue.get((env.loc, a), float('-inf'))
                 )
-                policy[obs_.tobytes()] = best_action
+                policy[env.loc] = best_action
 
         ep_rets.append(G)
         print(f"Episode {ep} : {G}")
+    
 
     print(f"Average return: {np.mean(ep_rets)}")
+    print(policy)
