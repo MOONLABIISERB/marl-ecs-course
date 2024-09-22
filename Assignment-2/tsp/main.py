@@ -5,6 +5,8 @@ from typing import Dict, List, Optional, Tuple
 import gymnasium as gym
 import numpy as np
 
+from dp import create_dp_solver, create_mc_solver, create_mc_epsilon_greedy_solver
+
 
 class TSP(gym.Env):
     """Traveling Salesman Problem (TSP) RL environment for persistent monitoring.
@@ -180,27 +182,59 @@ class TSP(gym.Env):
 
 if __name__ == "__main__":
     num_targets = 6
+    num_episodes = 10**3
 
     env = TSP(num_targets)
-    obs = env.reset()
-    ep_rets = []
 
-    for ep in range(100):
-        ret = 0
-        obs = env.reset()
-        for _ in range(100):
-            action = (
-                env.action_space.sample()
-            )  # You need to replace this with your algorithm that predicts the action.
-    
-            obs_, reward, terminated, truncated, info = env.step(action)
-            done = terminated or truncated
-            ret += reward
+    # Create solvers
+    dp_solver = create_dp_solver(env)
+    mc_first_visit_solver = create_mc_solver(
+        env, num_episodes=10000, method="first_visit"
+    )
+    mc_every_visit_solver = create_mc_solver(
+        env, num_episodes=10000, method="every_visit"
+    )
+    mc_epsilon_greedy_solver = create_mc_epsilon_greedy_solver(
+        env, num_episodes=num_episodes, method="first_visit", epsilon=0.1
+    )
 
-            if done:
-                break
+    solvers = {
+        "Dynamic Programming": dp_solver,
+        "Monte Carlo (First-Visit)": mc_first_visit_solver,
+        "Monte Carlo (Every-Visit)": mc_every_visit_solver,
+        "Monte Carlo (Epsilon-Greedy)": mc_epsilon_greedy_solver,
+    }
+    totalPerf = {}
+    for solver_name, solver in solvers.items():
+        print(f"\nTesting {solver_name}:")
+        ep_rets = []
 
-        ep_rets.append(ret)
-        print(f"Episode {ep} : {ret}")
+        for ep in range(num_episodes):
+            ret = 0
+            obs, _ = env.reset()
+            visited = []
 
-    print(np.mean(ep_rets))
+            for _ in range(
+                env.num_targets
+            ):  # Changed from env.max_steps to env.num_targets
+                current_state = int(obs[0])
+                visited.append(current_state)
+
+                action = solver.get_action(current_state, visited)
+
+                obs_, reward, terminated, truncated, _ = env.step(action)
+                ret += reward
+                obs = obs_
+
+                if terminated or truncated:
+                    break
+
+            ep_rets.append(ret)
+            print(f"Episode {ep} : {ret} | terminated : {terminated}")
+
+        print(f"Average return over {num_episodes} episodes: {np.mean(ep_rets)}")
+        totalPerf[solver_name] = np.mean(ep_rets)
+
+    print("\nPerformance Comparison:")
+    for solver_name, solver in solvers.items():
+        print(f"{solver_name} Average Return: {totalPerf[solver_name]}")
