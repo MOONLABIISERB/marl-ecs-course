@@ -1,6 +1,3 @@
-# First Assignment
-This is a repository used for submitting the assignments in the Multi Agent Reinforcement Learning course by Prof. PB Sujit.
-
 # Answer.pdf
 Here discussed about the results of the first question.
 
