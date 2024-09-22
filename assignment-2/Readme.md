@@ -134,7 +134,7 @@ Monte Carlo (MC) Methods: MC methods work by observing what happens in many play
 **Q2: Sokoban Puzzle**
 
 
-Dynamic Programming Optimal Value Function for Sokoban: 
+*Dynamic Programming Optimal Value Function for Sokoban:* 
 
 [[-6.89215401 -6.54683861 -6.16315475 -6.54683927 -6.89215534 -7.20293981]
  [-6.54683861 -6.16315475 -5.73683927 -6.16315534 -6.54683981 -6.89215583]
@@ -146,7 +146,7 @@ Dynamic Programming Optimal Value Function for Sokoban:
 
 
 
-Monte Carlo Optimal Values for Sokoban: 
+*Monte Carlo Optimal Values for Sokoban:*
 
 [[ -15.66508757  -21.49422492  -26.01879128  -27.61998026  -26.52493805
    -22.01504218]
