@@ -21,7 +21,7 @@ value(canteen)= 18.82669839
 
 Value Iteration and Policy iteration values have been uploaded along with code and quiver plot
 
-# MultiAgent-Rl_Assignment2
+# Assignment2
 ## Q1 a)
 ### Value Iteration result
 ```bash
