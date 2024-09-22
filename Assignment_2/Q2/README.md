@@ -1,4 +1,4 @@
-# Evaluating Dynamic Programming policy
+# Evaluating Dynamic Programming (Value Iteration) policy
 
 DP Average Reward: -100.00
 
