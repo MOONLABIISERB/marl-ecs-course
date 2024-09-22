@@ -179,12 +179,11 @@ class TSP(gym.Env):
 
 if __name__ == "__main__":
     num_targets = 6
-    max_episodes = 1000
-    max_steps = 100
-    seed = 20031
+    max_episodes = 10000
+    max_steps = 10
 
-    env = TSP(num_targets, seed=seed)
-    obs, _ = env.reset(seed=seed)
+    env = TSP(num_targets)
+    obs, _ = env.reset()
     ep_rets = []
     policy = {} 
     Qvalue = {}  
@@ -196,7 +195,7 @@ if __name__ == "__main__":
         ret = 0
         episode = [] 
 
-        obs_, _ = env.reset(init_loc=env.action_space.sample(seed), seed=seed)
+        obs_, _ = env.reset(init_loc=env.action_space.sample())
         action = env.action_space.sample()
         state_action_key = (obs_, action)
 
