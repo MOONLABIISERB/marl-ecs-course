@@ -1,4 +1,7 @@
 # Assignment2 (Folder name: Assignment2)
+### Difference between Value Iteration and Monte Carlo:
+#### Value iteration converges quicker than Monte Carlo since the latter has an exploring nature, i.e exploring starts.
+
 ## Q1 a)
 ### Value Iteration result and Optimum Policy
 ```bash
