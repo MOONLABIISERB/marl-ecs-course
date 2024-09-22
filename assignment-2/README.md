@@ -194,6 +194,12 @@ Environment usage:
 
 ![alt text](sokoban.png)
 
+red = agent
+
+blue = box
+
+green = storage(goal)
+
 Implementation usage:
 
     python3 sokoban_implementations.py
