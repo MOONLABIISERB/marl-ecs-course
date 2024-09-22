@@ -152,7 +152,7 @@ def plot_policy(policy, title):
     plt.text(in_portal[1], in_portal[0], 'IN', fontsize=10, ha='center', va='center', color='blue')
     plt.text(out_portal[1], out_portal[0], 'OUT', fontsize=10, ha='center', va='center', color='blue')
 
-    # plt.savefig(f"{title}.png")
+    plt.savefig(f"{title}.png")
     plt.show()
 
 
