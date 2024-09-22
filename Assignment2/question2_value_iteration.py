@@ -111,9 +111,6 @@ class grid(gym.Env):
         Args:
             action (int): Action of agent
 
-        Returns:
-             - next_loc,current_box_loc (int): next location of the agent, current box location.
-              
         """
         #(0,1,2,3)==(up,right,down,left)
         # conditions governing the agent behavior
@@ -170,7 +167,7 @@ class grid(gym.Env):
         return next_loc, current_box_loc
         
      # value iteration calculation 
-    def max_value_action(self,state_values: np.ndarray,gamma: int = 1):
+    def max_value_action(self, state_values: np.ndarray,gamma: int = 1):
         """
         Action-value pairs computed in-place(dynamic progm.) on a array 'v' of state values.
 
@@ -184,7 +181,7 @@ class grid(gym.Env):
         action_value = defaultdict(float)
         val_0 = 0
         for act in range(4):
-            next_loc,current_box = self.next_loc_fn(act)
+            next_loc, current_box = self.next_loc_fn(act)
             val_0 = env._get_rewards(next_loc,current_box) + (gamma * state_values[next_loc[0]][next_loc[1]])
             action_value[act] = val_0
         
@@ -209,10 +206,10 @@ if __name__ == "__main__":
         obs = env.reset()
         for _ in range(100):
             action = (
-                list(env.max_value_action(env.loc,v).keys())[-1]   # taking best action based on state values dynamically updated(in-place)
+                list(env.max_value_action(v).keys())[-1]   # taking best action based on state values dynamically updated(in-place)
             )  
 
-            v[env.loc[0]][env.loc[1]]= list(env.max_value_action(env.loc,v).values())[-1]  # state value array update
+            v[env.loc[0]][env.loc[1]]= list(env.max_value_action(v).values())[-1]  # state value array update
             policy[env.loc[0]][env.loc[1]] = int(action)             # update policy
 
             reward, terminated, info = env.step(action)
