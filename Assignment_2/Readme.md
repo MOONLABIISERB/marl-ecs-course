@@ -21,8 +21,8 @@ pip install -r requirements.txt
 
 This repository includes comparisons of the two assignment questions. Please find the details in the following folders:
 
-- **Assignment 1**: [Comparison for Assignment 1](./Assignment_1/Readme_Q1.md)
-- **Assignment 2**: [Comparison for Assignment 2](./Assignment_2/Readme_Q2.md)
+- **Assignment 1**: [Comparison for Question 1](./Q_1_TSP/Readme_Q1.md)
+- **Assignment 2**: [Comparison for Question 2](./Q_2_Sokoban/Readme_Q2.md)
 
 ## Usage
 

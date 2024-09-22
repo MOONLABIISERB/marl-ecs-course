@@ -3,7 +3,7 @@
 
 ## Introduction
 
-This document provides a comparative analysis of two reinforcement learning methods: Dynamic Programming (DP) and Monte Carlo (MC). Both methods were implemented to solve a grid-based warehouse problem where an agent pushes boxes to designated storage locations.
+This markdown file provides a comparative analysis of two reinforcement learning methods: Dynamic Programming (DP) and Monte Carlo (MC). Both methods were implemented to solve a grid-based warehouse problem where an agent pushes boxes to designated storage locations.
 
 ## Methodology
 
