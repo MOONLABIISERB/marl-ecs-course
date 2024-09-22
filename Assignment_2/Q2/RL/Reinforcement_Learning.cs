@@ -33,6 +33,7 @@ namespace Q2.RL
             int current = 0;
             // Initialize Policies and values
             InitializePolicyAndValue(out policy,out value);
+
             while (current < numIter)
             {
                 Dictionary<State, double> VNew = new Dictionary<State, double>();
@@ -45,7 +46,6 @@ namespace Q2.RL
                     {
                         ResetLevel(state);
                         
-
                         Level.MovePlayer(action);
                         Point[] boxesPos = new Point[Level.Boxes.Length];
                         for (int i = 0; i < boxesPos.Length; i++)
