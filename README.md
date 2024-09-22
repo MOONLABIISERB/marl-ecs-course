@@ -1,4 +1,5 @@
 # Assignment 1 and Assignment 2 Results
+## Output and Results have been sent as jpg file in respective folders
 ## Q1 Result:
 #### Optimum Values
 value(Hostel)= 16.05623156 
