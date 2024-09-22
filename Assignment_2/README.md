@@ -1,18 +1,18 @@
 # Key differences between Value Iteration and Monte Carlo
 
-# Learning Methodology:
+# Learning methodology:
 
 Value Iteration: Uses a deterministic approach, updating state values iteratively based on expected future rewards.
 
 Monte Carlo: Relies on sampling complete episodes, updating values based on actual returns received.
 
-# Updates and Convergence:
+# Updates and convergence:
 
 Value Iteration: Converges systematically in finite iterations; updates all states simultaneously.
 
 Monte Carlo: Convergence can be slower and more variable; updates based on complete episode returns.
 
-# Environment Knowledge:
+# Environment knowledge:
 
 Value Iteration: Requires knowledge of transition probabilities and rewards (model-based).
 
