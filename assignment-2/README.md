@@ -357,3 +357,58 @@ Value Function after Value Iteration:
 </br>(6, 3)          LEFT
 </br>(6, 4)          LEFT
 </br>(6, 5)          DOWN
+
+#### Observations from Experiments
+
+DP methods, like Value Iteration and Policy Iteration, rely on the Bellman equation to compute the value of each state or state-action pair iteratively.
+
+DP requires a complete and accurate model of the environment (the transition probabilities and rewards) and is generally used for problems with a finite and manageable state space.
+
+MC methods estimate the value of states or actions based on the average return from sampled episodes.
+Unlike DP, MC does not require a complete model of the environment, making it applicable to more complex environments where the transition dynamics are not known.
+
+##### Convergence Speed:
+
+DP: Generally converges faster because it systematically updates all state values based on the Bellman equation. It leverages the structure of the problem to optimize calculations.
+
+MC: May take longer to converge since it relies on sampling and can have high variance in returns, especially with fewer episodes.
+
+##### Optimality:
+
+DP: Guarantees convergence to the optimal policy, provided the model is accurate and complete.
+
+MC: Approaches optimality but can be sensitive to exploration strategies (e.g., epsilon-greedy). It may not find the optimal solution if the exploration is insufficient.
+
+##### Computational Efficiency:
+
+DP: Requires storing and updating a value table for all states, which can become computationally expensive as the state space grows.
+
+MC: Memory usage may be lower in some cases since it only stores returns and Q-values for visited state-action pairs but can become computationally expensive due to the need for many episodes.
+
+##### Robustness:
+
+DP: Less robust in stochastic environments where transition dynamics are unknown or too complex. It relies on having a perfect model.
+
+MC: More robust in uncertain environments because it can adaptively learn from the actual transitions experienced during episodes.
+
+##### Model Requirements:
+
+DP: Requires a complete model of the environment; performs best with known transition probabilities and rewards.
+
+MC: Works well with unknown models; relies on sampling and observed transitions.
+
+##### Approach to Learning:
+
+DP: Uses iterative updates based on the Bellman equation.
+
+MC: Uses episodic returns to update estimates.
+
+##### Exploration vs. Exploitation:
+
+DP: Does not explicitly handle exploration; it computes values deterministically.
+
+MC: Balances exploration and exploitation via strategies like epsilon-greedy, impacting learning outcomes.
+
+Dynamic Programming (DP) provides consistent outputs because it uses deterministic updates based on the Bellman equation, relying on a complete and known model of the environment, which stabilizes convergence to optimal values. In contrast, Monte Carlo (MC) methods produce varying results due to their reliance on random sampling from episodes, which introduces variability in returns and Q-value updates. The stochastic nature of MC, combined with exploration strategies like epsilon-greedy, means different actions can be taken in different runs, leading to fluctuations in learned values, especially when the number of episodes is low.
+
+In comparing first-visit and every-visit Monte Carlo methods, the primary distinction lies in how they update the value estimates for state-action pairs. The first-visit method updates the Q-values only for the first occurrence of a state-action pair within each episode, which can lead to a more stable estimate by reducing variance but may require more episodes to accurately reflect the true value of frequently visited pairs. In contrast, the every-visit method updates the Q-values for every occurrence of a state-action pair within an episode, allowing for more immediate learning from all experiences but potentially introducing higher variance due to multiple updates from the same episodes. As a result, every-visit can converge faster in some scenarios, while first-visit may provide more stable estimates over time, making the choice between them dependent on the specific characteristics of the problem and the desired balance between bias and variance in learning.
