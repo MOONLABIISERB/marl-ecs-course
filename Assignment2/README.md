@@ -1,1 +1,204 @@
+## Q2
+#### a) Value Iteration Result: The grid is the same structure as the one provided in the assignment pdf. Value iteration result shows that the terminal state is reached after 10 iteration. The state is taken as a tuple of the human and the box state. The optimum policy and optimum state values of the state has been given in the output. 
+### Traversal of states using optimum policy for initial state Human: (1, 2) and Box(4, 3) where end goal is (3,1) for box
+```bash
+Initial State: Human (1, 2), Box (4, 3)
+Step 1: Human moves DOWN, New Human Pos: (2, 2), New Box Pos: (4, 3)
+Step 2: Human moves DOWN, New Human Pos: (3, 2), New Box Pos: (4, 3)
+Step 3: Human moves RIGHT, New Human Pos: (3, 3), New Box Pos: (4, 3)
+Step 4: Human moves RIGHT, New Human Pos: (3, 4), New Box Pos: (4, 3)
+Step 5: Human moves DOWN, New Human Pos: (4, 4), New Box Pos: (4, 3)
+Step 6: Human moves LEFT, New Human Pos: (4, 3), New Box Pos: (4, 2)
+Step 7: Human moves LEFT, New Human Pos: (4, 2), New Box Pos: (4, 1)
+Step 8: Human moves DOWN, New Human Pos: (5, 2), New Box Pos: (4, 1)
+Step 9: Human moves LEFT, New Human Pos: (5, 1), New Box Pos: (4, 1)
+Step 10: Human moves UP, New Human Pos: (4, 1), New Box Pos: (3, 1)
+Terminal State reached in 10 steps: Human (4, 1), Box (3, 1)
+```
+## Optimal Policy:
+```bash
+State ((1, 1), (1, 2)): Take action UP
+State ((1, 1), (2, 1)): Take action DOWN
+State ((1, 1), (2, 2)): Take action RIGHT
+State ((1, 1), (3, 2)): Take action DOWN
+State ((1, 1), (3, 3)): Take action DOWN
+State ((1, 1), (3, 4)): Take action UP
+State ((1, 1), (4, 1)): Take action DOWN
+State ((1, 1), (4, 2)): Take action DOWN
+State ((1, 1), (4, 3)): Take action DOWN
+State ((1, 1), (4, 4)): Take action UP
+State ((1, 1), (5, 1)): Take action UP
+State ((1, 1), (5, 2)): Take action UP
+State ((1, 2), (1, 1)): Take action UP
+State ((1, 2), (2, 1)): Take action LEFT
+State ((1, 2), (2, 2)): Take action DOWN
+State ((1, 2), (3, 2)): Take action DOWN
+State ((1, 2), (3, 3)): Take action DOWN
+State ((1, 2), (3, 4)): Take action UP
+State ((1, 2), (4, 1)): Take action DOWN
+State ((1, 2), (4, 2)): Take action DOWN
+State ((1, 2), (4, 3)): Take action DOWN
+State ((1, 2), (4, 4)): Take action UP
+State ((1, 2), (5, 1)): Take action UP
+State ((1, 2), (5, 2)): Take action UP
+State ((2, 1), (1, 1)): Take action UP
+State ((2, 1), (1, 2)): Take action UP
+State ((2, 1), (2, 2)): Take action UP
+State ((2, 1), (3, 2)): Take action DOWN
+State ((2, 1), (3, 3)): Take action DOWN
+State ((2, 1), (3, 4)): Take action UP
+State ((2, 1), (4, 1)): Take action DOWN
+State ((2, 1), (4, 2)): Take action DOWN
+State ((2, 1), (4, 3)): Take action DOWN
+State ((2, 1), (4, 4)): Take action UP
+State ((2, 1), (5, 1)): Take action UP
+State ((2, 1), (5, 2)): Take action UP
+State ((2, 2), (1, 1)): Take action UP
+State ((2, 2), (1, 2)): Take action UP
+State ((2, 2), (2, 1)): Take action UP
+State ((2, 2), (3, 2)): Take action DOWN
+State ((2, 2), (3, 3)): Take action DOWN
+State ((2, 2), (3, 4)): Take action UP
+State ((2, 2), (4, 1)): Take action DOWN
+State ((2, 2), (4, 2)): Take action DOWN
+State ((2, 2), (4, 3)): Take action DOWN
+State ((2, 2), (4, 4)): Take action UP
+State ((2, 2), (5, 1)): Take action UP
+State ((2, 2), (5, 2)): Take action UP
+State ((3, 1), (1, 1)): Take action UP
+State ((3, 1), (1, 2)): Take action UP
+State ((3, 1), (2, 1)): Take action RIGHT
+State ((3, 1), (2, 2)): Take action UP
+State ((3, 1), (3, 2)): Take action DOWN
+State ((3, 1), (3, 3)): Take action DOWN
+State ((3, 1), (3, 4)): Take action UP
+State ((3, 1), (4, 1)): Take action RIGHT
+State ((3, 1), (4, 2)): Take action DOWN
+State ((3, 1), (4, 3)): Take action RIGHT
+State ((3, 1), (4, 4)): Take action UP
+State ((3, 1), (5, 1)): Take action UP
+State ((3, 1), (5, 2)): Take action UP
+State ((3, 2), (1, 1)): Take action UP
+State ((3, 2), (1, 2)): Take action UP
+State ((3, 2), (2, 1)): Take action UP
+State ((3, 2), (2, 2)): Take action LEFT
+State ((3, 2), (3, 3)): Take action DOWN
+State ((3, 2), (3, 4)): Take action UP
+State ((3, 2), (4, 1)): Take action DOWN
+State ((3, 2), (4, 2)): Take action RIGHT
+State ((3, 2), (4, 3)): Take action RIGHT
+State ((3, 2), (4, 4)): Take action UP
+State ((3, 2), (5, 1)): Take action UP
+State ((3, 2), (5, 2)): Take action UP
+State ((3, 3), (1, 1)): Take action UP
+State ((3, 3), (1, 2)): Take action UP
+State ((3, 3), (2, 1)): Take action LEFT
+State ((3, 3), (2, 2)): Take action LEFT
+State ((3, 3), (3, 2)): Take action LEFT
+State ((3, 3), (3, 4)): Take action UP
+State ((3, 3), (4, 1)): Take action DOWN
+State ((3, 3), (4, 2)): Take action DOWN
+State ((3, 3), (4, 3)): Take action RIGHT
+State ((3, 3), (4, 4)): Take action UP
+State ((3, 3), (5, 1)): Take action UP
+State ((3, 3), (5, 2)): Take action UP
+State ((3, 4), (1, 1)): Take action UP
+State ((3, 4), (1, 2)): Take action UP
+State ((3, 4), (2, 1)): Take action LEFT
+State ((3, 4), (2, 2)): Take action LEFT
+State ((3, 4), (3, 2)): Take action LEFT
+State ((3, 4), (3, 3)): Take action LEFT
+State ((3, 4), (4, 1)): Take action DOWN
+State ((3, 4), (4, 2)): Take action DOWN
+State ((3, 4), (4, 3)): Take action DOWN
+State ((3, 4), (4, 4)): Take action UP
+State ((3, 4), (5, 1)): Take action UP
+State ((3, 4), (5, 2)): Take action UP
+State ((4, 1), (1, 1)): Take action UP
+State ((4, 1), (1, 2)): Take action UP
+State ((4, 1), (2, 1)): Take action UP
+State ((4, 1), (2, 2)): Take action UP
+State ((4, 1), (3, 2)): Take action RIGHT
+State ((4, 1), (3, 3)): Take action RIGHT
+State ((4, 1), (3, 4)): Take action UP
+State ((4, 1), (4, 2)): Take action DOWN
+State ((4, 1), (4, 3)): Take action UP
+State ((4, 1), (4, 4)): Take action UP
+State ((4, 1), (5, 1)): Take action UP
+State ((4, 1), (5, 2)): Take action UP
+State ((4, 2), (1, 1)): Take action UP
+State ((4, 2), (1, 2)): Take action UP
+State ((4, 2), (2, 1)): Take action UP
+State ((4, 2), (2, 2)): Take action UP
+State ((4, 2), (3, 2)): Take action RIGHT
+State ((4, 2), (3, 3)): Take action RIGHT
+State ((4, 2), (3, 4)): Take action UP
+State ((4, 2), (4, 1)): Take action DOWN
+State ((4, 2), (4, 3)): Take action UP
+State ((4, 2), (4, 4)): Take action UP
+State ((4, 2), (5, 1)): Take action UP
+State ((4, 2), (5, 2)): Take action UP
+State ((4, 3), (1, 1)): Take action UP
+State ((4, 3), (1, 2)): Take action UP
+State ((4, 3), (2, 1)): Take action UP
+State ((4, 3), (2, 2)): Take action UP
+State ((4, 3), (3, 2)): Take action UP
+State ((4, 3), (3, 3)): Take action RIGHT
+State ((4, 3), (3, 4)): Take action UP
+State ((4, 3), (4, 1)): Take action LEFT
+State ((4, 3), (4, 2)): Take action LEFT
+State ((4, 3), (4, 4)): Take action UP
+State ((4, 3), (5, 1)): Take action UP
+State ((4, 3), (5, 2)): Take action UP
+State ((4, 4), (1, 1)): Take action UP
+State ((4, 4), (1, 2)): Take action UP
+State ((4, 4), (2, 1)): Take action UP
+State ((4, 4), (2, 2)): Take action UP
+State ((4, 4), (3, 2)): Take action UP
+State ((4, 4), (3, 3)): Take action UP
+State ((4, 4), (3, 4)): Take action UP
+State ((4, 4), (4, 1)): Take action LEFT
+State ((4, 4), (4, 2)): Take action LEFT
+State ((4, 4), (4, 3)): Take action LEFT
+State ((4, 4), (5, 1)): Take action UP
+State ((4, 4), (5, 2)): Take action UP
+State ((5, 1), (1, 1)): Take action UP
+State ((5, 1), (1, 2)): Take action UP
+State ((5, 1), (2, 1)): Take action UP
+State ((5, 1), (2, 2)): Take action UP
+State ((5, 1), (3, 2)): Take action UP
+State ((5, 1), (3, 3)): Take action UP
+State ((5, 1), (3, 4)): Take action UP
+State ((5, 1), (4, 1)): Take action UP
+State ((5, 1), (4, 2)): Take action RIGHT
+State ((5, 1), (4, 3)): Take action UP
+State ((5, 1), (4, 4)): Take action UP
+State ((5, 1), (5, 2)): Take action UP
+State ((5, 2), (1, 1)): Take action UP
+State ((5, 2), (1, 2)): Take action UP
+State ((5, 2), (2, 1)): Take action UP
+State ((5, 2), (2, 2)): Take action UP
+State ((5, 2), (3, 2)): Take action UP
+State ((5, 2), (3, 3)): Take action UP
+State ((5, 2), (3, 4)): Take action UP
+State ((5, 2), (4, 1)): Take action LEFT
+State ((5, 2), (4, 2)): Take action UP
+State ((5, 2), (4, 3)): Take action UP
+State ((5, 2), (4, 4)): Take action UP
+State ((5, 2), (5, 1)): Take action UP
+```
+#### b) Monte Carlo result: After performing 100000 episodes Monte Carlo fails to find optimum policy, and the block state loops at the terminal state edge (4,4).
+```bash
+Initial State: Human (1, 2), Box (4, 3)
+Step 1: Human moves DOWN, New Human Pos: (2, 2), New Box Pos: (4, 3)
+Step 2: Human moves DOWN, New Human Pos: (3, 2), New Box Pos: (4, 3)
+Step 3: Human moves DOWN, New Human Pos: (4, 2), New Box Pos: (4, 3)
+Step 4: Human moves RIGHT, New Human Pos: (4, 3), New Box Pos: (4, 4)
+No valid action found. Ending simulation.
+```
+### Difference between Value Iteration and Monte Carlo:
+#### Value iteration converges quicker than Monte Carlo since the latter has an exploring nature, i.e exploring starts.
+
+
+
 
