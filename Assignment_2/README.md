@@ -1,4 +1,4 @@
-# Key Differences Between Value Iteration and Monte Carlo
+# Key differences between Value Iteration and Monte Carlo
 
 # Learning Methodology:
 
