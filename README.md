@@ -28,6 +28,7 @@ Value Iteration and Policy iteration values have been uploaded along with code a
 ## Q2
 #### a) Value Iteration Result: The grid is the same structure as the one provided in the assignment pdf. Value iteration result shows that the terminal state is reached after 10 iteration. The state is taken as a tuple of the human and the box state. The optimum policy and optimum state values of the state has been given in the output. 
 ### Traversal of states using optimum policy for initial state Human: (1, 2) and Box(4, 3) where end goal is (3,1) for box
+```bash
 Initial State: Human (1, 2), Box (4, 3)
 Step 1: Human moves DOWN, New Human Pos: (2, 2), New Box Pos: (4, 3)
 Step 2: Human moves DOWN, New Human Pos: (3, 2), New Box Pos: (4, 3)
@@ -40,6 +41,7 @@ Step 8: Human moves DOWN, New Human Pos: (5, 2), New Box Pos: (4, 1)
 Step 9: Human moves LEFT, New Human Pos: (5, 1), New Box Pos: (4, 1)
 Step 10: Human moves UP, New Human Pos: (4, 1), New Box Pos: (3, 1)
 Terminal State reached in 10 steps: Human (4, 1), Box (3, 1)
+```
 
 #### b) Monte Carlo result: After performing 100000 episodes Monte Carlo fails to find optimum policy, and the block state loops at the terminal state edge (4,4).
 
