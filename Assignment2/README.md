@@ -301,7 +301,7 @@ State (loc=5, visited_set=0b111111): Value=0.0000, Next City=0
 #### Value iteration converts and output shows optimum policy along with optimum values.
 
 ## Q2
-#### a) Value Iteration Result: The grid is the same structure as the one provided in the assignment pdf. Value iteration result shows that the terminal state is reached after 10 iteration. The state is taken as a tuple of the human and the box state. The optimum policy and optimum state values of the state has been given in the output. 
+### a) Value Iteration Result: The grid is the same structure as the one provided in the assignment pdf. Value iteration result shows that the terminal state is reached after 10 iteration. The state is taken as a tuple of the human and the box state. The optimum policy and optimum state values of the state has been given in the output. 
 ### Traversal of states using optimum policy for initial state Human: (1, 2) and Box(4, 3) where end goal is (3,1) for box
 ```bash
 Initial State: Human (1, 2), Box (4, 3)
@@ -489,7 +489,7 @@ State ((5, 2), (4, 3)): Take action UP
 State ((5, 2), (4, 4)): Take action UP
 State ((5, 2), (5, 1)): Take action UP
 ```
-#### b) Monte Carlo result: After performing 100000 episodes Monte Carlo fails to find optimum policy, and the block state loops at the terminal state edge (4,4).
+### b) Monte Carlo result: After performing 100000 episodes Monte Carlo fails to find optimum policy, and the block state loops at the terminal state edge (4,4).
 ```bash
 Initial State: Human (1, 2), Box (4, 3)
 Step 1: Human moves DOWN, New Human Pos: (2, 2), New Box Pos: (4, 3)
