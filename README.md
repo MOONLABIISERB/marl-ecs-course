@@ -55,6 +55,7 @@ Step 10: Human moves UP, New Human Pos: (4, 1), New Box Pos: (3, 1)
 Terminal State reached in 10 steps: Human (4, 1), Box (3, 1)
 ```
 ## Optimal Policy:
+```bash
 State ((1, 1), (1, 2)): Take action UP
 State ((1, 1), (2, 1)): Take action DOWN
 State ((1, 1), (2, 2)): Take action RIGHT
@@ -224,7 +225,7 @@ State ((5, 2), (4, 2)): Take action UP
 State ((5, 2), (4, 3)): Take action UP
 State ((5, 2), (4, 4)): Take action UP
 State ((5, 2), (5, 1)): Take action UP
-
+```
 #### b) Monte Carlo result: After performing 100000 episodes Monte Carlo fails to find optimum policy, and the block state loops at the terminal state edge (4,4).
 ```bash
 Initial State: Human (1, 2), Box (4, 3)
