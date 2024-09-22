@@ -93,3 +93,37 @@ Episode 200, Q-values:
 </br> [-15817.56589837 -16534.06783156 -15711.06338533 ... -16207.75298285  -16547.16608239 -16548.62385499]]
 
 </br>Optimal Policy: [27 47 32  3 35 43 46 49 46 48 44 47 38 41 44 46 43 44 47 37 44 46 37 45 42 45 2 42 47 46 44 46 42 43 49 42 43 44 34 48  1 43 10 18 31 29 38 36 21 49]
+
+### Monte Carlo
+
+Usage:
+
+    python3 tsp_mc.py
+
+Output:
+
+[first_visit] Episode 0, Total reward: -470046.2979980491
+</br>[first_visit] Episode 100, Total reward: -280396.2847658678
+</br>[first_visit] Episode 200, Total reward: -360232.22805909143
+</br>[first_visit] Episode 300, Total reward: -390252.82404443267
+</br>[first_visit] Episode 400, Total reward: -380197.159107395
+</br>[first_visit] Episode 500, Total reward: -260400.66824294123
+</br>[first_visit] Episode 600, Total reward: -390230.4264102755
+</br>[first_visit] Episode 700, Total reward: -340287.3358575449
+</br>[first_visit] Episode 800, Total reward: -310370.4014808186
+</br>[first_visit] Episode 900, Total reward: -480019.5818933193
+
+</br>[every_visit] Episode 0, Total reward: -470041.91290557204
+</br>[every_visit] Episode 100, Total reward: -250400.2393283202
+</br>[every_visit] Episode 200, Total reward: -400163.45862094226
+</br>[every_visit] Episode 300, Total reward: -310311.71983244846
+</br>[every_visit] Episode 400, Total reward: -190514.26084943805
+</br>[every_visit] Episode 500, Total reward: -300328.8581975854
+</br>[every_visit] Episode 600, Total reward: -240427.21656517198
+</br>[every_visit] Episode 700, Total reward: -160498.26052679142
+</br>[every_visit] Episode 800, Total reward: -130552.03603468764
+</br>[every_visit] Episode 900, Total reward: -210389.7790935267
+
+</br>Optimal Policy (First Visit): [ 0 28  0 28 36 47 40 30 38 26 12 28 45 38 48 25 11 17  6 36 30 9 35 48 30 27  6 31  0 26  3 48 36 22  9  5 25 25 24 11 32 29  4  6 41 19 27 34 41  6]
+
+Optimal Policy (Every Visit): [24 49 21 33 41 26 43 27 15 48 11 13 26 31  8 30 38 36 19  6  1 47 18 19 9 39 14 31 16 14 32 44 37 21  3 40 23 33 22 46 20  2 12 35 28  3 12 10 36 12]
