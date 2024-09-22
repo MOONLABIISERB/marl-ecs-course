@@ -1,6 +1,6 @@
 # Assignment 1 and Assignment 2 Results
 ## Output and Results have been sent as jpg file in respective folders
-# Assignment 1
+# Assignment 1 (Folder name Q1 and Q2)
 ## Q1 Result:
 #### Optimum Values
 value(Hostel)= 16.05623156 
@@ -21,7 +21,7 @@ value(canteen)= 18.82669839
 
 Value Iteration and Policy iteration values have been uploaded along with code and quiver plot
 
-# Assignment2
+# Assignment2 (Folder name: Assignment2)
 ## Q1 a)
 ### Value Iteration result
 ```bash
