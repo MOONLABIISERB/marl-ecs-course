@@ -23,6 +23,11 @@ Value Iteration and Policy iteration values have been uploaded along with code a
 # MultiAgent-Rl_Assignment2
 ## Q1
 ### Value Iteration result
+```bash
+Value iteration converged after 3 iterations
+Optimal Path: [0, 2, 4, 1, 3]
+```
+
 #### Value iteration converts and output shows optimum policy along with optimum values.
 
 ## Q2
