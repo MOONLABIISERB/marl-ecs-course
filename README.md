@@ -50,10 +50,10 @@ Step 1: Human moves DOWN, New Human Pos: (2, 2), New Box Pos: (4, 3)
 Step 2: Human moves DOWN, New Human Pos: (3, 2), New Box Pos: (4, 3)
 Step 3: Human moves DOWN, New Human Pos: (4, 2), New Box Pos: (4, 3)
 Step 4: Human moves RIGHT, New Human Pos: (4, 3), New Box Pos: (4, 4)
-No valid action found. Ending simulation.```
+No valid action found. Ending simulation.
+```
 ### Difference between Value Iteration and Monte Carlo:
 #### Value iteration converges quicker than Monte Carlo since the latter has an exploring nature, i.e exploring starts.
 
-### Difference between Value Iteration and Monte Carlo:
-#### Value iteration converges quicker than Monte Carlo since the latter has an exploring nature, i.e exploring starts.
+
 
