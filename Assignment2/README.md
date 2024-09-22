@@ -4,6 +4,8 @@
 
 ## Q1 a)
 ### Value Iteration result and Optimum Policy
+
+#### Optimal path depends on the distance of the randomly generated points and may change when program is compiled again
 ```bash
 Value iteration converged after 3 iterations
 Optimal Path: [0, 2, 4, 1, 3]
