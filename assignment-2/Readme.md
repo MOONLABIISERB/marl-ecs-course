@@ -90,15 +90,15 @@ Optimal Policy: [27 47 32  3 35 43 46 49 46 48 44 47 38 41 44 46 43 44 47 37 44 
 
 First Visit:
 
-[first visit] Episode 0, Total reward: -450073.71245972626
+[first visit] Episode 0, Reward: -450073.71245972626
 
-[first visit] Episode 200, Total reward: -370162.94211850595
+[first visit] Episode 200, Reward: -370162.94211850595
 
-[first visit] Episode 400, Total reward: -340181.72428274265
+[first visit] Episode 400, Reward: -340181.72428274265
 
-[first visit] Episode 600, Total reward: -350232.7555967795
+[first visit] Episode 600, Reward: -350232.7555967795
 
-[first visit] Episode 800, Total reward: -310259.48477476713
+[first visit] Episode 800, Reward: -310259.48477476713
 
 
 Optimal Policy (First Visit): [ 0 40 30 43 39 25 35 13 39 32 14 39 43 46 23 34 37  6 35 48  8 49 39  5
@@ -108,15 +108,15 @@ Optimal Policy (First Visit): [ 0 40 30 43 39 25 35 13 39 32 14 39 43 46 23 34 3
 
 Every Visit:
 
-[every visit] Episode 0, Total reward: -450077.99397766375
+[every visit] Episode 0, Reward: -450077.99397766375
 
-[every visit] Episode 200, Total reward: -270359.10190867144
+[every visit] Episode 200, Reward: -270359.10190867144
 
-[every visit] Episode 400, Total reward: -160558.9483436579
+[every visit] Episode 400, Reward: -160558.9483436579
 
-[every visit] Episode 600, Total reward: -220417.5350452337
+[every visit] Episode 600, Reward: -220417.5350452337
 
-[every visit] Episode 800, Total reward: -280311.3135306718
+[every visit] Episode 800, Reward: -280311.3135306718
 
 Optimal Policy (Every Visit): [34  9 34 46 47 42  4 21 27 24 39  8 48 27 22 17 30 48 12  8 14 18 26 31
   2 15 23 22 45 48 43 32 15  1 18 25 43  8 40 11 10  5 40 36  6 24 20  9
@@ -162,5 +162,9 @@ Monte Carlo (MC) Methods: MC methods work by observing what happens in many play
    -12.53768911]
  [  -3.37001771   -4.60460524   -5.72760526   -8.4259349    -9.79481231
     -9.34686409]]
+
+
+
+
 
 
