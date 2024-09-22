@@ -1,6 +1,6 @@
-# Assignment 1 
-## Output and Results have been sent as jpg file in respective folders
 # Assignment 1 (Folder name Q1 and Q2)
+## Output and Results have been sent as jpg file in respective folders
+
 ## Q1 Result:
 #### Optimum Values
 value(Hostel)= 16.05623156 
