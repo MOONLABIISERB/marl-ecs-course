@@ -16,9 +16,8 @@ Clearly, DP (Value Iteration) is doing better in this case compared to Monte-Car
 
 Optimal Policy after Value Iteration:
 
-State           Optimal Action 
-------------------------------
-(0, 0)          UP             
+| State     |      Optimal Action  |
+(0, 0)          UP              
 (0, 1)          DOWN           
 (0, 2)          DOWN           
 (0, 3)          UP             
