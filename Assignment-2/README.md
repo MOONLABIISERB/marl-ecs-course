@@ -12,5 +12,4 @@ Clearly, DP (Value Iteration) is doing better in this case compared to Monte-Car
 
 ### Question-2: Sokoban Puzzle
 
-![My Image](Assignment-2/Question-2/Screenshot 2024-09-23 230537.png)
-
+![Screenshot 2024-09-23 230537](https://github.com/user-attachments/assets/8ce446fd-631a-4a6f-bfd3-60ab16744a35)
