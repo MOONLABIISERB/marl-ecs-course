@@ -11,3 +11,6 @@ The following is the result obtained while setting number of target equals 15:
 Clearly, DP (Value Iteration) is doing better in this case compared to Monte-Carlo Approach.
 
 ### Question-2: Sokoban Puzzle
+
+![My Image](Assignment-2/Question-2/Screenshot 2024-09-23 230537.png)
+
