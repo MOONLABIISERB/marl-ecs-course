@@ -62,10 +62,9 @@ State & Optimal Action
 A box is stuck! Episode complete.
 
 
-Optimal Policy after Monte Carlo Control:
+#### Optimal Policy after Monte Carlo Control:
 
-State & Optimal Action 
-
+#####State & Optimal Action 
 
 (0, 0)          LEFT           
 (0, 1)          RIGHT          
