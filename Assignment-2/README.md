@@ -16,7 +16,7 @@ Clearly, DP (Value Iteration) is doing better in this case compared to Monte-Car
 
 Optimal Policy after Value Iteration:
 
-State       Optimal Action  
+State & Optimal Action  
 (0, 0)          UP              
 (0, 1)          DOWN           
 (0, 2)          DOWN           
@@ -60,3 +60,50 @@ State       Optimal Action
 (6, 4)          UP             
 (6, 5)          UP             
 A box is stuck! Episode complete.
+
+
+Optimal Policy after Monte Carlo Control:
+
+State & Optimal Action 
+(0, 0)          LEFT           
+(0, 1)          RIGHT          
+(0, 2)          DOWN           
+(0, 3)          RIGHT          
+(0, 4)          RIGHT          
+(0, 5)          UP             
+(1, 0)          UP             
+(1, 1)          DOWN           
+(1, 2)          LEFT           
+(1, 3)          RIGHT          
+(1, 4)          UP             
+(1, 5)          RIGHT          
+(2, 0)          LEFT           
+(2, 1)          UP             
+(2, 2)          DOWN           
+(2, 3)          RIGHT          
+(2, 4)          LEFT           
+(2, 5)          RIGHT          
+(3, 0)          RIGHT          
+(3, 1)          DOWN           
+(3, 2)          RIGHT          
+(3, 3)          DOWN           
+(3, 4)          DOWN           
+(3, 5)          LEFT           
+(4, 0)          DOWN           
+(4, 1)          RIGHT          
+(4, 2)          RIGHT          
+(4, 3)          UP             
+(4, 4)          UP             
+(4, 5)          UP             
+(5, 0)          LEFT           
+(5, 1)          RIGHT          
+(5, 2)          UP             
+(5, 3)          UP             
+(5, 4)          LEFT           
+(5, 5)          LEFT           
+(6, 0)          DOWN           
+(6, 1)          UP             
+(6, 2)          RIGHT          
+(6, 3)          UP             
+(6, 4)          DOWN           
+(6, 5)          DOWN    
