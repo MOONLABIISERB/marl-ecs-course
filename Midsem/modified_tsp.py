@@ -1,4 +1,4 @@
-"""Environment for Travelling Salesman Problem."""
+"""Environment for Modified Travelling Salesman Problem."""
 
 from typing import Dict, List, Optional, Tuple
 
@@ -8,10 +8,10 @@ from numpy import typing as npt
 
 
 class ModTSP(gym.Env):
-    """Travelling Salesman Problem (TSP) RL environment for persistent monitoring.
+    """Travelling Salesman Problem (TSP) RL environment for maximizing profits.
 
     The agent navigates a set of targets based on precomputed distances. It aims to visit
-    all targets in the least number of steps, with rewards determined by the distance traveled.
+    all targets so maximize profits. The profits decay with time.
     """
 
     def __init__(
