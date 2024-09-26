@@ -94,6 +94,7 @@ class ModTSP(gym.Env):
 
         self.loc: int = 0
         self.visited_targets: npt.NDArray[np.float32] = np.zeros(self.num_targets)
+        self.current_profits = self.initial_profits.copy()
         self.dist: List = self.distances[self.loc]
 
         if self.shuffle_time % self.episodes == 0:
