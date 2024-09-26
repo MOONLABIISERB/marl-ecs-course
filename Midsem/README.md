@@ -62,7 +62,7 @@ Deep Q-Network (DQN)
 
 ## Results
 
-![Distance](plots/distance.png)
+![Distance](plots/dist.png)
 
 ![Distance](plots/loss.png)
 
