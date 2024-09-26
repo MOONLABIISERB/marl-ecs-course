@@ -1,0 +1,47 @@
+Episode 0, Avg Loss: 1000.0000, Reward: -29.961775371551514, exploration: 0.7000
+Episode 100, Avg Loss: 1000.0000, Reward: -79.98676806640626, exploration: 0.6683
+Episode 200, Avg Loss: 1000.0000, Reward: -121.42250390625, exploration: 0.6381
+Episode 300, Avg Loss: 1000.0000, Reward: -141.02620703125, exploration: 0.6095
+Episode 400, Avg Loss: 1000.0000, Reward: -235.20823242187498, exploration: 0.5822
+Episode 500, Avg Loss: 1000.0000, Reward: -193.50366796875, exploration: 0.5562
+Episode 600, Avg Loss: 1000.0000, Reward: -248.32519531249997, exploration: 0.5315
+Episode 700, Avg Loss: 1000.0000, Reward: -243.69089843749998, exploration: 0.5080
+Episode 800, Avg Loss: 1000.0000, Reward: -267.7880625, exploration: 0.4857
+Episode 900, Avg Loss: 1000.0000, Reward: -290.761359375, exploration: 0.4645
+Episode 1000, Avg Loss: 67.0226, Reward: -366.886671875, exploration: 0.4442
+Episode 1100, Avg Loss: 51.7065, Reward: -336.7150859375, exploration: 0.4250
+Episode 1200, Avg Loss: 63.5594, Reward: -555.6062812499999, exploration: 0.4067
+Episode 1300, Avg Loss: 59.5954, Reward: -311.7630625, exploration: 0.3893
+Episode 1400, Avg Loss: 63.4651, Reward: -402.08303125, exploration: 0.3728
+Episode 1500, Avg Loss: 60.2331, Reward: -422.498328125, exploration: 0.3570
+Episode 1600, Avg Loss: 66.6082, Reward: -357.44239062500003, exploration: 0.3421
+Episode 1700, Avg Loss: 68.0891, Reward: -280.832546875, exploration: 0.3278
+Episode 1800, Avg Loss: 66.3748, Reward: -574.3891796875, exploration: 0.3143
+Traceback (most recent call last):
+  File "/home/protomate/marl-ecs-course/Midsem/modified_tsp.py", line 79, in <module>
+    main()
+  File "/home/protomate/marl-ecs-course/Midsem/modified_tsp.py", line 52, in main
+    loss = agent.learn_from_memory(batch_size=batchSize)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/protomate/marl-ecs-course/Midsem/agent.py", line 107, in learn_from_memory
+    loss = self.loss_fn(state_action_values, expected_state_action_values.unsqueeze(1))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/protomate/.pyenv/versions/3.12.4/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/protomate/.pyenv/versions/3.12.4/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/protomate/.pyenv/versions/3.12.4/lib/python3.12/site-packages/torch/nn/modules/loss.py", line 942, in forward
+    return F.smooth_l1_loss(input, target, reduction=self.reduction, beta=self.beta)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/protomate/.pyenv/versions/3.12.4/lib/python3.12/site-packages/torch/nn/functional.py", line 3283, in smooth_l1_loss
+    expanded_input, expanded_target = torch.broadcast_tensors(input, target)
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/protomate/.pyenv/versions/3.12.4/lib/python3.12/site-packages/torch/functional.py", line 77, in broadcast_tensors
+    return _VF.broadcast_tensors(tensors)  # type: ignore[attr-defined]
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/protomate/.pyenv/versions/3.12.4/lib/python3.12/site-packages/torch/_VF.py", line 26, in __getattr__
+    def __getattr__(self, attr):
+
+KeyboardInterrupt

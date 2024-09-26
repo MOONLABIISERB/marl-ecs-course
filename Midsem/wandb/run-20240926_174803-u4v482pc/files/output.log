@@ -1,0 +1,23 @@
+Episode 0, Avg Loss: 1000.0000, Reward: -19948.76579475403, exploration: 0.7000
+Episode 100, Avg Loss: 3185.7596, Reward: -75898.91650390625, exploration: 0.6663
+Episode 200, Avg Loss: 3616.8478, Reward: -119934.603515625, exploration: 0.6343
+Episode 300, Avg Loss: 6638.2288, Reward: -153205.30078125, exploration: 0.6039
+Episode 400, Avg Loss: 10964.8479, Reward: -203819.484375, exploration: 0.5749
+Episode 500, Avg Loss: 15062.7341, Reward: -289357.29296875, exploration: 0.5474
+Traceback (most recent call last):
+  File "/home/protomate/marl-ecs-course/Midsem/modified_tsp.py", line 79, in <module>
+    main()
+  File "/home/protomate/marl-ecs-course/Midsem/modified_tsp.py", line 52, in main
+    loss = agent.learn_from_memory(batch_size=batchSize)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/protomate/marl-ecs-course/Midsem/agent.py", line 112, in learn_from_memory
+    self.optimizer.step()
+  File "/home/protomate/.pyenv/versions/3.12.4/lib/python3.12/site-packages/torch/optim/optimizer.py", line 469, in wrapper
+    with torch.autograd.profiler.record_function(profile_name):
+  File "/home/protomate/.pyenv/versions/3.12.4/lib/python3.12/site-packages/torch/autograd/profiler.py", line 688, in __enter__
+    self.record = torch.ops.profiler._record_function_enter_new(
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/protomate/.pyenv/versions/3.12.4/lib/python3.12/site-packages/torch/_ops.py", line 1047, in __call__
+    def __call__(self_, *args, **kwargs):  # noqa: B902
+
+KeyboardInterrupt

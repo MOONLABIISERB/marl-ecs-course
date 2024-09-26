@@ -1,0 +1,14 @@
+{"time":"2024-09-26T15:41:06.686899982+05:30","level":"INFO","msg":"using version","core version":"0.18.1"}
+{"time":"2024-09-26T15:41:06.686911961+05:30","level":"INFO","msg":"created symlink","path":"/home/protomate/marl-ecs-course/Midsem/wandb/run-20240926_154106-js9ept7y/logs/debug-core.log"}
+{"time":"2024-09-26T15:41:06.686946153+05:30","level":"INFO","msg":"using version","core version":"0.18.1"}
+{"time":"2024-09-26T15:41:06.686949172+05:30","level":"INFO","msg":"created symlink","path":"/home/protomate/marl-ecs-course/Midsem/wandb/run-20240926_154106-js9ept7y/logs/debug-core.log"}
+{"time":"2024-09-26T15:41:06.687952038+05:30","level":"INFO","msg":"created new stream","id":"js9ept7y"}
+{"time":"2024-09-26T15:41:06.687961713+05:30","level":"INFO","msg":"stream: started","id":"js9ept7y"}
+{"time":"2024-09-26T15:41:06.687975523+05:30","level":"INFO","msg":"sender: started","stream_id":{"value":"js9ept7y"}}
+{"time":"2024-09-26T15:41:06.687969029+05:30","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"js9ept7y"}}
+{"time":"2024-09-26T15:41:06.688006774+05:30","level":"INFO","msg":"handler: started","stream_id":{"value":"js9ept7y"}}
+{"time":"2024-09-26T15:41:07.152600625+05:30","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-09-26T15:41:07.153126107+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-09-26T15:42:38.119500828+05:30","level":"INFO","msg":"stream: closing","id":"js9ept7y"}
+{"time":"2024-09-26T15:42:38.119512326+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-09-26T15:42:38.11959947+05:30","level":"INFO","msg":"Stopped system monitor"}

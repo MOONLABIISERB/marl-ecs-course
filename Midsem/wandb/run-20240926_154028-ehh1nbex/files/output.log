@@ -1,0 +1,8 @@
+Episode 0, Avg Loss: 1000.0000, Reward: -19.948765794754028, exploration: 0.7000
+Episode 100, Avg Loss: 31.3788, Reward: -78.47913916015625, exploration: 0.6683
+Episode 200, Avg Loss: 48.6664, Reward: -124.077484375, exploration: 0.6381
+Episode 300, Avg Loss: 51.9257, Reward: -154.66396874999998, exploration: 0.6095
+Episode 400, Avg Loss: 40.7456, Reward: -222.14910546875, exploration: 0.5822
+Episode 500, Avg Loss: 38.4123, Reward: -243.4160859375, exploration: 0.5562
+Episode 600, Avg Loss: 32.9062, Reward: -281.33320312499995, exploration: 0.5315
+Episode 700, Avg Loss: 24.0396, Reward: -281.72424218749995, exploration: 0.5080

@@ -27,19 +27,31 @@ class ReplayMemory:
         return len(self.memory)
 
 
+# class DQN(nn.Module):
+#     def __init__(self, state_dim, n_actions):
+#         super(DQN, self).__init__()
+#         self.attention = nn.MultiheadAttention(embed_dim=state_dim, num_heads=4)
+#         self.fc1 = nn.Linear(state_dim, 256)
+#         self.fc2 = nn.Linear(256, n_actions)
+
+#     def forward(self, x):
+#         x, _ = self.attention(x, x, x)
+#         x = F.relu(self.fc1(x))
+#         return self.fc2(x)
+
+
 class DQN(nn.Module):
     def __init__(self, state_dim, n_actions):
         super(DQN, self).__init__()
-        self.fc1 = nn.Linear(state_dim, 128)
-        self.fc2 = nn.Linear(128, 128)
-        self.fc3 = nn.Linear(128, 128)
-        self.fc4 = nn.Linear(128, n_actions)
+        self.fc1 = nn.Linear(state_dim, 256)
+        self.fc2 = nn.Linear(256, 256)
+        self.fc5 = nn.Linear(256, n_actions)
 
-    def forward(self, state):
-        x = F.relu(self.fc1(state))
+    def forward(self, x):
+        x = F.relu(self.fc1(x))
         x = F.relu(self.fc2(x))
-        x = F.relu(self.fc3(x))
-        return self.fc4(x)
+        x = self.fc5(x)
+        return x
 
 
 class Agent:
@@ -53,7 +65,7 @@ class Agent:
         self.n_actions = n_actions
         self.gamma = gamma
 
-        self.optimizer = optim.Adam(self.knowledge.parameters(), lr=0.0001)
+        self.optimizer = optim.Adam(self.knowledge.parameters(), lr=0.0005)
         self.loss_fn = nn.SmoothL1Loss()
 
     def action(self, state: np.ndarray, exploration_prob: float):
@@ -92,56 +104,10 @@ class Agent:
 
         self.optimizer.zero_grad()
         loss.backward()
-        torch.nn.utils.clip_grad_norm_(self.knowledge.parameters(), max_norm=1.0)
+        # torch.nn.utils.clip_grad_norm_(self.knowledge.parameters(), max_norm=1.0)
         self.optimizer.step()
 
         return loss.item()
 
     def update_knowledge(self):
         self.target_net.load_state_dict(self.knowledge.state_dict())
-
-
-if __name__ == "__main__":
-    # Initialize wandb
-    wandb.init(project="dqn-cartpole", name="DQN-CartPole-v1")
-
-    # Usage example
-    env = gym.make("CartPole-v1")
-    state_dim = env.observation_space.shape[0]
-    n_actions = env.action_space.n
-    agent = Agent(memory_capacity=10000, state_dim=state_dim, n_actions=n_actions, gamma=0.99)
-    batchSize = 512
-
-    # Training loop (modified to use wandb)
-    num_episodes = 1000
-    for episode in range(num_episodes):
-        state, _ = env.reset()
-        done = False
-        episode_reward = 0
-        episode_losses = []
-
-        while not done:
-            action = agent.action(state, exploration_prob=0.05)
-            next_state, reward, terminated, truncated, _ = env.step(action)
-            done = terminated or truncated
-            agent.update_memory(state, action, reward, next_state, done)
-            state = next_state
-            episode_reward += reward
-
-            # Learn and track loss
-            if len(agent.memory) >= batchSize:
-                loss = agent.learn_from_memory(batch_size=batchSize)
-                if loss is not None:
-                    episode_losses.append(loss)
-
-        if episode_losses:
-            avg_loss = np.mean(episode_losses)
-            wandb.log({"episode": episode, "avg_loss": avg_loss, "episode_reward": episode_reward})
-        else:
-            avg_loss = 0
-
-        if episode % 10 == 0:
-            agent.update_knowledge()
-            print(f"Episode {episode}, Avg Loss: {avg_loss:.4f}, Reward: {episode_reward}")
-
-    wandb.finish()

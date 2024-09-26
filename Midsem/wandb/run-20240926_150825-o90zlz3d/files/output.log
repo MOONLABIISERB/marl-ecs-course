@@ -1,0 +1,59 @@
+Episode 0, Avg Loss: 1000.0000, Reward: -29.969669075012206, exploration: 0.7000
+Episode 100, Avg Loss: 1000.0000, Reward: -73.75211376953125, exploration: 0.6683
+Episode 200, Avg Loss: 1000.0000, Reward: -116.13791406249999, exploration: 0.6381
+Episode 300, Avg Loss: 1000.0000, Reward: -144.748103515625, exploration: 0.6095
+Episode 400, Avg Loss: 1000.0000, Reward: -220.255716796875, exploration: 0.5822
+Episode 500, Avg Loss: 1000.0000, Reward: -204.368712890625, exploration: 0.5562
+Episode 600, Avg Loss: 1000.0000, Reward: -233.14308984375, exploration: 0.5315
+Episode 700, Avg Loss: 1000.0000, Reward: -261.15584765625, exploration: 0.5080
+Episode 800, Avg Loss: 1000.0000, Reward: -250.65889843749997, exploration: 0.4857
+Episode 900, Avg Loss: 1000.0000, Reward: -228.769765625, exploration: 0.4645
+Episode 1000, Avg Loss: 97.8426, Reward: -388.31106640625, exploration: 0.4442
+Episode 1100, Avg Loss: 62.9015, Reward: -366.99492578125, exploration: 0.4250
+Episode 1200, Avg Loss: 61.1755, Reward: -510.4322578125, exploration: 0.4067
+Episode 1300, Avg Loss: 64.3090, Reward: -290.216546875, exploration: 0.3893
+Episode 1400, Avg Loss: 55.7029, Reward: -370.9828515625, exploration: 0.3728
+Episode 1500, Avg Loss: 59.7690, Reward: -389.32780468749996, exploration: 0.3570
+Episode 1600, Avg Loss: 52.2568, Reward: -407.463234375, exploration: 0.3421
+Episode 1700, Avg Loss: 54.7556, Reward: -262.19000781249997, exploration: 0.3278
+Episode 1800, Avg Loss: 58.4783, Reward: -440.29253124999997, exploration: 0.3143
+Episode 1900, Avg Loss: 50.2271, Reward: -456.22546875, exploration: 0.3014
+Episode 2000, Avg Loss: 51.2255, Reward: -285.570359375, exploration: 0.2891
+Episode 2100, Avg Loss: 46.0285, Reward: -485.1161875, exploration: 0.2775
+Episode 2200, Avg Loss: 50.7307, Reward: -500.1681328125, exploration: 0.2664
+Episode 2300, Avg Loss: 51.1040, Reward: -411.291875, exploration: 0.2558
+Episode 2400, Avg Loss: 52.0632, Reward: -314.6527578125, exploration: 0.2458
+Episode 2500, Avg Loss: 53.8598, Reward: -210.87784375, exploration: 0.2362
+Episode 2600, Avg Loss: 47.1766, Reward: -672.523875, exploration: 0.2271
+Episode 2700, Avg Loss: 46.3598, Reward: -571.8975234375, exploration: 0.2185
+Episode 2800, Avg Loss: 48.9100, Reward: -342.307859375, exploration: 0.2103
+Episode 2900, Avg Loss: 46.9061, Reward: -472.73021874999995, exploration: 0.2025
+Episode 3000, Avg Loss: 52.7237, Reward: -354.362625, exploration: 0.1950
+Episode 3100, Avg Loss: 48.1778, Reward: -360.297796875, exploration: 0.1880
+Episode 3200, Avg Loss: 51.1858, Reward: -366.12912500000004, exploration: 0.1812
+Episode 3300, Avg Loss: 49.7080, Reward: -235.883359375, exploration: 0.1748
+Episode 3400, Avg Loss: 51.5705, Reward: -516.135640625, exploration: 0.1687
+Episode 3500, Avg Loss: 52.6878, Reward: -524.45603125, exploration: 0.1630
+Episode 3600, Avg Loss: 51.3148, Reward: -388.475875, exploration: 0.1574
+Episode 3700, Avg Loss: 55.5825, Reward: -393.772703125, exploration: 0.1522
+Episode 3800, Avg Loss: 60.8203, Reward: -548.587203125, exploration: 0.1472
+Episode 3900, Avg Loss: 61.6660, Reward: -251.701890625, exploration: 0.1425
+Episode 4000, Avg Loss: 61.4409, Reward: -716.8822656250001, exploration: 0.1380
+Episode 4100, Avg Loss: 52.9539, Reward: -570.1981874999999, exploration: 0.1337
+Episode 4200, Avg Loss: 60.1525, Reward: -259.126265625, exploration: 0.1296
+Traceback (most recent call last):
+  File "/home/protomate/marl-ecs-course/Midsem/modified_tsp.py", line 79, in <module>
+    main()
+  File "/home/protomate/marl-ecs-course/Midsem/modified_tsp.py", line 52, in main
+    loss = agent.learn_from_memory(batch_size=batchSize)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/protomate/marl-ecs-course/Midsem/agent.py", line 91, in learn_from_memory
+    transitions = self.memory.sample(batch_size)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/protomate/marl-ecs-course/Midsem/agent.py", line 24, in sample
+    return random.sample(self.memory, batch_size)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/protomate/.pyenv/versions/3.12.4/lib/python3.12/random.py", line 451, in sample
+    result[i] = population[j]
+    ~~~~~~^^^
+KeyboardInterrupt

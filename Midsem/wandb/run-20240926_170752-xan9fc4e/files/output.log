@@ -1,0 +1,45 @@
+Episode 0, Avg Loss: 1000.0000, Reward: -19.832507074356077, exploration: 0.7000
+Episode 100, Avg Loss: 1.1921, Reward: -67.98808789062501, exploration: 0.6683
+Episode 200, Avg Loss: 0.3589, Reward: -130.9144775390625, exploration: 0.6381
+Episode 300, Avg Loss: 1.8235, Reward: -162.3473984375, exploration: 0.6095
+Episode 400, Avg Loss: 6.1689, Reward: -200.524171875, exploration: 0.5822
+Episode 500, Avg Loss: 5.9150, Reward: -191.7871796875, exploration: 0.5562
+Episode 600, Avg Loss: 7.5267, Reward: -187.47188281249998, exploration: 0.5315
+Episode 700, Avg Loss: 7.8146, Reward: -309.73858203125, exploration: 0.5080
+Episode 800, Avg Loss: 9.8031, Reward: -302.6617109375, exploration: 0.4857
+Episode 900, Avg Loss: 8.4523, Reward: -238.36191015625, exploration: 0.4645
+Episode 1000, Avg Loss: 11.4179, Reward: -356.53083593750006, exploration: 0.4442
+Episode 1100, Avg Loss: 13.7678, Reward: -437.72340625, exploration: 0.4250
+Episode 1200, Avg Loss: 9.2584, Reward: -344.1285625, exploration: 0.4067
+Episode 1300, Avg Loss: 15.2492, Reward: -232.121375, exploration: 0.3893
+Episode 1400, Avg Loss: 12.6223, Reward: -381.66443749999996, exploration: 0.3728
+Episode 1500, Avg Loss: 11.0620, Reward: -400.4749140625, exploration: 0.3570
+Episode 1600, Avg Loss: 17.6566, Reward: -419.23571874999993, exploration: 0.3421
+Episode 1700, Avg Loss: 16.8592, Reward: -353.0956640625, exploration: 0.3278
+Episode 1800, Avg Loss: 23.5918, Reward: -454.4645, exploration: 0.3143
+Episode 1900, Avg Loss: 17.4548, Reward: -471.46523437499997, exploration: 0.3014
+Traceback (most recent call last):
+  File "/home/protomate/marl-ecs-course/Midsem/modified_tsp.py", line 79, in <module>
+    main()
+  File "/home/protomate/marl-ecs-course/Midsem/modified_tsp.py", line 52, in main
+    loss = agent.learn_from_memory(batch_size=batchSize)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/protomate/marl-ecs-course/Midsem/agent.py", line 112, in learn_from_memory
+    self.optimizer.step()
+  File "/home/protomate/.pyenv/versions/3.12.4/lib/python3.12/site-packages/torch/optim/optimizer.py", line 484, in wrapper
+    out = func(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/protomate/.pyenv/versions/3.12.4/lib/python3.12/site-packages/torch/optim/optimizer.py", line 89, in _use_grad
+    ret = func(self, *args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/protomate/.pyenv/versions/3.12.4/lib/python3.12/site-packages/torch/optim/adam.py", line 226, in step
+    adam(
+  File "/home/protomate/.pyenv/versions/3.12.4/lib/python3.12/site-packages/torch/optim/optimizer.py", line 161, in maybe_fallback
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/protomate/.pyenv/versions/3.12.4/lib/python3.12/site-packages/torch/optim/adam.py", line 766, in adam
+    func(
+  File "/home/protomate/.pyenv/versions/3.12.4/lib/python3.12/site-packages/torch/optim/adam.py", line 602, in _multi_tensor_adam
+    exp_avg_sq_sqrt = torch._foreach_sqrt(device_exp_avg_sqs)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

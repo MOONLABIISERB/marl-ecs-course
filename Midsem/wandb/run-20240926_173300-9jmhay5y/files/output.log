@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/home/protomate/marl-ecs-course/Midsem/modified_tsp.py", line 79, in <module>
+    main()
+  File "/home/protomate/marl-ecs-course/Midsem/modified_tsp.py", line 43, in main
+    obs_, reward, terminated, truncated, info = env.step(action)
+                                                ^^^^^^^^^^^^^^^^
+  File "/home/protomate/marl-ecs-course/Midsem/modTSP.py", line 131, in step
+    terminated = bool(self.visited_targets == np.ones(self.num_targets, dtype=np.float32))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()

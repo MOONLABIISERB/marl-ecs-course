@@ -1,0 +1,29 @@
+Episode 0, Avg Loss: 1000.0000, Reward: -29972.057971954346, exploration: 0.7000
+Episode 100, Avg Loss: 3091.9913, Reward: -78305.521484375, exploration: 0.6683
+Episode 200, Avg Loss: 4227.3845, Reward: -122094.736328125, exploration: 0.6381
+Episode 300, Avg Loss: 8191.9681, Reward: -151932.359375, exploration: 0.6095
+Episode 400, Avg Loss: 10723.3775, Reward: -236863.4375, exploration: 0.5822
+Traceback (most recent call last):
+  File "/home/protomate/marl-ecs-course/Midsem/modified_tsp.py", line 79, in <module>
+    main()
+  File "/home/protomate/marl-ecs-course/Midsem/modified_tsp.py", line 52, in main
+    loss = agent.learn_from_memory(batch_size=batchSize)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/protomate/marl-ecs-course/Midsem/agent.py", line 112, in learn_from_memory
+    self.optimizer.step()
+  File "/home/protomate/.pyenv/versions/3.12.4/lib/python3.12/site-packages/torch/optim/optimizer.py", line 484, in wrapper
+    out = func(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/protomate/.pyenv/versions/3.12.4/lib/python3.12/site-packages/torch/optim/optimizer.py", line 89, in _use_grad
+    ret = func(self, *args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/protomate/.pyenv/versions/3.12.4/lib/python3.12/site-packages/torch/optim/adam.py", line 226, in step
+    adam(
+  File "/home/protomate/.pyenv/versions/3.12.4/lib/python3.12/site-packages/torch/optim/optimizer.py", line 161, in maybe_fallback
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/protomate/.pyenv/versions/3.12.4/lib/python3.12/site-packages/torch/optim/adam.py", line 766, in adam
+    func(
+  File "/home/protomate/.pyenv/versions/3.12.4/lib/python3.12/site-packages/torch/optim/adam.py", line 604, in _multi_tensor_adam
+    torch._foreach_div_(exp_avg_sq_sqrt, bias_correction2_sqrt)
+KeyboardInterrupt

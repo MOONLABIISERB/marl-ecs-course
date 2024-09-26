@@ -1,0 +1,71 @@
+Episode 0, Avg Loss: 0.0000, Reward: 10.0
+Episode 10, Avg Loss: 0.0000, Reward: 10.0
+Episode 20, Avg Loss: 0.0000, Reward: 9.0
+Episode 30, Avg Loss: 0.0000, Reward: 9.0
+Episode 40, Avg Loss: 0.0000, Reward: 9.0
+Episode 50, Avg Loss: 0.0000, Reward: 9.0
+Episode 60, Avg Loss: 0.2595, Reward: 8.0
+Episode 70, Avg Loss: 0.1957, Reward: 9.0
+Episode 80, Avg Loss: 0.1602, Reward: 12.0
+Episode 90, Avg Loss: 0.1281, Reward: 10.0
+Episode 100, Avg Loss: 0.1693, Reward: 9.0
+Episode 110, Avg Loss: 0.2341, Reward: 9.0
+Episode 120, Avg Loss: 0.3601, Reward: 9.0
+Episode 130, Avg Loss: 0.3745, Reward: 9.0
+Episode 140, Avg Loss: 0.4717, Reward: 9.0
+Episode 150, Avg Loss: 0.5648, Reward: 8.0
+Episode 160, Avg Loss: 0.6404, Reward: 9.0
+Episode 170, Avg Loss: 0.6839, Reward: 11.0
+Episode 180, Avg Loss: 0.7660, Reward: 9.0
+Episode 190, Avg Loss: 0.9030, Reward: 8.0
+Episode 200, Avg Loss: 0.8499, Reward: 9.0
+Episode 210, Avg Loss: 0.9695, Reward: 10.0
+Episode 220, Avg Loss: 1.1179, Reward: 9.0
+Episode 230, Avg Loss: 1.2531, Reward: 9.0
+Episode 240, Avg Loss: 1.3462, Reward: 8.0
+Episode 250, Avg Loss: 1.3550, Reward: 10.0
+Episode 260, Avg Loss: 1.5619, Reward: 16.0
+Episode 270, Avg Loss: 1.6885, Reward: 16.0
+Episode 280, Avg Loss: 1.8394, Reward: 14.0
+Episode 290, Avg Loss: 2.0656, Reward: 16.0
+Episode 300, Avg Loss: 2.3197, Reward: 14.0
+Episode 310, Avg Loss: 2.7741, Reward: 14.0
+Episode 320, Avg Loss: 3.1755, Reward: 13.0
+Episode 330, Avg Loss: 3.7191, Reward: 10.0
+Episode 340, Avg Loss: 3.9289, Reward: 24.0
+Episode 350, Avg Loss: 4.6658, Reward: 8.0
+Episode 360, Avg Loss: 5.1098, Reward: 9.0
+Episode 370, Avg Loss: 5.6172, Reward: 9.0
+Episode 380, Avg Loss: 6.0838, Reward: 10.0
+Episode 390, Avg Loss: 7.0442, Reward: 9.0
+Episode 400, Avg Loss: 7.8580, Reward: 10.0
+Episode 410, Avg Loss: 8.7887, Reward: 9.0
+Traceback (most recent call last):
+  File "/home/protomate/marl-ecs-course/Midsem/agent.py", line 131, in <module>
+    loss = agent.learn_from_memory(batch_size=batchSize)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/protomate/marl-ecs-course/Midsem/agent.py", line 85, in learn_from_memory
+    next_state_values = self.target_net(next_state_batch).max(1)[0]
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/protomate/.pyenv/versions/3.12.4/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/protomate/.pyenv/versions/3.12.4/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/protomate/marl-ecs-course/Midsem/agent.py", line 38, in forward
+    x, _ = self.attention(x, x, x)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/protomate/.pyenv/versions/3.12.4/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/protomate/.pyenv/versions/3.12.4/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/protomate/.pyenv/versions/3.12.4/lib/python3.12/site-packages/torch/nn/modules/activation.py", line 1275, in forward
+    attn_output, attn_output_weights = F.multi_head_attention_forward(
+                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/protomate/.pyenv/versions/3.12.4/lib/python3.12/site-packages/torch/nn/functional.py", line 5539, in multi_head_attention_forward
+    attn_output_weights = attn_output_weights.mean(dim=1)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

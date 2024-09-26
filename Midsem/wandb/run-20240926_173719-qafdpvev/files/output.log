@@ -1,0 +1,59 @@
+Episode 0, Avg Loss: 1000.0000, Reward: -29861.888271331787, exploration: 0.7000
+Episode 100, Avg Loss: 856.3258, Reward: -66808.40087890625, exploration: 0.6663
+Episode 200, Avg Loss: 2698.5219, Reward: -132821.4716796875, exploration: 0.6343
+Episode 300, Avg Loss: 5107.4028, Reward: -162873.712890625, exploration: 0.6039
+Episode 400, Avg Loss: 7373.8735, Reward: -201451.7734375, exploration: 0.5749
+Episode 500, Avg Loss: 11251.6451, Reward: -240484.4140625, exploration: 0.5474
+Episode 600, Avg Loss: 13923.7807, Reward: -189127.73828125, exploration: 0.5212
+Episode 700, Avg Loss: 17347.3295, Reward: -243990.75, exploration: 0.4962
+Episode 800, Avg Loss: 17179.8075, Reward: -309691.01953125, exploration: 0.4725
+Episode 900, Avg Loss: 16040.2392, Reward: -339204.0859375, exploration: 0.4500
+Episode 1000, Avg Loss: 24641.7002, Reward: -314802.734375, exploration: 0.4285
+Episode 1100, Avg Loss: 23082.6161, Reward: -396889.21875, exploration: 0.4081
+Episode 1200, Avg Loss: 26617.4291, Reward: -359454.421875, exploration: 0.3887
+Episode 1300, Avg Loss: 30712.4330, Reward: -380748.5390625, exploration: 0.3702
+Episode 1400, Avg Loss: 25964.3978, Reward: -325806.734375, exploration: 0.3526
+Episode 1500, Avg Loss: 33683.9770, Reward: -180253.265625, exploration: 0.3359
+Episode 1600, Avg Loss: 32800.1965, Reward: -355761.8125, exploration: 0.3200
+Episode 1700, Avg Loss: 31316.2570, Reward: -370477.1875, exploration: 0.3049
+Episode 1800, Avg Loss: 41043.3754, Reward: -100000.0, exploration: 0.2905
+Episode 1900, Avg Loss: 45318.5137, Reward: -199577.015625, exploration: 0.2769
+Episode 2000, Avg Loss: 36226.0652, Reward: -414254.625, exploration: 0.2638
+Episode 2100, Avg Loss: 45209.8090, Reward: -428404.0234375, exploration: 0.2515
+Episode 2200, Avg Loss: 42193.6537, Reward: -214191.609375, exploration: 0.2397
+Episode 2300, Avg Loss: 43213.3361, Reward: -336668.671875, exploration: 0.2285
+Episode 2400, Avg Loss: 42054.0277, Reward: -345123.953125, exploration: 0.2178
+Episode 2500, Avg Loss: 46538.1926, Reward: -226621.40625, exploration: 0.2077
+Episode 2600, Avg Loss: 81974.0047, Reward: -361284.75, exploration: 0.1980
+Episode 2700, Avg Loss: 60550.8080, Reward: -504180.375, exploration: 0.1889
+Episode 2800, Avg Loss: 45017.6676, Reward: -376784.515625, exploration: 0.1802
+Episode 2900, Avg Loss: 50215.9246, Reward: -384730.375, exploration: 0.1719
+Episode 3000, Avg Loss: 55059.7473, Reward: -391373.359375, exploration: 0.1640
+Episode 3100, Avg Loss: 47153.4236, Reward: -693903.609375, exploration: 0.1565
+Episode 3200, Avg Loss: 57758.6121, Reward: -556458.921875, exploration: 0.1493
+Episode 3300, Avg Loss: 46525.3295, Reward: -411118.703125, exploration: 0.1425
+Episode 3400, Avg Loss: 52666.4584, Reward: -258898.484375, exploration: 0.1361
+Episode 3500, Avg Loss: 59770.3168, Reward: -425157.359375, exploration: 0.1299
+Episode 3600, Avg Loss: 56611.0113, Reward: -431281.5625, exploration: 0.1241
+Episode 3700, Avg Loss: 56419.6514, Reward: -606145.015625, exploration: 0.1185
+Episode 3800, Avg Loss: 53969.5439, Reward: -616799.484375, exploration: 0.1132
+Episode 3900, Avg Loss: 53666.3473, Reward: -451935.828125, exploration: 0.1082
+Episode 4000, Avg Loss: 57467.8773, Reward: -638997.359375, exploration: 0.1034
+Episode 4100, Avg Loss: 51392.0932, Reward: -466492.640625, exploration: 0.0988
+Episode 4200, Avg Loss: 55082.1068, Reward: -286660.765625, exploration: 0.0945
+Episode 4300, Avg Loss: 44077.2932, Reward: -479815.390625, exploration: 0.0904
+Episode 4400, Avg Loss: 52209.3168, Reward: -679253.5, exploration: 0.0865
+Episode 4500, Avg Loss: 43972.1687, Reward: -492421.015625, exploration: 0.0827
+Episode 4600, Avg Loss: 52780.5311, Reward: -498348.796875, exploration: 0.0792
+Episode 4700, Avg Loss: 58419.3086, Reward: -908705.0, exploration: 0.0758
+Episode 4800, Avg Loss: 57866.2342, Reward: -305066.15625, exploration: 0.0726
+Traceback (most recent call last):
+  File "/home/protomate/marl-ecs-course/Midsem/modified_tsp.py", line 79, in <module>
+    main()
+  File "/home/protomate/marl-ecs-course/Midsem/modified_tsp.py", line 52, in main
+    loss = agent.learn_from_memory(batch_size=batchSize)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/protomate/marl-ecs-course/Midsem/agent.py", line 107, in learn_from_memory
+    loss = self.loss_fn(state_action_values, expected_state_action_values.unsqueeze(1))
+                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

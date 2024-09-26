@@ -1,0 +1,26 @@
+Episode 0, Avg Loss: 1000.0000, Reward: -29.958368204116823, exploration: 0.7000
+Episode 100, Avg Loss: 5.5978, Reward: -77.023166015625, exploration: 0.6683
+Episode 200, Avg Loss: 7.5963, Reward: -119.4533701171875, exploration: 0.6381
+Episode 300, Avg Loss: 9.1978, Reward: -138.25003320312499, exploration: 0.6095
+Episode 400, Avg Loss: 10.9595, Reward: -209.44765039062497, exploration: 0.5822
+Episode 500, Avg Loss: 12.7735, Reward: -185.345849609375, exploration: 0.5562
+Episode 600, Avg Loss: 14.2211, Reward: -209.36602734375, exploration: 0.5315
+Episode 700, Avg Loss: 15.1334, Reward: -231.71740234375, exploration: 0.5080
+Episode 800, Avg Loss: 16.4749, Reward: -292.40204296875, exploration: 0.4857
+Episode 900, Avg Loss: 17.9449, Reward: -275.27448046875, exploration: 0.4645
+Episode 1000, Avg Loss: 19.0942, Reward: -295.54082421875, exploration: 0.4442
+Traceback (most recent call last):
+  File "/home/protomate/marl-ecs-course/Midsem/modified_tsp.py", line 79, in <module>
+    main()
+  File "/home/protomate/marl-ecs-course/Midsem/modified_tsp.py", line 52, in main
+    loss = agent.learn_from_memory(batch_size=batchSize)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/protomate/marl-ecs-course/Midsem/agent.py", line 111, in learn_from_memory
+    torch.nn.utils.clip_grad_norm_(self.knowledge.parameters(), max_norm=1.0)
+  File "/home/protomate/.pyenv/versions/3.12.4/lib/python3.12/site-packages/torch/nn/utils/clip_grad.py", line 21, in _no_grad_wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/protomate/.pyenv/versions/3.12.4/lib/python3.12/site-packages/torch/nn/utils/clip_grad.py", line 74, in clip_grad_norm_
+    total_norm = torch.linalg.vector_norm(torch.stack([norm.to(first_device) for norm in norms]), norm_type)
+                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

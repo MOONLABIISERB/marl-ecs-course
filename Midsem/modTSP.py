@@ -55,6 +55,7 @@ class ModTSP(gym.Env):
                 np.zeros(self.num_targets, dtype=np.float32),  # Array of all current profits values
                 np.zeros(self.num_targets, dtype=np.float32),  # Distance to each target from current location
                 np.zeros(2 * self.num_targets, dtype=np.float32),  # Cooridinates of all targets
+                np.zeros(self.num_targets, dtype=np.float32),  # Visited targets (0 for unvisited, 1 for visited)
             ]
         )
 
@@ -64,6 +65,7 @@ class ModTSP(gym.Env):
                 100 * np.ones(self.num_targets, dtype=np.float32),  # Array of all current profits values
                 2 * self.max_area * np.ones(self.num_targets, dtype=np.float32),  # Distance to each target from current location
                 self.max_area * np.ones(2 * self.num_targets, dtype=np.float32),  # Cooridinates of all targets
+                np.ones(self.num_targets, dtype=np.float32),  # Visited targets (0 for unvisited, 1 for visited)
             ]
         )
 
@@ -90,19 +92,15 @@ class ModTSP(gym.Env):
         self.episodes += 1
 
         self.loc: int = 0
-        self.visited_targets: List = []
+        self.visited_targets = np.zeros(self.num_targets, dtype=np.float32)
+
         self.dist: List = self.distances[self.loc]
 
         if self.shuffle_time % self.episodes == 0:
             np.random.shuffle(self.initial_profits)
 
         state = np.concatenate(
-            (
-                np.array([self.loc]),
-                self.current_profits,
-                np.array(self.dist),
-                np.array(self.locations).reshape(-1),
-            ),
+            (np.array([self.loc]), self.initial_profits, np.array(self.dist), np.array(self.locations).reshape(-1), self.visited_targets),
             dtype=np.float32,
         )
         return state, {}
@@ -127,7 +125,7 @@ class ModTSP(gym.Env):
 
         self.current_profits -= self.distances[past_loc, next_loc]
         reward = self._get_rewards(next_loc)
-        self.visited_targets.append(next_loc)
+        self.visited_targets[next_loc] = 1
 
         next_dist = self.distances[next_loc]
         terminated = bool(self.steps == self.max_steps)
@@ -139,6 +137,7 @@ class ModTSP(gym.Env):
                 self.current_profits,
                 next_dist,
                 np.array(self.locations).reshape(-1),
+                self.visited_targets,
             ],
             dtype=np.float32,
         )
@@ -183,5 +182,5 @@ class ModTSP(gym.Env):
         Returns:
             float: Reward based on the travel distance between past and next locations, or negative reward if repeats visit.
         """
-        reward = self.current_profits[next_loc] if next_loc not in self.visited_targets else -1e4
-        return float(reward) / 1000.0
+        reward = self.current_profits[next_loc] if not self.visited_targets[next_loc] else -1e4
+        return float(reward)

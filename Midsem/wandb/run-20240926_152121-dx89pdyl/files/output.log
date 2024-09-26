@@ -1,0 +1,59 @@
+Episode 0, Avg Loss: 1000.0000, Reward: -29.958368204116823, exploration: 0.7000
+Episode 100, Avg Loss: 5.8362, Reward: -76.72834423828125, exploration: 0.6683
+Episode 200, Avg Loss: 7.7863, Reward: -119.200666015625, exploration: 0.6381
+Episode 300, Avg Loss: 9.3801, Reward: -138.081556640625, exploration: 0.6095
+Episode 400, Avg Loss: 11.1708, Reward: -209.1528203125, exploration: 0.5822
+Episode 500, Avg Loss: 12.3995, Reward: -185.177376953125, exploration: 0.5562
+Episode 600, Avg Loss: 13.9520, Reward: -209.1975625, exploration: 0.5315
+Episode 700, Avg Loss: 15.2236, Reward: -231.54893750000002, exploration: 0.5080
+Episode 800, Avg Loss: 16.5444, Reward: -292.1914609375, exploration: 0.4857
+Episode 900, Avg Loss: 16.9982, Reward: -275.106015625, exploration: 0.4645
+Episode 1000, Avg Loss: 19.1072, Reward: -295.37235937500003, exploration: 0.4442
+Episode 1100, Avg Loss: 20.6069, Reward: -368.21622265625, exploration: 0.4250
+Episode 1200, Avg Loss: 20.9355, Reward: -449.1851875, exploration: 0.4067
+Episode 1300, Avg Loss: 22.4656, Reward: -225.47297656249998, exploration: 0.3893
+Episode 1400, Avg Loss: 22.2312, Reward: -367.4373828125, exploration: 0.3728
+Episode 1500, Avg Loss: 22.7610, Reward: -313.5993203125, exploration: 0.3570
+Episode 1600, Avg Loss: 25.1438, Reward: -402.215359375, exploration: 0.3421
+Episode 1700, Avg Loss: 26.2409, Reward: -259.3954375, exploration: 0.3278
+Episode 1800, Avg Loss: 25.8941, Reward: -517.6178828125, exploration: 0.3143
+Episode 1900, Avg Loss: 26.7688, Reward: -449.0054296875, exploration: 0.3014
+Episode 2000, Avg Loss: 27.5700, Reward: -281.677765625, exploration: 0.2891
+Episode 2100, Avg Loss: 27.5467, Reward: -477.4138984375, exploration: 0.2775
+Episode 2200, Avg Loss: 27.0586, Reward: -393.29715625, exploration: 0.2664
+Episode 2300, Avg Loss: 30.1188, Reward: -403.8630625, exploration: 0.2558
+Episode 2400, Avg Loss: 27.6061, Reward: -413.88725, exploration: 0.2458
+Episode 2500, Avg Loss: 30.0953, Reward: -315.633625, exploration: 0.2362
+Episode 2600, Avg Loss: 31.3585, Reward: -764.8647812500001, exploration: 0.2271
+Episode 2700, Avg Loss: 29.2285, Reward: -555.8070390625, exploration: 0.2185
+Episode 2800, Avg Loss: 32.4949, Reward: -333.7446171875, exploration: 0.2103
+Episode 2900, Avg Loss: 31.8490, Reward: -458.4626171875, exploration: 0.2025
+Episode 3000, Avg Loss: 31.9780, Reward: -343.84607812499996, exploration: 0.1950
+Episode 3100, Avg Loss: 31.7764, Reward: -348.73501562499996, exploration: 0.1880
+Episode 3200, Avg Loss: 30.0971, Reward: -353.849015625, exploration: 0.1812
+Traceback (most recent call last):
+  File "/home/protomate/marl-ecs-course/Midsem/modified_tsp.py", line 79, in <module>
+    main()
+  File "/home/protomate/marl-ecs-course/Midsem/modified_tsp.py", line 52, in main
+    loss = agent.learn_from_memory(batch_size=batchSize)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/protomate/marl-ecs-course/Midsem/agent.py", line 112, in learn_from_memory
+    self.optimizer.step()
+  File "/home/protomate/.pyenv/versions/3.12.4/lib/python3.12/site-packages/torch/optim/optimizer.py", line 484, in wrapper
+    out = func(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/protomate/.pyenv/versions/3.12.4/lib/python3.12/site-packages/torch/optim/optimizer.py", line 89, in _use_grad
+    ret = func(self, *args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/protomate/.pyenv/versions/3.12.4/lib/python3.12/site-packages/torch/optim/adam.py", line 226, in step
+    adam(
+  File "/home/protomate/.pyenv/versions/3.12.4/lib/python3.12/site-packages/torch/optim/optimizer.py", line 161, in maybe_fallback
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/protomate/.pyenv/versions/3.12.4/lib/python3.12/site-packages/torch/optim/adam.py", line 747, in adam
+    if not torch._utils.is_compiling() and not all(
+                                               ^^^^
+  File "/home/protomate/.pyenv/versions/3.12.4/lib/python3.12/site-packages/torch/optim/adam.py", line 748, in <genexpr>
+    isinstance(t, torch.Tensor) for t in state_steps
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

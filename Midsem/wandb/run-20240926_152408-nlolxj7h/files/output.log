@@ -1,0 +1,30 @@
+Episode 0, Avg Loss: 1000.0000, Reward: -20.005940162658693, exploration: 0.7000
+Episode 100, Avg Loss: 4.0274, Reward: -81.00419384765625, exploration: 0.6683
+Episode 200, Avg Loss: 7.7864, Reward: -121.27818750000002, exploration: 0.6381
+Episode 300, Avg Loss: 9.4442, Reward: -139.46658984375, exploration: 0.6095
+Episode 400, Avg Loss: 10.9344, Reward: -211.576626953125, exploration: 0.5822
+Episode 500, Avg Loss: 12.9680, Reward: -186.56240625, exploration: 0.5562
+Episode 600, Avg Loss: 14.2816, Reward: -210.58258593750003, exploration: 0.5315
+Episode 700, Avg Loss: 15.8090, Reward: -232.93396875000002, exploration: 0.5080
+Episode 800, Avg Loss: 16.4562, Reward: -293.92274609375, exploration: 0.4857
+Episode 900, Avg Loss: 18.6893, Reward: -276.4910390625, exploration: 0.4645
+Episode 1000, Avg Loss: 19.5505, Reward: -296.75738671875, exploration: 0.4442
+Episode 1100, Avg Loss: 19.4261, Reward: -369.9475078125, exploration: 0.4250
+Episode 1200, Avg Loss: 21.8055, Reward: -451.2628515624999, exploration: 0.4067
+Episode 1300, Avg Loss: 22.6235, Reward: -226.16552343749998, exploration: 0.3893
+Traceback (most recent call last):
+  File "/home/protomate/marl-ecs-course/Midsem/modified_tsp.py", line 79, in <module>
+    main()
+  File "/home/protomate/marl-ecs-course/Midsem/modified_tsp.py", line 52, in main
+    loss = agent.learn_from_memory(batch_size=batchSize)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/protomate/marl-ecs-course/Midsem/agent.py", line 110, in learn_from_memory
+    loss.backward()
+  File "/home/protomate/.pyenv/versions/3.12.4/lib/python3.12/site-packages/torch/_tensor.py", line 521, in backward
+    torch.autograd.backward(
+  File "/home/protomate/.pyenv/versions/3.12.4/lib/python3.12/site-packages/torch/autograd/__init__.py", line 289, in backward
+    _engine_run_backward(
+  File "/home/protomate/.pyenv/versions/3.12.4/lib/python3.12/site-packages/torch/autograd/graph.py", line 769, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

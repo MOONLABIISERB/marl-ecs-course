@@ -1,0 +1,18 @@
+{"time":"2024-09-26T15:30:09.005422149+05:30","level":"INFO","msg":"using version","core version":"0.18.1"}
+{"time":"2024-09-26T15:30:09.005428277+05:30","level":"INFO","msg":"created symlink","path":"/home/protomate/marl-ecs-course/Midsem/wandb/run-20240926_153009-ldp17csu/logs/debug-core.log"}
+{"time":"2024-09-26T15:30:09.005448442+05:30","level":"INFO","msg":"using version","core version":"0.18.1"}
+{"time":"2024-09-26T15:30:09.005451327+05:30","level":"INFO","msg":"created symlink","path":"/home/protomate/marl-ecs-course/Midsem/wandb/run-20240926_153009-ldp17csu/logs/debug-core.log"}
+{"time":"2024-09-26T15:30:09.006154107+05:30","level":"INFO","msg":"created new stream","id":"ldp17csu"}
+{"time":"2024-09-26T15:30:09.006160054+05:30","level":"INFO","msg":"stream: started","id":"ldp17csu"}
+{"time":"2024-09-26T15:30:09.006170575+05:30","level":"INFO","msg":"sender: started","stream_id":{"value":"ldp17csu"}}
+{"time":"2024-09-26T15:30:09.006163782+05:30","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"ldp17csu"}}
+{"time":"2024-09-26T15:30:09.006174068+05:30","level":"INFO","msg":"handler: started","stream_id":{"value":"ldp17csu"}}
+{"time":"2024-09-26T15:30:09.474346135+05:30","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-09-26T15:30:09.474863531+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-09-26T15:36:02.559811028+05:30","level":"INFO","msg":"stream: closing","id":"ldp17csu"}
+{"time":"2024-09-26T15:36:02.559844097+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-09-26T15:36:02.559910115+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-09-26T15:36:04.404510223+05:30","level":"INFO","msg":"handler: closed","stream_id":{"value":"ldp17csu"}}
+{"time":"2024-09-26T15:36:04.404605802+05:30","level":"INFO","msg":"sender: closed","stream_id":{"value":"ldp17csu"}}
+{"time":"2024-09-26T15:36:04.404593953+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"ldp17csu"}}
+{"time":"2024-09-26T15:36:04.404747107+05:30","level":"INFO","msg":"stream: closed","id":"ldp17csu"}

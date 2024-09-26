@@ -13,7 +13,7 @@ from agent import Agent
 import wandb
 
 
-def get_epsilon(episode, min_epsilon=0.05, max_epsilon=0.7, decay_rate=0.0005):
+def get_epsilon(episode, min_epsilon=0.01, max_epsilon=0.7, decay_rate=0.0005):
     return min_epsilon + (max_epsilon - min_epsilon) * np.exp(-decay_rate * episode)
 
 
@@ -21,14 +21,14 @@ def main() -> None:
     """Main function."""
     num_targets = 10
     num_episodes = 10**5
-    max_steps_per_episode = 10**3
+    max_steps_per_episode = num_targets
 
     env = ModTSP(num_targets)
     obs, _ = env.reset()
     ep_rets = []
 
-    agent = Agent(10**5, env.observation_space.shape[0], env.action_space.n, 0.9)
-    batchSize = 1024
+    agent = Agent(10**5, env.observation_space.shape[0], env.action_space.n, 0.99)
+    batchSize = 10**2
 
     for ep in range(num_episodes):
         ret = 0
@@ -48,7 +48,7 @@ def main() -> None:
             obs = obs_
 
             # Learn and track loss
-            if len(agent.memory) >= 10000:
+            if len(agent.memory) >= batchSize:
                 loss = agent.learn_from_memory(batch_size=batchSize)
                 if loss is not None:
                     losses.append(loss)
@@ -58,9 +58,9 @@ def main() -> None:
         avg_loss = np.mean(losses) if losses else 1000
         if losses:
             avg_loss = np.mean(losses)
-            wandb.log({"episode": ep, "avg_loss": avg_loss, "episode_reward": ret})
+            wandb.log({"avg_loss": avg_loss, "episode_reward": ret})
 
-        if ep % 1000 == 0:
+        if ep % 30 == 0:
             agent.update_knowledge()
 
         if ep % 100 == 0:
