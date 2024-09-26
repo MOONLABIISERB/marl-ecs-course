@@ -5,3 +5,6 @@ Code + Readme + plots + report available in [Assignment1](./Assignment-1/) folde
 
 ## Assignment 2
 Checkout [Assignment 2](./Assignment-2/)
+
+## Mid Semester
+Checkout [MidSem Readme](./Midsem/README.md)
