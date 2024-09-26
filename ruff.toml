@@ -1,0 +1,29 @@
+line-length = 140
+
+[lint]
+extend-select = [
+    "ANN",    # flake8-annotations
+    "B",      # flake8-bugbear
+    "A",      # flake8-builtins
+    "C4",     # flake8-comprehensions
+    "T",      # flake8-debugger, flake8-print
+    "Q",      # flake8-quotes
+    "SIM",    # flake8-simplify
+    "RET503", # implicit-return
+    "I",      # isort
+    "C90",    # mccabe
+    "N",      # pep8-naming
+    "E",      # pycodestyle
+    "W",      # pycodestyle warnings
+    "D",      # pydocstyle
+    "F",      # Pyflakes
+    "UP",     # pyupgrade
+]
+ignore = [
+    "ANN101", # Missing type annotation for ⁠ self ⁠ in method
+    "ANN204", # Missing return type annotation for special method
+    "B904",
+    "UP036",  # Version block is outdated for minimum Python version
+]
+mccabe = { max-complexity = 14 }
+pydocstyle = { convention = "google" }
