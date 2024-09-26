@@ -1,0 +1,47 @@
+Episode 0, Avg Loss: 0.0000, Reward: 8.0
+Episode 10, Avg Loss: 0.0000, Reward: 8.0
+Episode 20, Avg Loss: 0.0000, Reward: 10.0
+Episode 30, Avg Loss: 0.0000, Reward: 9.0
+Episode 40, Avg Loss: 0.0000, Reward: 9.0
+Episode 50, Avg Loss: 0.0000, Reward: 11.0
+Episode 60, Avg Loss: 0.0007, Reward: 14.0
+Episode 70, Avg Loss: 0.0288, Reward: 9.0
+Episode 80, Avg Loss: 0.0515, Reward: 12.0
+Episode 90, Avg Loss: 0.0765, Reward: 17.0
+Episode 100, Avg Loss: 0.0833, Reward: 18.0
+Episode 110, Avg Loss: 0.0637, Reward: 21.0
+Episode 120, Avg Loss: 0.0608, Reward: 54.0
+Episode 130, Avg Loss: 0.0577, Reward: 66.0
+Episode 140, Avg Loss: 0.0555, Reward: 74.0
+Episode 150, Avg Loss: 0.0385, Reward: 128.0
+Episode 160, Avg Loss: 0.0373, Reward: 123.0
+Episode 170, Avg Loss: 0.0402, Reward: 131.0
+Episode 180, Avg Loss: 0.0432, Reward: 106.0
+Episode 190, Avg Loss: 0.0550, Reward: 12.0
+Episode 200, Avg Loss: 0.0485, Reward: 130.0
+Episode 210, Avg Loss: 0.0515, Reward: 124.0
+Episode 220, Avg Loss: 0.0481, Reward: 102.0
+Episode 230, Avg Loss: 0.0413, Reward: 115.0
+Episode 240, Avg Loss: 0.0326, Reward: 179.0
+Episode 250, Avg Loss: 0.0264, Reward: 82.0
+Episode 260, Avg Loss: 0.0276, Reward: 104.0
+Episode 270, Avg Loss: 0.0228, Reward: 211.0
+Episode 280, Avg Loss: 0.0302, Reward: 108.0
+Episode 290, Avg Loss: 0.0401, Reward: 186.0
+Episode 300, Avg Loss: 0.0467, Reward: 207.0
+Episode 310, Avg Loss: 0.0545, Reward: 77.0
+Episode 320, Avg Loss: 0.0494, Reward: 500.0
+Episode 330, Avg Loss: 0.0457, Reward: 500.0
+Episode 340, Avg Loss: 0.0484, Reward: 336.0
+Episode 350, Avg Loss: 0.0553, Reward: 500.0
+Episode 360, Avg Loss: 0.0602, Reward: 500.0
+Episode 370, Avg Loss: 0.0613, Reward: 500.0
+Episode 380, Avg Loss: 0.0667, Reward: 500.0
+Traceback (most recent call last):
+  File "/home/protomate/marl-ecs-course/Midsem/agent.py", line 130, in <module>
+    loss = agent.learn_from_memory(batch_size=batchSize)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/protomate/marl-ecs-course/Midsem/agent.py", line 76, in learn_from_memory
+    state_batch = torch.FloatTensor(np.array(batch.state)).to(device)
+                                    ^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

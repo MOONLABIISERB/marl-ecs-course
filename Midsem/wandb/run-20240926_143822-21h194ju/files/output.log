@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/home/protomate/marl-ecs-course/Midsem/modified_tsp.py", line 77, in <module>
+    main()
+  File "/home/protomate/marl-ecs-course/Midsem/modified_tsp.py", line 30, in main
+    agent = Agent(10**4, env.observation_space.shape[0], env.action_space.n, 0.99)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/protomate/marl-ecs-course/Midsem/agent.py", line 51, in __init__
+    self.knowledge = DQN(state_dim, n_actions).to(device)
+                     ^^^
+NameError: name 'DQN' is not defined

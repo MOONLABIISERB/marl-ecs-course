@@ -1,0 +1,23 @@
+Episode 0, Avg Loss: 1000.0000, Reward: -29.962269115448002, exploration: 1.0000
+Episode 100, Avg Loss: 1000.0000, Reward: -84.9296220703125, exploration: 0.9517
+Episode 200, Avg Loss: 1000.0000, Reward: -126.45628124999999, exploration: 0.9058
+Episode 300, Avg Loss: 1000.0000, Reward: -188.95146484375002, exploration: 0.8621
+Episode 400, Avg Loss: 1000.0000, Reward: -241.51169921874998, exploration: 0.8205
+Episode 500, Avg Loss: 1000.0000, Reward: -292.82282421875, exploration: 0.7810
+Episode 600, Avg Loss: 1000.0000, Reward: -308.8920703125, exploration: 0.7434
+Episode 700, Avg Loss: 1000.0000, Reward: -268.43666015625, exploration: 0.7076
+Episode 800, Avg Loss: 1000.0000, Reward: -394.95185156249994, exploration: 0.6736
+Episode 900, Avg Loss: 1000.0000, Reward: -380.71201562500005, exploration: 0.6413
+Episode 1000, Avg Loss: 1140.7488, Reward: -415.97162499999996, exploration: 0.6105
+Episode 1100, Avg Loss: 217.6967, Reward: -380.19568749999996, exploration: 0.5812
+Episode 1200, Avg Loss: 240.5462, Reward: -406.2620546875, exploration: 0.5533
+Traceback (most recent call last):
+  File "/home/protomate/marl-ecs-course/Midsem/modified_tsp.py", line 77, in <module>
+    main()
+  File "/home/protomate/marl-ecs-course/Midsem/modified_tsp.py", line 52, in main
+    loss = agent.learn_from_memory(batch_size=batchSize)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/protomate/marl-ecs-course/Midsem/agent.py", line 78, in learn_from_memory
+    state_batch = torch.FloatTensor(np.array(batch.state)).to(device)
+                                    ^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

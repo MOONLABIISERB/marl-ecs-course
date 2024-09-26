@@ -1,0 +1,13 @@
+Episode 0, Avg Loss: 1000.0000, Reward: -20.005940162658693, exploration: 0.7000
+Episode 1000, Avg Loss: 349.1318, Reward: -335.05114843750005, exploration: 0.4442
+Episode 2000, Avg Loss: 155.3900, Reward: -385.608078125, exploration: 0.2891
+Episode 3000, Avg Loss: 194.8038, Reward: -227.83203125, exploration: 0.1950
+Episode 4000, Avg Loss: 200.3329, Reward: -554.17440625, exploration: 0.1380
+Traceback (most recent call last):
+  File "/home/protomate/marl-ecs-course/Midsem/modified_tsp.py", line 77, in <module>
+    wandb.init(project="marl", name="mtsp_1")
+    ^^^^^^
+  File "/home/protomate/marl-ecs-course/Midsem/modified_tsp.py", line 55, in main
+    if done:
+       ^^^^
+KeyboardInterrupt

@@ -1,0 +1,26 @@
+Episode 0, Avg Loss: 0.0000, Reward: -69929.04999303818
+Episode 1000, Avg Loss: 833.9279, Reward: -119267.6640625
+Episode 2000, Avg Loss: 2536.9979, Reward: -177226.1328125
+Episode 3000, Avg Loss: 3567.7348, Reward: -182476.82421875
+Episode 4000, Avg Loss: 6512.5755, Reward: -156770.328125
+Episode 5000, Avg Loss: 13791.2914, Reward: -316723.7421875
+Episode 6000, Avg Loss: 14447.9326, Reward: -187515.1796875
+Episode 7000, Avg Loss: 18835.6822, Reward: -202922.3671875
+Episode 8000, Avg Loss: 22456.5000, Reward: -218428.6953125
+Episode 9000, Avg Loss: 26136.9506, Reward: -234145.9375
+Traceback (most recent call last):
+  File "/home/protomate/marl-ecs-course/Midsem/modified_tsp.py", line 73, in <module>
+    main()
+  File "/home/protomate/marl-ecs-course/Midsem/modified_tsp.py", line 47, in main
+    loss = agent.learn_from_memory(batch_size=batchSize)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/protomate/marl-ecs-course/Midsem/agent.py", line 92, in learn_from_memory
+    loss.backward()
+  File "/home/protomate/.pyenv/versions/3.12.4/lib/python3.12/site-packages/torch/_tensor.py", line 521, in backward
+    torch.autograd.backward(
+  File "/home/protomate/.pyenv/versions/3.12.4/lib/python3.12/site-packages/torch/autograd/__init__.py", line 289, in backward
+    _engine_run_backward(
+  File "/home/protomate/.pyenv/versions/3.12.4/lib/python3.12/site-packages/torch/autograd/graph.py", line 769, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

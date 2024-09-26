@@ -1,0 +1,74 @@
+Episode 0, Avg Loss: 1000.0000, Reward: -29.962269115448002, exploration: 1.0000
+Episode 100, Avg Loss: 1000.0000, Reward: -84.40986181640625, exploration: 0.9517
+Episode 200, Avg Loss: 1000.0000, Reward: -125.2486328125, exploration: 0.9058
+Episode 300, Avg Loss: 1000.0000, Reward: -186.321208984375, exploration: 0.8621
+Episode 400, Avg Loss: 1000.0000, Reward: -217.57652343750001, exploration: 0.8205
+Episode 500, Avg Loss: 1000.0000, Reward: -261.65158203125, exploration: 0.7810
+Episode 600, Avg Loss: 1000.0000, Reward: -339.65082812500003, exploration: 0.7434
+Episode 700, Avg Loss: 1000.0000, Reward: -308.256859375, exploration: 0.7076
+Episode 800, Avg Loss: 1000.0000, Reward: -443.81183984375, exploration: 0.6736
+Episode 900, Avg Loss: 1000.0000, Reward: -382.4324296875, exploration: 0.6413
+Episode 1000, Avg Loss: 26.1247, Reward: -418.43370312499997, exploration: 0.6105
+Episode 1100, Avg Loss: 26.9320, Reward: -456.4660546875, exploration: 0.5812
+Episode 1200, Avg Loss: 32.2746, Reward: -650.7626796874999, exploration: 0.5533
+Episode 1300, Avg Loss: 37.0389, Reward: -617.462171875, exploration: 0.5268
+Episode 1400, Avg Loss: 42.0766, Reward: -567.723421875, exploration: 0.5016
+Episode 1500, Avg Loss: 46.7202, Reward: -606.1408046875, exploration: 0.4776
+Episode 1600, Avg Loss: 50.7573, Reward: -752.2927734375, exploration: 0.4548
+Episode 1700, Avg Loss: 55.3820, Reward: -914.0111796875, exploration: 0.4331
+Episode 1800, Avg Loss: 60.3297, Reward: -841.357890625, exploration: 0.4125
+Episode 1900, Avg Loss: 64.5946, Reward: -1146.9523125, exploration: 0.3929
+Episode 2000, Avg Loss: 68.9629, Reward: -930.5939062499999, exploration: 0.3742
+Episode 2100, Avg Loss: 74.4557, Reward: -975.258859375, exploration: 0.3564
+Episode 2200, Avg Loss: 80.1939, Reward: -1020.415703125, exploration: 0.3395
+Episode 2300, Avg Loss: 84.5753, Reward: -1064.555921875, exploration: 0.3235
+Episode 2400, Avg Loss: 88.6289, Reward: -1110.1305468750002, exploration: 0.3082
+Episode 2500, Avg Loss: 93.3022, Reward: -1331.045109375, exploration: 0.2936
+Episode 2600, Avg Loss: 97.4934, Reward: -1381.93021875, exploration: 0.2798
+Episode 2700, Avg Loss: 102.6600, Reward: -1434.37325, exploration: 0.2666
+Episode 2800, Avg Loss: 106.8374, Reward: -1290.34140625, exploration: 0.2541
+Episode 2900, Avg Loss: 111.1033, Reward: -1540.39178125, exploration: 0.2422
+Episode 3000, Avg Loss: 116.9787, Reward: -1592.793765625, exploration: 0.2309
+Episode 3100, Avg Loss: 121.6445, Reward: -1643.4389843749998, exploration: 0.2201
+Episode 3200, Avg Loss: 126.4424, Reward: -1694.3831406250001, exploration: 0.2099
+Episode 3300, Avg Loss: 130.0859, Reward: -1744.80490625, exploration: 0.2001
+Episode 3400, Avg Loss: 135.0550, Reward: -1555.241609375, exploration: 0.1909
+Episode 3500, Avg Loss: 141.5941, Reward: -1848.59696875, exploration: 0.1820
+Episode 3600, Avg Loss: 143.6963, Reward: -1901.7259062500002, exploration: 0.1736
+Episode 3700, Avg Loss: 150.2460, Reward: -1424.99709375, exploration: 0.1657
+Episode 3800, Avg Loss: 152.1985, Reward: -1462.379, exploration: 0.1581
+Episode 3900, Avg Loss: 159.0226, Reward: -2061.4939375, exploration: 0.1509
+Episode 4000, Avg Loss: 162.6475, Reward: -2114.6925625, exploration: 0.1440
+Episode 4100, Avg Loss: 167.6468, Reward: -2462.53546875, exploration: 0.1374
+Episode 4200, Avg Loss: 173.1080, Reward: -2218.61459375, exploration: 0.1312
+Episode 4300, Avg Loss: 176.4503, Reward: -2269.89478125, exploration: 0.1253
+Episode 4400, Avg Loss: 182.0071, Reward: -2321.4606562500003, exploration: 0.1197
+Episode 4500, Avg Loss: 185.4525, Reward: -2048.87109375, exploration: 0.1143
+Episode 4600, Avg Loss: 191.2876, Reward: -2758.6135, exploration: 0.1093
+Episode 4700, Avg Loss: 194.7708, Reward: -1799.332125, exploration: 0.1044
+Episode 4800, Avg Loss: 199.5927, Reward: -2531.117, exploration: 0.0998
+Episode 4900, Avg Loss: 204.1932, Reward: -2582.84496875, exploration: 0.0954
+Episode 5000, Avg Loss: 207.1780, Reward: -1549.0522499999997, exploration: 0.0913
+Episode 5100, Avg Loss: 211.6878, Reward: -2317.88040625, exploration: 0.0873
+Episode 5200, Avg Loss: 217.9084, Reward: -2362.908625, exploration: 0.0835
+Episode 5300, Avg Loss: 222.0074, Reward: -2407.6697187500004, exploration: 0.0799
+Episode 5400, Avg Loss: 226.8123, Reward: -2842.20634375, exploration: 0.0765
+Episode 5500, Avg Loss: 227.5495, Reward: -2494.45646875, exploration: 0.0733
+Episode 5600, Avg Loss: 230.4243, Reward: -2538.68434375, exploration: 0.0702
+Episode 5700, Avg Loss: 239.9719, Reward: -2998.2965624999997, exploration: 0.0673
+Traceback (most recent call last):
+  File "/home/protomate/marl-ecs-course/Midsem/modified_tsp.py", line 77, in <module>
+    main()
+  File "/home/protomate/marl-ecs-course/Midsem/modified_tsp.py", line 52, in main
+    loss = agent.learn_from_memory(batch_size=batchSize)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/protomate/marl-ecs-course/Midsem/agent.py", line 101, in learn_from_memory
+    loss.backward()
+  File "/home/protomate/.pyenv/versions/3.12.4/lib/python3.12/site-packages/torch/_tensor.py", line 521, in backward
+    torch.autograd.backward(
+  File "/home/protomate/.pyenv/versions/3.12.4/lib/python3.12/site-packages/torch/autograd/__init__.py", line 289, in backward
+    _engine_run_backward(
+  File "/home/protomate/.pyenv/versions/3.12.4/lib/python3.12/site-packages/torch/autograd/graph.py", line 769, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

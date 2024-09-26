@@ -1,0 +1,18 @@
+{"time":"2024-09-26T14:04:00.768454304+05:30","level":"INFO","msg":"using version","core version":"0.18.1"}
+{"time":"2024-09-26T14:04:00.768465788+05:30","level":"INFO","msg":"created symlink","path":"/home/protomate/marl-ecs-course/Midsem/wandb/run-20240926_140400-v5ka75ru/logs/debug-core.log"}
+{"time":"2024-09-26T14:04:00.768495615+05:30","level":"INFO","msg":"using version","core version":"0.18.1"}
+{"time":"2024-09-26T14:04:00.768498768+05:30","level":"INFO","msg":"created symlink","path":"/home/protomate/marl-ecs-course/Midsem/wandb/run-20240926_140400-v5ka75ru/logs/debug-core.log"}
+{"time":"2024-09-26T14:04:00.770115704+05:30","level":"INFO","msg":"created new stream","id":"v5ka75ru"}
+{"time":"2024-09-26T14:04:00.770127435+05:30","level":"INFO","msg":"stream: started","id":"v5ka75ru"}
+{"time":"2024-09-26T14:04:00.77013927+05:30","level":"INFO","msg":"sender: started","stream_id":{"value":"v5ka75ru"}}
+{"time":"2024-09-26T14:04:00.770135109+05:30","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"v5ka75ru"}}
+{"time":"2024-09-26T14:04:00.770138823+05:30","level":"INFO","msg":"handler: started","stream_id":{"value":"v5ka75ru"}}
+{"time":"2024-09-26T14:04:01.294995438+05:30","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-09-26T14:04:01.297109765+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-09-26T14:04:13.815191902+05:30","level":"INFO","msg":"stream: closing","id":"v5ka75ru"}
+{"time":"2024-09-26T14:04:13.815205361+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-09-26T14:04:13.815324648+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-09-26T14:04:15.996272741+05:30","level":"INFO","msg":"handler: closed","stream_id":{"value":"v5ka75ru"}}
+{"time":"2024-09-26T14:04:15.996399722+05:30","level":"INFO","msg":"sender: closed","stream_id":{"value":"v5ka75ru"}}
+{"time":"2024-09-26T14:04:15.996340012+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"v5ka75ru"}}
+{"time":"2024-09-26T14:04:15.996610023+05:30","level":"INFO","msg":"stream: closed","id":"v5ka75ru"}

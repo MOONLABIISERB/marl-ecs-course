@@ -1,0 +1,14 @@
+{"time":"2024-09-26T14:27:33.801877259+05:30","level":"INFO","msg":"using version","core version":"0.18.1"}
+{"time":"2024-09-26T14:27:33.801888523+05:30","level":"INFO","msg":"created symlink","path":"/home/protomate/marl-ecs-course/Midsem/wandb/run-20240926_142733-sevsubgz/logs/debug-core.log"}
+{"time":"2024-09-26T14:27:33.801918503+05:30","level":"INFO","msg":"using version","core version":"0.18.1"}
+{"time":"2024-09-26T14:27:33.801921468+05:30","level":"INFO","msg":"created symlink","path":"/home/protomate/marl-ecs-course/Midsem/wandb/run-20240926_142733-sevsubgz/logs/debug-core.log"}
+{"time":"2024-09-26T14:27:33.803463435+05:30","level":"INFO","msg":"created new stream","id":"sevsubgz"}
+{"time":"2024-09-26T14:27:33.803474867+05:30","level":"INFO","msg":"stream: started","id":"sevsubgz"}
+{"time":"2024-09-26T14:27:33.803491096+05:30","level":"INFO","msg":"sender: started","stream_id":{"value":"sevsubgz"}}
+{"time":"2024-09-26T14:27:33.803486857+05:30","level":"INFO","msg":"handler: started","stream_id":{"value":"sevsubgz"}}
+{"time":"2024-09-26T14:27:33.803482302+05:30","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"sevsubgz"}}
+{"time":"2024-09-26T14:27:35.613277513+05:30","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-09-26T14:27:35.614085626+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-09-26T14:27:56.009622822+05:30","level":"INFO","msg":"stream: closing","id":"sevsubgz"}
+{"time":"2024-09-26T14:27:56.009640477+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-09-26T14:27:56.009707548+05:30","level":"INFO","msg":"Stopped system monitor"}

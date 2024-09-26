@@ -1,0 +1,43 @@
+Episode 0, Avg Loss: 1000.0000, Reward: -29.962269115448002, exploration: 1.0000
+Episode 100, Avg Loss: 1000.0000, Reward: -92.62976245117187, exploration: 0.0167
+Episode 200, Avg Loss: 1000.0000, Reward: -93.72628100585938, exploration: 0.0100
+Episode 300, Avg Loss: 1000.0000, Reward: -94.9250126953125, exploration: 0.0100
+Episode 400, Avg Loss: 1000.0000, Reward: -95.986978515625, exploration: 0.0100
+Episode 500, Avg Loss: 1000.0000, Reward: -97.0404609375, exploration: 0.0100
+Episode 600, Avg Loss: 1000.0000, Reward: -98.1646689453125, exploration: 0.0100
+Episode 700, Avg Loss: 1000.0000, Reward: -99.29539453125, exploration: 0.0100
+Episode 800, Avg Loss: 1000.0000, Reward: -100.373166015625, exploration: 0.0100
+Episode 900, Avg Loss: 1000.0000, Reward: -101.52707226562501, exploration: 0.0100
+Episode 1000, Avg Loss: 66.6688, Reward: -102.64274707031251, exploration: 0.0100
+Episode 1100, Avg Loss: 43.4799, Reward: -133.603005859375, exploration: 0.0100
+Episode 1200, Avg Loss: 49.7903, Reward: -173.009357421875, exploration: 0.0100
+Episode 1300, Avg Loss: 58.9395, Reward: -184.87633398437498, exploration: 0.0100
+Episode 1400, Avg Loss: 67.4970, Reward: -186.975890625, exploration: 0.0100
+Episode 1500, Avg Loss: 80.2041, Reward: -231.32874609375, exploration: 0.0100
+Episode 1600, Avg Loss: 91.5285, Reward: -224.32336328125, exploration: 0.0100
+Episode 1700, Avg Loss: 103.9756, Reward: -244.07461328125, exploration: 0.0100
+Episode 1800, Avg Loss: 127.6590, Reward: -343.0076796875, exploration: 0.0100
+Episode 1900, Avg Loss: 134.2624, Reward: -234.53591015625, exploration: 0.0100
+Episode 2000, Avg Loss: 160.9779, Reward: -343.72527734375, exploration: 0.0100
+Episode 2100, Avg Loss: 182.0882, Reward: -311.02373828125, exploration: 0.0100
+Episode 2200, Avg Loss: 201.6309, Reward: -383.033859375, exploration: 0.0100
+Episode 2300, Avg Loss: 201.0190, Reward: -339.4139609375, exploration: 0.0100
+Traceback (most recent call last):
+  File "/home/protomate/marl-ecs-course/Midsem/modified_tsp.py", line 77, in <module>
+    main()
+  File "/home/protomate/marl-ecs-course/Midsem/modified_tsp.py", line 52, in main
+    loss = agent.learn_from_memory(batch_size=batchSize)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/protomate/marl-ecs-course/Midsem/agent.py", line 75, in learn_from_memory
+    transitions = self.memory.sample(batch_size)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/protomate/marl-ecs-course/Midsem/agent.py", line 24, in sample
+    return random.sample(self.memory, batch_size)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/protomate/.pyenv/versions/3.12.4/lib/python3.12/random.py", line 447, in sample
+    j = randbelow(n)
+        ^^^^^^^^^^^^
+  File "/home/protomate/.pyenv/versions/3.12.4/lib/python3.12/random.py", line 247, in _randbelow_with_getrandbits
+    r = getrandbits(k)  # 0 <= r < 2**k
+        ^^^^^^^^^^^^^^
+KeyboardInterrupt

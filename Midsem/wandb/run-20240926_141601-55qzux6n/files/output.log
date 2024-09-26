@@ -1,0 +1,32 @@
+Episode 0, Avg Loss: 0.0000, Reward: -29.962269115448002
+Episode 100, Avg Loss: 12.7106, Reward: -82.7299609375
+Episode 200, Avg Loss: 20.9521, Reward: -123.5494970703125
+Episode 300, Avg Loss: 29.7668, Reward: -182.01796875000002
+Episode 400, Avg Loss: 39.5827, Reward: -182.147185546875
+Episode 500, Avg Loss: 46.4867, Reward: -209.73648437499997
+Episode 600, Avg Loss: 47.9805, Reward: -207.88857812499998
+Episode 700, Avg Loss: 59.4796, Reward: -225.7102109375
+Episode 800, Avg Loss: 61.7359, Reward: -276.35608203124997
+Episode 900, Avg Loss: 65.2307, Reward: -255.90094140625
+Episode 1000, Avg Loss: 72.6109, Reward: -268.6942734375
+Episode 1100, Avg Loss: 86.5448, Reward: -234.62652734375
+Episode 1200, Avg Loss: 90.2091, Reward: -147.14120703125
+Episode 1300, Avg Loss: 102.8046, Reward: -197.93949218749998
+Episode 1400, Avg Loss: 100.7996, Reward: -150.61323828125
+Episode 1500, Avg Loss: 114.2107, Reward: -204.06245703125
+Episode 1600, Avg Loss: 118.5944, Reward: -206.93096484375
+Episode 1700, Avg Loss: 115.8413, Reward: -154.88195703125
+Episode 1800, Avg Loss: 119.6619, Reward: -213.185203125
+Episode 1900, Avg Loss: 121.3231, Reward: -218.11338281250002
+Episode 2000, Avg Loss: 119.6484, Reward: -346.41886718750004
+Episode 2100, Avg Loss: 130.9057, Reward: -227.614921875
+Traceback (most recent call last):
+  File "/home/protomate/marl-ecs-course/Midsem/modified_tsp.py", line 78, in <module>
+    main()
+  File "/home/protomate/marl-ecs-course/Midsem/modified_tsp.py", line 52, in main
+    loss = agent.learn_from_memory(batch_size=batchSize)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/protomate/marl-ecs-course/Midsem/agent.py", line 80, in learn_from_memory
+    reward_batch = torch.FloatTensor(batch.reward).to(device)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

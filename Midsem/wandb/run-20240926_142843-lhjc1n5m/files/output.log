@@ -1,0 +1,35 @@
+Episode 0, Avg Loss: 1000.0000, Reward: -29.962269115448002
+Episode 100, Avg Loss: 1000.0000, Reward: -85.88272900390625
+Episode 200, Avg Loss: 1000.0000, Reward: -110.536630859375
+Episode 300, Avg Loss: 1000.0000, Reward: -139.84519921875
+Episode 400, Avg Loss: 1000.0000, Reward: -111.375541015625
+Episode 500, Avg Loss: 1000.0000, Reward: -141.573794921875
+Episode 600, Avg Loss: 1000.0000, Reward: -131.3810078125
+Episode 700, Avg Loss: 1000.0000, Reward: -117.326458984375
+Episode 800, Avg Loss: 1000.0000, Reward: -136.74440820312498
+Episode 900, Avg Loss: 1000.0000, Reward: -119.484328125
+Episode 1000, Avg Loss: 200.4620, Reward: -140.517529296875
+Episode 1100, Avg Loss: 138.1153, Reward: -176.6286171875
+Episode 1200, Avg Loss: 107.5859, Reward: -195.53766015625
+Episode 1300, Avg Loss: 112.2720, Reward: -209.5625859375
+Episode 1400, Avg Loss: 128.8805, Reward: -346.92628125
+Episode 1500, Avg Loss: 135.6396, Reward: -326.359484375
+Episode 1600, Avg Loss: 145.9891, Reward: -349.342578125
+Episode 1700, Avg Loss: 158.3572, Reward: -262.71105078125004
+Episode 1800, Avg Loss: 169.1172, Reward: -334.7381953125
+Traceback (most recent call last):
+  File "/home/protomate/marl-ecs-course/Midsem/modified_tsp.py", line 77, in <module>
+    main()
+  File "/home/protomate/marl-ecs-course/Midsem/modified_tsp.py", line 52, in main
+    loss = agent.learn_from_memory(batch_size=batchSize)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/protomate/marl-ecs-course/Midsem/agent.py", line 75, in learn_from_memory
+    transitions = self.memory.sample(batch_size)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/protomate/marl-ecs-course/Midsem/agent.py", line 24, in sample
+    return random.sample(self.memory, batch_size)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/protomate/.pyenv/versions/3.12.4/lib/python3.12/random.py", line 451, in sample
+    result[i] = population[j]
+    ~~~~~~^^^
+KeyboardInterrupt

@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/home/protomate/marl-ecs-course/Midsem/agent.py", line 140, in <module>
+    print(f"Episode {episode}, Avg Loss: {avg_loss:.4f}, Reward: {episode_reward}")
+                                         ^^^^^^^^^^^^^^
+ValueError: Unknown format code 'f' for object of type 'str'

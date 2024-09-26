@@ -1,0 +1,18 @@
+{"time":"2024-09-26T14:50:47.259406948+05:30","level":"INFO","msg":"using version","core version":"0.18.1"}
+{"time":"2024-09-26T14:50:47.259418162+05:30","level":"INFO","msg":"created symlink","path":"/home/protomate/marl-ecs-course/Midsem/wandb/run-20240926_145047-11wiyoiy/logs/debug-core.log"}
+{"time":"2024-09-26T14:50:47.259449942+05:30","level":"INFO","msg":"using version","core version":"0.18.1"}
+{"time":"2024-09-26T14:50:47.25945279+05:30","level":"INFO","msg":"created symlink","path":"/home/protomate/marl-ecs-course/Midsem/wandb/run-20240926_145047-11wiyoiy/logs/debug-core.log"}
+{"time":"2024-09-26T14:50:47.261308846+05:30","level":"INFO","msg":"created new stream","id":"11wiyoiy"}
+{"time":"2024-09-26T14:50:47.26132275+05:30","level":"INFO","msg":"stream: started","id":"11wiyoiy"}
+{"time":"2024-09-26T14:50:47.261334567+05:30","level":"INFO","msg":"handler: started","stream_id":{"value":"11wiyoiy"}}
+{"time":"2024-09-26T14:50:47.261379948+05:30","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"11wiyoiy"}}
+{"time":"2024-09-26T14:50:47.261401731+05:30","level":"INFO","msg":"sender: started","stream_id":{"value":"11wiyoiy"}}
+{"time":"2024-09-26T14:50:47.679799233+05:30","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-09-26T14:50:47.680279961+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-09-26T14:52:08.929670175+05:30","level":"INFO","msg":"stream: closing","id":"11wiyoiy"}
+{"time":"2024-09-26T14:52:08.929681892+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-09-26T14:52:08.92975941+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-09-26T14:52:11.886743875+05:30","level":"INFO","msg":"handler: closed","stream_id":{"value":"11wiyoiy"}}
+{"time":"2024-09-26T14:52:11.886817625+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"11wiyoiy"}}
+{"time":"2024-09-26T14:52:11.886842071+05:30","level":"INFO","msg":"sender: closed","stream_id":{"value":"11wiyoiy"}}
+{"time":"2024-09-26T14:52:11.887023297+05:30","level":"INFO","msg":"stream: closed","id":"11wiyoiy"}

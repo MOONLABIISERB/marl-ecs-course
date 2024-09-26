@@ -1,0 +1,18 @@
+{"time":"2024-09-26T13:50:50.699263542+05:30","level":"INFO","msg":"using version","core version":"0.18.1"}
+{"time":"2024-09-26T13:50:50.699294295+05:30","level":"INFO","msg":"created symlink","path":"/home/protomate/marl-ecs-course/Midsem/wandb/run-20240926_135050-huxiabc7/logs/debug-core.log"}
+{"time":"2024-09-26T13:50:50.699437338+05:30","level":"INFO","msg":"using version","core version":"0.18.1"}
+{"time":"2024-09-26T13:50:50.699473829+05:30","level":"INFO","msg":"created symlink","path":"/home/protomate/marl-ecs-course/Midsem/wandb/run-20240926_135050-huxiabc7/logs/debug-core.log"}
+{"time":"2024-09-26T13:50:50.701916723+05:30","level":"INFO","msg":"created new stream","id":"huxiabc7"}
+{"time":"2024-09-26T13:50:50.701947568+05:30","level":"INFO","msg":"stream: started","id":"huxiabc7"}
+{"time":"2024-09-26T13:50:50.701963499+05:30","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"huxiabc7"}}
+{"time":"2024-09-26T13:50:50.701989655+05:30","level":"INFO","msg":"handler: started","stream_id":{"value":"huxiabc7"}}
+{"time":"2024-09-26T13:50:50.702004542+05:30","level":"INFO","msg":"sender: started","stream_id":{"value":"huxiabc7"}}
+{"time":"2024-09-26T13:50:51.187387725+05:30","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-09-26T13:50:51.1878605+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-09-26T13:50:51.767147927+05:30","level":"INFO","msg":"stream: closing","id":"huxiabc7"}
+{"time":"2024-09-26T13:50:51.767241691+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-09-26T13:50:51.767487984+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-09-26T13:50:57.291811453+05:30","level":"INFO","msg":"handler: closed","stream_id":{"value":"huxiabc7"}}
+{"time":"2024-09-26T13:50:57.291929422+05:30","level":"INFO","msg":"sender: closed","stream_id":{"value":"huxiabc7"}}
+{"time":"2024-09-26T13:50:57.291915186+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"huxiabc7"}}
+{"time":"2024-09-26T13:50:57.29212833+05:30","level":"INFO","msg":"stream: closed","id":"huxiabc7"}

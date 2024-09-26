@@ -1,0 +1,1577 @@
+Episode 0, Avg Loss: 0.0000, Reward: -69947.5953631401
+Episode 0 : -69947.5953631401
+Episode 10, Avg Loss: 0.0000, Reward: -90140.72535705566
+Episode 20, Avg Loss: 0.0000, Reward: -90282.73217773438
+Episode 30, Avg Loss: 0.0000, Reward: -81102.26666259766
+Episode 40, Avg Loss: 0.0000, Reward: -81364.01513671875
+Episode 50, Avg Loss: 0.0000, Reward: -81809.6625366211
+Episode 60, Avg Loss: 0.0000, Reward: -91159.20397949219
+Episode 70, Avg Loss: 0.0000, Reward: -82655.47802734375
+Episode 80, Avg Loss: 0.0000, Reward: -91495.6923828125
+Episode 90, Avg Loss: 0.0000, Reward: -83333.01708984375
+Episode 100, Avg Loss: 0.0000, Reward: -83670.12841796875
+Episode 100 : -83670.12841796875
+Episode 110, Avg Loss: 0.0000, Reward: -84151.79089355469
+Episode 120, Avg Loss: 0.0000, Reward: -92333.35327148438
+Episode 130, Avg Loss: 0.0000, Reward: -85163.45654296875
+Episode 140, Avg Loss: 0.0000, Reward: -92718.73486328125
+Episode 150, Avg Loss: 0.0000, Reward: -92862.6220703125
+Episode 160, Avg Loss: 0.0000, Reward: -93046.3857421875
+Episode 170, Avg Loss: 0.0000, Reward: -86541.68310546875
+Episode 180, Avg Loss: 0.0000, Reward: -93454.40087890625
+Episode 190, Avg Loss: 0.0000, Reward: -93629.6875
+Episode 200, Avg Loss: 0.0000, Reward: -81344.00463867188
+Episode 200 : -81344.00463867188
+Episode 210, Avg Loss: 0.0000, Reward: -94033.19287109375
+Episode 220, Avg Loss: 0.0000, Reward: -94217.0830078125
+Episode 230, Avg Loss: 0.0000, Reward: -94473.9306640625
+Episode 240, Avg Loss: 0.0000, Reward: -94629.58203125
+Episode 250, Avg Loss: 0.0000, Reward: -89556.3525390625
+Episode 260, Avg Loss: 0.0000, Reward: -90021.24072265625
+Episode 270, Avg Loss: 0.0000, Reward: -95232.10595703125
+Episode 280, Avg Loss: 0.0000, Reward: -90993.3115234375
+Episode 290, Avg Loss: 0.0000, Reward: -91292.8984375
+Episode 300, Avg Loss: 0.0000, Reward: -95827.5595703125
+Episode 300 : -95827.5595703125
+Episode 310, Avg Loss: 0.0000, Reward: -95990.64453125
+Episode 320, Avg Loss: 0.0000, Reward: -88568.296875
+Episode 330, Avg Loss: 0.0000, Reward: -96365.078125
+Episode 340, Avg Loss: 0.0000, Reward: -96503.2880859375
+Episode 350, Avg Loss: 0.0000, Reward: -93369.294921875
+Episode 360, Avg Loss: 0.0000, Reward: -96834.78662109375
+Episode 370, Avg Loss: 0.0000, Reward: -96984.98681640625
+Episode 380, Avg Loss: 0.0000, Reward: -97166.5634765625
+Episode 390, Avg Loss: 0.0000, Reward: -97365.4189453125
+Episode 400, Avg Loss: 0.0000, Reward: -95064.8642578125
+Episode 400 : -95064.8642578125
+Episode 410, Avg Loss: 0.0000, Reward: -95408.9267578125
+Episode 420, Avg Loss: 0.0000, Reward: -97943.68994140625
+Episode 430, Avg Loss: 0.0000, Reward: -98118.35302734375
+Episode 440, Avg Loss: 0.0000, Reward: -98276.2236328125
+Episode 450, Avg Loss: 0.0000, Reward: -98439.845703125
+Episode 460, Avg Loss: 0.0000, Reward: -98664.71484375
+Episode 470, Avg Loss: 0.0000, Reward: -98804.203125
+Episode 480, Avg Loss: 0.0000, Reward: -97981.8486328125
+Episode 490, Avg Loss: 0.0000, Reward: -98346.53515625
+Episode 500, Avg Loss: 0.0000, Reward: -99325.490234375
+Episode 500 : -99325.490234375
+Episode 510, Avg Loss: 0.0000, Reward: -99068.9658203125
+Episode 520, Avg Loss: 0.0000, Reward: -99407.462890625
+Episode 530, Avg Loss: 0.0000, Reward: -99866.673828125
+Episode 540, Avg Loss: 0.0000, Reward: -100016.591796875
+Episode 550, Avg Loss: 0.0000, Reward: -100202.9287109375
+Episode 560, Avg Loss: 0.0000, Reward: -100388.7822265625
+Episode 570, Avg Loss: 0.0000, Reward: -100561.3095703125
+Episode 580, Avg Loss: 0.0000, Reward: -100744.5439453125
+Episode 590, Avg Loss: 0.0000, Reward: -100994.4755859375
+Episode 600, Avg Loss: 0.0000, Reward: -101163.19140625
+Episode 600 : -101163.19140625
+Episode 610, Avg Loss: 0.0000, Reward: -101291.6318359375
+Episode 620, Avg Loss: 0.0000, Reward: -101503.4755859375
+Episode 630, Avg Loss: 0.0000, Reward: -103280.3642578125
+Episode 640, Avg Loss: 0.0000, Reward: -101828.0234375
+Episode 650, Avg Loss: 0.0000, Reward: -101978.240234375
+Episode 660, Avg Loss: 0.0000, Reward: -104329.5322265625
+Episode 670, Avg Loss: 0.0000, Reward: -102375.53515625
+Episode 680, Avg Loss: 0.0000, Reward: -102604.138671875
+Episode 690, Avg Loss: 0.0000, Reward: -102742.34765625
+Episode 700, Avg Loss: 0.0000, Reward: -106061.8193359375
+Episode 700 : -106061.8193359375
+Episode 710, Avg Loss: 0.0000, Reward: -103216.4091796875
+Episode 720, Avg Loss: 0.0000, Reward: -103383.1455078125
+Episode 730, Avg Loss: 0.0000, Reward: -110851.4345703125
+Episode 740, Avg Loss: 0.0000, Reward: -103840.0400390625
+Episode 750, Avg Loss: 0.0000, Reward: -103984.8583984375
+Episode 760, Avg Loss: 0.0000, Reward: -104147.142578125
+Episode 770, Avg Loss: 0.0000, Reward: -104312.57421875
+Episode 780, Avg Loss: 0.0000, Reward: -104524.537109375
+Episode 790, Avg Loss: 0.0000, Reward: -114294.03125
+Episode 800, Avg Loss: 0.0000, Reward: -105030.1171875
+Episode 800 : -105030.1171875
+Episode 810, Avg Loss: 0.0000, Reward: -115856.1044921875
+Episode 820, Avg Loss: 0.0000, Reward: -116507.904296875
+Episode 830, Avg Loss: 0.0000, Reward: -111399.6318359375
+Episode 840, Avg Loss: 0.0000, Reward: -105874.9140625
+Episode 850, Avg Loss: 0.0000, Reward: -118243.2763671875
+Episode 860, Avg Loss: 0.0000, Reward: -112571.7548828125
+Episode 870, Avg Loss: 0.0000, Reward: -106453.71484375
+Episode 880, Avg Loss: 0.0000, Reward: -106619.85546875
+Episode 890, Avg Loss: 0.0000, Reward: -106848.5625
+Episode 900, Avg Loss: 0.0000, Reward: -107036.25390625
+Episode 900 : -107036.25390625
+Episode 910, Avg Loss: 0.0000, Reward: -107239.87109375
+Episode 920, Avg Loss: 0.0000, Reward: -107426.185546875
+Episode 930, Avg Loss: 0.0000, Reward: -107571.91015625
+Episode 940, Avg Loss: 0.0000, Reward: -115572.1953125
+Episode 950, Avg Loss: 0.0000, Reward: -123801.708984375
+Episode 960, Avg Loss: 0.0000, Reward: -124373.74609375
+Episode 970, Avg Loss: 0.0000, Reward: -108328.251953125
+Episode 980, Avg Loss: 0.0000, Reward: -108510.876953125
+Episode 990, Avg Loss: 0.0000, Reward: -117476.546875
+Episode 1000, Avg Loss: 0.0000, Reward: -108871.578125
+Episode 1000 : -108871.578125
+Episode 1010, Avg Loss: 0.0000, Reward: -118142.234375
+Episode 1020, Avg Loss: 0.0000, Reward: -109238.474609375
+Episode 1030, Avg Loss: 0.0000, Reward: -128394.9140625
+Episode 1040, Avg Loss: 0.0000, Reward: -109632.5
+Episode 1050, Avg Loss: 0.0000, Reward: -119546.525390625
+Episode 1060, Avg Loss: 0.0000, Reward: -120071.994140625
+Episode 1070, Avg Loss: 0.0000, Reward: -120427.52734375
+Episode 1080, Avg Loss: 0.0000, Reward: -120909.439453125
+Episode 1090, Avg Loss: 0.0000, Reward: -110612.64453125
+Episode 1100, Avg Loss: 0.0000, Reward: -121532.974609375
+Episode 1100 : -121532.974609375
+Episode 1110, Avg Loss: 0.0000, Reward: -110952.51953125
+Episode 1120, Avg Loss: 0.0000, Reward: -111117.744140625
+Episode 1130, Avg Loss: 0.0000, Reward: -111313.49609375
+Episode 1140, Avg Loss: 0.0000, Reward: -111524.392578125
+Episode 1150, Avg Loss: 0.0000, Reward: -111731.361328125
+Episode 1160, Avg Loss: 0.0000, Reward: -111873.767578125
+Episode 1170, Avg Loss: 0.0000, Reward: -124156.802734375
+Episode 1180, Avg Loss: 0.0000, Reward: -112280.345703125
+Episode 1190, Avg Loss: 0.0000, Reward: -137541.685546875
+Episode 1200, Avg Loss: 0.0000, Reward: -112671.955078125
+Episode 1200 : -112671.955078125
+Episode 1210, Avg Loss: 0.0000, Reward: -125703.314453125
+Episode 1220, Avg Loss: 0.0000, Reward: -113065.837890625
+Episode 1230, Avg Loss: 0.0000, Reward: -113185.638671875
+Episode 1240, Avg Loss: 0.0000, Reward: -113370.916015625
+Episode 1250, Avg Loss: 0.0000, Reward: -113576.025390625
+Episode 1260, Avg Loss: 0.0000, Reward: -113739.27734375
+Episode 1270, Avg Loss: 0.0000, Reward: -113923.03125
+Episode 1280, Avg Loss: 0.0000, Reward: -114094.5390625
+Episode 1290, Avg Loss: 0.0000, Reward: -114224.654296875
+Episode 1300, Avg Loss: 0.0000, Reward: -128833.421875
+Episode 1300 : -128833.421875
+Episode 1310, Avg Loss: 0.0000, Reward: -114597.966796875
+Episode 1320, Avg Loss: 0.0000, Reward: -144298.5546875
+Episode 1330, Avg Loss: 0.0000, Reward: -114960.888671875
+Episode 1340, Avg Loss: 0.0000, Reward: -115170.185546875
+Episode 1350, Avg Loss: 0.0000, Reward: -130818.99609375
+Episode 1360, Avg Loss: 0.0000, Reward: -131189.48046875
+Episode 1370, Avg Loss: 0.0000, Reward: -115801.947265625
+Episode 1380, Avg Loss: 0.0000, Reward: -116032.08203125
+Episode 1390, Avg Loss: 0.0000, Reward: -116269.412109375
+Episode 1400, Avg Loss: 0.0000, Reward: -116434.115234375
+Episode 1400 : -116434.115234375
+Episode 1410, Avg Loss: 0.0000, Reward: -116580.009765625
+Episode 1420, Avg Loss: 0.0000, Reward: -116769.927734375
+Episode 1430, Avg Loss: 0.0000, Reward: -116986.501953125
+Episode 1440, Avg Loss: 0.0000, Reward: -134363.498046875
+Episode 1450, Avg Loss: 0.0000, Reward: -117296.3828125
+Episode 1460, Avg Loss: 0.0000, Reward: -117481.234375
+Episode 1470, Avg Loss: 0.0000, Reward: -117658.5
+Episode 1480, Avg Loss: 0.0000, Reward: -117840.18359375
+Episode 1490, Avg Loss: 0.0000, Reward: -136063.939453125
+Episode 1500, Avg Loss: 0.0000, Reward: -118161.92578125
+Episode 1500 : -118161.92578125
+Episode 1510, Avg Loss: 0.0000, Reward: -118369.4921875
+Episode 1520, Avg Loss: 0.0000, Reward: -118534.046875
+Episode 1530, Avg Loss: 0.0000, Reward: -118762.193359375
+Episode 1540, Avg Loss: 0.0000, Reward: -118948.833984375
+Episode 1550, Avg Loss: 0.0000, Reward: -119088.783203125
+Episode 1560, Avg Loss: 0.0000, Reward: -138539.44921875
+Episode 1570, Avg Loss: 0.0000, Reward: -119600.2421875
+Episode 1580, Avg Loss: 0.0000, Reward: -119791.021484375
+Episode 1590, Avg Loss: 0.0000, Reward: -120081.55078125
+Episode 1600, Avg Loss: 0.0000, Reward: -140500.609375
+Episode 1600 : -140500.609375
+Episode 1610, Avg Loss: 0.0000, Reward: -120393.015625
+Episode 1620, Avg Loss: 0.0000, Reward: -141280.185546875
+Episode 1630, Avg Loss: 0.0000, Reward: -141569.67578125
+Episode 1640, Avg Loss: 0.0000, Reward: -120975.8984375
+Episode 1650, Avg Loss: 0.0000, Reward: -121173.9375
+Episode 1660, Avg Loss: 0.0000, Reward: -121355.54296875
+Episode 1670, Avg Loss: 0.0000, Reward: -121587.34765625
+Episode 1680, Avg Loss: 0.0000, Reward: -121717.556640625
+Episode 1690, Avg Loss: 0.0000, Reward: -143892.85546875
+Episode 1700, Avg Loss: 0.0000, Reward: -144204.669921875
+Episode 1700 : -144204.669921875
+Episode 1710, Avg Loss: 0.0000, Reward: -144611.224609375
+Episode 1720, Avg Loss: 0.0000, Reward: -145029.314453125
+Episode 1730, Avg Loss: 0.0000, Reward: -122663.103515625
+Episode 1740, Avg Loss: 0.0000, Reward: -122850.84375
+Episode 1750, Avg Loss: 0.0000, Reward: -146038.26171875
+Episode 1760, Avg Loss: 0.0000, Reward: -146396.49609375
+Episode 1770, Avg Loss: 0.0000, Reward: -123368.0390625
+Episode 1780, Avg Loss: 0.0000, Reward: -147078.53515625
+Episode 1790, Avg Loss: 0.0000, Reward: -123652.76171875
+Episode 1800, Avg Loss: 0.0000, Reward: -123807.3828125
+Episode 1800 : -123807.3828125
+Episode 1810, Avg Loss: 0.0000, Reward: -123968.46875
+Episode 1820, Avg Loss: 0.0000, Reward: -124202.75390625
+Episode 1830, Avg Loss: 0.0000, Reward: -148888.06640625
+Episode 1840, Avg Loss: 0.0000, Reward: -149273.8671875
+Episode 1850, Avg Loss: 0.0000, Reward: -149786.8671875
+Episode 1860, Avg Loss: 0.0000, Reward: -150109.06640625
+Episode 1870, Avg Loss: 0.0000, Reward: -125243.65234375
+Episode 1880, Avg Loss: 0.0000, Reward: -125407.23046875
+Episode 1890, Avg Loss: 0.0000, Reward: -125606.33984375
+Episode 1900, Avg Loss: 0.0000, Reward: -151631.0078125
+Episode 1900 : -151631.0078125
+Episode 1910, Avg Loss: 0.0000, Reward: -125961.32421875
+Episode 1920, Avg Loss: 0.0000, Reward: -126167.48828125
+Episode 1930, Avg Loss: 0.0000, Reward: -152642.51171875
+Episode 1940, Avg Loss: 0.0000, Reward: -126526.93359375
+Episode 1950, Avg Loss: 0.0000, Reward: -126733.76171875
+Episode 1960, Avg Loss: 0.0000, Reward: -126882.41796875
+Episode 1970, Avg Loss: 0.0000, Reward: -154262.4921875
+Episode 1980, Avg Loss: 0.0000, Reward: -154558.08984375
+Episode 1990, Avg Loss: 0.0000, Reward: -127475.78515625
+Episode 2000, Avg Loss: 0.0000, Reward: -155475.58203125
+Episode 2000 : -155475.58203125
+Episode 2010, Avg Loss: 0.0000, Reward: -155981.71875
+Episode 2020, Avg Loss: 0.0000, Reward: -156431.59765625
+Episode 2030, Avg Loss: 0.0000, Reward: -128367.49609375
+Episode 2040, Avg Loss: 0.0000, Reward: -128541.19140625
+Episode 2050, Avg Loss: 0.0000, Reward: -157568.125
+Episode 2060, Avg Loss: 0.0000, Reward: -128873.66796875
+Episode 2070, Avg Loss: 0.0000, Reward: -187264.0703125
+Episode 2080, Avg Loss: 0.0000, Reward: -129224.4375
+Episode 2090, Avg Loss: 0.0000, Reward: -129496.27734375
+Episode 2100, Avg Loss: 0.0000, Reward: -189018.77734375
+Episode 2100 : -189018.77734375
+Episode 2110, Avg Loss: 0.0000, Reward: -129867.015625
+Episode 2120, Avg Loss: 0.0000, Reward: -130017.2421875
+Episode 2130, Avg Loss: 0.0000, Reward: -130147.78125
+Episode 2140, Avg Loss: 0.0000, Reward: -160725.30078125
+Episode 2150, Avg Loss: 0.0000, Reward: -130584.5859375
+Episode 2160, Avg Loss: 0.0000, Reward: -130747.2734375
+Episode 2170, Avg Loss: 0.0000, Reward: -130947.33984375
+Episode 2180, Avg Loss: 0.0000, Reward: -131075.31640625
+Episode 2190, Avg Loss: 0.0000, Reward: -162488.68359375
+Episode 2200, Avg Loss: 0.0000, Reward: -131403.53515625
+Episode 2200 : -131403.53515625
+Episode 2210, Avg Loss: 0.0000, Reward: -131594.93359375
+Episode 2220, Avg Loss: 0.0000, Reward: -131755.234375
+Episode 2230, Avg Loss: 0.0000, Reward: -131922.2578125
+Episode 2240, Avg Loss: 0.0000, Reward: -164215.70703125
+Episode 2250, Avg Loss: 0.0000, Reward: -132221.4296875
+Episode 2260, Avg Loss: 0.0000, Reward: -132350.984375
+Episode 2270, Avg Loss: 0.0000, Reward: -132565.35546875
+Episode 2280, Avg Loss: 0.0000, Reward: -132718.5234375
+Episode 2290, Avg Loss: 0.0000, Reward: -132906.0390625
+Episode 2300, Avg Loss: 0.0000, Reward: -133114.73046875
+Episode 2300 : -133114.73046875
+Episode 2310, Avg Loss: 0.0000, Reward: -133287.7265625
+Episode 2320, Avg Loss: 0.0000, Reward: -133460.89453125
+Episode 2330, Avg Loss: 0.0000, Reward: -167180.703125
+Episode 2340, Avg Loss: 0.0000, Reward: -133766.91796875
+Episode 2350, Avg Loss: 0.0000, Reward: -133931.62890625
+Episode 2360, Avg Loss: 0.0000, Reward: -168206.5078125
+Episode 2370, Avg Loss: 0.0000, Reward: -202978.29296875
+Episode 2380, Avg Loss: 0.0000, Reward: -169056.3046875
+Episode 2390, Avg Loss: 0.0000, Reward: -169376.55078125
+Episode 2400, Avg Loss: 0.0000, Reward: -169795.13671875
+Episode 2400 : -169795.13671875
+Episode 2410, Avg Loss: 0.0000, Reward: -205080.59765625
+Episode 2420, Avg Loss: 0.0000, Reward: -135238.81640625
+Episode 2430, Avg Loss: 0.0000, Reward: -135410.06640625
+Episode 2440, Avg Loss: 0.0000, Reward: -171202.14453125
+Episode 2450, Avg Loss: 0.0000, Reward: -135803.359375
+Episode 2460, Avg Loss: 0.0000, Reward: -136005.5234375
+Episode 2470, Avg Loss: 0.0000, Reward: -136150.09375
+Episode 2480, Avg Loss: 0.0000, Reward: -136321.6953125
+Episode 2490, Avg Loss: 0.0000, Reward: -136515.8125
+Episode 2500, Avg Loss: 0.0000, Reward: -136695.59375
+Episode 2500 : -136695.59375
+Episode 2510, Avg Loss: 0.0000, Reward: -136825.16796875
+Episode 2520, Avg Loss: 0.0000, Reward: -136960.265625
+Episode 2530, Avg Loss: 0.0000, Reward: -137132.015625
+Episode 2540, Avg Loss: 0.0000, Reward: -174635.94921875
+Episode 2550, Avg Loss: 0.0000, Reward: -137483.04296875
+Episode 2560, Avg Loss: 0.0000, Reward: -137651.78515625
+Episode 2570, Avg Loss: 0.0000, Reward: -137857.27734375
+Episode 2580, Avg Loss: 0.0000, Reward: -138036.92578125
+Episode 2590, Avg Loss: 0.0000, Reward: -176442.35546875
+Episode 2600, Avg Loss: 0.0000, Reward: -138361.38671875
+Episode 2600 : -138361.38671875
+Episode 2610, Avg Loss: 0.0000, Reward: -177000.19140625
+Episode 2620, Avg Loss: 0.0000, Reward: -216208.94140625
+Episode 2630, Avg Loss: 0.0000, Reward: -138927.671875
+Episode 2640, Avg Loss: 0.0000, Reward: -139081.1875
+Episode 2650, Avg Loss: 0.0000, Reward: -139291.54296875
+Episode 2660, Avg Loss: 0.0000, Reward: -139470.76953125
+Episode 2670, Avg Loss: 0.0000, Reward: -139673.44140625
+Episode 2680, Avg Loss: 0.0000, Reward: -139823.34375
+Episode 2690, Avg Loss: 0.0000, Reward: -220034.36328125
+Episode 2700, Avg Loss: 0.0000, Reward: -140177.6015625
+Episode 2700 : -140177.6015625
+Episode 2710, Avg Loss: 0.0000, Reward: -140379.89453125
+Episode 2720, Avg Loss: 0.0000, Reward: -181062.51171875
+Episode 2730, Avg Loss: 0.0000, Reward: -181444.55078125
+Episode 2740, Avg Loss: 0.0000, Reward: -181754.44140625
+Episode 2750, Avg Loss: 0.0000, Reward: -141040.44921875
+Episode 2760, Avg Loss: 0.0000, Reward: -182464.04296875
+Episode 2770, Avg Loss: 0.0000, Reward: -141340.0625
+Episode 2780, Avg Loss: 0.0000, Reward: -183123.05078125
+Episode 2790, Avg Loss: 0.0000, Reward: -141806.66015625
+Episode 2800, Avg Loss: 0.0000, Reward: -183951.203125
+Episode 2800 : -183951.203125
+Episode 2810, Avg Loss: 0.0000, Reward: -184385.47265625
+Episode 2820, Avg Loss: 0.0000, Reward: -142492.515625
+Episode 2830, Avg Loss: 0.0000, Reward: -142676.546875
+Episode 2840, Avg Loss: 0.0000, Reward: -142816.0390625
+Episode 2850, Avg Loss: 0.0000, Reward: -142955.41015625
+Episode 2860, Avg Loss: 0.0000, Reward: -229484.17578125
+Episode 2870, Avg Loss: 0.0000, Reward: -143305.7578125
+Episode 2880, Avg Loss: 0.0000, Reward: -143433.734375
+Episode 2890, Avg Loss: 0.0000, Reward: -143659.52734375
+Episode 2900, Avg Loss: 0.0000, Reward: -231637.26171875
+Episode 2900 : -231637.26171875
+Episode 2910, Avg Loss: 0.0000, Reward: -232391.05859375
+Episode 2920, Avg Loss: 0.0000, Reward: -144318.31640625
+Episode 2930, Avg Loss: 0.0000, Reward: -144540.10546875
+Episode 2940, Avg Loss: 0.0000, Reward: -144719.6328125
+Episode 2950, Avg Loss: 0.0000, Reward: -144913.4921875
+Episode 2960, Avg Loss: 0.0000, Reward: -145124.09375
+Episode 2970, Avg Loss: 0.0000, Reward: -190711.6328125
+Episode 2980, Avg Loss: 0.0000, Reward: -145543.015625
+Episode 2990, Avg Loss: 0.0000, Reward: -145686.33984375
+Episode 3000, Avg Loss: 0.0000, Reward: -191868.68359375
+Episode 3000 : -191868.68359375
+Episode 3010, Avg Loss: 0.0000, Reward: -146058.8984375
+Episode 3020, Avg Loss: 0.0000, Reward: -192561.25
+Episode 3030, Avg Loss: 0.0000, Reward: -146476.2578125
+Episode 3040, Avg Loss: 0.0000, Reward: -193425.09765625
+Episode 3050, Avg Loss: 0.0000, Reward: -193835.81640625
+Episode 3060, Avg Loss: 0.0000, Reward: -147080.984375
+Episode 3070, Avg Loss: 0.0000, Reward: -147264.8828125
+Episode 3080, Avg Loss: 0.0000, Reward: -147441.390625
+Episode 3090, Avg Loss: 0.0000, Reward: -195249.4609375
+Episode 3100, Avg Loss: 0.0000, Reward: -147807.14453125
+Episode 3100 : -147807.14453125
+Episode 3110, Avg Loss: 0.0000, Reward: -195970.92578125
+Episode 3120, Avg Loss: 0.0000, Reward: -148159.1328125
+Episode 3130, Avg Loss: 0.0000, Reward: -148379.87890625
+Episode 3140, Avg Loss: 0.0000, Reward: -148519.37109375
+Episode 3150, Avg Loss: 0.0000, Reward: -246179.03125
+Episode 3160, Avg Loss: 0.0000, Reward: -148877.71484375
+Episode 3170, Avg Loss: 0.0000, Reward: -149031.00390625
+Episode 3180, Avg Loss: 0.0000, Reward: -149217.93359375
+Episode 3190, Avg Loss: 0.0000, Reward: -198754.80859375
+Episode 3200, Avg Loss: 0.0000, Reward: -149540.67578125
+Episode 3200 : -149540.67578125
+Episode 3210, Avg Loss: 0.0000, Reward: -199471.79296875
+Episode 3220, Avg Loss: 0.0000, Reward: -199850.45703125
+Episode 3230, Avg Loss: 0.0000, Reward: -150075.04296875
+Episode 3240, Avg Loss: 0.0000, Reward: -200584.8046875
+Episode 3250, Avg Loss: 0.0000, Reward: -200950.22265625
+Episode 3260, Avg Loss: 0.0000, Reward: -150659.64453125
+Episode 3270, Avg Loss: 0.0000, Reward: -150911.77734375
+Episode 3280, Avg Loss: 0.0000, Reward: -202166.1875
+Episode 3290, Avg Loss: 0.0000, Reward: -202517.671875
+Episode 3300, Avg Loss: 0.0000, Reward: -151384.04296875
+Episode 3300 : -151384.04296875
+Episode 3310, Avg Loss: 0.0000, Reward: -151563.76171875
+Episode 3320, Avg Loss: 0.0000, Reward: -203543.98828125
+Episode 3330, Avg Loss: 0.0000, Reward: -151916.7578125
+Episode 3340, Avg Loss: 0.0000, Reward: -256413.09375
+Episode 3350, Avg Loss: 0.0000, Reward: -152278.62890625
+Episode 3360, Avg Loss: 0.0000, Reward: -152421.03515625
+Episode 3370, Avg Loss: 0.0000, Reward: -152560.421875
+Episode 3380, Avg Loss: 0.0000, Reward: -152719.453125
+Episode 3390, Avg Loss: 0.0000, Reward: -152892.6328125
+Episode 3400, Avg Loss: 0.0000, Reward: -153144.0703125
+Episode 3400 : -153144.0703125
+Episode 3410, Avg Loss: 0.0000, Reward: -153270.9140625
+Episode 3420, Avg Loss: 0.0000, Reward: -153437.25390625
+Episode 3430, Avg Loss: 0.0000, Reward: -207422.58984375
+Episode 3440, Avg Loss: 0.0000, Reward: -153856.671875
+Episode 3450, Avg Loss: 0.0000, Reward: -208156.3359375
+Episode 3460, Avg Loss: 0.0000, Reward: -154248.03125
+Episode 3470, Avg Loss: 0.0000, Reward: -154420.265625
+Episode 3480, Avg Loss: 0.0000, Reward: -263862.6171875
+Episode 3490, Avg Loss: 0.0000, Reward: -154744.21875
+Episode 3500, Avg Loss: 0.0000, Reward: -154986.6640625
+Episode 3500 : -154986.6640625
+Episode 3510, Avg Loss: 0.0000, Reward: -210291.38671875
+Episode 3520, Avg Loss: 0.0000, Reward: -265991.37109375
+Episode 3530, Avg Loss: 0.0000, Reward: -155496.984375
+Episode 3540, Avg Loss: 0.0000, Reward: -155723.7265625
+Episode 3550, Avg Loss: 0.0000, Reward: -155883.6953125
+Episode 3560, Avg Loss: 0.0000, Reward: -156090.8046875
+Episode 3570, Avg Loss: 0.0000, Reward: -212552.609375
+Episode 3580, Avg Loss: 0.0000, Reward: -212915.53125
+Episode 3590, Avg Loss: 0.0000, Reward: -269955.3671875
+Episode 3600, Avg Loss: 0.0000, Reward: -156930.2421875
+Episode 3600 : -156930.2421875
+Episode 3610, Avg Loss: 0.0000, Reward: -157093.4609375
+Episode 3620, Avg Loss: 0.0000, Reward: -157220.3046875
+Episode 3630, Avg Loss: 0.0000, Reward: -272302.5234375
+Episode 3640, Avg Loss: 0.0000, Reward: -157584.1171875
+Episode 3650, Avg Loss: 0.0000, Reward: -215574.1640625
+Episode 3660, Avg Loss: 0.0000, Reward: -215837.953125
+Episode 3670, Avg Loss: 0.0000, Reward: -216236.171875
+Episode 3680, Avg Loss: 0.0000, Reward: -158290.2578125
+Episode 3690, Avg Loss: 0.0000, Reward: -216919.703125
+Episode 3700, Avg Loss: 0.0000, Reward: -158604.515625
+Episode 3700 : -158604.515625
+Episode 3710, Avg Loss: 0.0000, Reward: -158792.34375
+Episode 3720, Avg Loss: 0.0000, Reward: -217938.109375
+Episode 3730, Avg Loss: 0.0000, Reward: -159139.0
+Episode 3740, Avg Loss: 0.0000, Reward: -159344.203125
+Episode 3750, Avg Loss: 0.0000, Reward: -218953.6875
+Episode 3760, Avg Loss: 0.0000, Reward: -159675.875
+Episode 3770, Avg Loss: 0.0000, Reward: -219694.171875
+Episode 3780, Avg Loss: 0.0000, Reward: -220130.984375
+Episode 3790, Avg Loss: 0.0000, Reward: -220579.3828125
+Episode 3800, Avg Loss: 0.0000, Reward: -221049.0703125
+Episode 3800 : -221049.0703125
+Episode 3810, Avg Loss: 0.0000, Reward: -160670.4140625
+Episode 3820, Avg Loss: 0.0000, Reward: -160850.7734375
+Episode 3830, Avg Loss: 0.0000, Reward: -161013.0546875
+Episode 3840, Avg Loss: 0.0000, Reward: -161207.4921875
+Episode 3850, Avg Loss: 0.0000, Reward: -161401.9296875
+Episode 3860, Avg Loss: 0.0000, Reward: -223228.5234375
+Episode 3870, Avg Loss: 0.0000, Reward: -223536.6875
+Episode 3880, Avg Loss: 0.0000, Reward: -161914.28125
+Episode 3890, Avg Loss: 0.0000, Reward: -224159.5390625
+Episode 3900, Avg Loss: 0.0000, Reward: -162285.9609375
+Episode 3900 : -162285.9609375
+Episode 3910, Avg Loss: 0.0000, Reward: -224983.6796875
+Episode 3920, Avg Loss: 0.0000, Reward: -225263.6171875
+Episode 3930, Avg Loss: 0.0000, Reward: -225592.9453125
+Episode 3940, Avg Loss: 0.0000, Reward: -162944.828125
+Episode 3950, Avg Loss: 0.0000, Reward: -163154.1953125
+Episode 3960, Avg Loss: 0.0000, Reward: -226761.7421875
+Episode 3970, Avg Loss: 0.0000, Reward: -163554.9453125
+Episode 3980, Avg Loss: 0.0000, Reward: -163735.1953125
+Episode 3990, Avg Loss: 0.0000, Reward: -163897.9140625
+Episode 4000, Avg Loss: 0.0000, Reward: -164061.875
+Episode 4000 : -164061.875
+Episode 4010, Avg Loss: 0.0000, Reward: -228449.3203125
+Episode 4020, Avg Loss: 0.0000, Reward: -164424.03125
+Episode 4030, Avg Loss: 0.0000, Reward: -229152.5390625
+Episode 4040, Avg Loss: 0.0000, Reward: -164689.953125
+Episode 4050, Avg Loss: 0.0000, Reward: -294801.1875
+Episode 4060, Avg Loss: 0.0000, Reward: -165112.625
+Episode 4070, Avg Loss: 0.0000, Reward: -165253.234375
+Episode 4080, Avg Loss: 0.0000, Reward: -230972.6171875
+Episode 4090, Avg Loss: 0.0000, Reward: -231203.3125
+Episode 4100, Avg Loss: 0.0000, Reward: -231634.875
+Episode 4100 : -231634.875
+Episode 4110, Avg Loss: 0.0000, Reward: -166009.140625
+Episode 4120, Avg Loss: 0.0000, Reward: -232349.71875
+Episode 4130, Avg Loss: 0.0000, Reward: -299030.078125
+Episode 4140, Avg Loss: 0.0000, Reward: -166527.2734375
+Episode 4150, Avg Loss: 0.0000, Reward: -166689.8359375
+Episode 4160, Avg Loss: 0.0000, Reward: -300591.109375
+Episode 4170, Avg Loss: 0.0000, Reward: -234159.7421875
+Episode 4180, Avg Loss: 0.0000, Reward: -234408.8671875
+Episode 4190, Avg Loss: 0.0000, Reward: -167371.90625
+Episode 4200, Avg Loss: 0.0000, Reward: -302751.78125
+Episode 4200 : -302751.78125
+Episode 4210, Avg Loss: 0.0000, Reward: -167754.625
+Episode 4220, Avg Loss: 0.0000, Reward: -303664.2734375
+Episode 4230, Avg Loss: 0.0000, Reward: -236239.5859375
+Episode 4240, Avg Loss: 0.0000, Reward: -236552.9609375
+Episode 4250, Avg Loss: 0.0000, Reward: -168492.4375
+Episode 4260, Avg Loss: 0.0000, Reward: -168699.796875
+Episode 4270, Avg Loss: 0.0000, Reward: -168854.3828125
+Episode 4280, Avg Loss: 0.0000, Reward: -238107.3515625
+Episode 4290, Avg Loss: 0.0000, Reward: -238413.4921875
+Episode 4300, Avg Loss: 0.0000, Reward: -169366.6796875
+Episode 4300 : -169366.6796875
+Episode 4310, Avg Loss: 0.0000, Reward: -239064.7734375
+Episode 4320, Avg Loss: 0.0000, Reward: -169699.265625
+Episode 4330, Avg Loss: 0.0000, Reward: -169841.796875
+Episode 4340, Avg Loss: 0.0000, Reward: -240062.3984375
+Episode 4350, Avg Loss: 0.0000, Reward: -170145.484375
+Episode 4360, Avg Loss: 0.0000, Reward: -170340.9140625
+Episode 4370, Avg Loss: 0.0000, Reward: -170568.8828125
+Episode 4380, Avg Loss: 0.0000, Reward: -170708.515625
+Episode 4390, Avg Loss: 0.0000, Reward: -170891.265625
+Episode 4400, Avg Loss: 0.0000, Reward: -171058.6171875
+Episode 4400 : -171058.6171875
+Episode 4410, Avg Loss: 0.0000, Reward: -242531.6640625
+Episode 4420, Avg Loss: 0.0000, Reward: -171447.828125
+Episode 4430, Avg Loss: 0.0000, Reward: -171638.9765625
+Episode 4440, Avg Loss: 0.0000, Reward: -243828.4453125
+Episode 4450, Avg Loss: 0.0000, Reward: -172054.953125
+Episode 4460, Avg Loss: 0.0000, Reward: -172213.828125
+Episode 4470, Avg Loss: 0.0000, Reward: -172427.890625
+Episode 4480, Avg Loss: 0.0000, Reward: -172611.453125
+Episode 4490, Avg Loss: 0.0000, Reward: -172853.734375
+Episode 4500, Avg Loss: 0.0000, Reward: -246007.1953125
+Episode 4500 : -246007.1953125
+Episode 4510, Avg Loss: 0.0000, Reward: -246340.796875
+Episode 4520, Avg Loss: 0.0000, Reward: -173345.765625
+Episode 4530, Avg Loss: 0.0000, Reward: -320705.1328125
+Episode 4540, Avg Loss: 0.0000, Reward: -173777.7890625
+Episode 4550, Avg Loss: 0.0000, Reward: -173958.6171875
+Episode 4560, Avg Loss: 0.0000, Reward: -174161.1796875
+Episode 4570, Avg Loss: 0.0000, Reward: -248881.6328125
+Episode 4580, Avg Loss: 0.0000, Reward: -249277.6328125
+Episode 4590, Avg Loss: 0.0000, Reward: -174824.3828125
+Episode 4600, Avg Loss: 0.0000, Reward: -250046.1953125
+Episode 4600 : -250046.1953125
+Episode 4610, Avg Loss: 0.0000, Reward: -250345.8046875
+Episode 4620, Avg Loss: 0.0000, Reward: -175361.84375
+Episode 4630, Avg Loss: 0.0000, Reward: -175542.734375
+Episode 4640, Avg Loss: 0.0000, Reward: -175671.265625
+Episode 4650, Avg Loss: 0.0000, Reward: -403556.4140625
+Episode 4660, Avg Loss: 0.0000, Reward: -176033.1015625
+Episode 4670, Avg Loss: 0.0000, Reward: -176191.9609375
+Episode 4680, Avg Loss: 0.0000, Reward: -176334.7109375
+Episode 4690, Avg Loss: 0.0000, Reward: -253051.453125
+Episode 4700, Avg Loss: 0.0000, Reward: -176708.5625
+Episode 4700 : -176708.5625
+Episode 4710, Avg Loss: 0.0000, Reward: -253726.1484375
+Episode 4720, Avg Loss: 0.0000, Reward: -177017.40625
+Episode 4730, Avg Loss: 0.0000, Reward: -177267.2734375
+Episode 4740, Avg Loss: 0.0000, Reward: -177440.0
+Episode 4750, Avg Loss: 0.0000, Reward: -177592.6640625
+Episode 4760, Avg Loss: 0.0000, Reward: -255574.2421875
+Episode 4770, Avg Loss: 0.0000, Reward: -177961.0
+Episode 4780, Avg Loss: 0.0000, Reward: -178143.1484375
+Episode 4790, Avg Loss: 0.0000, Reward: -178281.3671875
+Episode 4800, Avg Loss: 0.0000, Reward: -178479.7421875
+Episode 4800 : -178479.7421875
+Episode 4810, Avg Loss: 0.0000, Reward: -257295.0390625
+Episode 4820, Avg Loss: 0.0000, Reward: -178811.6171875
+Episode 4830, Avg Loss: 0.0000, Reward: -178971.2578125
+Episode 4840, Avg Loss: 0.0000, Reward: -258296.375
+Episode 4850, Avg Loss: 0.0000, Reward: -258685.0078125
+Episode 4860, Avg Loss: 0.0000, Reward: -259098.2421875
+Episode 4870, Avg Loss: 0.0000, Reward: -179729.890625
+Episode 4880, Avg Loss: 0.0000, Reward: -179898.5
+Episode 4890, Avg Loss: 0.0000, Reward: -180155.234375
+Episode 4900, Avg Loss: 0.0000, Reward: -340979.7734375
+Episode 4900 : -340979.7734375
+Episode 4910, Avg Loss: 0.0000, Reward: -180486.5078125
+Episode 4920, Avg Loss: 0.0000, Reward: -180648.953125
+Episode 4930, Avg Loss: 0.0000, Reward: -342447.390625
+Episode 4940, Avg Loss: 0.0000, Reward: -262078.2734375
+Episode 4950, Avg Loss: 0.0000, Reward: -181168.53125
+Episode 4960, Avg Loss: 0.0000, Reward: -181358.984375
+Episode 4970, Avg Loss: 0.0000, Reward: -344812.484375
+Episode 4980, Avg Loss: 0.0000, Reward: -181796.4296875
+Episode 4990, Avg Loss: 0.0000, Reward: -181916.2265625
+Episode 5000, Avg Loss: 0.0000, Reward: -264204.3203125
+Episode 5000 : -264204.3203125
+Episode 5010, Avg Loss: 0.0000, Reward: -264615.0703125
+Episode 5020, Avg Loss: 0.0000, Reward: -429905.4609375
+Episode 5030, Avg Loss: 0.0000, Reward: -347911.2734375
+Episode 5040, Avg Loss: 0.0000, Reward: -182771.6015625
+Episode 5050, Avg Loss: 0.0000, Reward: -182920.0546875
+Episode 5060, Avg Loss: 0.0000, Reward: -183091.1328125
+Episode 5070, Avg Loss: 0.0000, Reward: -183219.328125
+Episode 5080, Avg Loss: 0.0000, Reward: -266800.171875
+Episode 5090, Avg Loss: 0.0000, Reward: -183547.4921875
+Episode 5100, Avg Loss: 0.0000, Reward: -183717.03125
+Episode 5100 : -183717.03125
+Episode 5110, Avg Loss: 0.0000, Reward: -183929.875
+Episode 5120, Avg Loss: 0.0000, Reward: -184113.40625
+Episode 5130, Avg Loss: 0.0000, Reward: -521559.3203125
+Episode 5140, Avg Loss: 0.0000, Reward: -269011.5390625
+Episode 5150, Avg Loss: 0.0000, Reward: -269313.25
+Episode 5160, Avg Loss: 0.0000, Reward: -184848.875
+Episode 5170, Avg Loss: 0.0000, Reward: -184970.734375
+Episode 5180, Avg Loss: 0.0000, Reward: -185157.9296875
+Episode 5190, Avg Loss: 0.0000, Reward: -270876.2421875
+Episode 5200, Avg Loss: 0.0000, Reward: -271204.2890625
+Episode 5200 : -271204.2890625
+Episode 5210, Avg Loss: 0.0000, Reward: -185769.0078125
+Episode 5220, Avg Loss: 0.0000, Reward: -185953.5078125
+Episode 5230, Avg Loss: 0.0000, Reward: -272352.3046875
+Episode 5240, Avg Loss: 0.0000, Reward: -272615.7421875
+Episode 5250, Avg Loss: 0.0000, Reward: -445814.0078125
+Episode 5260, Avg Loss: 0.0000, Reward: -186641.453125
+Episode 5270, Avg Loss: 0.0000, Reward: -186853.328125
+Episode 5280, Avg Loss: 0.0000, Reward: -187027.90625
+Episode 5290, Avg Loss: 0.0000, Reward: -187185.7578125
+Episode 5300, Avg Loss: 0.0000, Reward: -187424.21875
+Episode 5300 : -187424.21875
+Episode 5310, Avg Loss: 0.0000, Reward: -275103.0
+Episode 5320, Avg Loss: 0.0000, Reward: -187706.671875
+Episode 5330, Avg Loss: 0.0000, Reward: -275731.265625
+Episode 5340, Avg Loss: 0.0000, Reward: -276194.9375
+Episode 5350, Avg Loss: 0.0000, Reward: -188285.21875
+Episode 5360, Avg Loss: 0.0000, Reward: -188441.5
+Episode 5370, Avg Loss: 0.0000, Reward: -277312.7109375
+Episode 5380, Avg Loss: 0.0000, Reward: -188792.4375
+Episode 5390, Avg Loss: 0.0000, Reward: -188942.796875
+Episode 5400, Avg Loss: 0.0000, Reward: -189082.125
+Episode 5400 : -189082.125
+Episode 5410, Avg Loss: 0.0000, Reward: -189296.390625
+Episode 5420, Avg Loss: 0.0000, Reward: -457975.3515625
+Episode 5430, Avg Loss: 0.0000, Reward: -189764.046875
+Episode 5440, Avg Loss: 0.0000, Reward: -369837.40625
+Episode 5450, Avg Loss: 0.0000, Reward: -280252.4921875
+Episode 5460, Avg Loss: 0.0000, Reward: -280576.859375
+Episode 5470, Avg Loss: 0.0000, Reward: -280977.265625
+Episode 5480, Avg Loss: 0.0000, Reward: -281388.25
+Episode 5490, Avg Loss: 0.0000, Reward: -190839.6015625
+Episode 5500, Avg Loss: 0.0000, Reward: -191063.2578125
+Episode 5500 : -191063.2578125
+Episode 5510, Avg Loss: 0.0000, Reward: -282477.8359375
+Episode 5520, Avg Loss: 0.0000, Reward: -191363.28125
+Episode 5530, Avg Loss: 0.0000, Reward: -283279.5859375
+Episode 5540, Avg Loss: 0.0000, Reward: -191812.1328125
+Episode 5550, Avg Loss: 0.0000, Reward: -191963.0546875
+Episode 5560, Avg Loss: 0.0000, Reward: -284283.375
+Episode 5570, Avg Loss: 0.0000, Reward: -284715.0546875
+Episode 5580, Avg Loss: 0.0000, Reward: -192481.4296875
+Episode 5590, Avg Loss: 0.0000, Reward: -192720.3359375
+Episode 5600, Avg Loss: 0.0000, Reward: -192890.7109375
+Episode 5600 : -192890.7109375
+Episode 5610, Avg Loss: 0.0000, Reward: -193061.140625
+Episode 5620, Avg Loss: 0.0000, Reward: -286554.2734375
+Episode 5630, Avg Loss: 0.0000, Reward: -193451.0
+Episode 5640, Avg Loss: 0.0000, Reward: -193580.078125
+Episode 5650, Avg Loss: 0.0000, Reward: -193757.65625
+Episode 5660, Avg Loss: 0.0000, Reward: -193884.5
+Episode 5670, Avg Loss: 0.0000, Reward: -194063.53125
+Episode 5680, Avg Loss: 0.0000, Reward: -194225.9765625
+Episode 5690, Avg Loss: 0.0000, Reward: -194392.265625
+Episode 5700, Avg Loss: 0.0000, Reward: -194552.28125
+Episode 5700 : -194552.28125
+Episode 5710, Avg Loss: 0.0000, Reward: -194670.953125
+Episode 5720, Avg Loss: 0.0000, Reward: -194932.7421875
+Episode 5730, Avg Loss: 0.0000, Reward: -290332.7890625
+Episode 5740, Avg Loss: 0.0000, Reward: -195377.515625
+Episode 5750, Avg Loss: 0.0000, Reward: -195584.6796875
+Episode 5760, Avg Loss: 0.0000, Reward: -291541.5078125
+Episode 5770, Avg Loss: 0.0000, Reward: -291895.2421875
+Episode 5780, Avg Loss: 0.0000, Reward: -196052.921875
+Episode 5790, Avg Loss: 0.0000, Reward: -196209.0546875
+Episode 5800, Avg Loss: 0.0000, Reward: -196411.9375
+Episode 5800 : -196411.9375
+Episode 5810, Avg Loss: 0.0000, Reward: -196643.9296875
+Episode 5820, Avg Loss: 0.0000, Reward: -196905.046875
+Episode 5830, Avg Loss: 0.0000, Reward: -197037.25
+Episode 5840, Avg Loss: 0.0000, Reward: -197203.2734375
+Episode 5850, Avg Loss: 0.0000, Reward: -294680.0
+Episode 5860, Avg Loss: 0.0000, Reward: -295081.328125
+Episode 5870, Avg Loss: 0.0000, Reward: -197688.2109375
+Episode 5880, Avg Loss: 0.0000, Reward: -393700.8359375
+Episode 5890, Avg Loss: 0.0000, Reward: -197992.8828125
+Episode 5900, Avg Loss: 0.0000, Reward: -198232.8046875
+Episode 5900 : -198232.8046875
+Episode 5910, Avg Loss: 0.0000, Reward: -198395.9296875
+Episode 5920, Avg Loss: 0.0000, Reward: -198559.9609375
+Episode 5930, Avg Loss: 0.0000, Reward: -198719.6015625
+Episode 5940, Avg Loss: 0.0000, Reward: -297795.078125
+Episode 5950, Avg Loss: 0.0000, Reward: -199066.4609375
+Episode 5960, Avg Loss: 0.0000, Reward: -298590.9140625
+Episode 5970, Avg Loss: 0.0000, Reward: -299108.421875
+Episode 5980, Avg Loss: 0.0000, Reward: -399041.1328125
+Episode 5990, Avg Loss: 0.0000, Reward: -199937.390625
+Episode 6000, Avg Loss: 0.0000, Reward: -200159.3203125
+Episode 6000 : -200159.3203125
+Episode 6010, Avg Loss: 0.0000, Reward: -300781.453125
+Episode 6020, Avg Loss: 0.0000, Reward: -200598.6328125
+Episode 6030, Avg Loss: 0.0000, Reward: -200746.1484375
+Episode 6040, Avg Loss: 0.0000, Reward: -200885.6328125
+Episode 6050, Avg Loss: 0.0000, Reward: -302159.0078125
+Episode 6060, Avg Loss: 0.0000, Reward: -201261.09375
+Episode 6070, Avg Loss: 0.0000, Reward: -302821.0703125
+Episode 6080, Avg Loss: 0.0000, Reward: -201580.5625
+Episode 6090, Avg Loss: 0.0000, Reward: -201801.7109375
+Episode 6100, Avg Loss: 0.0000, Reward: -304070.5078125
+Episode 6100 : -304070.5078125
+Episode 6110, Avg Loss: 0.0000, Reward: -202172.8984375
+Episode 6120, Avg Loss: 0.0000, Reward: -202338.046875
+Episode 6130, Avg Loss: 0.0000, Reward: -305057.3671875
+Episode 6140, Avg Loss: 0.0000, Reward: -202705.0078125
+Episode 6150, Avg Loss: 0.0000, Reward: -202847.7578125
+Episode 6160, Avg Loss: 0.0000, Reward: -203001.4296875
+Episode 6170, Avg Loss: 0.0000, Reward: -203202.5546875
+Episode 6180, Avg Loss: 0.0000, Reward: -203367.171875
+Episode 6190, Avg Loss: 0.0000, Reward: -307049.78125
+Episode 6200, Avg Loss: 0.0000, Reward: -203776.1875
+Episode 6200 : -203776.1875
+Episode 6210, Avg Loss: 0.0000, Reward: -203958.375
+Episode 6220, Avg Loss: 0.0000, Reward: -308236.0625
+Episode 6230, Avg Loss: 0.0000, Reward: -204283.234375
+Episode 6240, Avg Loss: 0.0000, Reward: -204465.671875
+Episode 6250, Avg Loss: 0.0000, Reward: -204596.34375
+Episode 6260, Avg Loss: 0.0000, Reward: -204778.3515625
+Episode 6270, Avg Loss: 0.0000, Reward: -204945.59375
+Episode 6280, Avg Loss: 0.0000, Reward: -205074.671875
+Episode 6290, Avg Loss: 0.0000, Reward: -205219.328125
+Episode 6300, Avg Loss: 0.0000, Reward: -310853.2109375
+Episode 6300 : -310853.2109375
+Episode 6310, Avg Loss: 0.0000, Reward: -205585.9453125
+Episode 6320, Avg Loss: 0.0000, Reward: -205768.921875
+Episode 6330, Avg Loss: 0.0000, Reward: -205950.8515625
+Episode 6340, Avg Loss: 0.0000, Reward: -206112.7890625
+Episode 6350, Avg Loss: 0.0000, Reward: -206268.5234375
+Episode 6360, Avg Loss: 0.0000, Reward: -206413.421875
+Episode 6370, Avg Loss: 0.0000, Reward: -206557.296875
+Episode 6380, Avg Loss: 0.0000, Reward: -313477.6796875
+Episode 6390, Avg Loss: 0.0000, Reward: -206931.703125
+Episode 6400, Avg Loss: 0.0000, Reward: -207130.890625
+Episode 6400 : -207130.890625
+Episode 6410, Avg Loss: 0.0000, Reward: -207303.4375
+Episode 6420, Avg Loss: 0.0000, Reward: -315132.4921875
+Episode 6430, Avg Loss: 0.0000, Reward: -207712.328125
+Episode 6440, Avg Loss: 0.0000, Reward: -207862.546875
+Episode 6450, Avg Loss: 0.0000, Reward: -208049.84375
+Episode 6460, Avg Loss: 0.0000, Reward: -208278.6171875
+Episode 6470, Avg Loss: 0.0000, Reward: -208467.6015625
+Episode 6480, Avg Loss: 0.0000, Reward: -208645.4921875
+Episode 6490, Avg Loss: 0.0000, Reward: -208783.6953125
+Episode 6500, Avg Loss: 0.0000, Reward: -208978.2890625
+Episode 6500 : -208978.2890625
+Episode 6510, Avg Loss: 0.0000, Reward: -209170.4375
+Episode 6520, Avg Loss: 0.0000, Reward: -318787.1953125
+Episode 6530, Avg Loss: 0.0000, Reward: -209605.2265625
+Episode 6540, Avg Loss: 0.0000, Reward: -429469.453125
+Episode 6550, Avg Loss: 0.0000, Reward: -320042.4296875
+Episode 6560, Avg Loss: 0.0000, Reward: -320382.6796875
+Episode 6570, Avg Loss: 0.0000, Reward: -320668.09375
+Episode 6580, Avg Loss: 0.0000, Reward: -210537.09375
+Episode 6590, Avg Loss: 0.0000, Reward: -210727.859375
+Episode 6600, Avg Loss: 0.0000, Reward: -322079.0703125
+Episode 6600 : -322079.0703125
+Episode 6610, Avg Loss: 0.0000, Reward: -211221.6328125
+Episode 6620, Avg Loss: 0.0000, Reward: -322872.8046875
+Episode 6630, Avg Loss: 0.0000, Reward: -211577.0546875
+Episode 6640, Avg Loss: 0.0000, Reward: -211739.6171875
+Episode 6650, Avg Loss: 0.0000, Reward: -211900.8515625
+Episode 6660, Avg Loss: 0.0000, Reward: -212089.8515625
+Episode 6670, Avg Loss: 0.0000, Reward: -324585.96875
+Episode 6680, Avg Loss: 0.0000, Reward: -325086.0390625
+Episode 6690, Avg Loss: 0.0000, Reward: -325320.03125
+Episode 6700, Avg Loss: 0.0000, Reward: -212824.8125
+Episode 6700 : -212824.8125
+Episode 6710, Avg Loss: 0.0000, Reward: -212957.09375
+Episode 6720, Avg Loss: 0.0000, Reward: -213104.75
+Episode 6730, Avg Loss: 0.0000, Reward: -439951.4609375
+Episode 6740, Avg Loss: 0.0000, Reward: -327035.6953125
+Episode 6750, Avg Loss: 0.0000, Reward: -213698.5
+Episode 6760, Avg Loss: 0.0000, Reward: -327934.7421875
+Episode 6770, Avg Loss: 0.0000, Reward: -214125.921875
+Episode 6780, Avg Loss: 0.0000, Reward: -214325.2578125
+Episode 6790, Avg Loss: 0.0000, Reward: -214503.5625
+Episode 6800, Avg Loss: 0.0000, Reward: -329367.75
+Episode 6800 : -329367.75
+Episode 6810, Avg Loss: 0.0000, Reward: -329831.7109375
+Episode 6820, Avg Loss: 0.0000, Reward: -215148.296875
+Episode 6830, Avg Loss: 0.0000, Reward: -330621.1953125
+Episode 6840, Avg Loss: 0.0000, Reward: -215448.9609375
+Episode 6850, Avg Loss: 0.0000, Reward: -331188.0703125
+Episode 6860, Avg Loss: 0.0000, Reward: -215749.0546875
+Episode 6870, Avg Loss: 0.0000, Reward: -215990.8359375
+Episode 6880, Avg Loss: 0.0000, Reward: -332360.3984375
+Episode 6890, Avg Loss: 0.0000, Reward: -216284.0625
+Episode 6900, Avg Loss: 0.0000, Reward: -332913.1640625
+Episode 6900 : -332913.1640625
+Episode 6910, Avg Loss: 0.0000, Reward: -216615.234375
+Episode 6920, Avg Loss: 0.0000, Reward: -333569.484375
+Episode 6930, Avg Loss: 0.0000, Reward: -216983.8515625
+Episode 6940, Avg Loss: 0.0000, Reward: -217162.828125
+Episode 6950, Avg Loss: 0.0000, Reward: -217383.484375
+Episode 6960, Avg Loss: 0.0000, Reward: -335062.3984375
+Episode 6970, Avg Loss: 0.0000, Reward: -335505.7890625
+Episode 6980, Avg Loss: 0.0000, Reward: -217963.4609375
+Episode 6990, Avg Loss: 0.0000, Reward: -218133.3984375
+Episode 7000, Avg Loss: 0.0000, Reward: -218344.8828125
+Episode 7000 : -218344.8828125
+Episode 7010, Avg Loss: 0.0000, Reward: -218508.625
+Episode 7020, Avg Loss: 0.0000, Reward: -337420.6484375
+Episode 7030, Avg Loss: 0.0000, Reward: -456685.3125
+Episode 7040, Avg Loss: 0.0000, Reward: -219051.859375
+Episode 7050, Avg Loss: 0.0000, Reward: -219215.4765625
+Episode 7060, Avg Loss: 0.0000, Reward: -219437.7734375
+Episode 7070, Avg Loss: 0.0000, Reward: -219628.453125
+Episode 7080, Avg Loss: 0.0000, Reward: -219863.3359375
+Episode 7090, Avg Loss: 0.0000, Reward: -220026.4140625
+Episode 7100, Avg Loss: 0.0000, Reward: -220207.2890625
+Episode 7100 : -220207.2890625
+Episode 7110, Avg Loss: 0.0000, Reward: -220325.9609375
+Episode 7120, Avg Loss: 0.0000, Reward: -340971.84375
+Episode 7130, Avg Loss: 0.0000, Reward: -220656.7421875
+Episode 7140, Avg Loss: 0.0000, Reward: -341630.53125
+Episode 7150, Avg Loss: 0.0000, Reward: -221010.8828125
+Episode 7160, Avg Loss: 0.0000, Reward: -342355.28125
+Episode 7170, Avg Loss: 0.0000, Reward: -221332.59375
+Episode 7180, Avg Loss: 0.0000, Reward: -221532.375
+Episode 7190, Avg Loss: 0.0000, Reward: -221693.421875
+Episode 7200, Avg Loss: 0.0000, Reward: -221852.203125
+Episode 7200 : -221852.203125
+Episode 7210, Avg Loss: 0.0000, Reward: -222042.21875
+Episode 7220, Avg Loss: 0.0000, Reward: -222217.96875
+Episode 7230, Avg Loss: 0.0000, Reward: -222377.53125
+Episode 7240, Avg Loss: 0.0000, Reward: -222610.65625
+Episode 7250, Avg Loss: 0.0000, Reward: -222791.609375
+Episode 7260, Avg Loss: 0.0000, Reward: -222936.03125
+Episode 7270, Avg Loss: 0.0000, Reward: -346228.375
+Episode 7280, Avg Loss: 0.0000, Reward: -223303.109375
+Episode 7290, Avg Loss: 0.0000, Reward: -223477.703125
+Episode 7300, Avg Loss: 0.0000, Reward: -347293.828125
+Episode 7300 : -347293.828125
+Episode 7310, Avg Loss: 0.0000, Reward: -223869.03125
+Episode 7320, Avg Loss: 0.0000, Reward: -224064.484375
+Episode 7330, Avg Loss: 0.0000, Reward: -348603.421875
+Episode 7340, Avg Loss: 0.0000, Reward: -224535.5
+Episode 7350, Avg Loss: 0.0000, Reward: -224720.15625
+Episode 7360, Avg Loss: 0.0000, Reward: -224892.625
+Episode 7370, Avg Loss: 0.0000, Reward: -225072.5625
+Episode 7380, Avg Loss: 0.0000, Reward: -350535.203125
+Episode 7390, Avg Loss: 0.0000, Reward: -350935.421875
+Episode 7400, Avg Loss: 0.0000, Reward: -351281.515625
+Episode 7400 : -351281.515625
+Episode 7410, Avg Loss: 0.0000, Reward: -225844.96875
+Episode 7420, Avg Loss: 0.0000, Reward: -226005.0625
+Episode 7430, Avg Loss: 0.0000, Reward: -478564.984375
+Episode 7440, Avg Loss: 0.0000, Reward: -226298.125
+Episode 7450, Avg Loss: 0.0000, Reward: -352948.40625
+Episode 7460, Avg Loss: 0.0000, Reward: -226684.1875
+Episode 7470, Avg Loss: 0.0000, Reward: -226838.078125
+Episode 7480, Avg Loss: 0.0000, Reward: -226976.203125
+Episode 7490, Avg Loss: 0.0000, Reward: -354399.546875
+Episode 7500, Avg Loss: 0.0000, Reward: -354685.46875
+Episode 7500 : -354685.46875
+Episode 7510, Avg Loss: 0.0000, Reward: -482478.75
+Episode 7520, Avg Loss: 0.0000, Reward: -227670.53125
+Episode 7530, Avg Loss: 0.0000, Reward: -355711.09375
+Episode 7540, Avg Loss: 0.0000, Reward: -740125.59375
+Episode 7550, Avg Loss: 0.0000, Reward: -228199.578125
+Episode 7560, Avg Loss: 0.0000, Reward: -356765.90625
+Episode 7570, Avg Loss: 0.0000, Reward: -228523.609375
+Episode 7580, Avg Loss: 0.0000, Reward: -228739.859375
+Episode 7590, Avg Loss: 0.0000, Reward: -615733.125
+Episode 7600, Avg Loss: 0.0000, Reward: -229141.90625
+Episode 7600 : -229141.90625
+Episode 7610, Avg Loss: 0.0000, Reward: -229326.265625
+Episode 7620, Avg Loss: 0.0000, Reward: -229445.921875
+Episode 7630, Avg Loss: 0.0000, Reward: -359254.265625
+Episode 7640, Avg Loss: 0.0000, Reward: -229771.109375
+Episode 7650, Avg Loss: 0.0000, Reward: -490025.65625
+Episode 7660, Avg Loss: 0.0000, Reward: -360396.234375
+Episode 7670, Avg Loss: 0.0000, Reward: -360849.203125
+Episode 7680, Avg Loss: 0.0000, Reward: -230579.53125
+Episode 7690, Avg Loss: 0.0000, Reward: -230742.53125
+Episode 7700, Avg Loss: 0.0000, Reward: -361848.75
+Episode 7700 : -361848.75
+Episode 7710, Avg Loss: 0.0000, Reward: -231083.921875
+Episode 7720, Avg Loss: 0.0000, Reward: -362429.4375
+Episode 7730, Avg Loss: 0.0000, Reward: -362821.859375
+Episode 7740, Avg Loss: 0.0000, Reward: -231588.515625
+Episode 7750, Avg Loss: 0.0000, Reward: -363582.796875
+Episode 7760, Avg Loss: 0.0000, Reward: -231988.78125
+Episode 7770, Avg Loss: 0.0000, Reward: -232148.71875
+Episode 7780, Avg Loss: 0.0000, Reward: -364701.46875
+Episode 7790, Avg Loss: 0.0000, Reward: -364890.78125
+Episode 7800, Avg Loss: 0.0000, Reward: -232581.15625
+Episode 7800 : -232581.15625
+Episode 7810, Avg Loss: 0.0000, Reward: -232731.4375
+Episode 7820, Avg Loss: 0.0000, Reward: -365873.59375
+Episode 7830, Avg Loss: 0.0000, Reward: -233187.1875
+Episode 7840, Avg Loss: 0.0000, Reward: -366844.1875
+Episode 7850, Avg Loss: 0.0000, Reward: -500844.234375
+Episode 7860, Avg Loss: 0.0000, Reward: -233826.3125
+Episode 7870, Avg Loss: 0.0000, Reward: -234016.625
+Episode 7880, Avg Loss: 0.0000, Reward: -368448.75
+Episode 7890, Avg Loss: 0.0000, Reward: -234350.296875
+Episode 7900, Avg Loss: 0.0000, Reward: -234493.734375
+Episode 7900 : -234493.734375
+Episode 7910, Avg Loss: 0.0000, Reward: -234681.296875
+Episode 7920, Avg Loss: 0.0000, Reward: -234955.1875
+Episode 7930, Avg Loss: 0.0000, Reward: -370268.4375
+Episode 7940, Avg Loss: 0.0000, Reward: -235320.78125
+Episode 7950, Avg Loss: 0.0000, Reward: -371119.453125
+Episode 7960, Avg Loss: 0.0000, Reward: -235729.3125
+Episode 7970, Avg Loss: 0.0000, Reward: -235881.765625
+Episode 7980, Avg Loss: 0.0000, Reward: -372204.484375
+Episode 7990, Avg Loss: 0.0000, Reward: -508676.859375
+Episode 8000, Avg Loss: 0.0000, Reward: -236429.5
+Episode 8000 : -236429.5
+Episode 8010, Avg Loss: 0.0000, Reward: -373285.140625
+Episode 8020, Avg Loss: 0.0000, Reward: -236821.5625
+Episode 8030, Avg Loss: 0.0000, Reward: -237009.296875
+Episode 8040, Avg Loss: 0.0000, Reward: -237242.515625
+Episode 8050, Avg Loss: 0.0000, Reward: -237438.453125
+Episode 8060, Avg Loss: 0.0000, Reward: -375285.734375
+Episode 8070, Avg Loss: 0.0000, Reward: -375641.734375
+Episode 8080, Avg Loss: 0.0000, Reward: -237991.546875
+Episode 8090, Avg Loss: 0.0000, Reward: -238133.859375
+Episode 8100, Avg Loss: 0.0000, Reward: -238318.921875
+Episode 8100 : -238318.921875
+Episode 8110, Avg Loss: 0.0000, Reward: -238462.359375
+Episode 8120, Avg Loss: 0.0000, Reward: -377250.359375
+Episode 8130, Avg Loss: 0.0000, Reward: -238767.4375
+Episode 8140, Avg Loss: 0.0000, Reward: -238948.828125
+Episode 8150, Avg Loss: 0.0000, Reward: -239069.671875
+Episode 8160, Avg Loss: 0.0000, Reward: -517720.8125
+Episode 8170, Avg Loss: 0.0000, Reward: -518181.6875
+Episode 8180, Avg Loss: 0.0000, Reward: -379215.109375
+Episode 8190, Avg Loss: 0.0000, Reward: -239827.78125
+Episode 8200, Avg Loss: 0.0000, Reward: -239974.6875
+Episode 8200 : -239974.6875
+Episode 8210, Avg Loss: 0.0000, Reward: -520399.8125
+Episode 8220, Avg Loss: 0.0000, Reward: -240336.078125
+Episode 8230, Avg Loss: 0.0000, Reward: -521661.078125
+Episode 8240, Avg Loss: 0.0000, Reward: -240719.015625
+Episode 8250, Avg Loss: 0.0000, Reward: -240862.828125
+Episode 8260, Avg Loss: 0.0000, Reward: -241032.625
+Episode 8270, Avg Loss: 0.0000, Reward: -241160.984375
+Episode 8280, Avg Loss: 0.0000, Reward: -241332.453125
+Episode 8290, Avg Loss: 0.0000, Reward: -241535.546875
+Episode 8300, Avg Loss: 0.0000, Reward: -241683.578125
+Episode 8300 : -241683.578125
+Episode 8310, Avg Loss: 0.0000, Reward: -241825.890625
+Episode 8320, Avg Loss: 0.0000, Reward: -525868.84375
+Episode 8330, Avg Loss: 0.0000, Reward: -242162.4375
+Episode 8340, Avg Loss: 0.0000, Reward: -242360.4375
+Episode 8350, Avg Loss: 0.0000, Reward: -385196.640625
+Episode 8360, Avg Loss: 0.0000, Reward: -385461.25
+Episode 8370, Avg Loss: 0.0000, Reward: -242921.265625
+Episode 8380, Avg Loss: 0.0000, Reward: -386202.515625
+Episode 8390, Avg Loss: 0.0000, Reward: -243310.109375
+Episode 8400, Avg Loss: 0.0000, Reward: -243496.015625
+Episode 8400 : -243496.015625
+Episode 8410, Avg Loss: 0.0000, Reward: -530955.375
+Episode 8420, Avg Loss: 0.0000, Reward: -243857.3125
+Episode 8430, Avg Loss: 0.0000, Reward: -388047.234375
+Episode 8440, Avg Loss: 0.0000, Reward: -532637.078125
+Episode 8450, Avg Loss: 0.0000, Reward: -244419.875
+Episode 8460, Avg Loss: 0.0000, Reward: -244676.40625
+Episode 8470, Avg Loss: 0.0000, Reward: -389797.015625
+Episode 8480, Avg Loss: 0.0000, Reward: -245081.71875
+Episode 8490, Avg Loss: 0.0000, Reward: -390562.546875
+Episode 8500, Avg Loss: 0.0000, Reward: -245492.1875
+Episode 8500 : -245492.1875
+Episode 8510, Avg Loss: 0.0000, Reward: -391429.8125
+Episode 8520, Avg Loss: 0.0000, Reward: -245873.8125
+Episode 8530, Avg Loss: 0.0000, Reward: -246040.25
+Episode 8540, Avg Loss: 0.0000, Reward: -246247.625
+Episode 8550, Avg Loss: 0.0000, Reward: -539638.734375
+Episode 8560, Avg Loss: 0.0000, Reward: -246673.09375
+Episode 8570, Avg Loss: 0.0000, Reward: -246844.84375
+Episode 8580, Avg Loss: 0.0000, Reward: -247007.546875
+Episode 8590, Avg Loss: 0.0000, Reward: -541619.046875
+Episode 8600, Avg Loss: 0.0000, Reward: -247453.1875
+Episode 8600 : -247453.1875
+Episode 8610, Avg Loss: 0.0000, Reward: -543062.390625
+Episode 8620, Avg Loss: 0.0000, Reward: -395732.75
+Episode 8630, Avg Loss: 0.0000, Reward: -247983.703125
+Episode 8640, Avg Loss: 0.0000, Reward: -544441.40625
+Episode 8650, Avg Loss: 0.0000, Reward: -545371.8125
+Episode 8660, Avg Loss: 0.0000, Reward: -397396.078125
+Episode 8670, Avg Loss: 0.0000, Reward: -248934.21875
+Episode 8680, Avg Loss: 0.0000, Reward: -398125.390625
+Episode 8690, Avg Loss: 0.0000, Reward: -249192.0625
+Episode 8700, Avg Loss: 0.0000, Reward: -249420.4375
+Episode 8700 : -249420.4375
+Episode 8710, Avg Loss: 0.0000, Reward: -399231.296875
+Episode 8720, Avg Loss: 0.0000, Reward: -399630.796875
+Episode 8730, Avg Loss: 0.0000, Reward: -399966.765625
+Episode 8740, Avg Loss: 0.0000, Reward: -250144.453125
+Episode 8750, Avg Loss: 0.0000, Reward: -250318.34375
+Episode 8760, Avg Loss: 0.0000, Reward: -401015.796875
+Episode 8770, Avg Loss: 0.0000, Reward: -250674.6875
+Episode 8780, Avg Loss: 0.0000, Reward: -250880.625
+Episode 8790, Avg Loss: 0.0000, Reward: -251073.984375
+Episode 8800, Avg Loss: 0.0000, Reward: -251278.859375
+Episode 8800 : -251278.859375
+Episode 8810, Avg Loss: 0.0000, Reward: -251453.609375
+Episode 8820, Avg Loss: 0.0000, Reward: -403401.359375
+Episode 8830, Avg Loss: 0.0000, Reward: -403803.140625
+Episode 8840, Avg Loss: 0.0000, Reward: -404234.21875
+Episode 8850, Avg Loss: 0.0000, Reward: -404531.140625
+Episode 8860, Avg Loss: 0.0000, Reward: -252448.921875
+Episode 8870, Avg Loss: 0.0000, Reward: -252621.390625
+Episode 8880, Avg Loss: 0.0000, Reward: -252793.359375
+Episode 8890, Avg Loss: 0.0000, Reward: -405917.109375
+Episode 8900, Avg Loss: 0.0000, Reward: -253119.453125
+Episode 8900 : -253119.453125
+Episode 8910, Avg Loss: 0.0000, Reward: -253258.203125
+Episode 8920, Avg Loss: 0.0000, Reward: -253445.0625
+Episode 8930, Avg Loss: 0.0000, Reward: -253573.421875
+Episode 8940, Avg Loss: 0.0000, Reward: -407513.15625
+Episode 8950, Avg Loss: 0.0000, Reward: -407989.703125
+Episode 8960, Avg Loss: 0.0000, Reward: -254154.890625
+Episode 8970, Avg Loss: 0.0000, Reward: -254341.609375
+Episode 8980, Avg Loss: 0.0000, Reward: -254494.328125
+Episode 8990, Avg Loss: 0.0000, Reward: -409467.734375
+Episode 9000, Avg Loss: 0.0000, Reward: -254929.4375
+Episode 9000 : -254929.4375
+Episode 9010, Avg Loss: 0.0000, Reward: -255091.578125
+Episode 9020, Avg Loss: 0.0000, Reward: -255298.59375
+Episode 9030, Avg Loss: 0.0000, Reward: -255426.953125
+Episode 9040, Avg Loss: 0.0000, Reward: -255619.203125
+Episode 9050, Avg Loss: 0.0000, Reward: -255799.625
+Episode 9060, Avg Loss: 0.0000, Reward: -255961.84375
+Episode 9070, Avg Loss: 0.0000, Reward: -256137.90625
+Episode 9080, Avg Loss: 0.0000, Reward: -256349.09375
+Episode 9090, Avg Loss: 0.0000, Reward: -256530.875
+Episode 9100, Avg Loss: 0.0000, Reward: -256695.484375
+Episode 9100 : -256695.484375
+Episode 9110, Avg Loss: 0.0000, Reward: -256844.484375
+Episode 9120, Avg Loss: 0.0000, Reward: -414164.609375
+Episode 9130, Avg Loss: 0.0000, Reward: -257214.984375
+Episode 9140, Avg Loss: 0.0000, Reward: -257377.953125
+Episode 9150, Avg Loss: 0.0000, Reward: -257519.53125
+Episode 9160, Avg Loss: 0.0000, Reward: -415348.921875
+Episode 9170, Avg Loss: 0.0000, Reward: -257826.890625
+Episode 9180, Avg Loss: 0.0000, Reward: -573982.234375
+Episode 9190, Avg Loss: 0.0000, Reward: -258171.484375
+Episode 9200, Avg Loss: 0.0000, Reward: -258366.203125
+Episode 9200 : -258366.203125
+Episode 9210, Avg Loss: 0.0000, Reward: -417070.984375
+Episode 9220, Avg Loss: 0.0000, Reward: -258716.703125
+Episode 9230, Avg Loss: 0.0000, Reward: -417986.0625
+Episode 9240, Avg Loss: 0.0000, Reward: -259112.3125
+Episode 9250, Avg Loss: 0.0000, Reward: -259262.59375
+Episode 9260, Avg Loss: 0.0000, Reward: -259442.21875
+Episode 9270, Avg Loss: 0.0000, Reward: -259597.59375
+Episode 9280, Avg Loss: 0.0000, Reward: -259747.40625
+Episode 9290, Avg Loss: 0.0000, Reward: -579876.609375
+Episode 9300, Avg Loss: 0.0000, Reward: -260221.671875
+Episode 9300 : -260221.671875
+Episode 9310, Avg Loss: 0.0000, Reward: -260383.984375
+Episode 9320, Avg Loss: 0.0000, Reward: -421055.546875
+Episode 9330, Avg Loss: 0.0000, Reward: -421419.765625
+Episode 9340, Avg Loss: 0.0000, Reward: -260872.78125
+Episode 9350, Avg Loss: 0.0000, Reward: -422113.828125
+Episode 9360, Avg Loss: 0.0000, Reward: -422504.984375
+Episode 9370, Avg Loss: 0.0000, Reward: -261426.203125
+Episode 9380, Avg Loss: 0.0000, Reward: -423253.109375
+Episode 9390, Avg Loss: 0.0000, Reward: -423577.546875
+Episode 9400, Avg Loss: 0.0000, Reward: -424044.046875
+Episode 9400 : -424044.046875
+Episode 9410, Avg Loss: 0.0000, Reward: -262173.3125
+Episode 9420, Avg Loss: 0.0000, Reward: -424748.203125
+Episode 9430, Avg Loss: 0.0000, Reward: -425058.453125
+Episode 9440, Avg Loss: 0.0000, Reward: -262784.65625
+Episode 9450, Avg Loss: 0.0000, Reward: -425879.046875
+Episode 9460, Avg Loss: 0.0000, Reward: -263036.671875
+Episode 9470, Avg Loss: 0.0000, Reward: -263258.75
+Episode 9480, Avg Loss: 0.0000, Reward: -426955.109375
+Episode 9490, Avg Loss: 0.0000, Reward: -427245.8125
+Episode 9500, Avg Loss: 0.0000, Reward: -263803.578125
+Episode 9500 : -263803.578125
+Episode 9510, Avg Loss: 0.0000, Reward: -264022.40625
+Episode 9520, Avg Loss: 0.0000, Reward: -264273.6875
+Episode 9530, Avg Loss: 0.0000, Reward: -264462.53125
+Episode 9540, Avg Loss: 0.0000, Reward: -429305.84375
+Episode 9550, Avg Loss: 0.0000, Reward: -264791.09375
+Episode 9560, Avg Loss: 0.0000, Reward: -264930.5
+Episode 9570, Avg Loss: 0.0000, Reward: -430386.671875
+Episode 9580, Avg Loss: 0.0000, Reward: -761440.0625
+Episode 9590, Avg Loss: 0.0000, Reward: -431228.71875
+Episode 9600, Avg Loss: 0.0000, Reward: -431507.375
+Episode 9600 : -431507.375
+Episode 9610, Avg Loss: 0.0000, Reward: -265916.984375
+Episode 9620, Avg Loss: 0.0000, Reward: -266080.109375
+Episode 9630, Avg Loss: 0.0000, Reward: -266246.546875
+Episode 9640, Avg Loss: 0.0000, Reward: -266391.84375
+Episode 9650, Avg Loss: 0.0000, Reward: -433186.890625
+Episode 9660, Avg Loss: 0.0000, Reward: -266707.90625
+Episode 9670, Avg Loss: 0.0000, Reward: -266892.09375
+Episode 9680, Avg Loss: 0.0000, Reward: -267065.640625
+Episode 9690, Avg Loss: 0.0000, Reward: -434458.359375
+Episode 9700, Avg Loss: 0.0000, Reward: -267403.28125
+Episode 9700 : -267403.28125
+Episode 9710, Avg Loss: 0.0000, Reward: -435247.453125
+Episode 9720, Avg Loss: 0.0000, Reward: -267806.84375
+Episode 9730, Avg Loss: 0.0000, Reward: -267967.84375
+Episode 9740, Avg Loss: 0.0000, Reward: -436273.078125
+Episode 9750, Avg Loss: 0.0000, Reward: -268329.3125
+Episode 9760, Avg Loss: 0.0000, Reward: -268532.96875
+Episode 9770, Avg Loss: 0.0000, Reward: -437355.921875
+Episode 9780, Avg Loss: 0.0000, Reward: -437833.859375
+Episode 9790, Avg Loss: 0.0000, Reward: -269090.453125
+Episode 9800, Avg Loss: 0.0000, Reward: -269277.921875
+Episode 9800 : -269277.921875
+Episode 9810, Avg Loss: 0.0000, Reward: -269477.0625
+Episode 9820, Avg Loss: 0.0000, Reward: -269659.5
+Episode 9830, Avg Loss: 0.0000, Reward: -269826.28125
+Episode 9840, Avg Loss: 0.0000, Reward: -440053.421875
+Episode 9850, Avg Loss: 0.0000, Reward: -270180.25
+Episode 9860, Avg Loss: 0.0000, Reward: -270348.828125
+Episode 9870, Avg Loss: 0.0000, Reward: -270547.109375
+Episode 9880, Avg Loss: 0.0000, Reward: -270700.390625
+Episode 9890, Avg Loss: 0.0000, Reward: -270840.265625
+Episode 9900, Avg Loss: 0.0000, Reward: -271002.046875
+Episode 9900 : -271002.046875
+Episode 9910, Avg Loss: 0.0000, Reward: -442381.3125
+Episode 9920, Avg Loss: 0.0000, Reward: -442840.40625
+Episode 9930, Avg Loss: 0.0000, Reward: -443267.5
+Episode 9940, Avg Loss: 0.0000, Reward: -271748.953125
+Episode 9950, Avg Loss: 0.0000, Reward: -271912.296875
+Episode 9960, Avg Loss: 0.0000, Reward: -272124.3125
+Episode 9970, Avg Loss: 0.0000, Reward: -272242.90625
+Episode 9980, Avg Loss: 0.0000, Reward: -444870.421875
+Episode 9990, Avg Loss: 0.0000, Reward: -445077.46875
+Episode 10000, Avg Loss: 0.0000, Reward: -445470.015625
+Episode 10000 : -445470.015625
+Episode 10010, Avg Loss: 0.0000, Reward: -272972.375
+Episode 10020, Avg Loss: 0.0000, Reward: -273129.796875
+Episode 10030, Avg Loss: 0.0000, Reward: -273290.359375
+Episode 10040, Avg Loss: 0.0000, Reward: -273494.109375
+Episode 10050, Avg Loss: 0.0000, Reward: -447413.046875
+Episode 10060, Avg Loss: 0.0000, Reward: -447705.390625
+Episode 10070, Avg Loss: 0.0000, Reward: -274016.0625
+Episode 10080, Avg Loss: 0.0000, Reward: -448362.203125
+Episode 10090, Avg Loss: 0.0000, Reward: -448720.328125
+Episode 10100, Avg Loss: 0.0000, Reward: -274502.265625
+Episode 10100 : -274502.265625
+Episode 10110, Avg Loss: 0.0000, Reward: -449362.265625
+Episode 10120, Avg Loss: 0.0000, Reward: -624650.484375
+Episode 10130, Avg Loss: 0.0000, Reward: -275083.34375
+Episode 10140, Avg Loss: 0.0000, Reward: -275223.21875
+Episode 10150, Avg Loss: 0.0000, Reward: -275418.578125
+Episode 10160, Avg Loss: 0.0000, Reward: -275560.109375
+Episode 10170, Avg Loss: 0.0000, Reward: -451385.0625
+Episode 10180, Avg Loss: 0.0000, Reward: -451781.296875
+Episode 10190, Avg Loss: 0.0000, Reward: -452066.8125
+Episode 10200, Avg Loss: 0.0000, Reward: -276159.171875
+Episode 10200 : -276159.171875
+Episode 10210, Avg Loss: 0.0000, Reward: -452817.265625
+Episode 10220, Avg Loss: 0.0000, Reward: -453100.421875
+Episode 10230, Avg Loss: 0.0000, Reward: -276729.03125
+Episode 10240, Avg Loss: 0.0000, Reward: -453767.234375
+Episode 10250, Avg Loss: 0.0000, Reward: -631215.140625
+Episode 10260, Avg Loss: 0.0000, Reward: -277255.578125
+Episode 10270, Avg Loss: 0.0000, Reward: -277414.984375
+Episode 10280, Avg Loss: 0.0000, Reward: -277601.765625
+Episode 10290, Avg Loss: 0.0000, Reward: -277770.015625
+Episode 10300, Avg Loss: 0.0000, Reward: -456021.140625
+Episode 10300 : -456021.140625
+Episode 10310, Avg Loss: 0.0000, Reward: -278240.0625
+Episode 10320, Avg Loss: 0.0000, Reward: -278400.0625
+Episode 10330, Avg Loss: 0.0000, Reward: -457095.265625
+Episode 10340, Avg Loss: 0.0000, Reward: -278744.8125
+Episode 10350, Avg Loss: 0.0000, Reward: -278908.375
+Episode 10360, Avg Loss: 0.0000, Reward: -279051.0625
+Episode 10370, Avg Loss: 0.0000, Reward: -279286.109375
+Episode 10380, Avg Loss: 0.0000, Reward: -279436.09375
+Episode 10390, Avg Loss: 0.0000, Reward: -459233.40625
+Episode 10400, Avg Loss: 0.0000, Reward: -459608.578125
+Episode 10400 : -459608.578125
+Episode 10410, Avg Loss: 0.0000, Reward: -279967.8125
+Episode 10420, Avg Loss: 0.0000, Reward: -640538.25
+Episode 10430, Avg Loss: 0.0000, Reward: -280364.953125
+Episode 10440, Avg Loss: 0.0000, Reward: -280554.203125
+Episode 10450, Avg Loss: 0.0000, Reward: -642240.828125
+Episode 10460, Avg Loss: 0.0000, Reward: -280942.796875
+Episode 10470, Avg Loss: 0.0000, Reward: -462436.140625
+Episode 10480, Avg Loss: 0.0000, Reward: -281373.734375
+Episode 10490, Avg Loss: 0.0000, Reward: -281611.09375
+Episode 10500, Avg Loss: 0.0000, Reward: -281729.6875
+Episode 10500 : -281729.6875
+Episode 10510, Avg Loss: 0.0000, Reward: -281874.53125
+Episode 10520, Avg Loss: 0.0000, Reward: -282074.71875
+Episode 10530, Avg Loss: 0.0000, Reward: -464666.234375
+Episode 10540, Avg Loss: 0.0000, Reward: -465196.3125
+Episode 10550, Avg Loss: 0.0000, Reward: -282768.65625
+Episode 10560, Avg Loss: 0.0000, Reward: -282894.53125
+Episode 10570, Avg Loss: 0.0000, Reward: -283042.09375
+Episode 10580, Avg Loss: 0.0000, Reward: -466471.015625
+Episode 10590, Avg Loss: 0.0000, Reward: -283441.46875
+Episode 10600, Avg Loss: 0.0000, Reward: -467247.046875
+Episode 10600 : -467247.046875
+Episode 10610, Avg Loss: 0.0000, Reward: -283801.734375
+Episode 10620, Avg Loss: 0.0000, Reward: -284005.140625
+Episode 10630, Avg Loss: 0.0000, Reward: -468389.546875
+Episode 10640, Avg Loss: 0.0000, Reward: -468774.234375
+Episode 10650, Avg Loss: 0.0000, Reward: -284563.390625
+Episode 10660, Avg Loss: 0.0000, Reward: -469611.171875
+Episode 10670, Avg Loss: 0.0000, Reward: -284984.6875
+Episode 10680, Avg Loss: 0.0000, Reward: -655507.25
+Episode 10690, Avg Loss: 0.0000, Reward: -470786.203125
+Episode 10700, Avg Loss: 0.0000, Reward: -471089.859375
+Episode 10700 : -471089.859375
+Episode 10710, Avg Loss: 0.0000, Reward: -285746.9375
+Episode 10720, Avg Loss: 0.0000, Reward: -285893.828125
+Episode 10730, Avg Loss: 0.0000, Reward: -286012.421875
+Episode 10740, Avg Loss: 0.0000, Reward: -472371.421875
+Episode 10750, Avg Loss: 0.0000, Reward: -286336.5
+Episode 10760, Avg Loss: 0.0000, Reward: -473082.453125
+Episode 10770, Avg Loss: 0.0000, Reward: -286707.875
+Episode 10780, Avg Loss: 0.0000, Reward: -286856.203125
+Episode 10790, Avg Loss: 0.0000, Reward: -474073.53125
+Episode 10800, Avg Loss: 0.0000, Reward: -287172.859375
+Episode 10800 : -287172.859375
+Episode 10810, Avg Loss: 0.0000, Reward: -474677.453125
+Episode 10820, Avg Loss: 0.0000, Reward: -287513.09375
+Episode 10830, Avg Loss: 0.0000, Reward: -287655.296875
+Episode 10840, Avg Loss: 0.0000, Reward: -287873.171875
+Episode 10850, Avg Loss: 0.0000, Reward: -288075.984375
+Episode 10860, Avg Loss: 0.0000, Reward: -288256.234375
+Episode 10870, Avg Loss: 0.0000, Reward: -288421.625
+Episode 10880, Avg Loss: 0.0000, Reward: -477151.5
+Episode 10890, Avg Loss: 0.0000, Reward: -477561.953125
+Episode 10900, Avg Loss: 0.0000, Reward: -477866.328125
+Episode 10900 : -477866.328125
+Episode 10910, Avg Loss: 0.0000, Reward: -478291.1875
+Episode 10920, Avg Loss: 0.0000, Reward: -289247.640625
+Episode 10930, Avg Loss: 0.0000, Reward: -289409.265625
+Episode 10940, Avg Loss: 0.0000, Reward: -479161.546875
+Episode 10950, Avg Loss: 0.0000, Reward: -289762.078125
+Episode 10960, Avg Loss: 0.0000, Reward: -289960.828125
+Episode 10970, Avg Loss: 0.0000, Reward: -670541.25
+Episode 10980, Avg Loss: 0.0000, Reward: -290345.375
+Episode 10990, Avg Loss: 0.0000, Reward: -290544.046875
+Episode 11000, Avg Loss: 0.0000, Reward: -290714.34375
+Episode 11000 : -290714.34375
+Episode 11010, Avg Loss: 0.0000, Reward: -672650.53125
+Episode 11020, Avg Loss: 0.0000, Reward: -291123.140625
+Episode 11030, Avg Loss: 0.0000, Reward: -291241.734375
+Episode 11040, Avg Loss: 0.0000, Reward: -291372.390625
+Episode 11050, Avg Loss: 0.0000, Reward: -291543.375
+Episode 11060, Avg Loss: 0.0000, Reward: -291691.1875
+Episode 11070, Avg Loss: 0.0000, Reward: -291831.03125
+Episode 11080, Avg Loss: 0.0000, Reward: -484008.296875
+Episode 11090, Avg Loss: 0.0000, Reward: -292229.640625
+Episode 11100, Avg Loss: 0.0000, Reward: -484837.328125
+Episode 11100 : -484837.328125
+Episode 11110, Avg Loss: 0.0000, Reward: -292619.203125
+Episode 11120, Avg Loss: 0.0000, Reward: -485709.796875
+Episode 11130, Avg Loss: 0.0000, Reward: -678948.140625
+Episode 11140, Avg Loss: 0.0000, Reward: -293136.4375
+Episode 11150, Avg Loss: 0.0000, Reward: -293271.34375
+Episode 11160, Avg Loss: 0.0000, Reward: -293419.640625
+Episode 11170, Avg Loss: 0.0000, Reward: -293597.21875
+Episode 11180, Avg Loss: 0.0000, Reward: -487513.0625
+Episode 11190, Avg Loss: 0.0000, Reward: -487872.921875
+Episode 11200, Avg Loss: 0.0000, Reward: -488410.75
+Episode 11200 : -488410.75
+Episode 11210, Avg Loss: 0.0000, Reward: -294345.375
+Episode 11220, Avg Loss: 0.0000, Reward: -489038.59375
+Episode 11230, Avg Loss: 0.0000, Reward: -294680.34375
+Episode 11240, Avg Loss: 0.0000, Reward: -489729.25
+Episode 11250, Avg Loss: 0.0000, Reward: -490067.578125
+Episode 11260, Avg Loss: 0.0000, Reward: -490417.25
+Episode 11270, Avg Loss: 0.0000, Reward: -881851.09375
+Episode 11280, Avg Loss: 0.0000, Reward: -295635.140625
+Episode 11290, Avg Loss: 0.0000, Reward: -491613.109375
+Episode 11300, Avg Loss: 0.0000, Reward: -491908.875
+Episode 11300 : -491908.875
+Episode 11310, Avg Loss: 0.0000, Reward: -688417.640625
+Episode 11320, Avg Loss: 0.0000, Reward: -296298.03125
+Episode 11330, Avg Loss: 0.0000, Reward: -493126.265625
+Episode 11340, Avg Loss: 0.0000, Reward: -493514.046875
+Episode 11350, Avg Loss: 0.0000, Reward: -296935.765625
+Episode 11360, Avg Loss: 0.0000, Reward: -494092.8125
+Episode 11370, Avg Loss: 0.0000, Reward: -297240.359375
+Episode 11380, Avg Loss: 0.0000, Reward: -494853.765625
+Episode 11390, Avg Loss: 0.0000, Reward: -297556.8125
+Episode 11400, Avg Loss: 0.0000, Reward: -495543.859375
+Episode 11400 : -495543.859375
+Episode 11410, Avg Loss: 0.0000, Reward: -495853.734375
+Episode 11420, Avg Loss: 0.0000, Reward: -496239.25
+Episode 11430, Avg Loss: 0.0000, Reward: -496552.015625
+Episode 11440, Avg Loss: 0.0000, Reward: -496884.96875
+Episode 11450, Avg Loss: 0.0000, Reward: -497317.828125
+Episode 11460, Avg Loss: 0.0000, Reward: -298859.46875
+Episode 11470, Avg Loss: 0.0000, Reward: -299049.515625
+Episode 11480, Avg Loss: 0.0000, Reward: -299213.578125
+Episode 11490, Avg Loss: 0.0000, Reward: -498933.453125
+Episode 11500, Avg Loss: 0.0000, Reward: -299620.375
+Episode 11500 : -299620.375
+Episode 11510, Avg Loss: 0.0000, Reward: -299801.09375
+Episode 11520, Avg Loss: 0.0000, Reward: -299985.375
+Episode 11530, Avg Loss: 0.0000, Reward: -500402.28125
+Episode 11540, Avg Loss: 0.0000, Reward: -300345.984375
+Episode 11550, Avg Loss: 0.0000, Reward: -501104.640625
+Episode 11560, Avg Loss: 0.0000, Reward: -300726.453125
+Episode 11570, Avg Loss: 0.0000, Reward: -300907.109375
+Episode 11580, Avg Loss: 0.0000, Reward: -502143.609375
+Episode 11590, Avg Loss: 0.0000, Reward: -502563.796875
+Episode 11600, Avg Loss: 0.0000, Reward: -503148.46875
+Episode 11600 : -503148.46875
+Episode 11610, Avg Loss: 0.0000, Reward: -503471.703125
+Episode 11620, Avg Loss: 0.0000, Reward: -301924.265625
+Episode 11630, Avg Loss: 0.0000, Reward: -302075.484375
+Episode 11640, Avg Loss: 0.0000, Reward: -302258.140625
+Episode 11650, Avg Loss: 0.0000, Reward: -302403.515625
+Episode 11660, Avg Loss: 0.0000, Reward: -302583.234375
+Episode 11670, Avg Loss: 0.0000, Reward: -302724.203125
+Episode 11680, Avg Loss: 0.0000, Reward: -302908.375
+Episode 11690, Avg Loss: 0.0000, Reward: -506171.953125
+Episode 11700, Avg Loss: 0.0000, Reward: -506548.1875
+Episode 11700 : -506548.1875
+Episode 11710, Avg Loss: 0.0000, Reward: -303497.4375
+Episode 11720, Avg Loss: 0.0000, Reward: -303739.46875
+Episode 11730, Avg Loss: 0.0000, Reward: -711771.515625
+Episode 11740, Avg Loss: 0.0000, Reward: -508231.609375
+Episode 11750, Avg Loss: 0.0000, Reward: -508691.453125
+Episode 11760, Avg Loss: 0.0000, Reward: -304535.359375
+Episode 11770, Avg Loss: 0.0000, Reward: -304756.046875
+Episode 11780, Avg Loss: 0.0000, Reward: -304954.4375
+Episode 11790, Avg Loss: 0.0000, Reward: -305167.078125
+Episode 11800, Avg Loss: 0.0000, Reward: -305354.921875
+Episode 11800 : -305354.921875
+Episode 11810, Avg Loss: 0.0000, Reward: -511202.84375
+Episode 11820, Avg Loss: 0.0000, Reward: -305748.953125
+Episode 11830, Avg Loss: 0.0000, Reward: -305868.109375
+Episode 11840, Avg Loss: 0.0000, Reward: -512195.734375
+Episode 11850, Avg Loss: 0.0000, Reward: -719002.34375
+Episode 11860, Avg Loss: 0.0000, Reward: -306539.84375
+Episode 11870, Avg Loss: 0.0000, Reward: -306692.046875
+Episode 11880, Avg Loss: 0.0000, Reward: -306852.109375
+Episode 11890, Avg Loss: 0.0000, Reward: -514115.296875
+Episode 11900, Avg Loss: 0.0000, Reward: -514648.0
+Episode 11900 : -514648.0
+Episode 11910, Avg Loss: 0.0000, Reward: -515111.3125
+Episode 11920, Avg Loss: 0.0000, Reward: -515390.078125
+Episode 11930, Avg Loss: 0.0000, Reward: -307846.9375
+Episode 11940, Avg Loss: 0.0000, Reward: -307986.34375
+Episode 11950, Avg Loss: 0.0000, Reward: -308145.90625
+Episode 11960, Avg Loss: 0.0000, Reward: -933467.234375
+Episode 11970, Avg Loss: 0.0000, Reward: -725699.84375
+Episode 11980, Avg Loss: 0.0000, Reward: -308801.203125
+Episode 11990, Avg Loss: 0.0000, Reward: -518023.875
+Episode 12000, Avg Loss: 0.0000, Reward: -309167.078125
+Episode 12000 : -309167.078125
+Episode 12010, Avg Loss: 0.0000, Reward: -518780.765625
+Episode 12020, Avg Loss: 0.0000, Reward: -309526.78125
+Episode 12030, Avg Loss: 0.0000, Reward: -729386.96875
+Episode 12040, Avg Loss: 0.0000, Reward: -309963.046875
+Episode 12050, Avg Loss: 0.0000, Reward: -310168.609375
+Episode 12060, Avg Loss: 0.0000, Reward: -520572.109375
+Episode 12070, Avg Loss: 0.0000, Reward: -310457.828125
+Episode 12080, Avg Loss: 0.0000, Reward: -521313.59375
+Episode 12090, Avg Loss: 0.0000, Reward: -310840.5
+Episode 12100, Avg Loss: 0.0000, Reward: -311047.71875
+Episode 12100 : -311047.71875
+Episode 12110, Avg Loss: 0.0000, Reward: -311245.515625
+Episode 12120, Avg Loss: 0.0000, Reward: -311404.625
+Episode 12130, Avg Loss: 0.0000, Reward: -523187.578125
+Episode 12140, Avg Loss: 0.0000, Reward: -311817.640625
+Episode 12150, Avg Loss: 0.0000, Reward: -311996.421875
+Episode 12160, Avg Loss: 0.0000, Reward: -312156.53125
+Episode 12170, Avg Loss: 0.0000, Reward: -312367.3125
+Episode 12180, Avg Loss: 0.0000, Reward: -525188.078125
+Episode 12190, Avg Loss: 0.0000, Reward: -525533.046875
+Episode 12200, Avg Loss: 0.0000, Reward: -525940.328125
+Episode 12200 : -525940.328125
+Episode 12210, Avg Loss: 0.0000, Reward: -739646.8125
+Episode 12220, Avg Loss: 0.0000, Reward: -313351.859375
+Episode 12230, Avg Loss: 0.0000, Reward: -313661.578125
+Episode 12240, Avg Loss: 0.0000, Reward: -527715.234375
+Episode 12250, Avg Loss: 0.0000, Reward: -314006.265625
+Episode 12260, Avg Loss: 0.0000, Reward: -528435.328125
+Episode 12270, Avg Loss: 0.0000, Reward: -528880.828125
+Episode 12280, Avg Loss: 0.0000, Reward: -314645.015625
+Episode 12290, Avg Loss: 0.0000, Reward: -314805.109375
+Episode 12300, Avg Loss: 0.0000, Reward: -530056.515625
+Episode 12300 : -530056.515625
+Episode 12310, Avg Loss: 0.0000, Reward: -315179.1875
+Episode 12320, Avg Loss: 0.0000, Reward: -315341.171875
+Episode 12330, Avg Loss: 0.0000, Reward: -315470.171875
+Episode 12340, Avg Loss: 0.0000, Reward: -315668.890625
+Episode 12350, Avg Loss: 0.0000, Reward: -315844.734375
+Episode 12360, Avg Loss: 0.0000, Reward: -316027.53125
+Episode 12370, Avg Loss: 0.0000, Reward: -316201.53125
+Episode 12380, Avg Loss: 0.0000, Reward: -316439.09375
+Episode 12390, Avg Loss: 0.0000, Reward: -316593.453125
+Episode 12400, Avg Loss: 0.0000, Reward: -316779.0625
+Episode 12400 : -316779.0625
+Episode 12410, Avg Loss: 0.0000, Reward: -533893.578125
+Episode 12420, Avg Loss: 0.0000, Reward: -317066.96875
+Episode 12430, Avg Loss: 0.0000, Reward: -534412.78125
+Episode 12440, Avg Loss: 0.0000, Reward: -317411.578125
+Episode 12450, Avg Loss: 0.0000, Reward: -317561.796875
+Episode 12460, Avg Loss: 0.0000, Reward: -317708.484375
+Episode 12470, Avg Loss: 0.0000, Reward: -317886.953125
+Episode 12480, Avg Loss: 0.0000, Reward: -536054.953125
+Episode 12490, Avg Loss: 0.0000, Reward: -536371.296875
+Episode 12500, Avg Loss: 0.0000, Reward: -755397.109375
+Episode 12500 : -755397.109375
+Episode 12510, Avg Loss: 0.0000, Reward: -537173.765625
+Episode 12520, Avg Loss: 0.0000, Reward: -537526.546875
+Episode 12530, Avg Loss: 0.0000, Reward: -318980.359375
+Episode 12540, Avg Loss: 0.0000, Reward: -319183.546875
+Episode 12550, Avg Loss: 0.0000, Reward: -538865.265625
+Episode 12560, Avg Loss: 0.0000, Reward: -319615.75
+Episode 12570, Avg Loss: 0.0000, Reward: -319742.5
+Episode 12580, Avg Loss: 0.0000, Reward: -319911.828125
+Episode 12590, Avg Loss: 0.0000, Reward: -540208.046875
+Episode 12600, Avg Loss: 0.0000, Reward: -760893.65625
+Episode 12600 : -760893.65625
+Episode 12610, Avg Loss: 0.0000, Reward: -320516.421875
+Episode 12620, Avg Loss: 0.0000, Reward: -541547.421875
+Episode 12630, Avg Loss: 0.0000, Reward: -320958.515625
+Episode 12640, Avg Loss: 0.0000, Reward: -321161.703125
+Episode 12650, Avg Loss: 0.0000, Reward: -321280.296875
+Episode 12660, Avg Loss: 0.0000, Reward: -321427.203125
+Episode 12670, Avg Loss: 0.0000, Reward: -321674.96875
+Episode 12680, Avg Loss: 0.0000, Reward: -321838.953125
+Episode 12690, Avg Loss: 0.0000, Reward: -544056.078125
+Episode 12700, Avg Loss: 0.0000, Reward: -544351.328125
+Episode 12700 : -544351.328125
+Episode 12710, Avg Loss: 0.0000, Reward: -544815.25
+Episode 12720, Avg Loss: 0.0000, Reward: -322619.578125
+Episode 12730, Avg Loss: 0.0000, Reward: -322825.28125
+Episode 12740, Avg Loss: 0.0000, Reward: -322975.5625
+Episode 12750, Avg Loss: 0.0000, Reward: -323123.890625
+Episode 12760, Avg Loss: 0.0000, Reward: -546715.484375
+Episode 12770, Avg Loss: 0.0000, Reward: -323507.515625
+Episode 12780, Avg Loss: 0.0000, Reward: -323695.859375
+Episode 12790, Avg Loss: 0.0000, Reward: -547805.546875
+Episode 12800, Avg Loss: 0.0000, Reward: -324087.625
+Episode 12800 : -324087.625
+Episode 12810, Avg Loss: 0.0000, Reward: -324273.453125
+Episode 12820, Avg Loss: 0.0000, Reward: -548951.640625
+Episode 12830, Avg Loss: 0.0000, Reward: -324666.03125
+Episode 12840, Avg Loss: 0.0000, Reward: -324839.375
+Episode 12850, Avg Loss: 0.0000, Reward: -324991.34375
+Episode 12860, Avg Loss: 0.0000, Reward: -775365.5625
+Episode 12870, Avg Loss: 0.0000, Reward: -325296.3125
+Episode 12880, Avg Loss: 0.0000, Reward: -551000.0
+Episode 12890, Avg Loss: 0.0000, Reward: -325672.25
+Episode 12900, Avg Loss: 0.0000, Reward: -325817.078125
+Episode 12900 : -325817.078125
+Episode 12910, Avg Loss: 0.0000, Reward: -552049.203125
+Episode 12920, Avg Loss: 0.0000, Reward: -326194.390625
+Episode 12930, Avg Loss: 0.0000, Reward: -779177.4375
+Episode 12940, Avg Loss: 0.0000, Reward: -553318.296875
+Episode 12950, Avg Loss: 0.0000, Reward: -553669.40625
+Episode 12960, Avg Loss: 0.0000, Reward: -327017.234375
+Episode 12970, Avg Loss: 0.0000, Reward: -327181.484375
+Episode 12980, Avg Loss: 0.0000, Reward: -327364.734375
+Episode 12990, Avg Loss: 0.0000, Reward: -327532.328125
+Episode 13000, Avg Loss: 0.0000, Reward: -327671.734375
+Episode 13000 : -327671.734375
+Episode 13010, Avg Loss: 0.0000, Reward: -327864.59375
+Episode 13020, Avg Loss: 0.0000, Reward: -328008.78125
+Episode 13030, Avg Loss: 0.0000, Reward: -328172.15625
+Episode 13040, Avg Loss: 0.0000, Reward: -556681.328125
+Episode 13050, Avg Loss: 0.0000, Reward: -557058.140625
+Episode 13060, Avg Loss: 0.0000, Reward: -328750.4375
+Episode 13070, Avg Loss: 0.0000, Reward: -328879.90625
+Episode 13080, Avg Loss: 0.0000, Reward: -329022.59375
+Episode 13090, Avg Loss: 0.0000, Reward: -558426.875
+Episode 13100, Avg Loss: 0.0000, Reward: -329361.328125
+Episode 13100 : -329361.328125
+Episode 13110, Avg Loss: 0.0000, Reward: -788761.578125
+Episode 13120, Avg Loss: 0.0000, Reward: -559577.203125
+Episode 13130, Avg Loss: 0.0000, Reward: -329958.34375
+Episode 13140, Avg Loss: 0.0000, Reward: -790527.546875
+Episode 13150, Avg Loss: 0.0000, Reward: -330318.25
+Episode 13160, Avg Loss: 0.0000, Reward: -330445.0
+Episode 13170, Avg Loss: 0.0000, Reward: -330633.8125
+Episode 13180, Avg Loss: 0.0000, Reward: -561662.4375
+Episode 13190, Avg Loss: 0.0000, Reward: -331029.4375
+Episode 13200, Avg Loss: 0.0000, Reward: -331148.59375
+Episode 13200 : -331148.59375
+Episode 13210, Avg Loss: 0.0000, Reward: -562666.65625
+Episode 13220, Avg Loss: 0.0000, Reward: -331491.71875
+Episode 13230, Avg Loss: 0.0000, Reward: -331644.90625
+Episode 13240, Avg Loss: 0.0000, Reward: -563680.859375
+Episode 13250, Avg Loss: 0.0000, Reward: -563959.8125
+Episode 13260, Avg Loss: 0.0000, Reward: -796307.71875
+Episode 13270, Avg Loss: 0.0000, Reward: -564570.984375
+Episode 13280, Avg Loss: 0.0000, Reward: -332410.890625
+Episode 13290, Avg Loss: 0.0000, Reward: -565149.140625
+Episode 13300, Avg Loss: 0.0000, Reward: -332749.4375
+Episode 13300 : -332749.4375
+Episode 13310, Avg Loss: 0.0000, Reward: -332901.953125
+Episode 13320, Avg Loss: 0.0000, Reward: -333028.703125
+Episode 13330, Avg Loss: 0.0000, Reward: -333174.828125
+Episode 13340, Avg Loss: 0.0000, Reward: -566723.28125
+Episode 13350, Avg Loss: 0.0000, Reward: -333521.984375
+Episode 13360, Avg Loss: 0.0000, Reward: -333702.375
+Episode 13370, Avg Loss: 0.0000, Reward: -333871.0
+Episode 13380, Avg Loss: 0.0000, Reward: -334033.21875
+Episode 13390, Avg Loss: 0.0000, Reward: -568393.984375
+Episode 13400, Avg Loss: 0.0000, Reward: -334367.28125
+Episode 13400 : -334367.28125
+Episode 13410, Avg Loss: 0.0000, Reward: -334552.625
+Episode 13420, Avg Loss: 0.0000, Reward: -334713.171875
+Episode 13430, Avg Loss: 0.0000, Reward: -334855.859375
+Episode 13440, Avg Loss: 0.0000, Reward: -570202.109375
+Episode 13450, Avg Loss: 0.0000, Reward: -805814.796875
+Episode 13460, Avg Loss: 0.0000, Reward: -335371.171875
+Episode 13470, Avg Loss: 0.0000, Reward: -335499.53125
+Episode 13480, Avg Loss: 0.0000, Reward: -335649.21875
+Episode 13490, Avg Loss: 0.0000, Reward: -571730.25
+Episode 13500, Avg Loss: 0.0000, Reward: -571906.171875
+Episode 13500 : -571906.171875
+Episode 13510, Avg Loss: 0.0000, Reward: -336133.203125
+Episode 13520, Avg Loss: 0.0000, Reward: -336281.03125
+Episode 13530, Avg Loss: 0.0000, Reward: -336426.453125
+Episode 13540, Avg Loss: 0.0000, Reward: -336596.1875
+Episode 13550, Avg Loss: 0.0000, Reward: -336757.375
+Episode 13560, Avg Loss: 0.0000, Reward: -573831.25
+Episode 13570, Avg Loss: 0.0000, Reward: -337090.3125
+Episode 13580, Avg Loss: 0.0000, Reward: -574690.21875
+Episode 13590, Avg Loss: 0.0000, Reward: -337463.828125
+Episode 13600, Avg Loss: 0.0000, Reward: -337644.046875
+Episode 13600 : -337644.046875
+Episode 13610, Avg Loss: 0.0000, Reward: -575777.734375
+Episode 13620, Avg Loss: 0.0000, Reward: -338033.34375
+Episode 13630, Avg Loss: 0.0000, Reward: -338218.453125
+Episode 13640, Avg Loss: 0.0000, Reward: -338408.609375
+Episode 13650, Avg Loss: 0.0000, Reward: -338528.328125
+Episode 13660, Avg Loss: 0.0000, Reward: -338674.21875
+Episode 13670, Avg Loss: 0.0000, Reward: -577633.21875
+Episode 13680, Avg Loss: 0.0000, Reward: -339003.109375
+Episode 13690, Avg Loss: 0.0000, Reward: -817855.921875
+Episode 13700, Avg Loss: 0.0000, Reward: -339472.234375
+Episode 13700 : -339472.234375
+Episode 13710, Avg Loss: 0.0000, Reward: -339683.796875
+Episode 13720, Avg Loss: 0.0000, Reward: -339875.203125
+Episode 13730, Avg Loss: 0.0000, Reward: -580038.125
+Episode 13740, Avg Loss: 0.0000, Reward: -580286.984375
+Episode 13750, Avg Loss: 0.0000, Reward: -1061476.421875
+Episode 13760, Avg Loss: 0.0000, Reward: -581194.109375
+Episode 13770, Avg Loss: 0.0000, Reward: -340752.9375
+Episode 13780, Avg Loss: 0.0000, Reward: -340933.109375
+Episode 13790, Avg Loss: 0.0000, Reward: -582274.34375
+Episode 13800, Avg Loss: 0.0000, Reward: -582664.1875
+Episode 13800 : -582664.1875
+Episode 13810, Avg Loss: 0.0000, Reward: -341496.65625
+Episode 13820, Avg Loss: 0.0000, Reward: -341658.390625
+Episode 13830, Avg Loss: 0.0000, Reward: -341824.796875
+Episode 13840, Avg Loss: 0.0000, Reward: -342021.921875
+Episode 13850, Avg Loss: 0.0000, Reward: -342217.59375
+Episode 13860, Avg Loss: 0.0000, Reward: -342375.078125
+Episode 13870, Avg Loss: 0.0000, Reward: -342548.421875
+Episode 13880, Avg Loss: 0.0000, Reward: -342719.703125
+Episode 13890, Avg Loss: 0.0000, Reward: -585888.359375
+Episode 13900, Avg Loss: 0.0000, Reward: -586169.171875
+Episode 13900 : -586169.171875
+Episode 13910, Avg Loss: 0.0000, Reward: -586461.703125
+Episode 13920, Avg Loss: 0.0000, Reward: -343400.71875
+Episode 13930, Avg Loss: 0.0000, Reward: -587127.390625
+Episode 13940, Avg Loss: 0.0000, Reward: -343755.34375
+Episode 13950, Avg Loss: 0.0000, Reward: -343951.53125
+Episode 13960, Avg Loss: 0.0000, Reward: -344166.03125
+Episode 13970, Avg Loss: 0.0000, Reward: -344320.59375
+Episode 13980, Avg Loss: 0.0000, Reward: -344460.0
+Episode 13990, Avg Loss: 0.0000, Reward: -344587.875
+Episode 14000, Avg Loss: 0.0000, Reward: -589658.859375
+Episode 14000 : -589658.859375
+Episode 14010, Avg Loss: 0.0000, Reward: -344973.390625
+Episode 14020, Avg Loss: 0.0000, Reward: -345144.828125
+Episode 14030, Avg Loss: 0.0000, Reward: -345296.609375
+Episode 14040, Avg Loss: 0.0000, Reward: -345439.296875
+Traceback (most recent call last):
+  File "/home/protomate/marl-ecs-course/Midsem/modified_tsp.py", line 75, in <module>
+    main()
+  File "/home/protomate/marl-ecs-course/Midsem/modified_tsp.py", line 37, in main
+    action = agent.action(obs, exploration_prob=0.05)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/protomate/marl-ecs-course/Midsem/agent.py", line 63, in action
+    q_values = self.knowledge(state)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/protomate/.pyenv/versions/3.12.4/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/protomate/.pyenv/versions/3.12.4/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/protomate/marl-ecs-course/Midsem/agent.py", line 39, in forward
+    x = F.relu(self.fc2(x))
+               ^^^^^^^^^^^
+  File "/home/protomate/.pyenv/versions/3.12.4/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/protomate/.pyenv/versions/3.12.4/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/protomate/.pyenv/versions/3.12.4/lib/python3.12/site-packages/torch/nn/modules/linear.py", line 117, in forward
+    return F.linear(input, self.weight, self.bias)
+                           ^^^^^^^^^^^
+  File "/home/protomate/.pyenv/versions/3.12.4/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1716, in __getattr__
+    def __getattr__(self, name: str) -> Any:
+
+KeyboardInterrupt

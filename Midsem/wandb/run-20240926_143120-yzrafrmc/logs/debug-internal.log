@@ -1,0 +1,14 @@
+{"time":"2024-09-26T14:31:20.926213488+05:30","level":"INFO","msg":"using version","core version":"0.18.1"}
+{"time":"2024-09-26T14:31:20.926224605+05:30","level":"INFO","msg":"created symlink","path":"/home/protomate/marl-ecs-course/Midsem/wandb/run-20240926_143120-yzrafrmc/logs/debug-core.log"}
+{"time":"2024-09-26T14:31:20.926256647+05:30","level":"INFO","msg":"using version","core version":"0.18.1"}
+{"time":"2024-09-26T14:31:20.926259644+05:30","level":"INFO","msg":"created symlink","path":"/home/protomate/marl-ecs-course/Midsem/wandb/run-20240926_143120-yzrafrmc/logs/debug-core.log"}
+{"time":"2024-09-26T14:31:20.928034084+05:30","level":"INFO","msg":"created new stream","id":"yzrafrmc"}
+{"time":"2024-09-26T14:31:20.928053813+05:30","level":"INFO","msg":"stream: started","id":"yzrafrmc"}
+{"time":"2024-09-26T14:31:20.928060922+05:30","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"yzrafrmc"}}
+{"time":"2024-09-26T14:31:20.928064528+05:30","level":"INFO","msg":"sender: started","stream_id":{"value":"yzrafrmc"}}
+{"time":"2024-09-26T14:31:20.928073488+05:30","level":"INFO","msg":"handler: started","stream_id":{"value":"yzrafrmc"}}
+{"time":"2024-09-26T14:31:21.396438447+05:30","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-09-26T14:31:21.396940935+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-09-26T14:31:50.099345468+05:30","level":"INFO","msg":"stream: closing","id":"yzrafrmc"}
+{"time":"2024-09-26T14:31:50.099360809+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-09-26T14:31:50.099460964+05:30","level":"INFO","msg":"Stopped system monitor"}

@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "/home/protomate/marl-ecs-course/Midsem/exploreBatchSize.py", line 70, in <module>
+    optimal_batch_size = find_optimal_batch_size()
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/protomate/marl-ecs-course/Midsem/exploreBatchSize.py", line 60, in find_optimal_batch_size
+    avg_reward = train_dqn(batch_size)
+                 ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/protomate/marl-ecs-course/Midsem/exploreBatchSize.py", line 24, in train_dqn
+    agent = Agent(memory_capacity=10000, state_dim=state_dim, n_actions=n_actions, gamma=0.99)
+            ^^^^^
+NameError: name 'Agent' is not defined
