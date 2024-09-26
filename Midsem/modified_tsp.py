@@ -102,6 +102,8 @@ class ModTSP(gym.Env):
         state = np.concatenate(
             (
                 np.array([self.loc]),
+                self.visited_targets,
+                self.initial_profits,
                 np.array(self.dist),
                 np.array(self.locations).reshape(-1),
             ),
