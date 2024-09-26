@@ -1,0 +1,40 @@
+Episode 0, Avg Reward: -18.71, Total Reward: -168.37, Final Total Profit: -31.30, Total Distance: 91.30
+Episode 100, Avg Reward: -4105.71, Total Reward: -36951.41, Final Total Profit: -7387.42, Total Distance: 106.57
+Episode 200, Avg Reward: -9802.57, Total Reward: -88223.14, Final Total Profit: -14670.79, Total Distance: 59.60
+Episode 300, Avg Reward: -11940.06, Total Reward: -107460.57, Final Total Profit: -21503.30, Total Distance: 74.41
+Episode 400, Avg Reward: -15699.47, Total Reward: -141295.26, Final Total Profit: -28236.37, Total Distance: 63.33
+Episode 500, Avg Reward: -19345.72, Total Reward: -174111.48, Final Total Profit: -34784.48, Total Distance: 55.24
+Episode 600, Avg Reward: -9280.64, Total Reward: -83525.79, Final Total Profit: -41439.77, Total Distance: 21.15
+Episode 700, Avg Reward: -15975.84, Total Reward: -143782.55, Final Total Profit: -47748.61, Total Distance: 40.28
+Episode 800, Avg Reward: -18070.13, Total Reward: -162631.17, Final Total Profit: -54045.98, Total Distance: 36.69
+Episode 900, Avg Reward: -33407.08, Total Reward: -300663.68, Final Total Profit: -60085.72, Total Distance: 53.66
+Episode 1000, Avg Reward: -22040.60, Total Reward: -198365.42, Final Total Profit: -65979.22, Total Distance: 78.91
+Episode 1100, Avg Reward: -31809.59, Total Reward: -286286.32, Final Total Profit: -71447.93, Total Distance: 70.04
+Episode 1200, Avg Reward: -25595.33, Total Reward: -230357.95, Final Total Profit: -76623.55, Total Distance: 27.73
+Episode 1300, Avg Reward: -36408.94, Total Reward: -327680.47, Final Total Profit: -81822.98, Total Distance: 40.39
+Episode 1400, Avg Reward: -19389.38, Total Reward: -174504.44, Final Total Profit: -86952.20, Total Distance: 38.63
+Episode 1500, Avg Reward: -20477.36, Total Reward: -184296.22, Final Total Profit: -91856.16, Total Distance: 29.39
+Episode 1600, Avg Reward: -53955.31, Total Reward: -485597.75, Final Total Profit: -97069.05, Total Distance: 69.85
+Episode 1700, Avg Reward: -22702.23, Total Reward: -204320.04, Final Total Profit: -101835.96, Total Distance: 42.45
+Episode 1800, Avg Reward: -11857.48, Total Reward: -106717.30, Final Total Profit: -105917.30, Total Distance: 5.32
+Episode 1900, Avg Reward: -36915.46, Total Reward: -332239.13, Final Total Profit: -110605.74, Total Distance: 38.47
+Episode 2000, Avg Reward: -25541.97, Total Reward: -229877.69, Final Total Profit: -114615.71, Total Distance: 21.15
+Episode 2100, Avg Reward: -52796.03, Total Reward: -475164.23, Final Total Profit: -118753.15, Total Distance: 64.07
+Episode 2200, Avg Reward: -27362.41, Total Reward: -246261.67, Final Total Profit: -122791.66, Total Distance: 6.57
+Episode 2300, Avg Reward: -28152.56, Total Reward: -253373.05, Final Total Profit: -126370.85, Total Distance: 24.42
+Traceback (most recent call last):
+  File "/home/protomate/marl-ecs-course/Midsem/modified_tsp.py", line 95, in <module>
+    main()
+  File "/home/protomate/marl-ecs-course/Midsem/modified_tsp.py", line 60, in main
+    loss = agent.learn_from_memory(batch_size=batchSize)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/protomate/marl-ecs-course/Midsem/agent.py", line 108, in learn_from_memory
+    loss.backward()
+  File "/home/protomate/.pyenv/versions/3.12.4/lib/python3.12/site-packages/torch/_tensor.py", line 521, in backward
+    torch.autograd.backward(
+  File "/home/protomate/.pyenv/versions/3.12.4/lib/python3.12/site-packages/torch/autograd/__init__.py", line 289, in backward
+    _engine_run_backward(
+  File "/home/protomate/.pyenv/versions/3.12.4/lib/python3.12/site-packages/torch/autograd/graph.py", line 769, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

@@ -1,0 +1,24 @@
+Episode 0, Avg Reward: -53.06, Total Reward: -477.55, Final Total Profit: -259.65, Total Distance: 80.97
+Episode 100, Avg Reward: -4209.59, Total Reward: -37886.33, Final Total Profit: -74864.50, Total Distance: 90.47
+Episode 200, Avg Reward: -8486.44, Total Reward: -76377.96, Final Total Profit: -152097.78, Total Distance: 80.86
+Episode 300, Avg Reward: -12696.23, Total Reward: -114266.03, Final Total Profit: -227812.28, Total Distance: 55.48
+Episode 400, Avg Reward: -16849.75, Total Reward: -151647.71, Final Total Profit: -302510.38, Total Distance: 60.77
+Episode 500, Avg Reward: -25066.02, Total Reward: -225594.19, Final Total Profit: -375510.75, Total Distance: 89.31
+Episode 600, Avg Reward: -15031.29, Total Reward: -135281.64, Final Total Profit: -448780.69, Total Distance: 48.10
+Episode 700, Avg Reward: -17400.71, Total Reward: -156606.38, Final Total Profit: -519724.31, Total Distance: 31.34
+Episode 800, Avg Reward: -19755.85, Total Reward: -177802.61, Final Total Profit: -590901.44, Total Distance: 94.20
+Episode 900, Avg Reward: -36726.21, Total Reward: -330535.89, Final Total Profit: -660112.00, Total Distance: 75.90
+Episode 1000, Avg Reward: -24164.16, Total Reward: -217477.41, Final Total Profit: -722950.31, Total Distance: 73.30
+Episode 1100, Avg Reward: -35129.87, Total Reward: -316168.82, Final Total Profit: -789199.25, Total Distance: 90.29
+Episode 1200, Avg Reward: -28500.96, Total Reward: -256508.67, Final Total Profit: -853024.62, Total Distance: 59.85
+Episode 1300, Avg Reward: -40684.91, Total Reward: -366164.20, Final Total Profit: -914285.75, Total Distance: 51.32
+Traceback (most recent call last):
+  File "/home/protomate/marl-ecs-course/Midsem/modified_tsp.py", line 95, in <module>
+    main()
+  File "/home/protomate/marl-ecs-course/Midsem/modified_tsp.py", line 48, in main
+    action = agent.action(obs, exploration_prob=epsilon)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/protomate/marl-ecs-course/Midsem/agent.py", line 76, in action
+    state = torch.FloatTensor(state).unsqueeze(0).to(device)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

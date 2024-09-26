@@ -1,0 +1,14 @@
+{"time":"2024-09-26T19:34:23.229834918+05:30","level":"INFO","msg":"using version","core version":"0.18.1"}
+{"time":"2024-09-26T19:34:23.229842234+05:30","level":"INFO","msg":"created symlink","path":"/home/protomate/marl-ecs-course/Midsem/wandb/run-20240926_193423-opaa32b8/logs/debug-core.log"}
+{"time":"2024-09-26T19:34:23.22985785+05:30","level":"INFO","msg":"using version","core version":"0.18.1"}
+{"time":"2024-09-26T19:34:23.229859567+05:30","level":"INFO","msg":"created symlink","path":"/home/protomate/marl-ecs-course/Midsem/wandb/run-20240926_193423-opaa32b8/logs/debug-core.log"}
+{"time":"2024-09-26T19:34:23.230707627+05:30","level":"INFO","msg":"created new stream","id":"opaa32b8"}
+{"time":"2024-09-26T19:34:23.230721995+05:30","level":"INFO","msg":"stream: started","id":"opaa32b8"}
+{"time":"2024-09-26T19:34:23.230733245+05:30","level":"INFO","msg":"handler: started","stream_id":{"value":"opaa32b8"}}
+{"time":"2024-09-26T19:34:23.230742728+05:30","level":"INFO","msg":"sender: started","stream_id":{"value":"opaa32b8"}}
+{"time":"2024-09-26T19:34:23.230745549+05:30","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"opaa32b8"}}
+{"time":"2024-09-26T19:34:23.721826999+05:30","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-09-26T19:34:23.722349033+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-09-26T19:34:56.566466653+05:30","level":"INFO","msg":"stream: closing","id":"opaa32b8"}
+{"time":"2024-09-26T19:34:56.566479723+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-09-26T19:34:56.566547244+05:30","level":"INFO","msg":"Stopped system monitor"}

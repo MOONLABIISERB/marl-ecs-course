@@ -1,0 +1,18 @@
+{"time":"2024-09-26T20:12:07.647822918+05:30","level":"INFO","msg":"using version","core version":"0.18.1"}
+{"time":"2024-09-26T20:12:07.647846086+05:30","level":"INFO","msg":"created symlink","path":"/home/protomate/marl-ecs-course/Midsem/wandb/run-20240926_201207-ovvyqkil/logs/debug-core.log"}
+{"time":"2024-09-26T20:12:07.647895614+05:30","level":"INFO","msg":"using version","core version":"0.18.1"}
+{"time":"2024-09-26T20:12:07.64790059+05:30","level":"INFO","msg":"created symlink","path":"/home/protomate/marl-ecs-course/Midsem/wandb/run-20240926_201207-ovvyqkil/logs/debug-core.log"}
+{"time":"2024-09-26T20:12:07.652748255+05:30","level":"INFO","msg":"created new stream","id":"ovvyqkil"}
+{"time":"2024-09-26T20:12:07.652782237+05:30","level":"INFO","msg":"stream: started","id":"ovvyqkil"}
+{"time":"2024-09-26T20:12:07.652794376+05:30","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"ovvyqkil"}}
+{"time":"2024-09-26T20:12:07.652796042+05:30","level":"INFO","msg":"sender: started","stream_id":{"value":"ovvyqkil"}}
+{"time":"2024-09-26T20:12:07.652830886+05:30","level":"INFO","msg":"handler: started","stream_id":{"value":"ovvyqkil"}}
+{"time":"2024-09-26T20:12:08.114610328+05:30","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-09-26T20:12:08.115059037+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-09-26T20:12:13.378747926+05:30","level":"INFO","msg":"stream: closing","id":"ovvyqkil"}
+{"time":"2024-09-26T20:12:13.378758947+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-09-26T20:12:13.378850313+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-09-26T20:12:15.115810824+05:30","level":"INFO","msg":"handler: closed","stream_id":{"value":"ovvyqkil"}}
+{"time":"2024-09-26T20:12:15.115894523+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"ovvyqkil"}}
+{"time":"2024-09-26T20:12:15.115916183+05:30","level":"INFO","msg":"sender: closed","stream_id":{"value":"ovvyqkil"}}
+{"time":"2024-09-26T20:12:15.116142459+05:30","level":"INFO","msg":"stream: closed","id":"ovvyqkil"}

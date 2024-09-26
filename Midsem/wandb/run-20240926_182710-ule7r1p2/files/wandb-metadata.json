@@ -1,0 +1,43 @@
+{
+  "os": "Linux-6.8.0-45-generic-x86_64-with-glibc2.35",
+  "python": "3.12.4",
+  "startedAt": "2024-09-26T12:57:10.144117Z",
+  "program": "/home/protomate/marl-ecs-course/Midsem/modified_tsp.py",
+  "codePath": "Midsem/modified_tsp.py",
+  "git": {
+    "remote": "https://github.com/MOONLABIISERB/marl-ecs-course.git",
+    "commit": "5f681dcd54db88a9086bd7cbd1b95e976d2f73b2"
+  },
+  "email": "agammessi10@gmail.com",
+  "root": "/home/protomate/marl-ecs-course/Midsem",
+  "host": "platypus",
+  "username": "protomate",
+  "executable": "/home/protomate/.pyenv/versions/3.12.4/bin/python",
+  "codePathLocal": "modified_tsp.py",
+  "cpu_count": 12,
+  "cpu_count_logical": 20,
+  "gpu": "[NVIDIA RTX A4500]",
+  "gpu_count": 1,
+  "disk": {
+    "/": {
+      "total": "982820896768",
+      "used": "506943389696"
+    }
+  },
+  "memory": {
+    "total": "67196604416"
+  },
+  "cpu": {
+    "count": 12,
+    "countLogical": 20
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA RTX A4500",
+      "memoryTotal": "21464350720",
+      "cudaCores": 7168,
+      "architecture": "Ampere"
+    }
+  ],
+  "cudaVersion": "12.5"
+}

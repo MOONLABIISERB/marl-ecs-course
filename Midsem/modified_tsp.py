@@ -36,6 +36,12 @@ def main() -> None:
         losses = []
         obs, _ = env.reset()
         epsilon = get_epsilon(ep)
+        n = 0
+
+        episode_rewards = []
+        episode_profits = []
+        episode_distances = []
+        total_distance = 0
 
         for _ in range(max_steps_per_episode):
             # action = env.action_space.sample()  # You need to replace this with your algorithm that predicts the action.
@@ -43,6 +49,8 @@ def main() -> None:
             obs_, reward, terminated, truncated, info = env.step(action)
             done = terminated or truncated
             ret += reward
+
+            total_distance += info["distance_travelled"]
 
             agent.update_memory(obs, action, reward, obs_, done)
             obs = obs_
@@ -55,17 +63,26 @@ def main() -> None:
             if done:
                 break
 
+            episode_rewards.append(reward)
+            episode_profits.append(env.current_profits[info["profit"]])
+            episode_distances.append(info["distance_travelled"])
+
         avg_loss = np.mean(losses) if losses else 1000
         if losses:
             avg_loss = np.mean(losses)
-            wandb.log({"avg_loss": avg_loss, "episode_reward": ret})
+            wandb.log({"avg_loss": avg_loss, "episode_reward": ret, "Average Distance": np.sum(episode_distances) / len(episode_distances)})
 
         if ep % 30 == 0:
             agent.update_knowledge()
 
         if ep % 100 == 0:
-            print(f"Episode {ep}, Avg Loss: {avg_loss:.4f}, Reward: {ret}, exploration: {epsilon:.4f}")
-
+            print(
+                f"Episode {ep}, Avg Reward: {np.mean(episode_rewards):.2f}, "
+                f"Total Reward: {np.sum(episode_rewards):.2f}, "
+                f"Average Profit: {np.mean(episode_profits):.2f}, "
+                f"Average Distance: {np.mean(episode_distances):.2f}",
+                f"Current profits {info["current_profits"]}",
+            )
         ep_rets.append(ret)
 
     print(np.mean(ep_rets))

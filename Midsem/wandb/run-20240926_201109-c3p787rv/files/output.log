@@ -1,0 +1,32 @@
+Episode 0, Avg Reward: -3325.42, Total Reward: -29928.77, Average Profit: -2.18, Average Distance: 9.00
+Episode 100, Avg Reward: -7938.69, Total Reward: -71448.25, Average Profit: -6912.42, Average Distance: 11.02
+Episode 200, Avg Reward: -12096.44, Total Reward: -108867.97, Average Profit: -13782.21, Average Distance: 8.98
+Episode 300, Avg Reward: -16825.03, Total Reward: -151425.23, Average Profit: -20242.14, Average Distance: 6.21
+Episode 400, Avg Reward: -17302.91, Total Reward: -155726.21, Average Profit: -26417.24, Average Distance: 4.47
+Episode 500, Avg Reward: -22343.51, Total Reward: -201091.59, Average Profit: -32211.09, Average Distance: 6.80
+Episode 600, Avg Reward: -19343.09, Total Reward: -174087.84, Average Profit: -38008.41, Average Distance: 3.31
+Traceback (most recent call last):
+  File "/home/protomate/marl-ecs-course/Midsem/modified_tsp.py", line 95, in <module>
+    main()
+  File "/home/protomate/marl-ecs-course/Midsem/modified_tsp.py", line 60, in main
+    loss = agent.learn_from_memory(batch_size=batchSize)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/protomate/marl-ecs-course/Midsem/agent.py", line 111, in learn_from_memory
+    self.optimizer.step()
+  File "/home/protomate/.pyenv/versions/3.12.4/lib/python3.12/site-packages/torch/optim/optimizer.py", line 484, in wrapper
+    out = func(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/protomate/.pyenv/versions/3.12.4/lib/python3.12/site-packages/torch/optim/optimizer.py", line 89, in _use_grad
+    ret = func(self, *args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/protomate/.pyenv/versions/3.12.4/lib/python3.12/site-packages/torch/optim/adam.py", line 226, in step
+    adam(
+  File "/home/protomate/.pyenv/versions/3.12.4/lib/python3.12/site-packages/torch/optim/optimizer.py", line 161, in maybe_fallback
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/protomate/.pyenv/versions/3.12.4/lib/python3.12/site-packages/torch/optim/adam.py", line 766, in adam
+    func(
+  File "/home/protomate/.pyenv/versions/3.12.4/lib/python3.12/site-packages/torch/optim/adam.py", line 519, in _multi_tensor_adam
+    device_state_steps, torch.tensor(1.0, device="cpu"), alpha=1.0
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

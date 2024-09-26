@@ -1,0 +1,13 @@
+Episode 0, Avg Reward: -22.57, Total Reward: -203.16, Final Total Profit: -403.47, Total Distance: 95.35
+Episode 100, Avg Reward: -4264.46, Total Reward: -38380.12, Final Total Profit: -63958.17, Total Distance: 73.89
+Episode 200, Avg Reward: -8627.30, Total Reward: -77645.68, Final Total Profit: -129339.00, Total Distance: 82.35
+Traceback (most recent call last):
+  File "/home/protomate/marl-ecs-course/Midsem/modified_tsp.py", line 95, in <module>
+    main()
+  File "/home/protomate/marl-ecs-course/Midsem/modified_tsp.py", line 60, in main
+    loss = agent.learn_from_memory(batch_size=batchSize)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/protomate/marl-ecs-course/Midsem/agent.py", line 103, in learn_from_memory
+    loss = F.smooth_l1_loss(state_action_values, expected_state_action_values.unsqueeze(1))
+                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

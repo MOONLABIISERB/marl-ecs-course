@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "/home/protomate/marl-ecs-course/Midsem/modified_tsp.py", line 96, in <module>
+    main()
+  File "/home/protomate/marl-ecs-course/Midsem/modified_tsp.py", line 67, in main
+    episode_profits.append(env.current_profits[info["profit"]])
+                           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+IndexError: only integers, slices (`:`), ellipsis (`...`), numpy.newaxis (`None`) and integer or boolean arrays are valid indices

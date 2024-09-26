@@ -1,0 +1,51 @@
+Episode 0, Avg Reward: -22222218.71, Total Reward: -199999968.37, Average Profit: -5.40, Average Distance: 10.14
+Episode 100, Avg Reward: -22227585.01, Total Reward: -200048265.10, Average Profit: -6911.58, Average Distance: 10.00
+Episode 200, Avg Reward: -33342764.89, Total Reward: -300084884.00, Average Profit: -14155.87, Average Distance: 8.78
+Episode 300, Avg Reward: -33347368.16, Total Reward: -300126313.43, Average Profit: -21056.40, Average Distance: 6.89
+Episode 400, Avg Reward: -44459752.91, Total Reward: -400137776.21, Average Profit: -27556.53, Average Distance: 5.76
+Episode 500, Avg Reward: -33355996.15, Total Reward: -300203965.39, Average Profit: -34000.99, Average Distance: 7.08
+Episode 600, Avg Reward: -33360435.33, Total Reward: -300243917.95, Average Profit: -40663.36, Average Distance: 6.87
+Episode 700, Avg Reward: -55576321.43, Total Reward: -500186892.85, Average Profit: -46704.59, Average Distance: 3.67
+Episode 800, Avg Reward: -44473883.11, Total Reward: -400264947.95, Average Profit: -52989.87, Average Distance: 4.70
+Episode 900, Avg Reward: -44477231.44, Total Reward: -400295082.98, Average Profit: -59018.48, Average Distance: 5.37
+Episode 1000, Avg Reward: -55584421.11, Total Reward: -500259790.02, Average Profit: -64952.28, Average Distance: 8.58
+Episode 1100, Avg Reward: -44483604.15, Total Reward: -400352437.38, Average Profit: -70486.22, Average Distance: 8.15
+Episode 1200, Avg Reward: -33383847.44, Total Reward: -300454626.98, Average Profit: -75773.80, Average Distance: 6.91
+Episode 1300, Avg Reward: -44489512.39, Total Reward: -400405611.47, Average Profit: -81112.79, Average Distance: 4.58
+Episode 1400, Avg Reward: -66695402.50, Total Reward: -600258622.50, Average Profit: -86213.67, Average Distance: 5.01
+Episode 1500, Avg Reward: -77797988.15, Total Reward: -700181893.38, Average Profit: -90957.69, Average Distance: 2.54
+Episode 1600, Avg Reward: -55598040.24, Total Reward: -500382362.16, Average Profit: -95599.77, Average Distance: 5.52
+Episode 1700, Avg Reward: -66699987.30, Total Reward: -600299885.67, Average Profit: -99975.45, Average Distance: 6.10
+Episode 1800, Avg Reward: -77800915.74, Total Reward: -700208241.67, Average Profit: -104124.43, Average Distance: 1.18
+Episode 1900, Avg Reward: -66702797.15, Total Reward: -600325174.34, Average Profit: -108430.73, Average Distance: 3.62
+Episode 2000, Avg Reward: -66704142.17, Total Reward: -600337279.52, Average Profit: -112427.41, Average Distance: 5.45
+Episode 2100, Avg Reward: -55607160.26, Total Reward: -500464442.36, Average Profit: -116150.95, Average Distance: 7.12
+Episode 2200, Avg Reward: -77804389.80, Total Reward: -700239508.16, Average Profit: -119736.55, Average Distance: 1.09
+Traceback (most recent call last):
+  File "/home/protomate/marl-ecs-course/Midsem/modified_tsp.py", line 95, in <module>
+    main()
+  File "/home/protomate/marl-ecs-course/Midsem/modified_tsp.py", line 60, in main
+    loss = agent.learn_from_memory(batch_size=batchSize)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/protomate/marl-ecs-course/Midsem/agent.py", line 101, in learn_from_memory
+    next_state_values = self.target_net(next_state_batch).max(1)[0]
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/protomate/.pyenv/versions/3.12.4/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/protomate/.pyenv/versions/3.12.4/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/protomate/marl-ecs-course/Midsem/agent.py", line 55, in forward
+    x = self.fc5(x)
+        ^^^^^^^^^^^
+  File "/home/protomate/.pyenv/versions/3.12.4/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/protomate/.pyenv/versions/3.12.4/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/protomate/.pyenv/versions/3.12.4/lib/python3.12/site-packages/torch/nn/modules/linear.py", line 117, in forward
+    return F.linear(input, self.weight, self.bias)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

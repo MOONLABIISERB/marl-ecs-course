@@ -1,0 +1,31 @@
+Episode 0, Avg Reward: 9.03, Total Reward: 81.23, Final Total Profit: -259.65, Total Distance: 80.97
+Episode 100, Avg Reward: -5253.23, Total Reward: -47279.03, Final Total Profit: -68022.53, Total Distance: 90.47
+Episode 200, Avg Reward: -9098.85, Total Reward: -81889.69, Final Total Profit: -136859.91, Total Distance: 81.28
+Episode 300, Avg Reward: -11331.05, Total Reward: -101979.48, Final Total Profit: -204362.81, Total Distance: 70.61
+Episode 400, Avg Reward: -11810.73, Total Reward: -106296.56, Final Total Profit: -266156.16, Total Distance: 77.35
+Episode 500, Avg Reward: -21952.35, Total Reward: -197571.16, Final Total Profit: -329497.94, Total Distance: 56.28
+Episode 600, Avg Reward: -17553.20, Total Reward: -157978.76, Final Total Profit: -395067.56, Total Distance: 38.13
+Episode 700, Avg Reward: -25417.16, Total Reward: -228754.42, Final Total Profit: -457469.38, Total Distance: 48.09
+Episode 800, Avg Reward: -17183.46, Total Reward: -154651.15, Final Total Profit: -515374.00, Total Distance: 44.38
+Episode 900, Avg Reward: -31646.64, Total Reward: -284819.77, Final Total Profit: -569688.81, Total Distance: 51.42
+Episode 1000, Avg Reward: -20796.12, Total Reward: -187165.09, Final Total Profit: -624026.50, Total Distance: 73.19
+Episode 1100, Avg Reward: -30243.59, Total Reward: -272192.31, Final Total Profit: -680608.00, Total Distance: 69.21
+Episode 1200, Avg Reward: -24490.32, Total Reward: -220412.86, Final Total Profit: -734491.00, Total Distance: 29.75
+Episode 1300, Avg Reward: -34986.52, Total Reward: -314878.69, Final Total Profit: -787331.81, Total Distance: 36.29
+Episode 1400, Avg Reward: -37256.33, Total Reward: -335306.98, Final Total Profit: -838420.00, Total Distance: 51.24
+Traceback (most recent call last):
+  File "/home/protomate/marl-ecs-course/Midsem/modified_tsp.py", line 95, in <module>
+    main()
+  File "/home/protomate/marl-ecs-course/Midsem/modified_tsp.py", line 60, in main
+    loss = agent.learn_from_memory(batch_size=batchSize)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/protomate/marl-ecs-course/Midsem/agent.py", line 106, in learn_from_memory
+    loss.backward()
+  File "/home/protomate/.pyenv/versions/3.12.4/lib/python3.12/site-packages/torch/_tensor.py", line 521, in backward
+    torch.autograd.backward(
+  File "/home/protomate/.pyenv/versions/3.12.4/lib/python3.12/site-packages/torch/autograd/__init__.py", line 289, in backward
+    _engine_run_backward(
+  File "/home/protomate/.pyenv/versions/3.12.4/lib/python3.12/site-packages/torch/autograd/graph.py", line 769, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

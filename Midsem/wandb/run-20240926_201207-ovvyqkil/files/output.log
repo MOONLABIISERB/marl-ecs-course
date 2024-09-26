@@ -1,0 +1,32 @@
+Episode 0, Avg Reward: -2218.71, Total Reward: -19968.37, Average Profit: -5.40, Average Distance: 10.14 Current profits [-73.33508   -53.335075  -23.33508   -63.33508   -13.33508   -43.335075
+  -3.3350792 -83.33508   -93.33508   -33.33508  ]
+Episode 100, Avg Reward: -7542.94, Total Reward: -67886.47, Average Profit: -6856.43, Average Distance: 8.10 Current profits [-6843.3535 -6833.353  -6903.354  -6893.354  -6873.3535 -6913.3545
+ -6863.3535 -6923.3545 -6883.354  -6853.3535]
+Episode 200, Avg Reward: -12128.06, Total Reward: -109152.50, Average Profit: -13829.30, Average Distance: 6.39 Current profits [-13835.867 -13825.867 -13895.868 -13885.868 -13865.867 -13905.869
+ -13855.867 -13915.869 -13875.868 -13845.867]
+Episode 300, Avg Reward: -16924.83, Total Reward: -152323.44, Average Profit: -20399.23, Average Distance: 6.71 Current profits [-20391.129 -20381.129 -20451.127 -20441.127 -20421.129 -20461.129
+ -20411.129 -20471.129 -20431.129 -20401.129]
+Episode 400, Avg Reward: -17339.07, Total Reward: -156051.67, Average Profit: -26499.20, Average Distance: 5.85 Current profits [-26521.21  -26511.21  -26581.209 -26571.209 -26551.21  -26591.21
+ -26541.21  -26601.21  -26561.21  -26531.21 ]
+Traceback (most recent call last):
+  File "/home/protomate/marl-ecs-course/Midsem/modified_tsp.py", line 96, in <module>
+    main()
+  File "/home/protomate/marl-ecs-course/Midsem/modified_tsp.py", line 60, in main
+    loss = agent.learn_from_memory(batch_size=batchSize)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/protomate/marl-ecs-course/Midsem/agent.py", line 99, in learn_from_memory
+    state_action_values = self.knowledge(state_batch).gather(1, action_batch)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/protomate/.pyenv/versions/3.12.4/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/protomate/.pyenv/versions/3.12.4/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/protomate/marl-ecs-course/Midsem/agent.py", line 53, in forward
+    x = F.relu(self.fc1(x))
+        ^^^^^^^^^^^^^^^^^^^
+  File "/home/protomate/.pyenv/versions/3.12.4/lib/python3.12/site-packages/torch/nn/functional.py", line 1500, in relu
+    result = torch.relu(input)
+             ^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

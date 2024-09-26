@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/home/protomate/marl-ecs-course/Midsem/modified_tsp.py", line 95, in <module>
+    main()
+  File "/home/protomate/marl-ecs-course/Midsem/modified_tsp.py", line 30, in main
+    agent = Agent(10**5, env.observation_space.shape[0], env.action_space.n, 0.99)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/protomate/marl-ecs-course/Midsem/agent.py", line 69, in __init__
+    self.loss_fn = F.smooth_l1_loss()
+                   ^^^^^^^^^^^^^^^^^^
+TypeError: smooth_l1_loss() missing 2 required positional arguments: 'input' and 'target'

@@ -1,0 +1,25 @@
+Episode 0, Avg Reward: -3325.42, Total Reward: -29928.77, Average Profit: -5.29, Average Distance: 9.00
+Episode 100, Avg Reward: -7559.69, Total Reward: -68037.23, Average Profit: -6873.07, Average Distance: 9.73
+Episode 200, Avg Reward: -12784.58, Total Reward: -115061.22, Average Profit: -14183.51, Average Distance: 6.62
+Episode 300, Avg Reward: -15978.93, Total Reward: -143810.40, Average Profit: -20767.27, Average Distance: 6.16
+Episode 400, Avg Reward: -19674.16, Total Reward: -177067.48, Average Profit: -27418.20, Average Distance: 5.75
+Episode 500, Avg Reward: -23193.22, Total Reward: -208738.95, Average Profit: -33741.40, Average Distance: 5.47
+Episode 600, Avg Reward: -20024.69, Total Reward: -180222.21, Average Profit: -40051.32, Average Distance: 2.03
+Episode 700, Avg Reward: -25807.90, Total Reward: -232271.14, Average Profit: -45549.17, Average Distance: 3.67
+Traceback (most recent call last):
+  File "/home/protomate/marl-ecs-course/Midsem/modified_tsp.py", line 95, in <module>
+    main()
+  File "/home/protomate/marl-ecs-course/Midsem/modified_tsp.py", line 60, in main
+    loss = agent.learn_from_memory(batch_size=batchSize)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/protomate/marl-ecs-course/Midsem/agent.py", line 110, in learn_from_memory
+    self.optimizer.step()
+  File "/home/protomate/.pyenv/versions/3.12.4/lib/python3.12/site-packages/torch/optim/optimizer.py", line 469, in wrapper
+    with torch.autograd.profiler.record_function(profile_name):
+  File "/home/protomate/.pyenv/versions/3.12.4/lib/python3.12/site-packages/torch/autograd/profiler.py", line 688, in __enter__
+    self.record = torch.ops.profiler._record_function_enter_new(
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/protomate/.pyenv/versions/3.12.4/lib/python3.12/site-packages/torch/_ops.py", line 1047, in __call__
+    def __call__(self_, *args, **kwargs):  # noqa: B902
+
+KeyboardInterrupt

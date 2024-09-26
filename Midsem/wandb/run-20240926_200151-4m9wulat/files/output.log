@@ -1,0 +1,53 @@
+Episode 0, Avg Reward: -27.02, Total Reward: -243.16, Average Profit: -0.68, Average Distance: 10.59
+Episode 100, Avg Reward: -4189.13, Total Reward: -37702.17, Average Profit: -7462.33, Average Distance: 10.05
+Episode 200, Avg Reward: -8470.59, Total Reward: -76235.32, Average Profit: -15175.68, Average Distance: 8.98
+Episode 300, Avg Reward: -12688.49, Total Reward: -114196.43, Average Profit: -22764.47, Average Distance: 6.16
+Episode 400, Avg Reward: -16833.73, Total Reward: -151503.58, Average Profit: -30212.53, Average Distance: 6.75
+Episode 500, Avg Reward: -25039.36, Total Reward: -225354.24, Average Profit: -37512.61, Average Distance: 9.92
+Episode 600, Avg Reward: -15023.80, Total Reward: -135214.20, Average Profit: -44856.23, Average Distance: 5.34
+Episode 700, Avg Reward: -17394.25, Total Reward: -156548.25, Average Profit: -51957.20, Average Distance: 3.48
+Episode 800, Avg Reward: -19747.07, Total Reward: -177723.66, Average Profit: -59050.37, Average Distance: 10.47
+Episode 900, Avg Reward: -36705.58, Total Reward: -330350.26, Average Profit: -65988.28, Average Distance: 8.43
+Episode 1000, Avg Reward: -24157.20, Total Reward: -217414.76, Average Profit: -72272.77, Average Distance: 8.14
+Episode 1100, Avg Reward: -35112.77, Total Reward: -316014.93, Average Profit: -78888.25, Average Distance: 10.03
+Episode 1200, Avg Reward: -28492.41, Total Reward: -256431.70, Average Profit: -85268.34, Average Distance: 6.65
+Episode 1300, Avg Reward: -40674.76, Total Reward: -366072.85, Average Profit: -91392.66, Average Distance: 5.70
+Episode 1400, Avg Reward: -21639.82, Total Reward: -194758.39, Average Profit: -97003.27, Average Distance: 3.30
+Episode 1500, Avg Reward: -22886.24, Total Reward: -205976.18, Average Profit: -102652.74, Average Distance: 2.78
+Episode 1600, Avg Reward: -48204.71, Total Reward: -433842.37, Average Profit: -108326.93, Average Distance: 4.67
+Episode 1700, Avg Reward: -25356.73, Total Reward: -228210.55, Average Profit: -113745.86, Average Distance: 4.84
+Episode 1800, Avg Reward: -13290.71, Total Reward: -119616.42, Average Profit: -118816.41, Average Distance: 1.45
+Episode 1900, Avg Reward: -41450.78, Total Reward: -373057.06, Average Profit: -124161.95, Average Distance: 3.07
+Episode 2000, Avg Reward: -43083.94, Total Reward: -387755.45, Average Profit: -129034.22, Average Distance: 7.20
+Episode 2100, Avg Reward: -44629.41, Total Reward: -401664.67, Average Profit: -133702.52, Average Distance: 4.14
+Episode 2200, Avg Reward: -30833.83, Total Reward: -277504.48, Average Profit: -138396.48, Average Distance: 2.24
+Episode 2300, Avg Reward: -31813.31, Total Reward: -286319.80, Average Profit: -142808.31, Average Distance: 3.27
+Episode 2400, Avg Reward: -49138.13, Total Reward: -442243.14, Average Profit: -147205.53, Average Distance: 4.33
+Episode 2500, Avg Reward: -33771.14, Total Reward: -303940.28, Average Profit: -151637.33, Average Distance: 4.34
+Episode 2600, Avg Reward: -34862.89, Total Reward: -313766.02, Average Profit: -156533.22, Average Distance: 3.27
+Episode 2700, Avg Reward: -35779.11, Total Reward: -322011.97, Average Profit: -160667.02, Average Distance: 2.81
+Episode 2800, Avg Reward: -18394.76, Total Reward: -165552.83, Average Profit: -164752.83, Average Distance: 1.45
+Episode 2900, Avg Reward: -18831.81, Total Reward: -169486.25, Average Profit: -168686.25, Average Distance: 1.45
+Episode 3000, Avg Reward: -57504.95, Total Reward: -517544.56, Average Profit: -172320.02, Average Distance: 4.95
+Episode 3100, Avg Reward: -78121.93, Total Reward: -703097.34, Average Profit: -175652.86, Average Distance: 6.85
+Episode 3200, Avg Reward: -59863.93, Total Reward: -538775.38, Average Profit: -179374.42, Average Distance: 5.44
+Episode 3300, Avg Reward: -61002.11, Total Reward: -549019.02, Average Profit: -182824.55, Average Distance: 6.17
+Episode 3400, Avg Reward: -41447.58, Total Reward: -373028.22, Average Profit: -186175.14, Average Distance: 2.81
+Episode 3500, Avg Reward: -63247.69, Total Reward: -569229.25, Average Profit: -189540.30, Average Distance: 3.51
+Episode 3600, Avg Reward: -85714.59, Total Reward: -771431.33, Average Profit: -192741.59, Average Distance: 5.05
+Traceback (most recent call last):
+  File "/home/protomate/marl-ecs-course/Midsem/modified_tsp.py", line 95, in <module>
+    main()
+  File "/home/protomate/marl-ecs-course/Midsem/modified_tsp.py", line 60, in main
+    loss = agent.learn_from_memory(batch_size=batchSize)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/protomate/marl-ecs-course/Midsem/agent.py", line 108, in learn_from_memory
+    loss.backward()
+  File "/home/protomate/.pyenv/versions/3.12.4/lib/python3.12/site-packages/torch/_tensor.py", line 521, in backward
+    torch.autograd.backward(
+  File "/home/protomate/.pyenv/versions/3.12.4/lib/python3.12/site-packages/torch/autograd/__init__.py", line 289, in backward
+    _engine_run_backward(
+  File "/home/protomate/.pyenv/versions/3.12.4/lib/python3.12/site-packages/torch/autograd/graph.py", line 769, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

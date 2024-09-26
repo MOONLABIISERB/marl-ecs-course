@@ -1,0 +1,13 @@
+Episode 0, Avg Loss: 1000.0000, Reward: 11.631795883178711, exploration: 0.7000
+Episode 100, Avg Loss: 958.6902, Reward: -46297.16162109375, exploration: 0.6663
+Episode 200, Avg Loss: 1910.1185, Reward: -94184.7841796875, exploration: 0.6343
+Traceback (most recent call last):
+  File "/home/protomate/marl-ecs-course/Midsem/modified_tsp.py", line 80, in <module>
+    main()
+  File "/home/protomate/marl-ecs-course/Midsem/modified_tsp.py", line 53, in main
+    loss = agent.learn_from_memory(batch_size=batchSize)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/protomate/marl-ecs-course/Midsem/agent.py", line 110, in learn_from_memory
+    return loss.item()
+           ^^^^^^^^^^^
+KeyboardInterrupt

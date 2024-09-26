@@ -32,6 +32,8 @@ class ModTSP(gym.Env):
 
         np.random.seed(seed)
 
+        self.total_distance = 0
+
         self.steps: int = 0
         self.episodes: int = 0
 
@@ -48,7 +50,7 @@ class ModTSP(gym.Env):
         self.initial_profits: npt.NDArray[np.float32] = np.arange(1, self.num_targets + 1, dtype=np.float32) * 10.0
         self.current_profits: npt.NDArray[np.float32] = self.initial_profits.copy()
 
-        # Observation Space : {current loc (loc), current profits, dist_array (distances), coordintates (locations)}
+        # Observation Space : {current loc (loc), current profits, dist_array (distances), coordintates (locations), visited(one hot)}
         self.obs_low = np.concatenate(
             [
                 np.array([0], dtype=np.float32),  # Current location
@@ -88,11 +90,13 @@ class ModTSP(gym.Env):
         Returns:
             Tuple[np.ndarray, Dict[str, None]]: The initial state of the environment and an empty info dictionary.
         """
+        self.total_distance = 0
         self.steps: int = 0
         self.episodes += 1
 
         self.loc: int = 0
         self.visited_targets = np.zeros(self.num_targets, dtype=np.float32)
+        self.current_profits = self.initial_profits.copy()
 
         self.dist: List = self.distances[self.loc]
 
@@ -123,6 +127,9 @@ class ModTSP(gym.Env):
         past_loc = self.loc
         next_loc = action
 
+        distance_travelled = self.distances[past_loc, next_loc]
+        self.total_distance += distance_travelled
+
         self.current_profits -= self.distances[past_loc, next_loc]
         reward = self._get_rewards(next_loc)
         self.visited_targets[next_loc] = 1
@@ -143,7 +150,14 @@ class ModTSP(gym.Env):
         )
 
         self.loc, self.dist = next_loc, next_dist
-        return (next_state, reward, terminated, truncated, {})
+        profit = self.current_profits[next_loc]
+        info = {
+            "distance_travelled": distance_travelled,
+            "total_distance": self.total_distance,
+            "current_profits": self.current_profits,
+            "profit": next_loc,
+        }
+        return (next_state, reward, terminated, truncated, info)
 
     def _generate_points(self, num_points: int) -> npt.NDArray[np.float32]:
         """Generate random 2D points representing target locations.

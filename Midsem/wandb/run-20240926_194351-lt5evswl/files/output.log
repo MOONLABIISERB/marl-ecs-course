@@ -1,0 +1,19 @@
+Episode 0, Avg Reward: -25.42, Total Reward: -228.77, Final Total Profit: -259.65, Total Distance: 80.97
+Episode 100, Avg Reward: -4100.66, Total Reward: -36905.95, Final Total Profit: -73433.23, Total Distance: 106.57
+Episode 200, Avg Reward: -9796.51, Total Reward: -88168.58, Final Total Profit: -146766.92, Total Distance: 59.60
+Episode 300, Avg Reward: -11935.01, Total Reward: -107415.10, Final Total Profit: -214492.03, Total Distance: 74.41
+Episode 400, Avg Reward: -15694.42, Total Reward: -141249.79, Final Total Profit: -282022.75, Total Distance: 63.33
+Episode 500, Avg Reward: -19340.67, Total Reward: -174066.01, Final Total Profit: -347603.88, Total Distance: 55.24
+Episode 600, Avg Reward: -9278.62, Total Reward: -83507.60, Final Total Profit: -413956.81, Total Distance: 21.15
+Episode 700, Avg Reward: -15972.81, Total Reward: -143755.27, Final Total Profit: -477245.12, Total Distance: 40.28
+Traceback (most recent call last):
+  File "/home/protomate/marl-ecs-course/Midsem/modified_tsp.py", line 95, in <module>
+    main()
+  File "/home/protomate/marl-ecs-course/Midsem/modified_tsp.py", line 60, in main
+    loss = agent.learn_from_memory(batch_size=batchSize)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/protomate/marl-ecs-course/Midsem/agent.py", line 90, in learn_from_memory
+    batch = Transition(*zip(*transitions))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 1, in <lambda>
+KeyboardInterrupt

@@ -9,6 +9,7 @@ import gymnasium as gym
 import wandb
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+print("running on ", device)
 
 Transition = namedtuple("Transition", ["state", "action", "reward", "next_state", "done"])
 
@@ -45,11 +46,13 @@ class DQN(nn.Module):
         super(DQN, self).__init__()
         self.fc1 = nn.Linear(state_dim, 256)
         self.fc2 = nn.Linear(256, 256)
+        self.fc3 = nn.Linear(256, 256)
         self.fc5 = nn.Linear(256, n_actions)
 
     def forward(self, x):
         x = F.relu(self.fc1(x))
         x = F.relu(self.fc2(x))
+        x = F.relu(self.fc3(x))
         x = self.fc5(x)
         return x
 
@@ -66,7 +69,7 @@ class Agent:
         self.gamma = gamma
 
         self.optimizer = optim.Adam(self.knowledge.parameters(), lr=0.0005)
-        self.loss_fn = nn.SmoothL1Loss()
+        # self.loss_fn = F.smooth_l1_loss()
 
     def action(self, state: np.ndarray, exploration_prob: float):
         if np.random.rand() < exploration_prob:
@@ -100,11 +103,11 @@ class Agent:
 
         expected_state_action_values = reward_batch + (1 - done_batch) * self.gamma * next_state_values
 
-        loss = self.loss_fn(state_action_values, expected_state_action_values.unsqueeze(1))
+        loss = F.smooth_l1_loss(state_action_values, expected_state_action_values.unsqueeze(1))
 
         self.optimizer.zero_grad()
         loss.backward()
-        # torch.nn.utils.clip_grad_norm_(self.knowledge.parameters(), max_norm=1.0)
+        torch.nn.utils.clip_grad_norm_(self.knowledge.parameters(), max_norm=1.0)
         self.optimizer.step()
 
         return loss.item()

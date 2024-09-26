@@ -1,0 +1,46 @@
+Episode 0, Avg Reward: -13.24, Total Reward: -119.16, Final Total Profit: -268.63, Total Distance: 81.86
+Episode 100, Avg Reward: -3839.60, Total Reward: -34556.44, Final Total Profit: -68569.23, Total Distance: 85.46
+Episode 200, Avg Reward: -7696.93, Total Reward: -69272.40, Final Total Profit: -138135.45, Total Distance: 75.75
+Episode 300, Avg Reward: -13773.02, Total Reward: -123957.16, Final Total Profit: -206289.78, Total Distance: 56.46
+Episode 400, Avg Reward: -12228.49, Total Reward: -110056.42, Final Total Profit: -274268.16, Total Distance: 53.83
+Episode 500, Avg Reward: -22665.76, Total Reward: -203991.82, Final Total Profit: -339825.12, Total Distance: 76.22
+Episode 600, Avg Reward: -13576.03, Total Reward: -122184.31, Final Total Profit: -405206.50, Total Distance: 36.66
+Episode 700, Avg Reward: -20890.35, Total Reward: -188013.15, Final Total Profit: -468783.50, Total Distance: 46.76
+Episode 800, Avg Reward: -11881.01, Total Reward: -106929.07, Final Total Profit: -531321.75, Total Distance: 55.38
+Episode 900, Avg Reward: -26221.59, Total Reward: -235994.31, Final Total Profit: -588829.31, Total Distance: 41.52
+Episode 1000, Avg Reward: -14389.48, Total Reward: -129505.35, Final Total Profit: -643685.19, Total Distance: 13.49
+Episode 1100, Avg Reward: -23441.64, Total Reward: -210974.74, Final Total Profit: -701337.38, Total Distance: 38.48
+Episode 1200, Avg Reward: -25272.81, Total Reward: -227455.30, Final Total Profit: -756352.50, Total Distance: 55.14
+Episode 1300, Avg Reward: -36007.03, Total Reward: -324063.24, Final Total Profit: -809181.75, Total Distance: 45.23
+Episode 1400, Avg Reward: -28748.32, Total Reward: -258734.89, Final Total Profit: -860483.88, Total Distance: 45.10
+Episode 1500, Avg Reward: -20338.60, Total Reward: -183047.36, Final Total Profit: -912000.25, Total Distance: 34.16
+Episode 1600, Avg Reward: -42812.26, Total Reward: -385310.30, Final Total Profit: -962262.50, Total Distance: 51.57
+Episode 1700, Avg Reward: -11284.27, Total Reward: -101558.39, Final Total Profit: -1007333.88, Total Distance: 12.36
+Episode 1800, Avg Reward: -11752.16, Total Reward: -105769.41, Final Total Profit: -1049444.25, Total Distance: 12.36
+Episode 1900, Avg Reward: -36607.10, Total Reward: -329463.91, Final Total Profit: -1096464.50, Total Distance: 34.23
+Episode 2000, Avg Reward: -38028.94, Total Reward: -342260.47, Final Total Profit: -1138917.50, Total Distance: 49.04
+Episode 2100, Avg Reward: -52457.51, Total Reward: -472117.55, Final Total Profit: -1179503.00, Total Distance: 55.07
+Episode 2200, Avg Reward: -27182.79, Total Reward: -244645.12, Final Total Profit: -1219579.50, Total Distance: 15.67
+Episode 2300, Avg Reward: -28071.08, Total Reward: -252639.73, Final Total Profit: -1259758.38, Total Distance: 33.64
+Episode 2400, Avg Reward: -28933.40, Total Reward: -260400.59, Final Total Profit: -1298562.62, Total Distance: 33.64
+Episode 2500, Avg Reward: -29767.09, Total Reward: -267903.84, Final Total Profit: -1336254.75, Total Distance: 37.09
+Episode 2600, Avg Reward: -30687.29, Total Reward: -276185.64, Final Total Profit: -1377487.75, Total Distance: 33.64
+Episode 2700, Avg Reward: -47149.35, Total Reward: -424344.19, Final Total Profit: -1412746.50, Total Distance: 41.94
+Episode 2800, Avg Reward: -16186.21, Total Reward: -145675.88, Final Total Profit: -1448508.75, Total Distance: 12.36
+Episode 2900, Avg Reward: -16596.60, Total Reward: -149369.36, Final Total Profit: -1485443.75, Total Distance: 12.36
+Episode 3000, Avg Reward: -50638.38, Total Reward: -455745.45, Final Total Profit: -1517255.25, Total Distance: 35.29
+Traceback (most recent call last):
+  File "/home/protomate/marl-ecs-course/Midsem/modified_tsp.py", line 95, in <module>
+    main()
+  File "/home/protomate/marl-ecs-course/Midsem/modified_tsp.py", line 60, in main
+    loss = agent.learn_from_memory(batch_size=batchSize)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/protomate/marl-ecs-course/Midsem/agent.py", line 87, in learn_from_memory
+    transitions = self.memory.sample(batch_size)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/protomate/marl-ecs-course/Midsem/agent.py", line 24, in sample
+    return random.sample(self.memory, batch_size)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/protomate/.pyenv/versions/3.12.4/lib/python3.12/random.py", line 450, in sample
+    selected_add(j)
+KeyboardInterrupt

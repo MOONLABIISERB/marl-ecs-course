@@ -1,0 +1,25 @@
+Episode 0, Avg Loss: 1000.0000, Reward: -205.9401626586914, exploration: 0.7000
+Episode 100, Avg Loss: 967.0772, Reward: -44696.4541015625, exploration: 0.6663
+Episode 200, Avg Loss: 1786.7539, Reward: -77954.384765625, exploration: 0.6343
+Episode 300, Avg Loss: 2927.3835, Reward: -115449.8515625, exploration: 0.6039
+Traceback (most recent call last):
+  File "/home/protomate/marl-ecs-course/Midsem/modified_tsp.py", line 79, in <module>
+    main()
+  File "/home/protomate/marl-ecs-course/Midsem/modified_tsp.py", line 52, in main
+    loss = agent.learn_from_memory(batch_size=batchSize)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/protomate/marl-ecs-course/Midsem/agent.py", line 107, in learn_from_memory
+    torch.nn.utils.clip_grad_norm_(self.knowledge.parameters(), max_norm=1.0)
+  File "/home/protomate/.pyenv/versions/3.12.4/lib/python3.12/site-packages/torch/nn/utils/clip_grad.py", line 21, in _no_grad_wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/protomate/.pyenv/versions/3.12.4/lib/python3.12/site-packages/torch/nn/utils/clip_grad.py", line 53, in clip_grad_norm_
+    grads = [p.grad for p in parameters if p.grad is not None]
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/protomate/.pyenv/versions/3.12.4/lib/python3.12/site-packages/torch/nn/modules/module.py", line 2255, in parameters
+    for name, param in self.named_parameters(recurse=recurse):
+  File "/home/protomate/.pyenv/versions/3.12.4/lib/python3.12/site-packages/torch/nn/modules/module.py", line 2288, in named_parameters
+    yield from gen
+  File "/home/protomate/.pyenv/versions/3.12.4/lib/python3.12/site-packages/torch/nn/modules/module.py", line 2225, in _named_members
+    for k, v in members:
+KeyboardInterrupt

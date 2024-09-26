@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "/home/protomate/marl-ecs-course/Midsem/modified_tsp.py", line 95, in <module>
+    main()
+  File "/home/protomate/marl-ecs-course/Midsem/modified_tsp.py", line 53, in main
+    total_distance += info["distance_traveled"]
+                      ~~~~^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'distance_traveled'
