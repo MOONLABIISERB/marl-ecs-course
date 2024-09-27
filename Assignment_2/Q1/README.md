@@ -1,49 +1,31 @@
-# Sokoban Puzzle with Reinforcement Learning
+# Travelling Salesman Problem (TSP) using Reinforcement Learning
 
-## Overview
+## Objective
 
-This project sets up a grid-world environment for the Sokoban puzzle, solved using reinforcement learning. In Sokoban, an agent (player) moves through a grid to push boxes into marked storage locations. The rules are:
+The goal of the Travelling Salesman Problem (TSP) is for an agent to start at a specific point and visit 50 different targets, while minimizing the total travel cost. 
 
-- The agent can move up, down, left, or right, but it can't move through walls or boxes.
-- The agent can only push boxes by walking into them and pushing them forward. It can't pull boxes.
-- Boxes can't be pushed into walls or other boxes.
-- The number of boxes matches the number of storage locations.
-- The puzzle is solved when all the boxes are on their correct storage spots.
+## Instructions
 
-## Environment Details
+The TSP code is located in the `marl-ecs-course` repository, under the `Assignment 2` folder. You are required to solve the problem using two approaches:
 
-**Grid Size**: The grid is 6 x 7.
-
-**State**: Each position in the grid is a "state." For example, if the agent is at row 2, column 3, the state is represented as `(2, 3)`.
-
-**Actions**: The agent can move in four directions: UP, DOWN, LEFT, or RIGHT. It can push boxes but not pull them. Some actions can get boxes stuck in places where they can't be moved anymore.
-
-**Rewards**:
-- The agent gets a penalty (-1) when a box is not in a storage spot.
-- The agent gets no penalty (0) when a box is successfully placed on a storage spot.
-
-**Game Over**:
-- The game ends when all boxes are on storage spots.
-- The game also ends if a box gets stuck in an unrecoverable spot (like a corner or against a wall).
-
-## How We Solve the Puzzle
-
-### 1. **Dynamic Programming (DP)**:
-   Use either value iteration or policy iteration to solve the puzzle.
-
-### 2. **Monte Carlo (MC)**:
-   Use the Monte Carlo method with random starts. Compare two methods: First-Visit and Every-Visit Monte Carlo.
+- **Dynamic Programming (DP)**: Use either value iteration or policy iteration to find the best solution.
+  
+- **Monte Carlo (MC)**: Solve the TSP using the Monte Carlo method with exploring starts. Compare both the first-visit and every-visit methods.
 
 ## Results
 
-| Metric               | Dynamic Programming Agent | Monte Carlo Agent |
-|----------------------|---------------------------|-------------------|
-| **Training Time**     | 266.38 seconds           | 63.40 seconds      |
-| **Average Reward**    | -97.81                   | -88.30            |
-| **Average Steps**     | 98.03                    | 89.51             |
+### Performance Comparison
 
-### Comparison
+| Solver                          | Average Return             |
+|----------------------------------|---------------------------|
+| Dynamic Programming              | -59.151682476791684       |
+| Monte Carlo                      | -64.28124298113774        |
+| Monte Carlo Epsilon-Greedy       | -67.66526335912042        |
 
-- **Training Time**: The Monte Carlo agent trains faster than the Dynamic Programming agent.
-- **Average Reward**: Both agents got negative rewards, but the Monte Carlo agent performed better.
-- **Average Steps**: The Monte Carlo agent used fewer steps to solve the puzzle compared to the Dynamic Programming agent.
+### Conclusion
+
+Here’s a summary of the results:
+
+- **Dynamic Programming**: Performed the best, giving the shortest path with the highest average return.
+- **Monte Carlo Methods**: Did a bit worse but still provided reasonable results.
+- **Epsilon-Greedy Exploration**: Had the worst result, showing that the extra exploration didn’t significantly improve the solution in this case.
