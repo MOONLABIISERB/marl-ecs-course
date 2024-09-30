@@ -16,3 +16,7 @@
 
 # Methode
 using Q - Learning Algorithm
+# 
+![Screenshot from 2024-09-30 23-55-27](https://github.com/user-attachments/assets/ae2f0c68-68a4-4644-a3ca-b0c042e0acab)
+![Screenshot from 2024-09-30 23-55-40](https://github.com/user-attachments/assets/59010f48-756a-446f-8bf4-2a49d02b2b08)
+![Screenshot from 2024-09-30 23-53-41](https://github.com/user-attachments/assets/68200290-5079-4180-bfd8-cbeea01428ea)
