@@ -52,7 +52,8 @@ This table presents a summary of the Q-learning agent's total reward collected a
 
 ## Cumulative Reward per Episode and Average Loss:
 
-![cr](https://github.com/user-attachments/assets/9c10434f-65a9-4366-9212-320408f0d62a)
+![cr](https://github.com/user-attachments/assets/b9272778-3c12-4e48-aa15-d6f49716e54d)
+
 
 
 
