@@ -1,5 +1,5 @@
 
-## Q-Learning Agent Results
+# Q-Learning Agent Results
 
 This table presents a summary of the Q-learning agent's total reward collected at various episode intervals during training.
 
@@ -38,7 +38,7 @@ This table presents a summary of the Q-learning agent's total reward collected a
 > **Note**: The agent converged around episode 1400, consistently achieving a reward of **145.31** from then on.
 
 
-# Observations:
+## Observations:
 
 **Convergence:** Starting around episode 1400, the agent consistently collects a total reward of approximately 145.31, indicating the agent has likely converged to an optimal policy.
 
