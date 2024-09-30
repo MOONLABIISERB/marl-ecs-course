@@ -2,6 +2,7 @@ import numpy as np
 import gymnasium as gym
 from collections import defaultdict
 from modified_tsp import ModTSP
+import matplotlib.pyplot as plt
 
 class QLearningAgent:
     def __init__(self, env, alpha=0.1, gamma=0.99, epsilon=1.0, epsilon_decay=0.995, epsilon_min=0.01):
@@ -56,6 +57,33 @@ class QLearningAgent:
             # print(f"Episode {ep} - Total reward: {total_reward} - Epsilon: {self.epsilon}")
 
         return episode_rewards
+    
+def plot_rewards(rewards, window_size=50):
+    """Plot original and smoothed rewards."""
+    # Compute the moving average (smoothed rewards)
+    smoothed_rewards = np.convolve(rewards, np.ones(window_size) / window_size, mode='valid')
+
+    # Plot the original rewards and smoothed rewards
+    plt.figure(figsize=(10, 6))
+    
+    # Plot original rewards (in gray)
+    plt.plot(rewards, color='gray', label='Original Rewards', alpha=0.3)
+    
+    # Plot smoothed rewards (in red)
+    plt.plot(range(window_size - 1, len(rewards)), smoothed_rewards, color='red', label='Smoothed Rewards')
+    
+    # Adding labels and title
+    plt.xlabel('Episodes')
+    plt.ylabel('Rewards')
+    plt.title('Original vs Smoothed Rewards per Episode')
+
+    # Adding grid and legend
+    plt.grid(True)
+    plt.legend()
+    
+    # Show the plot
+    plt.show()
+
 
 def main():
     env = ModTSP(num_targets=10)
@@ -64,15 +92,16 @@ def main():
     agent = QLearningAgent(env, alpha=0.1, gamma=0.99, epsilon=1.0, epsilon_decay=0.995, epsilon_min=0.01)
 
     # Train the agent
-    rewards = agent.train(num_episodes=500)
+    rewards = agent.train(num_episodes=1000)
+    plot_rewards(rewards, window_size=50)
 
     # Plot the rewards per episode
-    import matplotlib.pyplot as plt
-    plt.plot(rewards)
-    plt.xlabel('Episode')
-    plt.ylabel('Total Reward')
-    plt.title('Episode vs Total Reward')
-    plt.show()
+    # import matplotlib.pyplot as plt
+    # plt.plot(rewards)
+    # plt.xlabel('Episode')
+    # plt.ylabel('Total Reward')
+    # plt.title('Episode vs Total Reward')
+    # plt.show()
 
 if __name__ == "__main__":
     main()
