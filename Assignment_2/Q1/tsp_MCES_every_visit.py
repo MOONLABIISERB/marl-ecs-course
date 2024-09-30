@@ -113,9 +113,9 @@ class TSP(gym.Env):
 
 
 if __name__ == "__main__":
-    num_targets = 6
-    max_episodes = 15000
-    max_steps = 10
+    num_targets = 50
+    max_episodes = 10000
+    max_steps = 55
 
     env = TSP(num_targets)
     obs, _ = env.reset()
