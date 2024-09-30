@@ -1,6 +1,12 @@
 # Mid Semester 
 Agamdeep Singh 20021
 
+![Path](tsp.gif)
+
+## Inference Testing
+```
+python modified_tsp.py --mode test
+```
 ## Approach
 ### Method used: 
 Deep Q-Network (DQN)

@@ -17,6 +17,8 @@ from agent import Agent, DQN
 
 from auxiliary import run_inference
 
+import argparse
+
 
 def get_epsilon(episode, min_epsilon=0.01, max_epsilon=0.7, decay_rate=0.0005):
     return min_epsilon + (max_epsilon - min_epsilon) * np.exp(-decay_rate * episode)
@@ -109,12 +111,25 @@ def main() -> None:
 
 
 if __name__ == "__main__":
+    # add argparse for train or test
+    parser = argparse.ArgumentParser(description="Train or test the model.")
+    parser.add_argument("--mode", choices=["train", "test"], help="Mode to run: train or test")
+    args = parser.parse_args()
+
+    if args.mode == "test":
+        run_inference("model.pth")
+        exit()
+
+    elif args.mode != "train":
+        print("Invalid mode. Please choose either 'train' or 'test'.")
+        exit()
+
     # Initialize wandb
-    # wandb.init(project="marl", name="mtsp_final")
+    wandb.init(project="marl", name="mtsp_final")
 
-    # main()
+    main()
 
-    # wandb.finish()
+    wandb.finish()
 
-    # Run inference after training
-    run_inference("model.pth")
+    # # Run inference after training
+    # run_inference("model.pth")

@@ -107,5 +107,6 @@ def run_inference(model_path: str, num_targets: int = 10):
         print("---")
 
     print(f"Inference completed. Total reward: {total_reward:.2f}, Total steps: {steps}")
+    print("visualisation available in the path folder")
 
     plot_tsp_path(env.locations, path, actions)
