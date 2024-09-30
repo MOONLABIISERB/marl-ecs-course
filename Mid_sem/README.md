@@ -49,7 +49,7 @@ Q Learning
 
 ![Distance](TD_error.png)
 
-- **TD Error** Figure shows a plot of 'TD Error per Episode' for approximately 6000 episodes. The error starts high at around 8000 units, sharply decreases in the initial episodes, and then gradually converges towards 1000 units. The red line represents the 'Average TD Error' over time.
+- **TD Error** Figure shows a plot of 'TD Error per Episode' for approximately 6000 episodes. The error starts high at around 8000 units, sharply decreases in the initial episodes, and then gradually converges towards 0 units. The red line represents the 'Average TD Error' over time.
 
 
 ## Results Replication
