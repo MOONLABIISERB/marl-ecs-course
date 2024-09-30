@@ -7,6 +7,17 @@ Agamdeep Singh 20021
 ```
 python modified_tsp.py --mode test
 ```
+## Training
+```
+python modified_tsp.py
+```
+
+Requirements:
+- Pytorch
+- wandb(for logging)
+- numpy etc.
+
+
 ## Approach
 ### Method used: 
 Deep Q-Network (DQN)
@@ -88,10 +99,3 @@ Deep Q-Network (DQN)
 - Other thoughts
     - You can easily decrease the number of episodes by an oorder of a magintue. The model convered a lot earlier.
 
-## Results Replication
->python modified_tsp.py
-
-Requirements:
-- Pytorch
-- wandb(for logging)
-- numpy etc.
