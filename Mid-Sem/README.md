@@ -28,7 +28,7 @@ The following key results were observed during the training:
    The agent's path over the target locations is visualized below. The blue line represents the path the agent took, and the red dots represent the targets. While the agent managed to traverse multiple targets, it appears to have revisited certain locations, potentially leading to suboptimal rewards.
 
    ![Path Traversal](path_traversal.png)
-
+https://github.com/user-attachments/assets/f4531c4c-198f-4077-abf6-63599038b152
 ## **Discussion of Results**
 
 - **Cumulative Reward Trends**: The cumulative reward plot indicates significant variability across episodes. The agent incurs heavy penalties, as shown by large negative reward spikes. This is due to revisits to previously visited targets, which lead to profit decay and penalties. There were some episodes where the rewards improved, suggesting partial learning, but overall, the policy struggled to maintain consistent positive reward maximization.
@@ -60,12 +60,7 @@ python sarsa_sol.py
 ### **4. View Results**
 - After running the code, the **cumulative reward plot** will be displayed.
 - The **path traversal animation** for the final episode will be saved in the project folder as `tsp_animation.mp4`.
-![path_traversal](https://github.com/user-attachments/assets/ff413886-2434-4a55-b8db-2f852e4645ba)
-![episodic_cumulative_reward](https://github.com/user-attachments/assets/fb577c65-63b8-4f99-a8e4-c86d55c73498)
 
-
-
-https://github.com/user-attachments/assets/f4531c4c-198f-4077-abf6-63599038b152
 
 
 
