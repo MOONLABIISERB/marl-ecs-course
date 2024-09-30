@@ -31,7 +31,7 @@ pip install numpy matplotlib gymnasium openai-gym
 2. Run the `main_code.py` script using the following command:
 
 ```bash
-python main_code.py
+python sol.py
 ```
 
 This will:
