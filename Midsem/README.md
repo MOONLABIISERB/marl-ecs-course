@@ -12,7 +12,7 @@ Q-learning
 
 | Hyperparameter | Value |
 |----------------|-------|
-| Learning Rate (α) | 0.01 |
+| Learning Rate (α) | 0.1 |
 | Gamma (Discount Factor) | 0.99 |
 
 
@@ -47,7 +47,7 @@ Q-learning
     - Initially starting with a reward of -80,000. 
     - Converges at reward 172.
     - Converging to Positive reward means that the agent is not revisiting any city.
-    - Since the reward is \( p_i \)  - dist_so_far(), it means that it is also reducing the total distance travelled.
+    - Since the reward is p_i  - dist_so_far(), it means that it is also reducing the total distance travelled.
     - Since the reward is being suffled, it converging to a positive value means it just hasn't learned which cities to travel, but also to asses the whole situation and then travel to cities in an order which reduces the distance travelled dispite the rewards earned at that city.
     - This is the reason for the dips in cumulative rewards plot as the rewards are suffled every 10 episode so it has to learn the environment regardless of the rewards.
 
