@@ -213,7 +213,7 @@ def main() -> None:
     axes[1].plot(avg_losses, label='Average TD Error (Loss)')
     axes[1].set_xlabel('Episode')
     axes[1].set_ylabel('Average Loss')
-    axes[1].set_title('Average Loss (TD Error) per Episode')
+    axes[1].set_title('Average Loss per Episode')
     axes[1].legend()
 
     plt.tight_layout()
