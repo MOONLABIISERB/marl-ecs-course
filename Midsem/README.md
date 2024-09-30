@@ -13,7 +13,7 @@ Q-learning
 | Hyperparameter | Value |
 |----------------|-------|
 | Learning Rate (α) | 0.1 |
-| Gamma (Discount Factor) | 0.99 |
+| Discount Factor (γ) | 0.99 |
 
 
 ### Environment
