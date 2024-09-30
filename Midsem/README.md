@@ -28,7 +28,7 @@ pip install numpy matplotlib gymnasium openai-gym
 ## Running the Code
 
 1. Ensure the environment class `ModTSP` is correctly implemented or imported from the `env.py` file.
-2. Run the `main_code.py` script using the following command:
+2. Run the `sol.py` script using the following command:
 
 ```bash
 python sol.py
