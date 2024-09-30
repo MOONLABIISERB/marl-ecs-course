@@ -1,6 +1,7 @@
 import numpy as np
 import gymnasium as gym
 from collections import defaultdict
+from modified_tsp import ModTSP
 
 class QLearningAgent:
     def __init__(self, env, alpha=0.1, gamma=0.99, epsilon=1.0, epsilon_decay=0.995, epsilon_min=0.01):
