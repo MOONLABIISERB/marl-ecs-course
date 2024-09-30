@@ -1,7 +1,7 @@
 # Midsem
 
 ## Run the code
-python3 modified_tsp.py
+python3 q-learning.py
 
 ## TD error plot vs episodes
  
