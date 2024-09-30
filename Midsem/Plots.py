@@ -19,6 +19,7 @@ window_size = 50
 smoothed_ep_rets = moving_average(ep_rets, window_size=window_size)
 
 # # Plot original vs smoothed
+# plt.figure(figsize=(12, 4))
 # plt.plot(ep_rets, label='Original Cumulative Reward', alpha=0.5)
 # plt.plot(range(window_size - 1, len(ep_rets)), smoothed_ep_rets, label='Smoothed Cumulative Reward', color='orange')
 # plt.xlabel('Episode')

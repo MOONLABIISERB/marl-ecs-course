@@ -232,7 +232,7 @@ class QLearningAgent:
 def main() -> None:
     """Main function to run Q-learning agent in Modified TSP environment."""
     num_targets = 10
-    shuffle_time = 1
+    shuffle_time = 10
     num_episodes = 9999
 
     env = ModTSP(num_targets, shuffle_time=shuffle_time)
