@@ -1,5 +1,5 @@
-# Mid Semester Answerscript
-Agniva 2410701
+# Mid Semester Answer Script
+Agniva Banerjee 2410701
 
 ## Approach
 ### RL Method: 
