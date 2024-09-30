@@ -4,10 +4,11 @@ This repository contains an implementation of a Q-learning agent that solves a m
 
 ## Files in this Repository
 
-1. **main_code.py**: This file contains the Q-learning agent's implementation and the environment interaction logic.
-2. **Figure_1.png**: Visualization of the cumulative rewards over 1000 episodes.
-3. **Figure_2.png**: Visualization of the agent's path over the waypoints at the final episode.
-4. **README.md**: This file provides detailed instructions for running the code and understanding the results.
+1. **sol.py**: This file contains the Q-learning agent's implementation and the environment interaction logic.
+2. **env.py**: This file contains the TSP environment.
+3. **Figure_1.png**: Visualization of the cumulative rewards over 1000 episodes.
+4. **Figure_2.png**: Visualization of the agent's path over the waypoints at the final episode.
+5. **README.md**: This file provides detailed instructions for running the code and understanding the results.
 
 ## Requirements
 
