@@ -46,8 +46,8 @@ To run this solution and generate the same results, follow the steps below:
 
 ### **1. Clone the Repository**
 ```bash
-git clone https://github.com/yourusername/yourrepository.git
-cd yourrepository
+[git clone https://github.com//yourrepository.git](https://github.com/MOONLABIISERB/marl-ecs-course.git)
+cd marl-ecs-course
 ```
 
 ### **2. Install Dependencies**
