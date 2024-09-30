@@ -6,6 +6,22 @@ Akshat Singh 20031
 ### Method used: 
 Q-learning
 
+A class QLearningAgent is made which does the following things:
+ It takes the inputs:
+
+ - num_actions: This is the number of actions which the agent can take, here it is the number of target
+ - alpha: the Learning Rate of Q-learning, deafaults to 0.1
+ - gamma: The Discount Factor of Reinforcement Learning
+
+And it has the following functions:
+ 
+ - ```choose_action()```: Choose the best action based on the current Q-values (greedy policy)
+ - ```update_q_value()```: Update the Q-value for the given state-action pair. This updation is done using the  Q-learning update rule: ```Q(s, a) = Q(s, a) + α \[r + γ max Q(s', a') - Q(s, a)\]```
+ - In this equation, Q(s,a) is the Q-value of current step, Q(s',a') is the Q-value of the next state and it's corresponding action
+ - The ```q_table``` dictionary is used to track the q-values at each state and its corresponding actions, it is initialized to 0 whenever a new state-action pair is found.
+ - The ```td_errors``` list is used to log the errors.
+ - Finally in ``` "__main__``` the action is chosen for each step of each episode using ```choose_action()``` until all the cities are visited
+
 ### Hyperparameters Summary
 
 ### Agent
