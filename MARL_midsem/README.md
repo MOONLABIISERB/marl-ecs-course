@@ -28,6 +28,9 @@ using Q - Learning Algorithm
 # Result Discussion
 
 <Average Reawrd for the above training is 29.43>
+
 <The figure converge on episode 99900>
+
 <Elipsion for each episode is 0.01>
-<<Commulative chage at each and every episode of training>>
+
+<Commulative chage at each and every episode of training <Commulative chage at each and every episode of training>>
