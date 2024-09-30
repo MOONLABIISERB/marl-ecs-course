@@ -30,13 +30,13 @@ Below is a graph illustrating the agent’s learning progress over 1000 episodes
 - **Original Rewards**: The immediate rewards for each episode.
 - **Smoothed Rewards**: A moving average over episodes to show the general trend.
 
-![Rewards Plot 1](images/Figure_1.png)
+![Rewards Plot 1](Midsem/Figure_1.png)
 
 From the plot, it's clear that the agent's performance improves steadily and converges towards higher rewards.
 
 I have also attached a graph showing agent's learning progression over 500 episodes for better understanding.
 
-![Rewards Plot 2](images/Figure_2.png)
+![Rewards Plot 2](Midsem/Figure_2.png)
 
 ### 2.3 Discussion
 
