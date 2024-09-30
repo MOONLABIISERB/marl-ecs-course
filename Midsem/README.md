@@ -147,10 +147,3 @@ Feel free to experiment with the provided code and modify the hyperparameters to
 
 ---
 
-## 6. References
-
-- [Q-Learning Algorithm - Wikipedia](https://en.wikipedia.org/wiki/Q-learning)
-- [OpenAI Gym](https://gym.openai.com/)
-- [Gymnasium Documentation](https://gymnasium.farama.org/)
-
----
