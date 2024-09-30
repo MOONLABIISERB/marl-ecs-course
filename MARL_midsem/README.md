@@ -14,4 +14,5 @@
 
 <import matplotlib.pyplot as plt<import matplotlib.pyplot as plt>>
 
-# Learining has been done by using Q - Learning Algorithm
+# Methode
+using Q - Learning Algorithm
