@@ -71,14 +71,30 @@ class Agent:
         self.optimizer = optim.Adam(self.knowledge.parameters(), lr=0.0005)
         # self.loss_fn = F.smooth_l1_loss()
 
-    def action(self, state: np.ndarray, exploration_prob: float):
-        if np.random.rand() < exploration_prob:
-            return np.random.randint(self.n_actions)
+    def save_model(self, path: str):
+        torch.save(self.knowledge.state_dict(), path)
+        print(f"Model saved to {path}")
 
-        with torch.no_grad():
-            state = torch.FloatTensor(state).unsqueeze(0).to(device)
-            q_values = self.knowledge(state)
-            return q_values.argmax().item()
+    def action(self, state: np.ndarray, exploration_prob: float):
+        visited_states = state[-10:]
+        # print(visited_states)
+        unvisited_states = [i for i, s in enumerate(visited_states) if s == 0]
+
+        if np.random.rand() < exploration_prob:
+            action = random.choice(unvisited_states) if unvisited_states else np.random.randint(self.n_actions)
+        else:
+            state_tensor = torch.FloatTensor(state).unsqueeze(0).to(device)
+            q_values = self.knowledge(state_tensor)
+
+            # Mask Q-values of visited states to a very low value
+            q_values_masked = q_values.clone()
+            for idx, visited in enumerate(visited_states):
+                if visited == 1:
+                    q_values_masked[0, idx] = float("-inf")
+
+            action = q_values_masked.argmax().item()
+
+        return action
 
     def update_memory(self, state, action, reward, next_state, done):
         self.memory.push(state, action, reward, next_state, done)

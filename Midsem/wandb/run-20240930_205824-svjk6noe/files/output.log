@@ -1,0 +1,33 @@
+Episode 0,  Reward: -4.83, Profit: -43.47, Distance: 99.41 Loss: 1000.00
+Episode 100,  Reward: 32.50, Profit: 292.47, Distance: 49.54 Loss: 3.27
+Episode 200,  Reward: 9.82, Profit: 88.41, Distance: 82.70 Loss: 6.20
+Episode 300,  Reward: 29.35, Profit: 264.18, Distance: 52.03 Loss: 8.37
+Episode 400,  Reward: 39.64, Profit: 356.80, Distance: 40.62 Loss: 9.29
+Episode 500,  Reward: 4.17, Profit: 37.52, Distance: 91.56 Loss: 4.20
+Episode 600,  Reward: 34.19, Profit: 307.68, Distance: 45.51 Loss: 2.81
+Episode 700,  Reward: 9.87, Profit: 88.87, Distance: 72.00 Loss: 2.23
+Episode 800,  Reward: 27.68, Profit: 249.13, Distance: 55.96 Loss: 2.87
+Episode 900,  Reward: 41.09, Profit: 369.77, Distance: 36.32 Loss: 2.48
+Episode 1000,  Reward: 37.66, Profit: 338.94, Distance: 43.61 Loss: 1.84
+Episode 1100,  Reward: 25.28, Profit: 227.51, Distance: 65.04 Loss: 1.52
+Episode 1200,  Reward: 35.16, Profit: 316.47, Distance: 47.82 Loss: 2.09
+Episode 1300,  Reward: 39.85, Profit: 358.68, Distance: 40.13 Loss: 1.93
+Episode 1400,  Reward: 33.86, Profit: 304.73, Distance: 45.34 Loss: 2.36
+Episode 1500,  Reward: 41.09, Profit: 369.77, Distance: 36.32 Loss: 2.43
+Episode 1600,  Reward: 41.43, Profit: 372.87, Distance: 34.10 Loss: 1.48
+Traceback (most recent call last):
+  File "/home/protomate/marl-ecs-course/Midsem/modified_tsp.py", line 148, in <module>
+    main()
+  File "/home/protomate/marl-ecs-course/Midsem/modified_tsp.py", line 66, in main
+    loss = agent.learn_from_memory(batch_size=batchSize)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/protomate/marl-ecs-course/Midsem/agent.py", line 125, in learn_from_memory
+    loss.backward()
+  File "/home/protomate/.pyenv/versions/3.12.4/lib/python3.12/site-packages/torch/_tensor.py", line 521, in backward
+    torch.autograd.backward(
+  File "/home/protomate/.pyenv/versions/3.12.4/lib/python3.12/site-packages/torch/autograd/__init__.py", line 289, in backward
+    _engine_run_backward(
+  File "/home/protomate/.pyenv/versions/3.12.4/lib/python3.12/site-packages/torch/autograd/graph.py", line 769, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

@@ -1,0 +1,67 @@
+Episode 0,  Reward: 22.08, Profit: 198.72, Distance: 66.30
+Episode 100,  Reward: 34.80, Profit: 313.18, Distance: 43.16
+Episode 200,  Reward: 22.10, Profit: 198.92, Distance: 59.87
+Episode 300,  Reward: 15.67, Profit: 141.05, Distance: 68.64
+Episode 400,  Reward: 21.31, Profit: 191.76, Distance: 63.01
+Episode 500,  Reward: 11.23, Profit: 101.10, Distance: 68.65
+Episode 600,  Reward: 34.19, Profit: 307.68, Distance: 45.51
+Episode 700,  Reward: 16.28, Profit: 146.50, Distance: 70.54
+Episode 800,  Reward: 8.23, Profit: 74.08, Distance: 81.18
+Episode 900,  Reward: 38.65, Profit: 347.87, Distance: 42.04
+Episode 1000,  Reward: 37.66, Profit: 338.94, Distance: 43.61
+Episode 1100,  Reward: 23.28, Profit: 209.56, Distance: 54.60
+Episode 1200,  Reward: 21.78, Profit: 195.98, Distance: 65.46
+Episode 1300,  Reward: 39.85, Profit: 358.68, Distance: 40.13
+Episode 1400,  Reward: 18.35, Profit: 165.17, Distance: 62.89
+Episode 1500,  Reward: 41.03, Profit: 369.26, Distance: 36.58
+Episode 1600,  Reward: 41.43, Profit: 372.87, Distance: 34.10
+Episode 1700,  Reward: 23.35, Profit: 210.19, Distance: 74.85
+Episode 1800,  Reward: 34.23, Profit: 308.10, Distance: 50.39
+Episode 1900,  Reward: 35.32, Profit: 317.91, Distance: 48.21
+Episode 2000,  Reward: 39.84, Profit: 358.60, Distance: 40.40
+Episode 2100,  Reward: 36.08, Profit: 324.69, Distance: 48.87
+Episode 2200,  Reward: 32.54, Profit: 292.83, Distance: 53.38
+Episode 2300,  Reward: 39.85, Profit: 358.68, Distance: 40.13
+Episode 2400,  Reward: 35.73, Profit: 321.53, Distance: 46.62
+Episode 2500,  Reward: 41.43, Profit: 372.87, Distance: 34.10
+Episode 2600,  Reward: 36.50, Profit: 328.47, Distance: 46.10
+Episode 2700,  Reward: 39.20, Profit: 352.76, Distance: 38.13
+Episode 2800,  Reward: 37.44, Profit: 336.93, Distance: 37.98
+Episode 2900,  Reward: 42.14, Profit: 379.27, Distance: 32.90
+Episode 3000,  Reward: 41.43, Profit: 372.87, Distance: 34.10
+Episode 3100,  Reward: 39.85, Profit: 358.68, Distance: 40.13
+Episode 3200,  Reward: 38.83, Profit: 349.45, Distance: 37.53
+Episode 3300,  Reward: 41.43, Profit: 372.87, Distance: 34.10
+Episode 3400,  Reward: 20.85, Profit: 187.65, Distance: 64.98
+Episode 3500,  Reward: 17.01, Profit: 153.12, Distance: 68.76
+Episode 3600,  Reward: 41.43, Profit: 372.87, Distance: 34.10
+Episode 3700,  Reward: 36.50, Profit: 328.47, Distance: 46.10
+Episode 3800,  Reward: 38.88, Profit: 349.89, Distance: 42.08
+Episode 3900,  Reward: 41.43, Profit: 372.87, Distance: 34.10
+Episode 4000,  Reward: 37.47, Profit: 337.27, Distance: 44.18
+Episode 4100,  Reward: 41.43, Profit: 372.87, Distance: 34.10
+Episode 4200,  Reward: 41.43, Profit: 372.87, Distance: 34.10
+Episode 4300,  Reward: 37.47, Profit: 337.27, Distance: 44.18
+Traceback (most recent call last):
+  File "/home/protomate/marl-ecs-course/Midsem/modified_tsp.py", line 147, in <module>
+  File "/home/protomate/marl-ecs-course/Midsem/modified_tsp.py", line 66, in main
+    loss = agent.learn_from_memory(batch_size=batchSize)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/protomate/marl-ecs-course/Midsem/agent.py", line 127, in learn_from_memory
+    self.optimizer.step()
+  File "/home/protomate/.pyenv/versions/3.12.4/lib/python3.12/site-packages/torch/optim/optimizer.py", line 484, in wrapper
+    out = func(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/protomate/.pyenv/versions/3.12.4/lib/python3.12/site-packages/torch/optim/optimizer.py", line 89, in _use_grad
+    ret = func(self, *args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/protomate/.pyenv/versions/3.12.4/lib/python3.12/site-packages/torch/optim/adam.py", line 226, in step
+    adam(
+  File "/home/protomate/.pyenv/versions/3.12.4/lib/python3.12/site-packages/torch/optim/optimizer.py", line 161, in maybe_fallback
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/protomate/.pyenv/versions/3.12.4/lib/python3.12/site-packages/torch/optim/adam.py", line 766, in adam
+    func(
+  File "/home/protomate/.pyenv/versions/3.12.4/lib/python3.12/site-packages/torch/optim/adam.py", line 604, in _multi_tensor_adam
+    torch._foreach_div_(exp_avg_sq_sqrt, bias_correction2_sqrt)
+KeyboardInterrupt
