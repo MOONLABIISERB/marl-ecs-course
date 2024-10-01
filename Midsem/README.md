@@ -38,7 +38,7 @@ And it has the following functions:
 |----------------|-------|
 | Number of Targets | 10 |
 | Max Area | 15 |
-| Shuffle Time | 10 |
+| Shuffle Time | 1 & 10 & 100 & 1000 & 10000  |
 | Random Seed | 42 |
 
 ### Training
@@ -49,10 +49,35 @@ And it has the following functions:
 
 ## Results
 
+### k = 1
 
-![Average_Loss](Average_Loss.png)
+![Average_Loss](Plots/Average_Loss_k_1.png)
 
-![Cumulative_Reward](Cumulative_Rewards.png)
+![Cumulative_Reward](Plots/Cumulative_Rewards_k_1.png)
+
+### k = 10
+
+![Average_Loss](Plots/Average_Loss_k_10.png)
+
+![Cumulative_Reward](Plots/Cumulative_Rewards_k_10.png)
+
+### k = 100
+
+![Average_Loss](Plots/Average_Loss_k_100.png)
+
+![Cumulative_Reward](Plots/Cumulative_Rewards_k_100.png)
+
+### k = 1000
+
+![Average_Loss](Plots/Average_Loss_k_1000.png)
+
+![Cumulative_Reward](Plots/Cumulative_Rewards_k_1000.png)
+
+### k = 10000
+
+![Average_Loss](Plots/Average_Loss_k_10000.png)
+
+![Cumulative_Reward](Plots/Cumulative_Rewards_k_10000.png)
 
 ### Discussion of Results
 
@@ -66,7 +91,13 @@ And it has the following functions:
     - Since the reward is p_i  - dist_so_far(), it means that it is also reducing the total distance travelled.
     - Since the reward is being suffled, it converging to a positive value means it just hasn't learned which cities to travel, but also to asses the whole situation and then travel to cities in an order which reduces the distance travelled dispite the rewards earned at that city.
     - This is the reason for the dips in cumulative rewards plot as the rewards are suffled every 10 episode so it has to learn the environment regardless of the rewards.
-
+- ***Shuffle Time***
+    - Some interesting results occur when changing shuffle time (k)
+    - Initially when k = 1, i.e. when the rewards are shuffled every episode, the cumulative reward converges at 214
+    - when k = 10, it reduces to only 172
+    - However, at k = 100, it increases to 215 and further increases to 225 at k = 1,000
+    - At k = 10,000 for 10,000 episodes, that is when no shuffling is done, it converges to 218
+    - This suggests that if we further train at k = 10,000 with large number of episodes, it might converge to an even higher value
 
 ## Results Replication
 >python modified_tsp.py
