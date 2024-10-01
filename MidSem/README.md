@@ -32,6 +32,19 @@ where:
 ![image](https://github.com/user-attachments/assets/52494c70-eb1c-4ab4-bc36-dacfbf36b72c)
 ![image](https://github.com/user-attachments/assets/f6ecd475-7056-4153-b919-1d66eb231275)
 
+| Episode   | Reward                |
+|-----------|-----------------------|
+| 100 / 999 | -9845.45              |
+| 200 / 999 | -9779.49              |
+| 300 / 999 | 138.25                |
+| 400 / 999 | 145.54                |
+| 500 / 999 | 133.38                |
+| 600 / 999 | 159.57                |
+| 700 / 999 | 159.57                |
+| 800 / 999 | 159.57                |
+| 900 / 999 | 159.57                |
+
+
 - Converges at reward 159.56.
 - Starting around episode 600, the agent consistently collects a total reward of approximately 159.56, indicating that the agent has converged to an optimal policy.
 - Converging to Positive reward means that the agent is not revisiting any target.
