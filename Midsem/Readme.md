@@ -68,6 +68,8 @@ python modified_tsp.py
 python test.py
 ```
 
+The testing would require loading of the trained q_matrix file, which is provided in the directory.
+
 
 
 
