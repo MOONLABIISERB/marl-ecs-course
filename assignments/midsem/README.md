@@ -64,7 +64,7 @@
 
 > Evaluation outputs are provided in the Jupyter Notebook.
 
-## Results
+## Results and Discussion
 
 ### Training
 
@@ -92,3 +92,12 @@
 ### SARSA
 
 ![SARSA Sample Episode](res__sarsa_sample.png)
+
+### Discussion & Conclusion
+
+- Q-Learning is **OFF-POLICY** and maximises the rewards obtained for each step.
+  $$Q_{t + 1}(s_k, a_k) \leftarrow Q_{t}(s_k, a_k) + \alpha_t \left[(r(s_{k + 1} | s_k, a_k) + \gamma \max_{a \in \mathcal{A}}{Q_{t + 1}(s_{k + 1}, a)}) - Q_t(s_k, a_k)\right]$$
+- SARSA is **ON-POLICY** and updates the action value based on the action actually taken, for each step.
+  $$Q_{t + 1}(s_k, a_k) \leftarrow Q_{t}(s_k, a_k) + \alpha_t \left[(r(s_{k + 1} | s_k, a_k) + \gamma{Q_{t + 1}(s_{k + 1}, a_{k + 1})}) - Q_t(s_k, a_k)\right]$$
+- Due to this, SARSA might be slower to discover the optimal exploration strategy if it does not have it sampled.
+- The $max$ term in Q-Learning leads to more aggressive exploitation of available information, which helps it perform better for the given Travelling Salesman Problem.
