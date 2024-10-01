@@ -57,8 +57,4 @@ The results clearly show that **Monte Carlo** outperforms **Dynamic Programming*
 - **Scalability**: In environments with large state spaces, DP struggles because it has to compute values for every possible state-action pair. Monte Carlo, however, only updates values for the states visited in each episode, making it more scalable and efficient.
 - **Flexibility**: Monte Carlo’s ability to gather experience through episodes makes it more adaptable to environments where it's difficult to model all possible transitions and outcomes, such as Sokoban.
 
-### Potential Improvements
-- **Dynamic Programming Limitations**: To improve the performance of DP, techniques like state-space pruning or hierarchical decomposition could be employed, which would help reduce the computational overhead.
-- **Monte Carlo Exploration**: Monte Carlo could potentially benefit from an adaptive exploration strategy, where the epsilon value is adjusted dynamically based on the agent’s performance.
-
 Overall, this experiment demonstrates that while Dynamic Programming is a robust algorithm, it is not always well-suited for environments with vast state spaces like Sokoban. Monte Carlo, with its ability to learn from sampled episodes, shows greater promise in such settings, providing more efficient policies and faster training times.

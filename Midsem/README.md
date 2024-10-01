@@ -9,7 +9,15 @@ The solution is illustrated through:
 
 ---
 
+<<<<<<< HEAD
 ## Installation & Setup
+=======
+1. **sol.py**: This file contains the Q-learning agent's implementation and the environment interaction logic.
+2. **env.py**: This file contains the TSP environment.
+3. **Figure_1.png**: Visualization of the cumulative rewards over 1000 episodes.
+4. **Figure_2.png**: Visualization of the agent's path over the waypoints at the final episode.
+5. **README.md**: This file provides detailed instructions for running the code and understanding the results.
+>>>>>>> ae2fb4f99337219e3360612fc9689e83b90842fa
 
 ### Requirements
 
@@ -26,6 +34,7 @@ pip install gymnasium numpy matplotlib pandas
 
 ### Running the Code
 
+<<<<<<< HEAD
 1. Clone the repository:
    ```bash
    git clone https://github.com/MOONLABIISERB/marl-ecs-course.git
@@ -42,6 +51,14 @@ pip install gymnasium numpy matplotlib pandas
 Upon running the code, you will see:
 - A plot of cumulative rewards earned by the agent after each episode.
 - An animation of the agent's final path across the waypoints.
+=======
+1. Ensure the environment class `ModTSP` is correctly implemented or imported from the `env.py` file.
+2. Run the `sol.py` script using the following command:
+
+```bash
+python sol.py
+```
+>>>>>>> ae2fb4f99337219e3360612fc9689e83b90842fa
 
 ---
 
