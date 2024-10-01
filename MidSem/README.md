@@ -5,6 +5,12 @@
 
 ## Method Used: Q-Learning
 
+
+###  Run Code
+```
+python main.py
+
+```
 ### Results
 
 Below is the episode vs cumulative reward plot that illustrates the training convergence.
