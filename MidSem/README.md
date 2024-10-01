@@ -60,7 +60,11 @@ The following hyperparameters were tested to evaluate performance:
 
  ![Episode vs. Cumulative Reward](https://github.com/MOONLABIISERB/marl-ecs-course/blob/gavit_20114/MidSem/test_reward_comparison.png)
 
+# Test Best Model
+```
+python test.py
 
+```
 
 ### Conclusion
 
