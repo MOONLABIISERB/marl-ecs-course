@@ -64,12 +64,25 @@ The following hyperparameters were tested to evaluate performance:
 
 ### Conclusion
 
-The Q-Learning agent effectively tackled the Modified Traveling Salesman Problem (ModTSP) by learning to navigate through targets efficiently over 10,000 training episodes. The agent exhibited significant performance improvements, as shown by the increasing average rewards and achieving a high maximum reward. The implementation of an epsilon-greedy policy facilitated a balanced exploration and exploitation strategy, enabling the discovery of optimal routes.
+The Q-Learning agent effectively solved the Modified Traveling Salesman Problem (ModTSP) by training over 10,000 episodes with various hyperparameter settings. Model 3 (Learning Rate: 0.05, Discount Factor: 0.85, Epsilon Decay: 0.999) outperformed others, achieving the highest average test reward of 515.05 with smoother convergence.
 
-#### Key Observations:
 
-1. **Performance Enhancement:** The consistent improvement in rewards indicates successful learning and policy optimization.
-2. **Epsilon Decay Effectiveness:** The gradual reduction of the exploration rate allowed the agent to focus on exploiting learned strategies while maintaining minimal exploration.
-3. **Scalability Considerations:** Although the agent performed well with 10 targets, scaling to larger problem sizes may necessitate advanced techniques such as state abstraction or deep reinforcement learning.
 
+#### Key Insights:
+**Hyperparameter Impact:**
+
+Model 3 balanced learning speed and stability, showing that careful tuning of learning rates and discount factors is crucial. Higher learning rates, as seen in Model 4, led to instability.
+**Epsilon Decay:**
+
+A gradual epsilon decay allowed for early exploration and late-stage exploitation, ensuring that Models 1 and 3 maintained steady performance.
+Convergence:
+
+Model 3 converged faster and more smoothly, whereas Model 4 struggled due to high learning rates.
+**Test Reward Comparison:**
+
+Model 3 emerged as the best performer, while Models 1 and 2 were competitive but less consistent.
+**Scalability:**
+
+The agent performed well on 10 targets, but larger TSP instances may require advanced methods like Deep Q-Networks (DQN) for scalability.
+This highlights the importance of hyperparameter tuning and exploration-exploitation balancing for effective policy learning.
 # Thank You !! 😊
