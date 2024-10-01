@@ -27,7 +27,7 @@ def get_epsilon(episode, min_epsilon=0.01, max_epsilon=0.7, decay_rate=0.0005):
 def main() -> None:
     """Main function."""
     num_targets = 10
-    num_episodes = 10**5
+    num_episodes = 10**4
     max_steps_per_episode = num_targets
 
     env = ModTSP(num_targets)
