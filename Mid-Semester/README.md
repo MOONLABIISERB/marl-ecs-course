@@ -30,13 +30,15 @@ Implementing SARSA (which used epsilon-greedy policy) to solve with decaying eps
 
 | Parameter                | Value                                     | 
 |--------------------------|-------------------------------------------|
-| Learning Rate (alpha)    | 0.1                                       | 
-| Discount Factor (gamma)  | 0.95                                      | 
+| Learning Rate (alpha)    | 0.04                                       | 
+| Discount Factor (gamma)  | 0.99                                      | 
 | Epsilon                  | 0.1                                       | 
-| Epsilon Decay Rate       | epsilon = max(0.01, epsilon * 0.995)      | 
-| Number of Episodes       | 3000000                                   |
+| Epsilon Decay Rate       | max(0.00005, epsilon * 0.9999)            | 
+| Number of Episodes       | 80000                                     |
 
-<img src="https://github.com/user-attachments/assets/6ad2165c-1590-4466-b335-c94658d63f27" alt="Graph-TSP-SARSA" width="700"/>
+<img src="https://github.com/user-attachments/assets/13c0ac31-46a5-43df-bf79-6f801c882c37" width="700"/>
+
+<img src="https://github.com/user-attachments/assets/6d562eea-f0e5-4cb9-b46e-c7c1931300f4" width="700"/>
 
 
 
