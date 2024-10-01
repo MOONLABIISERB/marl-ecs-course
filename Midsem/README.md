@@ -3,6 +3,8 @@ Agamdeep Singh 20021
 
 ![Path](tsp.gif)
 
+### Average Profit: 364.94
+
 ## Inference Testing
 ```
 python modified_tsp.py --mode test
