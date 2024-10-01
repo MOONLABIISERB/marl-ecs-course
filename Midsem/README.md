@@ -21,7 +21,3 @@ python3 -m modified_tsp
 
 ### The cumulative vs episodic reward graph
 ![image](Midsem/output.jpg) 
-
-
-### TD_error vs episode graph 
-![image](Midsem/output.jpg)
