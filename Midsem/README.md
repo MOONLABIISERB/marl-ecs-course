@@ -9,9 +9,9 @@ This repository implements the Traveling Salesman Problem (TSP) as a reinforceme
     cd marl-ecs-course
     ```
 
-2. **Switch to the branch** `ankur_21043`:
+2. **Switch to the branch** `Ankur_21043`:
     ```bash
-    git checkout ankur_21043
+    git checkout Ankur_21043
     ```
 
 3. **Install dependencies**:
@@ -83,14 +83,14 @@ The algorithm employs an epsilon-greedy policy for action selection:
 ### Cumulative Rewards Plot
 The following plot shows the cumulative rewards achieved by the agent over the training episodes. The rewards increase as the agent learns to optimize its path and maximize the remaining profits at each target.
 
-![Cumulative Reward Plot](path_to_cumulative_reward_plot)
+![Cumulative Reward Plot](https://github.com/MOONLABIISERB/marl-ecs-course/blob/Ankur_21043/Midsem/cumulative_reward_plot.png)
 
 - **Moving Average**: To smooth out fluctuations in rewards across episodes, a moving average is calculated (window size = 100 episodes).
 
 ### Optimal Policy Plot
 After training, the SARSA algorithm identifies the optimal path for visiting all targets. The plot below visualizes the agent's final learned policy, showing the sequence of target visits with arrows.
 
-![Optimal Policy Plot](path_to_optimal_policy_plot)
+![Optimal Policy Plot](https://github.com/MOONLABIISERB/marl-ecs-course/blob/Ankur_21043/Midsem/optimal_path.png)
 
 ### Best Reward and Path
 After training, the SARSA algorithm achieves the following best results:
