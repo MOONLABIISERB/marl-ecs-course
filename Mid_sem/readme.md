@@ -2,8 +2,7 @@
 
 ## Results
 
-![download (12)](https://github.com/user-attachments/assets/8d316257-eb95-420d-a6b5-de21a59daedd)
-
+![download (12)](https://github.com/user-attachments/assets/cf056030-49e7-4315-8ffd-79feb76f6f42)
 
 
 
