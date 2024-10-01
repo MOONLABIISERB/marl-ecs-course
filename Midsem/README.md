@@ -48,7 +48,7 @@ Key features of the implementation:
 
 ### Hyperparameters for SARSA
 The SARSA algorithm in this implementation uses the following hyperparameters:
-- **Episodes**: `80,000` (total number of training episodes).
+- **Episodes**: `40,000` (total number of training episodes).
 - **Learning rate (alpha)**: `0.00001`.
 - **Discount factor (gamma)**: `0.99`.
 - **Epsilon**: `0.0001` (controls exploration rate in the epsilon-greedy policy).
