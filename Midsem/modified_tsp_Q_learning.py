@@ -205,8 +205,9 @@ class ModTSP(gym.Env):
              - return associated with best action
              - best action from current state
         """
-        best_value = np.max(Q[self.loc])
+
         best_action = np.argmax(Q[self.loc])
+        best_value = np.max(Q[best_action])
         return best_value, best_action
 
 
