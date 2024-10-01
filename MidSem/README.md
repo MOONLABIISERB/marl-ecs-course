@@ -75,7 +75,9 @@ The Q-Learning agent effectively solved the Modified Traveling Salesman Problem 
 Convergence:
 
 **Convergence:** Model 3 converged faster and more smoothly, whereas Model 4 struggled due to high learning rates.
+
 **Test Reward Comparison:** Model 3 emerged as the best performer, while Models 1 and 2 were competitive but less consistent.
+
 **Scalability:** The agent performed well on 10 targets, but larger TSP instances may require advanced methods like Deep Q-Networks (DQN) for scalability.
 
 This highlights the importance of hyperparameter tuning and exploration-exploitation balancing for effective policy learning.
