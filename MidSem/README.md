@@ -39,10 +39,4 @@ The Q-Learning agent effectively tackled the Modified Traveling Salesman Problem
 2. **Epsilon Decay Effectiveness:** The gradual reduction of the exploration rate allowed the agent to focus on exploiting learned strategies while maintaining minimal exploration.
 3. **Scalability Considerations:** Although the agent performed well with 10 targets, scaling to larger problem sizes may necessitate advanced techniques such as state abstraction or deep reinforcement learning.
 
-#### Future Enhancements:
-
-- **State Representation Improvements:** Opportunities exist to enhance state representations for better learning.
-- **Advanced Algorithms:** Incorporating more sophisticated algorithms (e.g., Deep Q-Networks) can potentially improve performance.
-- **Dynamic Elements:** Introducing dynamic elements can further test and enhance the agent's capabilities.
-
-Overall, this project validates the applicability of Q-Learning in solving combinatorial optimization problems like the Traveling Salesman Problem, highlighting its potential for developing intelligent routing and planning solutions.
+# Thank You !! 😊
