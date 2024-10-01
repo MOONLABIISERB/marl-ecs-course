@@ -22,9 +22,9 @@ Implementing SARSA (which used epsilon-greedy policy) to solve with decaying eps
 | Epsilon Decay Rate       | epsilon = max(0.00005, epsilon * 0.9999)  | 
 | Number of Episodes       | 10000                                     | 
 
-<img src="https://github.com/user-attachments/assets/619c2ffd-79be-49dd-821d-b1bd958ae6a2" alt="Graph-TSP-SARSA" width="500"/>
+<img src="https://github.com/user-attachments/assets/619c2ffd-79be-49dd-821d-b1bd958ae6a2" alt="Graph-TSP-SARSA" width="700"/>
 
-![Path-TSP-Run-1](https://github.com/user-attachments/assets/6c9a8d0c-17f8-4319-90cc-8bfd894f1f89)
+<img src="https://github.com/user-attachments/assets/6c9a8d0c-17f8-4319-90cc-8bfd894f1f89" alt="Graph-TSP-SARSA" width="700"/>
 
 ### Run 2
 
@@ -36,7 +36,7 @@ Implementing SARSA (which used epsilon-greedy policy) to solve with decaying eps
 | Epsilon Decay Rate       | epsilon = max(0.01, epsilon * 0.995)      | 
 | Number of Episodes       | 3000000                                   |
 
-![TSP-Run-2](https://github.com/user-attachments/assets/6ad2165c-1590-4466-b335-c94658d63f27)
+<img src="https://github.com/user-attachments/assets/6ad2165c-1590-4466-b335-c94658d63f27" alt="Graph-TSP-SARSA" width="700"/>
 
 
 
