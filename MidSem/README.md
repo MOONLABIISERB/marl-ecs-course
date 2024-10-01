@@ -17,7 +17,7 @@ python q_learning.py
 ```
 ### Results
 
-Below is the episode vs cumulative reward plot that illustrates the training convergence.
+- 1) Below is the episode vs cumulative reward plot that illustrates the training convergence.
 
 ![Episode vs. Cumulative Reward](https://github.com/MOONLABIISERB/marl-ecs-course/blob/gavit_20114/MidSem/episode_rewards_plot.png) <!-- Ensure the link is accessible -->
 
@@ -28,6 +28,39 @@ Below is the episode vs cumulative reward plot that illustrates the training con
 | Average Reward                | 275.53       |
 | Maximum Reward Achieved       | 515.05          |
 | Final Epsilon (Exploration Rate) | 0.0100   |
+
+
+- 2) Lets train and evaluate on different hyperparameters.
+
+
+
+### Hyperparameter Comparison
+
+- Run Code
+```
+python train_evaluate.py
+
+```
+
+The following hyperparameters were tested to evaluate performance:
+
+| Learning Rate | Discount Factor | Epsilon Decay |
+|---------------|-----------------|----------------|
+| 0.01          | 0.85            | 0.9995         |
+| 0.01          | 0.9             | 0.999          |
+| 0.05          | 0.85            | 0.999          |
+| 0.1           | 0.9             | 0.995          |
+
+
+ convergence graph of all models test on vairous hyperparameters
+
+ ![Episode vs. Cumulative Reward](link)
+
+ test reward comparision of all models
+
+ ![Episode vs. Cumulative Reward](link)
+
+
 
 ### Conclusion
 
