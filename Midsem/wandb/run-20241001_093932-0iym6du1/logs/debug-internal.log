@@ -1,0 +1,13 @@
+{"time":"2024-10-01T09:39:32.385297+05:30","level":"INFO","msg":"using version","core version":"0.18.2"}
+{"time":"2024-10-01T09:39:32.385388+05:30","level":"INFO","msg":"created symlink","path":"/Users/agam/projects/marl-ecs-course/Midsem/wandb/run-20241001_093932-0iym6du1/logs/debug-core.log"}
+{"time":"2024-10-01T09:39:32.39429+05:30","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-01T09:39:32.411202+05:30","level":"INFO","msg":"created new stream","id":"0iym6du1"}
+{"time":"2024-10-01T09:39:32.411272+05:30","level":"INFO","msg":"stream: started","id":"0iym6du1"}
+{"time":"2024-10-01T09:39:32.411338+05:30","level":"INFO","msg":"sender: started","stream_id":{"value":"0iym6du1"}}
+{"time":"2024-10-01T09:39:32.41134+05:30","level":"INFO","msg":"handler: started","stream_id":{"value":"0iym6du1"}}
+{"time":"2024-10-01T09:39:32.411319+05:30","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"0iym6du1"}}
+{"time":"2024-10-01T09:39:32.901098+05:30","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-01T09:39:32.902257+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-01T09:39:34.40262+05:30","level":"INFO","msg":"stream: closing","id":"0iym6du1"}
+{"time":"2024-10-01T09:39:34.402809+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-01T09:39:34.402823+05:30","level":"INFO","msg":"Stopped system monitor"}

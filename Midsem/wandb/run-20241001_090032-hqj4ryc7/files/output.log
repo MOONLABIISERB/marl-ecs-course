@@ -1,0 +1,28 @@
+Episode 0,  Reward: 184.98, Profit: 172.36, Distance: 65.14 Loss: 1000.00 Initial Locations: [ 10.  20.  50. 100.  60.  30.  40.  90.  70.  80.]
+Episode 100,  Reward: 108.81, Profit: 167.18, Distance: 73.36 Loss: 0.16 Initial Locations: [ 70.  20. 100.  30.  40.  50.  10.  80.  60.  90.]
+Episode 200,  Reward: 258.53, Profit: 293.93, Distance: 48.66 Loss: 2.31 Initial Locations: [ 70.  20. 100.  30.  40.  50.  10.  80.  60.  90.]
+Episode 300,  Reward: 225.36, Profit: 259.90, Distance: 47.80 Loss: 2.98 Initial Locations: [ 70.  20. 100.  30.  40.  50.  10.  80.  60.  90.]
+Episode 400,  Reward: 227.37, Profit: 213.55, Distance: 51.52 Loss: 2.87 Initial Locations: [ 70.  20. 100.  30.  40.  50.  10.  80.  60.  90.]
+Episode 500,  Reward: 197.30, Profit: 244.00, Distance: 61.95 Loss: 2.85 Initial Locations: [ 70.  20. 100.  30.  40.  50.  10.  80.  60.  90.]
+Episode 600,  Reward: 158.00, Profit: 209.70, Distance: 60.84 Loss: 2.14 Initial Locations: [ 70.  20. 100.  30.  40.  50.  10.  80.  60.  90.]
+Episode 700,  Reward: 136.16, Profit: 169.58, Distance: 75.43 Loss: 2.20 Initial Locations: [ 70.  20. 100.  30.  40.  50.  10.  80.  60.  90.]
+Traceback (most recent call last):
+  File "/Users/agam/projects/marl-ecs-course/Midsem/modified_tsp.py", line 131, in <module>
+    main()
+  File "/Users/agam/projects/marl-ecs-course/Midsem/modified_tsp.py", line 70, in main
+    loss = agent.learn_from_memory(batch_size=batchSize)
+  File "/Users/agam/projects/marl-ecs-course/Midsem/agent.py", line 115, in learn_from_memory
+    state_action_values = self.knowledge(state_batch).gather(1, action_batch)
+  File "/Users/agam/miniconda3/envs/marl/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/Users/agam/miniconda3/envs/marl/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/Users/agam/projects/marl-ecs-course/Midsem/agent.py", line 56, in forward
+    x = self.fc5(x)
+  File "/Users/agam/miniconda3/envs/marl/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/Users/agam/miniconda3/envs/marl/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/Users/agam/miniconda3/envs/marl/lib/python3.10/site-packages/torch/nn/modules/linear.py", line 117, in forward
+    return F.linear(input, self.weight, self.bias)
+KeyboardInterrupt

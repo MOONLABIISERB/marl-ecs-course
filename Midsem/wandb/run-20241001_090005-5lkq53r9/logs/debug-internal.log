@@ -1,0 +1,15 @@
+{"time":"2024-10-01T09:00:05.90704+05:30","level":"INFO","msg":"using version","core version":"0.18.2"}
+{"time":"2024-10-01T09:00:05.907099+05:30","level":"INFO","msg":"created symlink","path":"/Users/agam/projects/marl-ecs-course/Midsem/wandb/run-20241001_090005-5lkq53r9/logs/debug-core.log"}
+{"time":"2024-10-01T09:00:05.90974+05:30","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-01T09:00:05.91538+05:30","level":"INFO","msg":"created new stream","id":"5lkq53r9"}
+{"time":"2024-10-01T09:00:05.915428+05:30","level":"INFO","msg":"stream: started","id":"5lkq53r9"}
+{"time":"2024-10-01T09:00:05.915443+05:30","level":"INFO","msg":"sender: started","stream_id":{"value":"5lkq53r9"}}
+{"time":"2024-10-01T09:00:05.915535+05:30","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"5lkq53r9"}}
+{"time":"2024-10-01T09:00:05.91546+05:30","level":"INFO","msg":"handler: started","stream_id":{"value":"5lkq53r9"}}
+{"time":"2024-10-01T09:00:06.445105+05:30","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-01T09:00:06.446176+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-01T09:00:16.545333+05:30","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-01T09:00:26.54877+05:30","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-01T09:00:28.848553+05:30","level":"INFO","msg":"stream: closing","id":"5lkq53r9"}
+{"time":"2024-10-01T09:00:28.848577+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-01T09:00:28.848598+05:30","level":"INFO","msg":"Stopped system monitor"}

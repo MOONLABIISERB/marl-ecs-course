@@ -1,0 +1,29 @@
+Episode 0,  Reward: 84.01, Profit: 85.50, Distance: 76.62 Loss: 1000.00 Initial Profits: [ 90. 100.  20.  50.  70.  60.  40.  10.  80.  30.]
+Episode 100,  Reward: 102.79, Profit: 143.54, Distance: 67.60 Loss: 0.11 Initial Profits: [ 70.  90.  60.  80.  20.  40.  50.  30.  10. 100.]
+Episode 200,  Reward: 162.51, Profit: 177.05, Distance: 55.93 Loss: 2.23 Initial Profits: [ 70.  90.  60.  80.  20.  40.  50.  30.  10. 100.]
+Episode 300,  Reward: 298.36, Profit: 270.72, Distance: 47.49 Loss: 3.92 Initial Profits: [ 70.  90.  60.  80.  20.  40.  50.  30.  10. 100.]
+Episode 400,  Reward: 167.83, Profit: 190.05, Distance: 59.18 Loss: 3.23 Initial Profits: [ 70.  90.  60.  80.  20.  40.  50.  30.  10. 100.]
+Episode 500,  Reward: 209.99, Profit: 226.70, Distance: 55.78 Loss: 2.66 Initial Profits: [ 70.  90.  60.  80.  20.  40.  50.  30.  10. 100.]
+Episode 600,  Reward: 236.55, Profit: 285.57, Distance: 53.76 Loss: 2.17 Initial Profits: [ 70.  90.  60.  80.  20.  40.  50.  30.  10. 100.]
+Episode 700,  Reward: 107.69, Profit: 150.18, Distance: 70.14 Loss: 2.09 Initial Profits: [ 70.  90.  60.  80.  20.  40.  50.  30.  10. 100.]
+Episode 800,  Reward: 183.47, Profit: 225.82, Distance: 54.34 Loss: 2.27 Initial Profits: [ 70.  90.  60.  80.  20.  40.  50.  30.  10. 100.]
+Episode 900,  Reward: 241.03, Profit: 270.88, Distance: 44.14 Loss: 2.69 Initial Profits: [ 70.  90.  60.  80.  20.  40.  50.  30.  10. 100.]
+Episode 1000,  Reward: 295.43, Profit: 333.77, Distance: 43.09 Loss: 1.87 Initial Profits: [ 70.  90.  60.  80.  20.  40.  50.  30.  10. 100.]
+Episode 1100,  Reward: 258.01, Profit: 289.46, Distance: 53.44 Loss: 2.94 Initial Profits: [ 70.  90.  60.  80.  20.  40.  50.  30.  10. 100.]
+Episode 1200,  Reward: 215.95, Profit: 253.31, Distance: 59.35 Loss: 2.56 Initial Profits: [ 70.  90.  60.  80.  20.  40.  50.  30.  10. 100.]
+Episode 1300,  Reward: 233.93, Profit: 276.43, Distance: 47.21 Loss: 3.87 Initial Profits: [ 70.  90.  60.  80.  20.  40.  50.  30.  10. 100.]
+Episode 1400,  Reward: 288.04, Profit: 331.83, Distance: 48.84 Loss: 4.24 Initial Profits: [ 70.  90.  60.  80.  20.  40.  50.  30.  10. 100.]
+Traceback (most recent call last):
+  File "/Users/agam/projects/marl-ecs-course/Midsem/modified_tsp.py", line 131, in <module>
+    main()
+  File "/Users/agam/projects/marl-ecs-course/Midsem/modified_tsp.py", line 70, in main
+    loss = agent.learn_from_memory(batch_size=batchSize)
+  File "/Users/agam/projects/marl-ecs-course/Midsem/agent.py", line 125, in learn_from_memory
+    loss.backward()
+  File "/Users/agam/miniconda3/envs/marl/lib/python3.10/site-packages/torch/_tensor.py", line 521, in backward
+    torch.autograd.backward(
+  File "/Users/agam/miniconda3/envs/marl/lib/python3.10/site-packages/torch/autograd/__init__.py", line 289, in backward
+    _engine_run_backward(
+  File "/Users/agam/miniconda3/envs/marl/lib/python3.10/site-packages/torch/autograd/graph.py", line 769, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+KeyboardInterrupt

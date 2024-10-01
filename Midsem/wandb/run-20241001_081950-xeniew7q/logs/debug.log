@@ -1,0 +1,26 @@
+2024-10-01 08:19:50,625 INFO    MainThread:5419 [wandb_setup.py:_flush():79] Current SDK version is 0.18.2
+2024-10-01 08:19:50,625 INFO    MainThread:5419 [wandb_setup.py:_flush():79] Configure stats pid to 5419
+2024-10-01 08:19:50,625 INFO    MainThread:5419 [wandb_setup.py:_flush():79] Loading settings from /Users/agam/.config/wandb/settings
+2024-10-01 08:19:50,625 INFO    MainThread:5419 [wandb_setup.py:_flush():79] Loading settings from /Users/agam/projects/marl-ecs-course/Midsem/wandb/settings
+2024-10-01 08:19:50,625 INFO    MainThread:5419 [wandb_setup.py:_flush():79] Loading settings from environment variables: {}
+2024-10-01 08:19:50,625 INFO    MainThread:5419 [wandb_setup.py:_flush():79] Applying setup settings: {'mode': None, '_disable_service': None}
+2024-10-01 08:19:50,625 INFO    MainThread:5419 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program_relpath': 'Midsem/modified_tsp.py', 'program_abspath': '/Users/agam/projects/marl-ecs-course/Midsem/modified_tsp.py', 'program': '/Users/agam/projects/marl-ecs-course/Midsem/modified_tsp.py'}
+2024-10-01 08:19:50,625 INFO    MainThread:5419 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-10-01 08:19:50,625 INFO    MainThread:5419 [wandb_init.py:_log_setup():532] Logging user logs to /Users/agam/projects/marl-ecs-course/Midsem/wandb/run-20241001_081950-xeniew7q/logs/debug.log
+2024-10-01 08:19:50,625 INFO    MainThread:5419 [wandb_init.py:_log_setup():533] Logging internal logs to /Users/agam/projects/marl-ecs-course/Midsem/wandb/run-20241001_081950-xeniew7q/logs/debug-internal.log
+2024-10-01 08:19:50,625 INFO    MainThread:5419 [wandb_init.py:init():616] calling init triggers
+2024-10-01 08:19:50,625 INFO    MainThread:5419 [wandb_init.py:init():623] wandb.init called with sweep_config: {}
+config: {}
+2024-10-01 08:19:50,625 INFO    MainThread:5419 [wandb_init.py:init():666] starting backend
+2024-10-01 08:19:50,625 INFO    MainThread:5419 [wandb_init.py:init():670] sending inform_init request
+2024-10-01 08:19:50,627 INFO    MainThread:5419 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2024-10-01 08:19:50,627 INFO    MainThread:5419 [wandb_init.py:init():683] backend started and connected
+2024-10-01 08:19:50,630 INFO    MainThread:5419 [wandb_init.py:init():778] updated telemetry
+2024-10-01 08:19:50,648 INFO    MainThread:5419 [wandb_init.py:init():811] communicating run to backend with 90.0 second timeout
+2024-10-01 08:19:51,240 INFO    MainThread:5419 [wandb_init.py:init():862] starting run threads in backend
+2024-10-01 08:19:51,277 INFO    MainThread:5419 [wandb_run.py:_console_start():2464] atexit reg
+2024-10-01 08:19:51,278 INFO    MainThread:5419 [wandb_run.py:_redirect():2312] redirect: wrap_raw
+2024-10-01 08:19:51,278 INFO    MainThread:5419 [wandb_run.py:_redirect():2377] Wrapping output streams.
+2024-10-01 08:19:51,278 INFO    MainThread:5419 [wandb_run.py:_redirect():2402] Redirects installed.
+2024-10-01 08:19:51,279 INFO    MainThread:5419 [wandb_init.py:init():906] run started, returning control to user process
+2024-10-01 08:19:54,277 WARNING MsgRouterThr:5419 [router.py:message_loop():77] message_loop has been closed

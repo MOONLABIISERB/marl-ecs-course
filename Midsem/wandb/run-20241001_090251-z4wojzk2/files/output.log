@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/Users/agam/projects/marl-ecs-course/Midsem/modified_tsp.py", line 131, in <module>
+    main()
+  File "/Users/agam/projects/marl-ecs-course/Midsem/modified_tsp.py", line 59, in main
+    obs_, reward, terminated, truncated, info = env.step(action)
+  File "/Users/agam/projects/marl-ecs-course/Midsem/modTSP.py", line 134, in step
+    self.current_profits -= self.distances[past_loc, next_loc]
+TypeError: unsupported operand type(s) for -: 'NoneType' and 'float'

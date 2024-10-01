@@ -1,0 +1,54 @@
+Episode 0,  Reward: 47.96, Profit: 60.45, Distance: 84.42 Loss: 1000.00 Initial Profits: [100.  90.  60.  50.  80.  40.  70.  10.  30.  20.]
+Episode 100,  Reward: 226.24, Profit: 281.94, Distance: 50.24 Loss: 0.34 Initial Profits: [ 70.  50.  40.  10.  60.  90. 100.  80.  20.  30.]
+Episode 200,  Reward: 109.70, Profit: 146.42, Distance: 71.17 Loss: 1.33 Initial Profits: [ 70.  50.  40.  10.  60.  90. 100.  80.  20.  30.]
+Episode 300,  Reward: 211.27, Profit: 273.91, Distance: 57.19 Loss: 1.89 Initial Profits: [ 70.  50.  40.  10.  60.  90. 100.  80.  20.  30.]
+Episode 400,  Reward: 193.12, Profit: 225.66, Distance: 55.69 Loss: 2.80 Initial Profits: [ 70.  50.  40.  10.  60.  90. 100.  80.  20.  30.]
+Episode 500,  Reward: 224.85, Profit: 277.14, Distance: 60.16 Loss: 4.44 Initial Profits: [ 70.  50.  40.  10.  60.  90. 100.  80.  20.  30.]
+Episode 600,  Reward: 117.77, Profit: 168.95, Distance: 69.06 Loss: 3.74 Initial Profits: [ 70.  50.  40.  10.  60.  90. 100.  80.  20.  30.]
+Episode 700,  Reward: 119.85, Profit: 154.43, Distance: 64.39 Loss: 3.10 Initial Profits: [ 70.  50.  40.  10.  60.  90. 100.  80.  20.  30.]
+Episode 800,  Reward: 253.45, Profit: 302.33, Distance: 43.42 Loss: 2.82 Initial Profits: [ 70.  50.  40.  10.  60.  90. 100.  80.  20.  30.]
+Episode 900,  Reward: 270.26, Profit: 301.02, Distance: 48.18 Loss: 2.20 Initial Profits: [ 70.  50.  40.  10.  60.  90. 100.  80.  20.  30.]
+Episode 1000,  Reward: 150.30, Profit: 190.78, Distance: 58.36 Loss: 1.81 Initial Profits: [ 70.  50.  40.  10.  60.  90. 100.  80.  20.  30.]
+Episode 1100,  Reward: 269.13, Profit: 301.79, Distance: 50.08 Loss: 3.09 Initial Profits: [ 70.  50.  40.  10.  60.  90. 100.  80.  20.  30.]
+Episode 1200,  Reward: 69.41, Profit: 128.47, Distance: 77.47 Loss: 1.84 Initial Profits: [ 70.  50.  40.  10.  60.  90. 100.  80.  20.  30.]
+Episode 1300,  Reward: 178.44, Profit: 230.41, Distance: 66.43 Loss: 2.71 Initial Profits: [ 70.  50.  40.  10.  60.  90. 100.  80.  20.  30.]
+Episode 1400,  Reward: 206.09, Profit: 205.37, Distance: 67.68 Loss: 3.05 Initial Profits: [ 70.  50.  40.  10.  60.  90. 100.  80.  20.  30.]
+Episode 1500,  Reward: 275.81, Profit: 325.13, Distance: 46.75 Loss: 3.32 Initial Profits: [ 70.  50.  40.  10.  60.  90. 100.  80.  20.  30.]
+Episode 1600,  Reward: 207.62, Profit: 243.16, Distance: 53.95 Loss: 3.54 Initial Profits: [ 70.  50.  40.  10.  60.  90. 100.  80.  20.  30.]
+Episode 1700,  Reward: 263.29, Profit: 288.21, Distance: 42.80 Loss: 2.61 Initial Profits: [ 70.  50.  40.  10.  60.  90. 100.  80.  20.  30.]
+Episode 1800,  Reward: 154.13, Profit: 197.53, Distance: 61.81 Loss: 3.02 Initial Profits: [ 70.  50.  40.  10.  60.  90. 100.  80.  20.  30.]
+Episode 1900,  Reward: 264.79, Profit: 297.38, Distance: 50.01 Loss: 2.78 Initial Profits: [ 70.  50.  40.  10.  60.  90. 100.  80.  20.  30.]
+Episode 2000,  Reward: 225.73, Profit: 279.90, Distance: 58.71 Loss: 3.71 Initial Profits: [ 70.  50.  40.  10.  60.  90. 100.  80.  20.  30.]
+Episode 2100,  Reward: 284.28, Profit: 277.46, Distance: 48.64 Loss: 3.95 Initial Profits: [ 70.  50.  40.  10.  60.  90. 100.  80.  20.  30.]
+Episode 2200,  Reward: 176.40, Profit: 168.24, Distance: 65.39 Loss: 4.25 Initial Profits: [ 70.  50.  40.  10.  60.  90. 100.  80.  20.  30.]
+Episode 2300,  Reward: 185.07, Profit: 247.28, Distance: 56.75 Loss: 2.89 Initial Profits: [ 70.  50.  40.  10.  60.  90. 100.  80.  20.  30.]
+Episode 2400,  Reward: 276.97, Profit: 300.44, Distance: 41.35 Loss: 3.18 Initial Profits: [ 70.  50.  40.  10.  60.  90. 100.  80.  20.  30.]
+Episode 2500,  Reward: 238.08, Profit: 265.14, Distance: 44.93 Loss: 2.48 Initial Profits: [ 70.  50.  40.  10.  60.  90. 100.  80.  20.  30.]
+Episode 2600,  Reward: 174.72, Profit: 163.24, Distance: 61.67 Loss: 7.07 Initial Profits: [ 70.  50.  40.  10.  60.  90. 100.  80.  20.  30.]
+Episode 2700,  Reward: 165.30, Profit: 224.58, Distance: 67.15 Loss: 7.11 Initial Profits: [ 70.  50.  40.  10.  60.  90. 100.  80.  20.  30.]
+Episode 2800,  Reward: 276.97, Profit: 300.44, Distance: 41.35 Loss: 5.32 Initial Profits: [ 70.  50.  40.  10.  60.  90. 100.  80.  20.  30.]
+Episode 2900,  Reward: 227.73, Profit: 266.71, Distance: 56.85 Loss: 6.18 Initial Profits: [ 70.  50.  40.  10.  60.  90. 100.  80.  20.  30.]
+Episode 3000,  Reward: 191.93, Profit: 227.09, Distance: 53.04 Loss: 5.16 Initial Profits: [ 70.  50.  40.  10.  60.  90. 100.  80.  20.  30.]
+Episode 3100,  Reward: 269.13, Profit: 301.79, Distance: 50.08 Loss: 7.18 Initial Profits: [ 70.  50.  40.  10.  60.  90. 100.  80.  20.  30.]
+Episode 3200,  Reward: 200.70, Profit: 242.80, Distance: 59.98 Loss: 4.44 Initial Profits: [ 70.  50.  40.  10.  60.  90. 100.  80.  20.  30.]
+Episode 3300,  Reward: 250.86, Profit: 283.79, Distance: 51.34 Loss: 4.54 Initial Profits: [ 70.  50.  40.  10.  60.  90. 100.  80.  20.  30.]
+Episode 3400,  Reward: 276.97, Profit: 300.44, Distance: 41.35 Loss: 4.96 Initial Profits: [ 70.  50.  40.  10.  60.  90. 100.  80.  20.  30.]
+Episode 3500,  Reward: 276.97, Profit: 300.44, Distance: 41.35 Loss: 4.86 Initial Profits: [ 70.  50.  40.  10.  60.  90. 100.  80.  20.  30.]
+Episode 3600,  Reward: 276.97, Profit: 300.44, Distance: 41.35 Loss: 5.70 Initial Profits: [ 70.  50.  40.  10.  60.  90. 100.  80.  20.  30.]
+Episode 3700,  Reward: 276.97, Profit: 300.44, Distance: 41.35 Loss: 6.47 Initial Profits: [ 70.  50.  40.  10.  60.  90. 100.  80.  20.  30.]
+Traceback (most recent call last):
+  File "/Users/agam/projects/marl-ecs-course/Midsem/modified_tsp.py", line 131, in <module>
+    main()
+  File "/Users/agam/projects/marl-ecs-course/Midsem/modified_tsp.py", line 70, in main
+    loss = agent.learn_from_memory(batch_size=batchSize)
+  File "/Users/agam/projects/marl-ecs-course/Midsem/agent.py", line 118, in learn_from_memory
+    next_state_values = self.target_net(next_state_batch).max(1)[0]
+  File "/Users/agam/miniconda3/envs/marl/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/Users/agam/miniconda3/envs/marl/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/Users/agam/projects/marl-ecs-course/Midsem/agent.py", line 53, in forward
+    x = F.relu(self.fc1(x))
+  File "/Users/agam/miniconda3/envs/marl/lib/python3.10/site-packages/torch/nn/functional.py", line 1489, in relu
+    def relu(input: Tensor, inplace: bool = False) -> Tensor:  # noqa: D400,D402
+KeyboardInterrupt

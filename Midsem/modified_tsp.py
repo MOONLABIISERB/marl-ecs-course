@@ -34,7 +34,7 @@ def main() -> None:
     obs, _ = env.reset()
     ep_rets = []
 
-    agent = Agent(10**5, env.observation_space.shape[0], env.action_space.n, 0.9)
+    agent = Agent(10**4, env.observation_space.shape[0], env.action_space.n, 0.99)
     batchSize = 256
 
     for ep in range(num_episodes):
@@ -92,7 +92,7 @@ def main() -> None:
                 }
             )
 
-        if ep % 30 == 0:
+        if ep % 100 == 0:
             agent.update_knowledge()
 
         if ep % 100 == 0:
@@ -101,9 +101,11 @@ def main() -> None:
                 f"Profit: {np.sum(episode_profits):.2f}, "
                 f"Distance: {np.sum(episode_distances):.2f}",
                 f"Loss: {avg_loss:.2f}",
+                f"Initial Profits: {env.initial_profits}",
                 # f"Current profits {info["current_profits"]}",
             )
         ep_rets.append(ret)
+        env.episodes += 1
 
     print(np.mean(ep_rets))
     agent.save_model("model.pth")

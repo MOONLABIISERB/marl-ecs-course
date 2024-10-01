@@ -1,0 +1,17 @@
+{"time":"2024-10-01T08:49:49.248658+05:30","level":"INFO","msg":"using version","core version":"0.18.2"}
+{"time":"2024-10-01T08:49:49.248714+05:30","level":"INFO","msg":"created symlink","path":"/Users/agam/projects/marl-ecs-course/Midsem/wandb/run-20241001_084949-xloe2lx8/logs/debug-core.log"}
+{"time":"2024-10-01T08:49:49.251205+05:30","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-01T08:49:49.257191+05:30","level":"INFO","msg":"created new stream","id":"xloe2lx8"}
+{"time":"2024-10-01T08:49:49.25725+05:30","level":"INFO","msg":"stream: started","id":"xloe2lx8"}
+{"time":"2024-10-01T08:49:49.257252+05:30","level":"INFO","msg":"handler: started","stream_id":{"value":"xloe2lx8"}}
+{"time":"2024-10-01T08:49:49.257274+05:30","level":"INFO","msg":"sender: started","stream_id":{"value":"xloe2lx8"}}
+{"time":"2024-10-01T08:49:49.257285+05:30","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"xloe2lx8"}}
+{"time":"2024-10-01T08:49:49.689163+05:30","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-01T08:49:49.689885+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-01T08:49:59.798332+05:30","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-01T08:50:09.792566+05:30","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-01T08:50:19.79501+05:30","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-01T08:50:29.801847+05:30","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-01T08:50:34.330368+05:30","level":"INFO","msg":"stream: closing","id":"xloe2lx8"}
+{"time":"2024-10-01T08:50:34.330395+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-01T08:50:34.330435+05:30","level":"INFO","msg":"Stopped system monitor"}

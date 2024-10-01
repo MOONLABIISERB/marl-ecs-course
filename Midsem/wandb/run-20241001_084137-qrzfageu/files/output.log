@@ -1,0 +1,25 @@
+Episode 0,  Reward: 114.13, Profit: 172.74, Distance: 72.39 Loss: 1000.00
+Episode 100,  Reward: 83.99, Profit: 158.88, Distance: 82.17 Loss: 0.30
+Episode 200,  Reward: 133.44, Profit: 194.12, Distance: 72.23 Loss: 1.00
+Episode 300,  Reward: 91.63, Profit: 127.93, Distance: 80.71 Loss: 1.65
+Episode 400,  Reward: 128.37, Profit: 131.75, Distance: 69.78 Loss: 2.47
+Episode 500,  Reward: 96.31, Profit: 147.35, Distance: 77.49 Loss: 3.50
+Episode 600,  Reward: 228.95, Profit: 213.33, Distance: 50.43 Loss: 4.82
+Episode 700,  Reward: 196.35, Profit: 255.83, Distance: 66.23 Loss: 3.17
+Episode 800,  Reward: 9.41, Profit: 89.68, Distance: 88.09 Loss: 2.86
+Episode 900,  Reward: 177.53, Profit: 182.44, Distance: 65.97 Loss: 2.42
+Episode 1000,  Reward: 112.40, Profit: 172.46, Distance: 67.35 Loss: 2.11
+Episode 1100,  Reward: 230.05, Profit: 204.89, Distance: 48.63 Loss: 3.56
+Episode 1200,  Reward: 225.97, Profit: 246.05, Distance: 53.69 Loss: 2.17
+Traceback (most recent call last):
+  File "/Users/agam/projects/marl-ecs-course/Midsem/modified_tsp.py", line 130, in <module>
+    main()
+  File "/Users/agam/projects/marl-ecs-course/Midsem/modified_tsp.py", line 70, in main
+    loss = agent.learn_from_memory(batch_size=batchSize)
+  File "/Users/agam/projects/marl-ecs-course/Midsem/agent.py", line 106, in learn_from_memory
+    transitions = self.memory.sample(batch_size)
+  File "/Users/agam/projects/marl-ecs-course/Midsem/agent.py", line 25, in sample
+    return random.sample(self.memory, batch_size)
+  File "/Users/agam/miniconda3/envs/marl/lib/python3.10/random.py", line 503, in sample
+    result[i] = population[j]
+KeyboardInterrupt

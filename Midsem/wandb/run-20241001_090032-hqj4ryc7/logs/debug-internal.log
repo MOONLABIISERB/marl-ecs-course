@@ -1,0 +1,14 @@
+{"time":"2024-10-01T09:00:32.952344+05:30","level":"INFO","msg":"using version","core version":"0.18.2"}
+{"time":"2024-10-01T09:00:32.952427+05:30","level":"INFO","msg":"created symlink","path":"/Users/agam/projects/marl-ecs-course/Midsem/wandb/run-20241001_090032-hqj4ryc7/logs/debug-core.log"}
+{"time":"2024-10-01T09:00:32.954725+05:30","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-01T09:00:32.960549+05:30","level":"INFO","msg":"created new stream","id":"hqj4ryc7"}
+{"time":"2024-10-01T09:00:32.960602+05:30","level":"INFO","msg":"stream: started","id":"hqj4ryc7"}
+{"time":"2024-10-01T09:00:32.960604+05:30","level":"INFO","msg":"handler: started","stream_id":{"value":"hqj4ryc7"}}
+{"time":"2024-10-01T09:00:32.960647+05:30","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"hqj4ryc7"}}
+{"time":"2024-10-01T09:00:32.960622+05:30","level":"INFO","msg":"sender: started","stream_id":{"value":"hqj4ryc7"}}
+{"time":"2024-10-01T09:00:33.40978+05:30","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-01T09:00:33.410246+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-01T09:00:43.51083+05:30","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-01T09:00:45.079681+05:30","level":"INFO","msg":"stream: closing","id":"hqj4ryc7"}
+{"time":"2024-10-01T09:00:45.079703+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-01T09:00:45.079731+05:30","level":"INFO","msg":"Stopped system monitor"}

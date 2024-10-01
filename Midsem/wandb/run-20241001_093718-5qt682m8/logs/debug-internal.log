@@ -1,0 +1,19 @@
+{"time":"2024-10-01T09:37:18.799828+05:30","level":"INFO","msg":"using version","core version":"0.18.2"}
+{"time":"2024-10-01T09:37:18.799943+05:30","level":"INFO","msg":"created symlink","path":"/Users/agam/projects/marl-ecs-course/Midsem/wandb/run-20241001_093718-5qt682m8/logs/debug-core.log"}
+{"time":"2024-10-01T09:37:18.810005+05:30","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-01T09:37:18.823774+05:30","level":"INFO","msg":"created new stream","id":"5qt682m8"}
+{"time":"2024-10-01T09:37:18.823812+05:30","level":"INFO","msg":"stream: started","id":"5qt682m8"}
+{"time":"2024-10-01T09:37:18.823824+05:30","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"5qt682m8"}}
+{"time":"2024-10-01T09:37:18.823984+05:30","level":"INFO","msg":"sender: started","stream_id":{"value":"5qt682m8"}}
+{"time":"2024-10-01T09:37:18.823987+05:30","level":"INFO","msg":"handler: started","stream_id":{"value":"5qt682m8"}}
+{"time":"2024-10-01T09:37:19.462925+05:30","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-01T09:37:19.464724+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-01T09:37:29.561912+05:30","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-01T09:37:29.721715+05:30","level":"INFO","msg":"stream: closing","id":"5qt682m8"}
+{"time":"2024-10-01T09:37:29.721931+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-01T09:37:29.72195+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-01T09:37:32.041667+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-01T09:37:32.629383+05:30","level":"INFO","msg":"handler: closed","stream_id":{"value":"5qt682m8"}}
+{"time":"2024-10-01T09:37:32.629409+05:30","level":"INFO","msg":"sender: closed","stream_id":{"value":"5qt682m8"}}
+{"time":"2024-10-01T09:37:32.629399+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"5qt682m8"}}
+{"time":"2024-10-01T09:37:32.629868+05:30","level":"INFO","msg":"stream: closed","id":"5qt682m8"}

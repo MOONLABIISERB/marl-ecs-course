@@ -18,7 +18,7 @@ class ModTSP(gym.Env):
         num_targets: int = 10,
         max_area: int = 15,
         shuffle_time: int = 10,
-        seed: int = 42,
+        seed: int = None,
     ) -> None:
         """Initialize the TSP environment.
 
@@ -97,12 +97,12 @@ class ModTSP(gym.Env):
         self.loc: int = 0
         self.visited_targets = np.zeros(self.num_targets, dtype=np.float32)
         # self.visited_targets[self.loc] = 1
+        if self.episodes % self.shuffle_time == 0:
+            # print("Shuffling profits")
+            np.random.shuffle(self.initial_profits)
         self.current_profits = self.initial_profits.copy()
 
         self.dist: List = self.distances[self.loc]
-
-        if self.shuffle_time % self.episodes == 0:
-            np.random.shuffle(self.initial_profits)
 
         state = np.concatenate(
             (np.array([self.loc]), self.initial_profits, np.array(self.dist), np.array(self.locations).reshape(-1), self.visited_targets),

@@ -1,0 +1,18 @@
+{"time":"2024-10-01T09:02:51.48316+05:30","level":"INFO","msg":"using version","core version":"0.18.2"}
+{"time":"2024-10-01T09:02:51.483226+05:30","level":"INFO","msg":"created symlink","path":"/Users/agam/projects/marl-ecs-course/Midsem/wandb/run-20241001_090251-z4wojzk2/logs/debug-core.log"}
+{"time":"2024-10-01T09:02:51.485995+05:30","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-01T09:02:51.492449+05:30","level":"INFO","msg":"created new stream","id":"z4wojzk2"}
+{"time":"2024-10-01T09:02:51.492518+05:30","level":"INFO","msg":"stream: started","id":"z4wojzk2"}
+{"time":"2024-10-01T09:02:51.492522+05:30","level":"INFO","msg":"handler: started","stream_id":{"value":"z4wojzk2"}}
+{"time":"2024-10-01T09:02:51.492524+05:30","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"z4wojzk2"}}
+{"time":"2024-10-01T09:02:51.492572+05:30","level":"INFO","msg":"sender: started","stream_id":{"value":"z4wojzk2"}}
+{"time":"2024-10-01T09:02:51.951572+05:30","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-01T09:02:51.952524+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-01T09:02:52.310584+05:30","level":"INFO","msg":"stream: closing","id":"z4wojzk2"}
+{"time":"2024-10-01T09:02:52.31061+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-01T09:02:52.310644+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-01T09:02:56.666501+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-01T09:02:57.08015+05:30","level":"INFO","msg":"handler: closed","stream_id":{"value":"z4wojzk2"}}
+{"time":"2024-10-01T09:02:57.080172+05:30","level":"INFO","msg":"sender: closed","stream_id":{"value":"z4wojzk2"}}
+{"time":"2024-10-01T09:02:57.080166+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"z4wojzk2"}}
+{"time":"2024-10-01T09:02:57.0804+05:30","level":"INFO","msg":"stream: closed","id":"z4wojzk2"}

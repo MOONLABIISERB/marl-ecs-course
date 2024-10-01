@@ -1,0 +1,18 @@
+{"time":"2024-10-01T08:57:57.311134+05:30","level":"INFO","msg":"using version","core version":"0.18.2"}
+{"time":"2024-10-01T08:57:57.311249+05:30","level":"INFO","msg":"created symlink","path":"/Users/agam/projects/marl-ecs-course/Midsem/wandb/run-20241001_085757-c7qhlnlz/logs/debug-core.log"}
+{"time":"2024-10-01T08:57:57.314678+05:30","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-01T08:57:57.321484+05:30","level":"INFO","msg":"created new stream","id":"c7qhlnlz"}
+{"time":"2024-10-01T08:57:57.321545+05:30","level":"INFO","msg":"stream: started","id":"c7qhlnlz"}
+{"time":"2024-10-01T08:57:57.321565+05:30","level":"INFO","msg":"handler: started","stream_id":{"value":"c7qhlnlz"}}
+{"time":"2024-10-01T08:57:57.321566+05:30","level":"INFO","msg":"sender: started","stream_id":{"value":"c7qhlnlz"}}
+{"time":"2024-10-01T08:57:57.321662+05:30","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"c7qhlnlz"}}
+{"time":"2024-10-01T08:57:57.770037+05:30","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-01T08:57:57.771282+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-01T08:57:59.930133+05:30","level":"INFO","msg":"stream: closing","id":"c7qhlnlz"}
+{"time":"2024-10-01T08:57:59.93018+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-01T08:57:59.9302+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-01T08:58:02.224841+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-01T08:58:02.700474+05:30","level":"INFO","msg":"sender: closed","stream_id":{"value":"c7qhlnlz"}}
+{"time":"2024-10-01T08:58:02.700448+05:30","level":"INFO","msg":"handler: closed","stream_id":{"value":"c7qhlnlz"}}
+{"time":"2024-10-01T08:58:02.700459+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"c7qhlnlz"}}
+{"time":"2024-10-01T08:58:02.701079+05:30","level":"INFO","msg":"stream: closed","id":"c7qhlnlz"}

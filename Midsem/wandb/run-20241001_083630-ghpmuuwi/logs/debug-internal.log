@@ -1,0 +1,20 @@
+{"time":"2024-10-01T08:36:30.96629+05:30","level":"INFO","msg":"using version","core version":"0.18.2"}
+{"time":"2024-10-01T08:36:30.966387+05:30","level":"INFO","msg":"created symlink","path":"/Users/agam/projects/marl-ecs-course/Midsem/wandb/run-20241001_083630-ghpmuuwi/logs/debug-core.log"}
+{"time":"2024-10-01T08:36:30.977678+05:30","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-01T08:36:30.985899+05:30","level":"INFO","msg":"created new stream","id":"ghpmuuwi"}
+{"time":"2024-10-01T08:36:30.985948+05:30","level":"INFO","msg":"stream: started","id":"ghpmuuwi"}
+{"time":"2024-10-01T08:36:30.985957+05:30","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"ghpmuuwi"}}
+{"time":"2024-10-01T08:36:30.986064+05:30","level":"INFO","msg":"sender: started","stream_id":{"value":"ghpmuuwi"}}
+{"time":"2024-10-01T08:36:30.986039+05:30","level":"INFO","msg":"handler: started","stream_id":{"value":"ghpmuuwi"}}
+{"time":"2024-10-01T08:36:31.431506+05:30","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-01T08:36:31.433204+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-01T08:36:41.568577+05:30","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-01T08:36:51.529928+05:30","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-01T08:37:01.530302+05:30","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-01T08:37:11.530963+05:30","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-01T08:37:21.531251+05:30","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-01T08:37:31.538746+05:30","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-01T08:37:41.531395+05:30","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-01T08:37:43.894098+05:30","level":"INFO","msg":"stream: closing","id":"ghpmuuwi"}
+{"time":"2024-10-01T08:37:43.894544+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-01T08:37:43.894564+05:30","level":"INFO","msg":"Stopped system monitor"}

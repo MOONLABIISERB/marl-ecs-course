@@ -1,0 +1,25 @@
+Episode 0,  Reward: 196.57, Profit: 212.10, Distance: 58.89 Loss: 1000.00
+Episode 100,  Reward: 169.81, Profit: 185.22, Distance: 63.30 Loss: 3.30
+Episode 200,  Reward: 219.73, Profit: 269.70, Distance: 63.68 Loss: 5.42
+Episode 300,  Reward: 287.90, Profit: 303.32, Distance: 53.07 Loss: 7.91
+Episode 400,  Reward: 212.09, Profit: 259.39, Distance: 61.00 Loss: 15.39
+Episode 500,  Reward: 208.18, Profit: 201.18, Distance: 61.33 Loss: 13.11
+Episode 600,  Reward: 254.67, Profit: 285.90, Distance: 47.58 Loss: 10.63
+Episode 700,  Reward: 281.10, Profit: 273.08, Distance: 48.56 Loss: 12.60
+Episode 800,  Reward: 228.45, Profit: 230.37, Distance: 59.57 Loss: 9.62
+Traceback (most recent call last):
+  File "/Users/agam/projects/marl-ecs-course/Midsem/modified_tsp.py", line 130, in <module>
+    main()
+  File "/Users/agam/projects/marl-ecs-course/Midsem/modified_tsp.py", line 70, in main
+    loss = agent.learn_from_memory(batch_size=batchSize)
+  File "/Users/agam/projects/marl-ecs-course/Midsem/agent.py", line 118, in learn_from_memory
+    next_state_values = self.target_net(next_state_batch).max(1)[0]
+  File "/Users/agam/miniconda3/envs/marl/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/Users/agam/miniconda3/envs/marl/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/Users/agam/projects/marl-ecs-course/Midsem/agent.py", line 55, in forward
+    x = F.relu(self.fc3(x))
+  File "/Users/agam/miniconda3/envs/marl/lib/python3.10/site-packages/torch/nn/functional.py", line 1500, in relu
+    result = torch.relu(input)
+KeyboardInterrupt

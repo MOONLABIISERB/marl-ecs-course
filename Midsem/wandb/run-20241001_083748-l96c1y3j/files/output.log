@@ -1,0 +1,9 @@
+Episode 0,  Reward: 123.55, Profit: 144.73, Distance: 64.46 Loss: 1000.00
+Traceback (most recent call last):
+  File "/Users/agam/projects/marl-ecs-course/Midsem/modified_tsp.py", line 130, in <module>
+    main()
+  File "/Users/agam/projects/marl-ecs-course/Midsem/modified_tsp.py", line 70, in main
+    loss = agent.learn_from_memory(batch_size=batchSize)
+  File "/Users/agam/projects/marl-ecs-course/Midsem/agent.py", line 109, in learn_from_memory
+    state_batch = torch.FloatTensor(np.array(batch.state)).to(device)
+KeyboardInterrupt

@@ -1,0 +1,40 @@
+Episode 0,  Reward: 246.26, Profit: 208.39, Distance: 49.94 Loss: 1000.00 Initial Profits: [ 10.  20.  30.  40.  50.  60.  70.  80.  90. 100.]
+Shuffling profits
+Shuffling profits
+Shuffling profits
+Shuffling profits
+Shuffling profits
+Shuffling profits
+Shuffling profits
+Shuffling profits
+Shuffling profits
+Shuffling profits
+Shuffling profits
+Shuffling profits
+Shuffling profits
+Shuffling profits
+Shuffling profits
+Shuffling profits
+Shuffling profits
+Shuffling profits
+Shuffling profits
+Traceback (most recent call last):
+  File "/Users/agam/projects/marl-ecs-course/Midsem/modified_tsp.py", line 132, in <module>
+    main()
+  File "/Users/agam/projects/marl-ecs-course/Midsem/modified_tsp.py", line 70, in main
+    loss = agent.learn_from_memory(batch_size=batchSize)
+  File "/Users/agam/projects/marl-ecs-course/Midsem/agent.py", line 127, in learn_from_memory
+    self.optimizer.step()
+  File "/Users/agam/miniconda3/envs/marl/lib/python3.10/site-packages/torch/optim/optimizer.py", line 484, in wrapper
+    out = func(*args, **kwargs)
+  File "/Users/agam/miniconda3/envs/marl/lib/python3.10/site-packages/torch/optim/optimizer.py", line 89, in _use_grad
+    ret = func(self, *args, **kwargs)
+  File "/Users/agam/miniconda3/envs/marl/lib/python3.10/site-packages/torch/optim/adam.py", line 226, in step
+    adam(
+  File "/Users/agam/miniconda3/envs/marl/lib/python3.10/site-packages/torch/optim/optimizer.py", line 161, in maybe_fallback
+    return func(*args, **kwargs)
+  File "/Users/agam/miniconda3/envs/marl/lib/python3.10/site-packages/torch/optim/adam.py", line 766, in adam
+    func(
+  File "/Users/agam/miniconda3/envs/marl/lib/python3.10/site-packages/torch/optim/adam.py", line 380, in _single_tensor_adam
+    exp_avg_sq.mul_(beta2).addcmul_(grad, grad.conj(), value=1 - beta2)
+KeyboardInterrupt

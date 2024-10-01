@@ -3,7 +3,7 @@ Agamdeep Singh 20021
 
 ![Path](tsp.gif)
 
-### Average Profit: 364.94
+### Average Profit: 213.67
 
 ## Inference Testing
 ```

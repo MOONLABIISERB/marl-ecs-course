@@ -1,0 +1,27 @@
+Shuffling profits
+Shuffling profits
+Episode 0,  Reward: 190.60, Profit: 188.51, Distance: 63.51 Loss: 1000.00 Initial Profits: [ 30.  80.  60.  10.  50. 100.  90.  70.  40.  20.]
+Shuffling profits
+Episode 100,  Reward: 12.76, Profit: 73.15, Distance: 85.98 Loss: 0.10 Initial Profits: [ 20.  70.  50.  40.  90. 100.  80.  30.  60.  10.]
+Episode 200,  Reward: 19.94, Profit: 99.50, Distance: 85.16 Loss: 1.45 Initial Profits: [ 20.  70.  50.  40.  90. 100.  80.  30.  60.  10.]
+Episode 300,  Reward: 174.37, Profit: 224.49, Distance: 64.73 Loss: 1.90 Initial Profits: [ 20.  70.  50.  40.  90. 100.  80.  30.  60.  10.]
+Traceback (most recent call last):
+  File "/Users/agam/projects/marl-ecs-course/Midsem/modified_tsp.py", line 132, in <module>
+    main()
+  File "/Users/agam/projects/marl-ecs-course/Midsem/modified_tsp.py", line 70, in main
+    loss = agent.learn_from_memory(batch_size=batchSize)
+  File "/Users/agam/projects/marl-ecs-course/Midsem/agent.py", line 115, in learn_from_memory
+    state_action_values = self.knowledge(state_batch).gather(1, action_batch)
+  File "/Users/agam/miniconda3/envs/marl/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/Users/agam/miniconda3/envs/marl/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/Users/agam/projects/marl-ecs-course/Midsem/agent.py", line 56, in forward
+    x = self.fc5(x)
+  File "/Users/agam/miniconda3/envs/marl/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/Users/agam/miniconda3/envs/marl/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/Users/agam/miniconda3/envs/marl/lib/python3.10/site-packages/torch/nn/modules/linear.py", line 117, in forward
+    return F.linear(input, self.weight, self.bias)
+KeyboardInterrupt

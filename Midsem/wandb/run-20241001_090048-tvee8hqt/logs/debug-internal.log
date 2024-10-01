@@ -1,0 +1,22 @@
+{"time":"2024-10-01T09:00:48.901276+05:30","level":"INFO","msg":"using version","core version":"0.18.2"}
+{"time":"2024-10-01T09:00:48.901356+05:30","level":"INFO","msg":"created symlink","path":"/Users/agam/projects/marl-ecs-course/Midsem/wandb/run-20241001_090048-tvee8hqt/logs/debug-core.log"}
+{"time":"2024-10-01T09:00:48.904517+05:30","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-01T09:00:48.910015+05:30","level":"INFO","msg":"created new stream","id":"tvee8hqt"}
+{"time":"2024-10-01T09:00:48.91007+05:30","level":"INFO","msg":"stream: started","id":"tvee8hqt"}
+{"time":"2024-10-01T09:00:48.910075+05:30","level":"INFO","msg":"handler: started","stream_id":{"value":"tvee8hqt"}}
+{"time":"2024-10-01T09:00:48.910084+05:30","level":"INFO","msg":"sender: started","stream_id":{"value":"tvee8hqt"}}
+{"time":"2024-10-01T09:00:48.910128+05:30","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"tvee8hqt"}}
+{"time":"2024-10-01T09:00:49.37758+05:30","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-01T09:00:49.378399+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-01T09:00:59.477245+05:30","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-01T09:01:09.475212+05:30","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-01T09:01:19.476405+05:30","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-01T09:01:29.479754+05:30","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-01T09:01:35.125402+05:30","level":"INFO","msg":"stream: closing","id":"tvee8hqt"}
+{"time":"2024-10-01T09:01:35.12543+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-01T09:01:35.125459+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-01T09:01:37.305344+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-01T09:01:37.746463+05:30","level":"INFO","msg":"handler: closed","stream_id":{"value":"tvee8hqt"}}
+{"time":"2024-10-01T09:01:37.746494+05:30","level":"INFO","msg":"sender: closed","stream_id":{"value":"tvee8hqt"}}
+{"time":"2024-10-01T09:01:37.746485+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"tvee8hqt"}}
+{"time":"2024-10-01T09:01:37.746975+05:30","level":"INFO","msg":"stream: closed","id":"tvee8hqt"}

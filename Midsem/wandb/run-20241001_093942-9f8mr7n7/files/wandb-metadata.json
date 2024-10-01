@@ -1,0 +1,36 @@
+{
+  "os":  "macOS-14.4-arm64-arm-64bit",
+  "python":  "3.10.14",
+  "startedAt":  "2024-10-01T04:09:42.143331Z",
+  "args":  [
+    "--mode",
+    "train"
+  ],
+  "program":  "/Users/agam/projects/marl-ecs-course/Midsem/modified_tsp.py",
+  "codePath":  "Midsem/modified_tsp.py",
+  "git":  {
+    "remote":  "https://github.com/MOONLABIISERB/marl-ecs-course.git",
+    "commit":  "4e3c714b147e73a9863c86938730323814265a57"
+  },
+  "email":  "agammessi10@gmail.com",
+  "root":  "/Users/agam/projects/marl-ecs-course/Midsem",
+  "host":  "Agamdeeps-MacBook-Air.local",
+  "username":  "agam",
+  "executable":  "/Users/agam/miniconda3/envs/marl/bin/python",
+  "codePathLocal":  "modified_tsp.py",
+  "cpu_count":  8,
+  "cpu_count_logical":  8,
+  "disk":  {
+    "/":  {
+      "total":  "245107195904",
+      "used":  "195678932992"
+    }
+  },
+  "memory":  {
+    "total":  "17179869184"
+  },
+  "cpu":  {
+    "count":  8,
+    "countLogical":  8
+  }
+}

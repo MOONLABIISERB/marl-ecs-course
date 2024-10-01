@@ -1,0 +1,32 @@
+2024-10-01 08:13:46,846 INFO    MainThread:4669 [wandb_setup.py:_flush():79] Current SDK version is 0.18.2
+2024-10-01 08:13:46,846 INFO    MainThread:4669 [wandb_setup.py:_flush():79] Configure stats pid to 4669
+2024-10-01 08:13:46,846 INFO    MainThread:4669 [wandb_setup.py:_flush():79] Loading settings from /Users/agam/.config/wandb/settings
+2024-10-01 08:13:46,846 INFO    MainThread:4669 [wandb_setup.py:_flush():79] Loading settings from /Users/agam/projects/marl-ecs-course/Midsem/wandb/settings
+2024-10-01 08:13:46,846 INFO    MainThread:4669 [wandb_setup.py:_flush():79] Loading settings from environment variables: {}
+2024-10-01 08:13:46,846 INFO    MainThread:4669 [wandb_setup.py:_flush():79] Applying setup settings: {'mode': None, '_disable_service': None}
+2024-10-01 08:13:46,846 INFO    MainThread:4669 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program_relpath': 'Midsem/modified_tsp.py', 'program_abspath': '/Users/agam/projects/marl-ecs-course/Midsem/modified_tsp.py', 'program': '/Users/agam/projects/marl-ecs-course/Midsem/modified_tsp.py'}
+2024-10-01 08:13:46,846 INFO    MainThread:4669 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-10-01 08:13:46,846 INFO    MainThread:4669 [wandb_init.py:_log_setup():532] Logging user logs to /Users/agam/projects/marl-ecs-course/Midsem/wandb/run-20241001_081346-5dz2pkq6/logs/debug.log
+2024-10-01 08:13:46,846 INFO    MainThread:4669 [wandb_init.py:_log_setup():533] Logging internal logs to /Users/agam/projects/marl-ecs-course/Midsem/wandb/run-20241001_081346-5dz2pkq6/logs/debug-internal.log
+2024-10-01 08:13:46,846 INFO    MainThread:4669 [wandb_init.py:init():616] calling init triggers
+2024-10-01 08:13:46,846 INFO    MainThread:4669 [wandb_init.py:init():623] wandb.init called with sweep_config: {}
+config: {}
+2024-10-01 08:13:46,847 INFO    MainThread:4669 [wandb_init.py:init():666] starting backend
+2024-10-01 08:13:46,847 INFO    MainThread:4669 [wandb_init.py:init():670] sending inform_init request
+2024-10-01 08:13:46,848 INFO    MainThread:4669 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2024-10-01 08:13:46,848 INFO    MainThread:4669 [wandb_init.py:init():683] backend started and connected
+2024-10-01 08:13:46,851 INFO    MainThread:4669 [wandb_init.py:init():778] updated telemetry
+2024-10-01 08:13:46,868 INFO    MainThread:4669 [wandb_init.py:init():811] communicating run to backend with 90.0 second timeout
+2024-10-01 08:13:47,342 INFO    MainThread:4669 [wandb_init.py:init():862] starting run threads in backend
+2024-10-01 08:13:47,382 INFO    MainThread:4669 [wandb_run.py:_console_start():2464] atexit reg
+2024-10-01 08:13:47,382 INFO    MainThread:4669 [wandb_run.py:_redirect():2312] redirect: wrap_raw
+2024-10-01 08:13:47,382 INFO    MainThread:4669 [wandb_run.py:_redirect():2377] Wrapping output streams.
+2024-10-01 08:13:47,382 INFO    MainThread:4669 [wandb_run.py:_redirect():2402] Redirects installed.
+2024-10-01 08:13:47,383 INFO    MainThread:4669 [wandb_init.py:init():906] run started, returning control to user process
+2024-10-01 08:16:19,703 INFO    MainThread:4669 [wandb_run.py:_finish():2163] finishing run agammessi10-iiser-bhopal/MARL/5dz2pkq6
+2024-10-01 08:16:19,704 INFO    MainThread:4669 [wandb_run.py:_atexit_cleanup():2427] got exitcode: 0
+2024-10-01 08:16:19,704 INFO    MainThread:4669 [wandb_run.py:_restore():2409] restore
+2024-10-01 08:16:19,704 INFO    MainThread:4669 [wandb_run.py:_restore():2415] restore done
+2024-10-01 08:16:22,940 INFO    MainThread:4669 [wandb_run.py:_footer_history_summary_info():4042] rendering history
+2024-10-01 08:16:22,942 INFO    MainThread:4669 [wandb_run.py:_footer_history_summary_info():4074] rendering summary
+2024-10-01 08:16:22,955 INFO    MainThread:4669 [wandb_run.py:_footer_sync_info():4001] logging synced files

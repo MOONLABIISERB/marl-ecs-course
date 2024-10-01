@@ -1,0 +1,33 @@
+Episode 0,  Reward: 64.86, Profit: 69.40, Distance: 72.75 Loss: 1000.00
+Episode 100,  Reward: 192.55, Profit: 234.69, Distance: 61.38 Loss: 0.15
+Episode 200,  Reward: 176.90, Profit: 215.41, Distance: 61.71 Loss: 1.73
+Episode 300,  Reward: 61.81, Profit: 58.13, Distance: 69.87 Loss: 2.55
+Episode 400,  Reward: 150.01, Profit: 204.66, Distance: 69.11 Loss: 2.59
+Episode 500,  Reward: 194.55, Profit: 201.84, Distance: 60.49 Loss: 2.86
+Episode 600,  Reward: 257.36, Profit: 277.24, Distance: 53.10 Loss: 2.91
+Episode 700,  Reward: 72.88, Profit: 102.54, Distance: 74.76 Loss: 2.64
+Episode 800,  Reward: 167.48, Profit: 199.37, Distance: 61.14 Loss: 2.16
+Episode 900,  Reward: 353.34, Profit: 356.30, Distance: 36.18 Loss: 3.73
+Episode 1000,  Reward: 276.88, Profit: 317.61, Distance: 53.66 Loss: 2.62
+Episode 1100,  Reward: 340.19, Profit: 376.29, Distance: 36.04 Loss: 2.50
+Episode 1200,  Reward: 187.91, Profit: 244.24, Distance: 59.26 Loss: 3.78
+Episode 1300,  Reward: 380.41, Profit: 384.17, Distance: 36.98 Loss: 4.34
+Episode 1400,  Reward: 198.95, Profit: 197.67, Distance: 56.32 Loss: 3.01
+Episode 1500,  Reward: 330.28, Profit: 370.41, Distance: 37.62 Loss: 3.38
+Episode 1600,  Reward: 280.43, Profit: 294.60, Distance: 47.40 Loss: 4.43
+Episode 1700,  Reward: 125.13, Profit: 188.05, Distance: 62.86 Loss: 5.34
+Episode 1800,  Reward: 368.88, Profit: 371.99, Distance: 36.33 Loss: 3.06
+Episode 1900,  Reward: 309.14, Profit: 329.76, Distance: 53.83 Loss: 3.15
+Episode 2000,  Reward: 297.46, Profit: 314.16, Distance: 51.15 Loss: 7.58
+Episode 2100,  Reward: 323.67, Profit: 334.14, Distance: 43.70 Loss: 3.17
+Episode 2200,  Reward: 300.87, Profit: 315.40, Distance: 46.29 Loss: 3.18
+Episode 2300,  Reward: 259.89, Profit: 246.15, Distance: 43.85 Loss: 4.31
+Episode 2400,  Reward: 344.04, Profit: 324.03, Distance: 37.59 Loss: 2.18
+Episode 2500,  Reward: 370.84, Profit: 373.56, Distance: 35.94 Loss: 2.50
+Traceback (most recent call last):
+  File "/Users/agam/projects/marl-ecs-course/Midsem/modified_tsp.py", line 130, in <module>
+  File "/Users/agam/projects/marl-ecs-course/Midsem/modified_tsp.py", line 70, in main
+    loss = agent.learn_from_memory(batch_size=batchSize)
+  File "/Users/agam/projects/marl-ecs-course/Midsem/agent.py", line 110, in learn_from_memory
+    action_batch = torch.LongTensor(batch.action).unsqueeze(1).to(device)
+KeyboardInterrupt

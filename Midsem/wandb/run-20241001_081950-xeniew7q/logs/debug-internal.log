@@ -1,0 +1,13 @@
+{"time":"2024-10-01T08:19:50.629009+05:30","level":"INFO","msg":"using version","core version":"0.18.2"}
+{"time":"2024-10-01T08:19:50.629063+05:30","level":"INFO","msg":"created symlink","path":"/Users/agam/projects/marl-ecs-course/Midsem/wandb/run-20241001_081950-xeniew7q/logs/debug-core.log"}
+{"time":"2024-10-01T08:19:50.631746+05:30","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-01T08:19:50.638457+05:30","level":"INFO","msg":"created new stream","id":"xeniew7q"}
+{"time":"2024-10-01T08:19:50.638521+05:30","level":"INFO","msg":"stream: started","id":"xeniew7q"}
+{"time":"2024-10-01T08:19:50.638533+05:30","level":"INFO","msg":"sender: started","stream_id":{"value":"xeniew7q"}}
+{"time":"2024-10-01T08:19:50.638635+05:30","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"xeniew7q"}}
+{"time":"2024-10-01T08:19:50.638524+05:30","level":"INFO","msg":"handler: started","stream_id":{"value":"xeniew7q"}}
+{"time":"2024-10-01T08:19:51.243752+05:30","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-01T08:19:51.244545+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-01T08:19:54.27696+05:30","level":"INFO","msg":"stream: closing","id":"xeniew7q"}
+{"time":"2024-10-01T08:19:54.276979+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-01T08:19:54.277004+05:30","level":"INFO","msg":"Stopped system monitor"}

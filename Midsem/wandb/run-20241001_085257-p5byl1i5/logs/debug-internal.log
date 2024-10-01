@@ -1,0 +1,36 @@
+{"time":"2024-10-01T08:52:57.961051+05:30","level":"INFO","msg":"using version","core version":"0.18.2"}
+{"time":"2024-10-01T08:52:57.961137+05:30","level":"INFO","msg":"created symlink","path":"/Users/agam/projects/marl-ecs-course/Midsem/wandb/run-20241001_085257-p5byl1i5/logs/debug-core.log"}
+{"time":"2024-10-01T08:52:57.963952+05:30","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-01T08:52:57.969573+05:30","level":"INFO","msg":"created new stream","id":"p5byl1i5"}
+{"time":"2024-10-01T08:52:57.969647+05:30","level":"INFO","msg":"stream: started","id":"p5byl1i5"}
+{"time":"2024-10-01T08:52:57.969646+05:30","level":"INFO","msg":"handler: started","stream_id":{"value":"p5byl1i5"}}
+{"time":"2024-10-01T08:52:57.969659+05:30","level":"INFO","msg":"sender: started","stream_id":{"value":"p5byl1i5"}}
+{"time":"2024-10-01T08:52:57.9697+05:30","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"p5byl1i5"}}
+{"time":"2024-10-01T08:52:58.443826+05:30","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-01T08:52:58.444781+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-01T08:53:08.541354+05:30","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-01T08:53:18.541564+05:30","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-01T08:53:28.544782+05:30","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-01T08:53:38.54638+05:30","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-01T08:53:48.544065+05:30","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-01T08:53:58.545478+05:30","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-01T08:54:08.545105+05:30","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-01T08:54:18.546884+05:30","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-01T08:54:28.545823+05:30","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-01T08:54:38.547804+05:30","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-01T08:54:48.545974+05:30","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-01T08:54:58.548071+05:30","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-01T08:55:08.547032+05:30","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-01T08:55:18.546948+05:30","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-01T08:55:28.546917+05:30","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-01T08:55:38.551597+05:30","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-01T08:55:48.549078+05:30","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-01T08:55:58.547116+05:30","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-01T08:56:08.550669+05:30","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-01T08:56:18.548846+05:30","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-01T08:56:28.548963+05:30","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-01T08:56:38.548871+05:30","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-01T08:56:48.551615+05:30","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-01T08:56:50.476452+05:30","level":"INFO","msg":"stream: closing","id":"p5byl1i5"}
+{"time":"2024-10-01T08:56:50.476474+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-01T08:56:50.476499+05:30","level":"INFO","msg":"Stopped system monitor"}

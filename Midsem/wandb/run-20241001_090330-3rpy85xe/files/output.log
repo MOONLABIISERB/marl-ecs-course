@@ -1,0 +1,41 @@
+Episode 0,  Reward: 33.63, Profit: 76.75, Distance: 73.92 Loss: 1000.00 Initial Profits: [ 10.  20.  30.  40.  50.  60.  70.  80.  90. 100.]
+Episode 100,  Reward: 83.52, Profit: 157.47, Distance: 73.76 Loss: 0.12 Initial Profits: [ 10.  20.  30.  40.  50.  60.  70.  80.  90. 100.]
+Episode 200,  Reward: 89.12, Profit: 151.72, Distance: 75.96 Loss: 2.03 Initial Profits: [ 10.  20.  30.  40.  50.  60.  70.  80.  90. 100.]
+Episode 300,  Reward: 197.95, Profit: 259.90, Distance: 62.70 Loss: 3.20 Initial Profits: [ 10.  20.  30.  40.  50.  60.  70.  80.  90. 100.]
+Episode 400,  Reward: 155.41, Profit: 221.53, Distance: 62.92 Loss: 2.60 Initial Profits: [ 10.  20.  30.  40.  50.  60.  70.  80.  90. 100.]
+Episode 500,  Reward: 167.48, Profit: 215.25, Distance: 60.81 Loss: 1.87 Initial Profits: [ 10.  20.  30.  40.  50.  60.  70.  80.  90. 100.]
+Episode 600,  Reward: 118.58, Profit: 161.27, Distance: 73.50 Loss: 2.70 Initial Profits: [ 10.  20.  30.  40.  50.  60.  70.  80.  90. 100.]
+Episode 700,  Reward: 258.14, Profit: 283.79, Distance: 45.61 Loss: 2.60 Initial Profits: [ 10.  20.  30.  40.  50.  60.  70.  80.  90. 100.]
+Episode 800,  Reward: 248.88, Profit: 288.77, Distance: 54.80 Loss: 2.04 Initial Profits: [ 10.  20.  30.  40.  50.  60.  70.  80.  90. 100.]
+Episode 900,  Reward: 135.90, Profit: 202.49, Distance: 66.40 Loss: 2.43 Initial Profits: [ 10.  20.  30.  40.  50.  60.  70.  80.  90. 100.]
+Episode 1000,  Reward: 205.04, Profit: 224.67, Distance: 51.98 Loss: 1.69 Initial Profits: [ 10.  20.  30.  40.  50.  60.  70.  80.  90. 100.]
+Episode 1100,  Reward: 260.88, Profit: 306.65, Distance: 45.58 Loss: 1.46 Initial Profits: [ 10.  20.  30.  40.  50.  60.  70.  80.  90. 100.]
+Episode 1200,  Reward: 373.48, Profit: 373.31, Distance: 32.18 Loss: 3.46 Initial Profits: [ 10.  20.  30.  40.  50.  60.  70.  80.  90. 100.]
+Episode 1300,  Reward: 323.46, Profit: 363.48, Distance: 39.83 Loss: 2.66 Initial Profits: [ 10.  20.  30.  40.  50.  60.  70.  80.  90. 100.]
+Episode 1400,  Reward: 208.81, Profit: 239.92, Distance: 60.92 Loss: 2.90 Initial Profits: [ 10.  20.  30.  40.  50.  60.  70.  80.  90. 100.]
+Episode 1500,  Reward: 172.04, Profit: 214.88, Distance: 59.63 Loss: 3.60 Initial Profits: [ 10.  20.  30.  40.  50.  60.  70.  80.  90. 100.]
+Episode 1600,  Reward: 323.46, Profit: 363.48, Distance: 39.83 Loss: 3.82 Initial Profits: [ 10.  20.  30.  40.  50.  60.  70.  80.  90. 100.]
+Episode 1700,  Reward: 236.80, Profit: 260.70, Distance: 53.72 Loss: 9.09 Initial Profits: [ 10.  20.  30.  40.  50.  60.  70.  80.  90. 100.]
+Episode 1800,  Reward: 213.77, Profit: 250.55, Distance: 58.76 Loss: 3.01 Initial Profits: [ 10.  20.  30.  40.  50.  60.  70.  80.  90. 100.]
+Episode 1900,  Reward: 303.98, Profit: 345.79, Distance: 41.62 Loss: 3.59 Initial Profits: [ 10.  20.  30.  40.  50.  60.  70.  80.  90. 100.]
+Episode 2000,  Reward: 212.53, Profit: 271.88, Distance: 56.14 Loss: 3.70 Initial Profits: [ 10.  20.  30.  40.  50.  60.  70.  80.  90. 100.]
+Traceback (most recent call last):
+  File "/Users/agam/projects/marl-ecs-course/Midsem/modified_tsp.py", line 131, in <module>
+    main()
+  File "/Users/agam/projects/marl-ecs-course/Midsem/modified_tsp.py", line 70, in main
+    loss = agent.learn_from_memory(batch_size=batchSize)
+  File "/Users/agam/projects/marl-ecs-course/Midsem/agent.py", line 127, in learn_from_memory
+    self.optimizer.step()
+  File "/Users/agam/miniconda3/envs/marl/lib/python3.10/site-packages/torch/optim/optimizer.py", line 484, in wrapper
+    out = func(*args, **kwargs)
+  File "/Users/agam/miniconda3/envs/marl/lib/python3.10/site-packages/torch/optim/optimizer.py", line 89, in _use_grad
+    ret = func(self, *args, **kwargs)
+  File "/Users/agam/miniconda3/envs/marl/lib/python3.10/site-packages/torch/optim/adam.py", line 226, in step
+    adam(
+  File "/Users/agam/miniconda3/envs/marl/lib/python3.10/site-packages/torch/optim/optimizer.py", line 161, in maybe_fallback
+    return func(*args, **kwargs)
+  File "/Users/agam/miniconda3/envs/marl/lib/python3.10/site-packages/torch/optim/adam.py", line 766, in adam
+    func(
+  File "/Users/agam/miniconda3/envs/marl/lib/python3.10/site-packages/torch/optim/adam.py", line 380, in _single_tensor_adam
+    exp_avg_sq.mul_(beta2).addcmul_(grad, grad.conj(), value=1 - beta2)
+KeyboardInterrupt

@@ -1,0 +1,16 @@
+{"time":"2024-10-01T09:03:30.34053+05:30","level":"INFO","msg":"using version","core version":"0.18.2"}
+{"time":"2024-10-01T09:03:30.34059+05:30","level":"INFO","msg":"created symlink","path":"/Users/agam/projects/marl-ecs-course/Midsem/wandb/run-20241001_090330-3rpy85xe/logs/debug-core.log"}
+{"time":"2024-10-01T09:03:30.343329+05:30","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-01T09:03:30.351044+05:30","level":"INFO","msg":"created new stream","id":"3rpy85xe"}
+{"time":"2024-10-01T09:03:30.351096+05:30","level":"INFO","msg":"stream: started","id":"3rpy85xe"}
+{"time":"2024-10-01T09:03:30.351113+05:30","level":"INFO","msg":"handler: started","stream_id":{"value":"3rpy85xe"}}
+{"time":"2024-10-01T09:03:30.351151+05:30","level":"INFO","msg":"sender: started","stream_id":{"value":"3rpy85xe"}}
+{"time":"2024-10-01T09:03:30.351137+05:30","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"3rpy85xe"}}
+{"time":"2024-10-01T09:03:31.042005+05:30","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-01T09:03:31.04332+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-01T09:03:41.141134+05:30","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-01T09:03:51.140865+05:30","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-01T09:04:01.141236+05:30","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-01T09:04:04.533245+05:30","level":"INFO","msg":"stream: closing","id":"3rpy85xe"}
+{"time":"2024-10-01T09:04:04.533362+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-01T09:04:04.533379+05:30","level":"INFO","msg":"Stopped system monitor"}

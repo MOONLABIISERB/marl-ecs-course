@@ -1,0 +1,20 @@
+{"time":"2024-10-01T09:06:34.110287+05:30","level":"INFO","msg":"using version","core version":"0.18.2"}
+{"time":"2024-10-01T09:06:34.110367+05:30","level":"INFO","msg":"created symlink","path":"/Users/agam/projects/marl-ecs-course/Midsem/wandb/run-20241001_090634-wo4pzzr6/logs/debug-core.log"}
+{"time":"2024-10-01T09:06:34.115272+05:30","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-01T09:06:34.123081+05:30","level":"INFO","msg":"created new stream","id":"wo4pzzr6"}
+{"time":"2024-10-01T09:06:34.123146+05:30","level":"INFO","msg":"stream: started","id":"wo4pzzr6"}
+{"time":"2024-10-01T09:06:34.123153+05:30","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"wo4pzzr6"}}
+{"time":"2024-10-01T09:06:34.123172+05:30","level":"INFO","msg":"handler: started","stream_id":{"value":"wo4pzzr6"}}
+{"time":"2024-10-01T09:06:34.12318+05:30","level":"INFO","msg":"sender: started","stream_id":{"value":"wo4pzzr6"}}
+{"time":"2024-10-01T09:06:34.730332+05:30","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-01T09:06:34.731707+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-01T09:06:44.83337+05:30","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-01T09:06:54.828237+05:30","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-01T09:06:59.335057+05:30","level":"INFO","msg":"stream: closing","id":"wo4pzzr6"}
+{"time":"2024-10-01T09:06:59.335108+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-01T09:06:59.335132+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-01T09:07:02.659961+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-01T09:07:03.337375+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"wo4pzzr6"}}
+{"time":"2024-10-01T09:07:03.337319+05:30","level":"INFO","msg":"handler: closed","stream_id":{"value":"wo4pzzr6"}}
+{"time":"2024-10-01T09:07:03.337429+05:30","level":"INFO","msg":"sender: closed","stream_id":{"value":"wo4pzzr6"}}
+{"time":"2024-10-01T09:07:03.338173+05:30","level":"INFO","msg":"stream: closed","id":"wo4pzzr6"}

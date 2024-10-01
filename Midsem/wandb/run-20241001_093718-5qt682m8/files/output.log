@@ -1,0 +1,14 @@
+Episode 0,  Reward: 181.81, Profit: 197.57, Distance: 64.05 Loss: 1000.00 Initial Profits: [ 90.  80.  10.  70.  30.  20.  60.  40. 100.  50.]
+Episode 100,  Reward: 309.80, Profit: 336.95, Distance: 44.00 Loss: 0.09 Initial Profits: [ 90.  50.  70.  60.  40.  10.  30. 100.  80.  20.]
+Episode 200,  Reward: 164.90, Profit: 223.33, Distance: 65.03 Loss: 1.14 Initial Profits: [ 90.  50.  70.  60.  40.  10.  30. 100.  80.  20.]
+Episode 300,  Reward: 134.67, Profit: 199.66, Distance: 64.48 Loss: 2.04 Initial Profits: [ 90.  50.  70.  60.  40.  10.  30. 100.  80.  20.]
+Episode 400,  Reward: 34.25, Profit: 80.06, Distance: 80.48 Loss: 2.20 Initial Profits: [ 90.  50.  70.  60.  40.  10.  30. 100.  80.  20.]
+Episode 500,  Reward: 210.18, Profit: 264.54, Distance: 60.96 Loss: 2.84 Initial Profits: [ 90.  50.  70.  60.  40.  10.  30. 100.  80.  20.]
+Episode 600,  Reward: 88.19, Profit: 155.83, Distance: 66.53 Loss: 3.30 Initial Profits: [ 90.  50.  70.  60.  40.  10.  30. 100.  80.  20.]
+Traceback (most recent call last):
+  File "/Users/agam/projects/marl-ecs-course/Midsem/modified_tsp.py", line 132, in <module>
+    main()
+  File "/Users/agam/projects/marl-ecs-course/Midsem/modified_tsp.py", line 58, in main
+    action = agent.action(obs, exploration_prob=epsilon)
+  File "/Users/agam/projects/marl-ecs-course/Midsem/agent.py", line -1, in action
+KeyboardInterrupt

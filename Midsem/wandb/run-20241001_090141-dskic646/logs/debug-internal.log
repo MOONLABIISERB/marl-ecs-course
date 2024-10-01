@@ -1,0 +1,24 @@
+{"time":"2024-10-01T09:01:41.611599+05:30","level":"INFO","msg":"using version","core version":"0.18.2"}
+{"time":"2024-10-01T09:01:41.611686+05:30","level":"INFO","msg":"created symlink","path":"/Users/agam/projects/marl-ecs-course/Midsem/wandb/run-20241001_090141-dskic646/logs/debug-core.log"}
+{"time":"2024-10-01T09:01:41.614625+05:30","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-01T09:01:41.620869+05:30","level":"INFO","msg":"created new stream","id":"dskic646"}
+{"time":"2024-10-01T09:01:41.620943+05:30","level":"INFO","msg":"stream: started","id":"dskic646"}
+{"time":"2024-10-01T09:01:41.620929+05:30","level":"INFO","msg":"handler: started","stream_id":{"value":"dskic646"}}
+{"time":"2024-10-01T09:01:41.620946+05:30","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"dskic646"}}
+{"time":"2024-10-01T09:01:41.621069+05:30","level":"INFO","msg":"sender: started","stream_id":{"value":"dskic646"}}
+{"time":"2024-10-01T09:01:42.275481+05:30","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-01T09:01:42.276315+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-01T09:01:52.374311+05:30","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-01T09:02:02.37782+05:30","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-01T09:02:12.374343+05:30","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-01T09:02:22.374648+05:30","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-01T09:02:32.378999+05:30","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-01T09:02:42.380668+05:30","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-01T09:02:45.099181+05:30","level":"INFO","msg":"stream: closing","id":"dskic646"}
+{"time":"2024-10-01T09:02:45.099208+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-01T09:02:45.099223+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-01T09:02:47.275316+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-01T09:02:47.75417+05:30","level":"INFO","msg":"handler: closed","stream_id":{"value":"dskic646"}}
+{"time":"2024-10-01T09:02:47.754194+05:30","level":"INFO","msg":"sender: closed","stream_id":{"value":"dskic646"}}
+{"time":"2024-10-01T09:02:47.754182+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"dskic646"}}
+{"time":"2024-10-01T09:02:47.754479+05:30","level":"INFO","msg":"stream: closed","id":"dskic646"}

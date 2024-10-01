@@ -1,0 +1,15 @@
+{"time":"2024-10-01T08:41:37.296332+05:30","level":"INFO","msg":"using version","core version":"0.18.2"}
+{"time":"2024-10-01T08:41:37.296408+05:30","level":"INFO","msg":"created symlink","path":"/Users/agam/projects/marl-ecs-course/Midsem/wandb/run-20241001_084137-qrzfageu/logs/debug-core.log"}
+{"time":"2024-10-01T08:41:37.29982+05:30","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-01T08:41:37.30677+05:30","level":"INFO","msg":"created new stream","id":"qrzfageu"}
+{"time":"2024-10-01T08:41:37.30683+05:30","level":"INFO","msg":"stream: started","id":"qrzfageu"}
+{"time":"2024-10-01T08:41:37.306837+05:30","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"qrzfageu"}}
+{"time":"2024-10-01T08:41:37.306911+05:30","level":"INFO","msg":"handler: started","stream_id":{"value":"qrzfageu"}}
+{"time":"2024-10-01T08:41:37.306917+05:30","level":"INFO","msg":"sender: started","stream_id":{"value":"qrzfageu"}}
+{"time":"2024-10-01T08:41:37.785939+05:30","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-01T08:41:37.78703+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-01T08:41:47.895411+05:30","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-01T08:41:57.886841+05:30","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-01T08:42:07.716323+05:30","level":"INFO","msg":"stream: closing","id":"qrzfageu"}
+{"time":"2024-10-01T08:42:07.716349+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-01T08:42:07.716457+05:30","level":"INFO","msg":"Stopped system monitor"}

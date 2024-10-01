@@ -1,0 +1,55 @@
+Episode 0,  Reward: 146.09, Profit: 210.05, Distance: 71.40 Loss: 1000.00
+Episode 100,  Reward: 93.21, Profit: 165.51, Distance: 74.38 Loss: 0.17
+Episode 200,  Reward: 82.41, Profit: 154.49, Distance: 70.17 Loss: 1.06
+Episode 300,  Reward: 32.17, Profit: 39.89, Distance: 82.28 Loss: 1.90
+Episode 400,  Reward: 172.56, Profit: 221.46, Distance: 60.70 Loss: 2.61
+Episode 500,  Reward: 217.95, Profit: 226.95, Distance: 58.82 Loss: 4.00
+Episode 600,  Reward: 275.89, Profit: 305.32, Distance: 54.20 Loss: 3.41
+Episode 700,  Reward: 63.62, Profit: 78.35, Distance: 74.39 Loss: 2.29
+Episode 800,  Reward: 214.23, Profit: 257.61, Distance: 55.17 Loss: 2.63
+Episode 900,  Reward: 326.16, Profit: 354.16, Distance: 42.01 Loss: 2.01
+Episode 1000,  Reward: 305.14, Profit: 338.94, Distance: 43.61 Loss: 1.98
+Episode 1100,  Reward: 166.53, Profit: 213.89, Distance: 57.18 Loss: 3.55
+Episode 1200,  Reward: 257.95, Profit: 272.60, Distance: 47.90 Loss: 2.20
+Episode 1300,  Reward: 332.42, Profit: 358.68, Distance: 40.13 Loss: 3.24
+Episode 1400,  Reward: 219.26, Profit: 223.44, Distance: 53.54 Loss: 3.22
+Episode 1500,  Reward: 350.57, Profit: 372.87, Distance: 34.10 Loss: 2.65
+Episode 1600,  Reward: 350.57, Profit: 372.87, Distance: 34.10 Loss: 3.33
+Episode 1700,  Reward: 200.02, Profit: 223.77, Distance: 57.00 Loss: 3.43
+Episode 1800,  Reward: 285.90, Profit: 313.77, Distance: 41.89 Loss: 3.71
+Episode 1900,  Reward: 227.36, Profit: 268.71, Distance: 51.17 Loss: 5.52
+Episode 2000,  Reward: 280.39, Profit: 312.93, Distance: 42.35 Loss: 2.67
+Episode 2100,  Reward: 266.52, Profit: 312.89, Distance: 49.72 Loss: 3.58
+Episode 2200,  Reward: 342.82, Profit: 364.08, Distance: 35.14 Loss: 4.25
+Episode 2300,  Reward: 334.53, Profit: 358.45, Distance: 37.79 Loss: 7.10
+Episode 2400,  Reward: 297.40, Profit: 332.77, Distance: 49.38 Loss: 4.26
+Episode 2500,  Reward: 343.58, Profit: 367.13, Distance: 33.37 Loss: 4.01
+Episode 2600,  Reward: 298.13, Profit: 301.61, Distance: 48.88 Loss: 5.52
+Episode 2700,  Reward: 308.27, Profit: 337.04, Distance: 42.65 Loss: 3.47
+Episode 2800,  Reward: 265.15, Profit: 297.28, Distance: 41.95 Loss: 4.38
+Episode 2900,  Reward: 343.58, Profit: 367.13, Distance: 33.37 Loss: 4.65
+Episode 3000,  Reward: 333.93, Profit: 327.14, Distance: 38.60 Loss: 11.28
+Episode 3100,  Reward: 333.35, Profit: 357.30, Distance: 37.82 Loss: 8.26
+Episode 3200,  Reward: 297.29, Profit: 304.46, Distance: 52.57 Loss: 13.68
+Episode 3300,  Reward: 297.29, Profit: 304.46, Distance: 52.57 Loss: 16.97
+Episode 3400,  Reward: -7.14, Profit: 59.53, Distance: 91.43 Loss: 29.49
+Traceback (most recent call last):
+  File "/Users/agam/projects/marl-ecs-course/Midsem/modified_tsp.py", line 131, in <module>
+    main()
+  File "/Users/agam/projects/marl-ecs-course/Midsem/modified_tsp.py", line 70, in main
+    loss = agent.learn_from_memory(batch_size=batchSize)
+  File "/Users/agam/projects/marl-ecs-course/Midsem/agent.py", line 118, in learn_from_memory
+    next_state_values = self.target_net(next_state_batch).max(1)[0]
+  File "/Users/agam/miniconda3/envs/marl/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/Users/agam/miniconda3/envs/marl/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/Users/agam/projects/marl-ecs-course/Midsem/agent.py", line 54, in forward
+    x = F.relu(self.fc2(x))
+  File "/Users/agam/miniconda3/envs/marl/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/Users/agam/miniconda3/envs/marl/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/Users/agam/miniconda3/envs/marl/lib/python3.10/site-packages/torch/nn/modules/linear.py", line 117, in forward
+    return F.linear(input, self.weight, self.bias)
+KeyboardInterrupt

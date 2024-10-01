@@ -1,0 +1,19 @@
+{"time":"2024-10-01T08:58:43.353164+05:30","level":"INFO","msg":"using version","core version":"0.18.2"}
+{"time":"2024-10-01T08:58:43.353242+05:30","level":"INFO","msg":"created symlink","path":"/Users/agam/projects/marl-ecs-course/Midsem/wandb/run-20241001_085843-dpux5upw/logs/debug-core.log"}
+{"time":"2024-10-01T08:58:43.356021+05:30","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-01T08:58:43.361685+05:30","level":"INFO","msg":"created new stream","id":"dpux5upw"}
+{"time":"2024-10-01T08:58:43.361744+05:30","level":"INFO","msg":"stream: started","id":"dpux5upw"}
+{"time":"2024-10-01T08:58:43.361739+05:30","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"dpux5upw"}}
+{"time":"2024-10-01T08:58:43.361786+05:30","level":"INFO","msg":"handler: started","stream_id":{"value":"dpux5upw"}}
+{"time":"2024-10-01T08:58:43.361963+05:30","level":"INFO","msg":"sender: started","stream_id":{"value":"dpux5upw"}}
+{"time":"2024-10-01T08:58:43.812124+05:30","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-01T08:58:43.813092+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-01T08:58:53.910105+05:30","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-01T08:59:03.909922+05:30","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-01T08:59:13.910309+05:30","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-01T08:59:23.911205+05:30","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-01T08:59:33.914541+05:30","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-01T08:59:40.325596+05:30","level":"INFO","msg":"stream: closing","id":"dpux5upw"}
+{"time":"2024-10-01T08:59:40.325618+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-01T08:59:40.325645+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-01T08:59:41.68067+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}

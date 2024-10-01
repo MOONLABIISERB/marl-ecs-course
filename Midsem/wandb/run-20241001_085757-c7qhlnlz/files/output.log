@@ -1,0 +1,40 @@
+Episode 0,  Reward: 84.61, Profit: 135.17, Distance: 74.05 Loss: 1000.00 Goal Locations: [[ 5.6181016 14.260715 ]
+ [10.979909   8.979877 ]
+ [ 2.3402796  2.339918 ]
+ [ 0.8712542 12.992642 ]
+ [ 9.016726  10.621089 ]
+ [ 0.3087674 14.548648 ]
+ [12.48664    3.1850867]
+ [ 2.7273746  2.7510676]
+ [ 4.5636334  7.8713465]
+ [ 6.479175   4.3684373]]
+Episode 100,  Reward: 93.21, Profit: 165.51, Distance: 74.38 Loss: 0.23 Goal Locations: [[ 5.6181016 14.260715 ]
+ [10.979909   8.979877 ]
+ [ 2.3402796  2.339918 ]
+ [ 0.8712542 12.992642 ]
+ [ 9.016726  10.621089 ]
+ [ 0.3087674 14.548648 ]
+ [12.48664    3.1850867]
+ [ 2.7273746  2.7510676]
+ [ 4.5636334  7.8713465]
+ [ 6.479175   4.3684373]]
+Traceback (most recent call last):
+  File "/Users/agam/projects/marl-ecs-course/Midsem/modified_tsp.py", line 131, in <module>
+    main()
+  File "/Users/agam/projects/marl-ecs-course/Midsem/modified_tsp.py", line 70, in main
+    loss = agent.learn_from_memory(batch_size=batchSize)
+  File "/Users/agam/projects/marl-ecs-course/Midsem/agent.py", line 127, in learn_from_memory
+    self.optimizer.step()
+  File "/Users/agam/miniconda3/envs/marl/lib/python3.10/site-packages/torch/optim/optimizer.py", line 484, in wrapper
+    out = func(*args, **kwargs)
+  File "/Users/agam/miniconda3/envs/marl/lib/python3.10/site-packages/torch/optim/optimizer.py", line 89, in _use_grad
+    ret = func(self, *args, **kwargs)
+  File "/Users/agam/miniconda3/envs/marl/lib/python3.10/site-packages/torch/optim/adam.py", line 226, in step
+    adam(
+  File "/Users/agam/miniconda3/envs/marl/lib/python3.10/site-packages/torch/optim/optimizer.py", line 161, in maybe_fallback
+    return func(*args, **kwargs)
+  File "/Users/agam/miniconda3/envs/marl/lib/python3.10/site-packages/torch/optim/adam.py", line 766, in adam
+    func(
+  File "/Users/agam/miniconda3/envs/marl/lib/python3.10/site-packages/torch/optim/adam.py", line 433, in _single_tensor_adam
+    param.addcdiv_(exp_avg, denom, value=-step_size)
+KeyboardInterrupt
