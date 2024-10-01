@@ -34,3 +34,8 @@ Episode 39999 : 171.42115020751953  epsilon: 0.0010000000003452703
 Visited Path: [1, 6, 8, 3, 9, 7, 2, 4, 0, 5]
 Unique points: 10
 ```
+
+##### Plot
+
+<img width="935" alt="RewardVsEpisodes" src="https://github.com/user-attachments/assets/dcde9bb8-6276-488d-9f48-985f77d65f97">
+
