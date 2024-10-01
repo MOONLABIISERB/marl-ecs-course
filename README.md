@@ -1,1 +1,1 @@
-Assignment for MUlti Agent Reinforcement Learning
+Assignment for Multi Agent Reinforcement Learning
