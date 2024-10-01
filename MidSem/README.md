@@ -54,11 +54,11 @@ The following hyperparameters were tested to evaluate performance:
 
  convergence graph of all models test on vairous hyperparameters
 
- ![Episode vs. Cumulative Reward](link)
+ ![Episode vs. Cumulative Reward](https://github.com/MOONLABIISERB/marl-ecs-course/blob/gavit_20114/MidSem/all_models_training_rewards.png)
 
  test reward comparision of all models
 
- ![Episode vs. Cumulative Reward](link)
+ ![Episode vs. Cumulative Reward](https://github.com/MOONLABIISERB/marl-ecs-course/blob/gavit_20114/MidSem/test_reward_comparison.png)
 
 
 
