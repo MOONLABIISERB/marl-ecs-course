@@ -20,10 +20,10 @@ Convergence Reward: 64.48
 Here are some visualizations of the rewards collected during training:
 
 ### Episodic Reward vs Cumulative Reward (Episodes 1-100)
-![Episodic vs Cumulative Reward](plots/episode_vs_cumulative_reward.png)
+![Episodic vs Cumulative Reward](plots/plot-1.png)
 
 ### Cumulative Rewards (Convergence)
-![Convergence of Rewards](plots/convergence_rewards.png)
+![Convergence of Rewards](plot-2.png)
 
 ## How to run?
 The tsp.py file contains the code for running the environment, which is designed to work in conjunction with the sarsa.py file (where the SARSA class is implemented). Additionally, a Python notebook is provided that outlines the steps required to execute the code and obtain the results.
