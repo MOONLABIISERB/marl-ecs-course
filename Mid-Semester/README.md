@@ -7,7 +7,8 @@ Roll No: 21224
 
 Implementing SARSA (which used epsilon-greedy policy) to solve with decaying epsilon.
 
-**Learning Rate (α):** A higher learning rate speeds up learning but may lead to instability.
+**Learning Rate (α):** A higher learning rate speeds up learning but may lead to instability.  
+
 **Discount Factor (γ):** Increasing the discount factor encourages long-term rewards, while lowering it focuses on immediate gains.
 **Epsilon (ε):** High epsilon early encourages exploration; it decays over time for more exploitation.
 **Number of Episodes:** More episodes lead to a better-trained agent but require more computation time.
