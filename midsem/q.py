@@ -208,6 +208,7 @@ def q_learning(env, episodes, alpha, gamma, epsilon, epsilon_decay, min_epsilon)
         state = int(state[0])
         episode_return = 0
         trajectory = []
+        episode_distance = 0
 
 
         for _ in range(env.max_steps):
@@ -223,6 +224,7 @@ def q_learning(env, episodes, alpha, gamma, epsilon, epsilon_decay, min_epsilon)
             # update Q (greedy)
             q_table[state, action] = q_table[state, action] + alpha * (reward + gamma * np.max(q_table[next_state]) - q_table[state, action])
             trajectory.append(action)
+            episode_distance += env.distances[state, action]
 
             state = next_state
             episode_return += reward
@@ -231,13 +233,16 @@ def q_learning(env, episodes, alpha, gamma, epsilon, epsilon_decay, min_epsilon)
                 break
 
         episode_returns.append(episode_return)
-
         epsilon = max(min_epsilon, epsilon * epsilon_decay)
 
-        print(f"Episode {episode + 1}: Return = {episode_return}")
+        print(f"\nEpisode {episode + 1}: Return = {episode_return}")
         print("Trajectory =", trajectory)
+        print("initial profits = ",env.initial_profits)
+        print("Distance travelled =", episode_distance)
+        print("current profits =", env.current_profits)
+        
 
-    return episode_returns, q_table
+    return episode_returns, q_table, trajectory
 
 def plot_returns(returns):
     plt.plot(returns)
@@ -262,7 +267,7 @@ def main():
     epsilon_decay = 0.997
     min_epsilon = 0.00000001
 
-    returns, q_table = q_learning(env, episodes, alpha, gamma, epsilon, epsilon_decay, min_epsilon)
+    returns, q_table, trajectory = q_learning(env, episodes, alpha, gamma, epsilon, epsilon_decay, min_epsilon)
 
     print(f"Average return over {episodes} episodes: {np.mean(returns)}")
     plot_returns(returns)
