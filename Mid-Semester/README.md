@@ -1,19 +1,18 @@
-## Mid-Semester Examination
+# Mid-Semester Examination
 
-Name: Rohan Mehra
+Name: Rohan Mehra  
 Roll No: 21224
 
-### Answer: Modified TSP Problem
+## Answer: Modified TSP Problem
 
 Implementing SARSA (which used epsilon-greedy policy) to solve with decaying epsilon.
 
 **Learning Rate (α):** A higher learning rate speeds up learning but may lead to instability.  
-
-**Discount Factor (γ):** Increasing the discount factor encourages long-term rewards, while lowering it focuses on immediate gains.
-**Epsilon (ε):** High epsilon early encourages exploration; it decays over time for more exploitation.
+**Discount Factor (γ):** Increasing the discount factor encourages long-term rewards, while lowering it focuses on immediate gains.  
+**Epsilon (ε):** High epsilon early encourages exploration; it decays over time for more exploitation.  
 **Number of Episodes:** More episodes lead to a better-trained agent but require more computation time.
 
-##### Run 1
+### Run 1
 
 | Parameter                | Value                                     | 
 |--------------------------|-------------------------------------------|
@@ -27,7 +26,7 @@ Implementing SARSA (which used epsilon-greedy policy) to solve with decaying eps
 
 ![Path-TSP-Run-1](https://github.com/user-attachments/assets/6c9a8d0c-17f8-4319-90cc-8bfd894f1f89)
 
-##### Run 2
+### Run 2
 
 | Parameter                | Value                                     | 
 |--------------------------|-------------------------------------------|
