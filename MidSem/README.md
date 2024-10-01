@@ -28,8 +28,20 @@ where:
 - discount_factor: 0.99
 - number of episodes: 999
 
-### Observations
+### Observations -
 ![image](https://github.com/user-attachments/assets/52494c70-eb1c-4ab4-bc36-dacfbf36b72c)
 ![image](https://github.com/user-attachments/assets/f6ecd475-7056-4153-b919-1d66eb231275)
 
-  
+- Converges at reward 159.56.
+- Starting around episode 600, the agent consistently collects a total reward of approximately 159.56, indicating that the agent has converged to an optimal policy.
+- Converging to Positive reward means that the agent is not revisiting any target.
+- Initially the agent was having highly negative rewards. This was because the agent was initially exploring and learning, sometimes revisiting targets, which incurs heavy penalties.
+- There were few sporadic events resulting in negative reward which were due to revisiting targets, causing the penalty.
+
+### Conclusion - 
+Q-Learning worked better compared to other algorithms for the following reasons - 
+
+- Q-Learning is an off-policy algorithm, meaning it learns the optimal policy independently of the agent's current behavior. This is not the case for SARSA. 
+- Q-Learning is much simpler to implement and debug compared to DQN.
+- Q-Learning's tabular method is more than sufficient and avoids the extra complexity of training and tuning a neural network.
+- Q-Learning generally converges faster in small, discrete problems like TSP because there’s no need to tune complex neural network parameters.
