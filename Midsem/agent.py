@@ -77,6 +77,7 @@ class Agent:
 
     def action(self, state: np.ndarray, exploration_prob: float):
         visited_states = state[-10:]
+
         # print(visited_states)
         unvisited_states = [i for i, s in enumerate(visited_states) if s == 0]
 

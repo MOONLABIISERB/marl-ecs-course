@@ -3,7 +3,11 @@ Agamdeep Singh 20021
 
 ![Path](tsp.gif)
 
-### Average Profit: 266.87
+### Average Profit: 
+|Locations | Profits | Profit |
+|---------|-----------|-------|
+|Training Config| Shuffled (10 ep) | 336.82 |
+| Shuffled | Shuffled | 150-250 |
 
 ## Training
 ```
@@ -60,9 +64,9 @@ Deep Q-Network (DQN)
 ### Training
 | Hyperparameter | Value |
 |----------------|-------|
-| Number of Episodes | 10^5 |
+| Number of Episodes | 10^4 |
 | Max Steps per Episode | 10 |
-| Replay Memory Capacity | 10^5 |
+| Replay Memory Capacity | 10^4 |
 | Batch Size | 10^2 |
 | Min Epsilon | 0.01 |
 | Max Epsilon | 0.7 |
