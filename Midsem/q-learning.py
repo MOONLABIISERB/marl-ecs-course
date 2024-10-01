@@ -71,6 +71,14 @@ def main() -> None:
         writer.add_scalar('Reward/Episode', total_reward, ep)
         writer.add_scalar('Loss/Episode', np.mean(agent.td_errors), ep)
 
+    state, _ = env.reset()
+    done = False
+    while not done:
+        action = agent.choose_action(state)
+        next_state, reward, terminated, truncated, _ = env.step(action) 
+        print('action', action)
+        done = terminated or truncated
+        state = next_state
 
 if __name__ == "__main__":
     main()
