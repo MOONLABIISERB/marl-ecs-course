@@ -232,7 +232,7 @@ class QLearningAgent:
 def main() -> None:
     """Main function to run Q-learning agent in Modified TSP environment."""
     num_targets = 10
-    shuffle_time = 10
+    shuffle_time = 1000
     num_episodes = 9999
 
     env = ModTSP(num_targets, shuffle_time=shuffle_time)
@@ -271,7 +271,7 @@ def main() -> None:
 
     df = pd.DataFrame(data)
 
-    df.to_csv("Midsem/output.csv", index=False)
+    df.to_csv(f"Midsem/output_k_{shuffle_time}.csv", index=False)
 
 if __name__ == "__main__":
     main()
