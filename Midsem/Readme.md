@@ -65,7 +65,7 @@ python modified_tsp.py
 
 ## Testing
 ```
-python modified_tsp.py
+python test.py
 ```
 
 
