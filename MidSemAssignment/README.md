@@ -7,7 +7,8 @@
  ##### ----Algorithm Used: Q-learning Algorithm
  ##### ----The state consists of the current location and a binary vector indicating whether each target has been visited.
  
- ##### ----If simply current location as a state in the Q table then it would not be a Markov Decision Process. We need to include the previously visited states as part of the Q table. Therefore, the Q table is created as a dictionary where each key is a state-action pair, and the value is the Q-value (initialized to 0). So the total length of this dictionary is 102400.
+ ##### ----If simply current location as a state in the Q table then it would not be a Markov Decision Process. We need to include the previously visited states as part of the Q table. Therefore, the Q table is created as a dictionary where each key is a state-action pair, and the value is the Q-value (initialized to 0). So the total length of this dictionary is 102400.  
+ ##### An example state, action would be ([5, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0], 7). This indicates that current state is 5 and states 1 and 5 have been visited as indicated by the 1's. And the next action is 7.
  
  ##### ----get_max: Finds the maximum Q-value for a given state.
  
