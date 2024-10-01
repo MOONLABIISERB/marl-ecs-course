@@ -56,8 +56,4 @@ The table below shows the average return (cumulative distance) for various metho
 
 In this assignment, **Dynamic Programming** emerged as the clear winner for solving the Travelling Salesman Problem, thanks to its ability to evaluate all possible routes and find the shortest path. While **Monte Carlo** methods offer more scalability in theory, they struggled with this problem due to the large state space and the difficulty of exploration. 
 
-### Future Improvements:
-- **Enhancing Monte Carlo Exploration**: To improve the performance of Monte Carlo methods, one could explore strategies like adaptive epsilon or decaying epsilon schedules, which might help the agent better explore the environment and converge to more optimal policies.
-- **Scaling DP**: While DP works well for small instances of TSP, future work could focus on exploring heuristics or approximations to make DP scalable to larger problems, such as combining it with techniques like pruning or approximation algorithms.
-
 Overall, this experiment highlights the strengths and weaknesses of different approaches to solving combinatorial optimization problems like TSP and offers insights into when each method is best applied.
