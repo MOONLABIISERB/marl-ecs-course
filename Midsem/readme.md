@@ -13,9 +13,7 @@ where p(i) is the profit of the target and dist_so_far() is the distance travell
 We try to implement both Q-Learning and SARSA. However, Q-Learning did not converge and had high variance in rewards. On the other hand, SARSA converges for us, hence we use it for solving the modified TSP.
 
 ## Results
-Maximum Reward Attained: 190.90
-
-Convergence Reward: 64.48
+Maximum Reward Attained: 190.90 and Reward at Convergence: 64.48
 
 ## Plots
 Here are some visualizations of the rewards collected during training:
