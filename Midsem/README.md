@@ -30,3 +30,10 @@ To run the SARSA-based TSP agent, simply execute the `main()` function in the pr
 
 ## Results
 
+### Training Curve
+
+![plot](train_plot.png)
+
+Below is a sample plot showing the optimal policy for randomly generated points
+
+![plot](test_plot.png)
