@@ -1,4 +1,4 @@
-# Traveling Salesman Problem (TSP) RL Environment with SARSA Algorithm
+# MIDSEM - modified TSP
 
 This repository implements the Traveling Salesman Problem (TSP) as a reinforcement learning task using the SARSA algorithm within a custom Gymnasium environment. The agent's objective is to maximize profits by visiting targets (cities), while considering that profits decay over time based on travel distance.
 
