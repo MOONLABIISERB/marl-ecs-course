@@ -80,15 +80,16 @@ The following dictionary captures the cumulative rewards at intervals during the
 ```python
 {
     'Rewards after episode 0': 44.52,
-    'Rewards after episode 100': 191.48,
-    'Rewards after episode 200': 186.58,
-    'Rewards after episode 300': 199.22,
-    'Rewards after episode 400': 186.64,
-    'Rewards after episode 500': 135.70,
-    'Rewards after episode 600': 204.31,
-    'Rewards after episode 700': 186.58,
-    'Rewards after episode 800': 199.22,
-    'Rewards after episode 900': 204.31
+    'Rewards after episode 100': 154.25,
+    'Rewards after episode 200': 191.48,
+    'Rewards after episode 300': 186.58,
+    'Rewards after episode 400': 199.22,
+    'Rewards after episode 500': 186.64,
+    'Rewards after episode 600': 135.70,
+    'Rewards after episode 700': 204.31,
+    'Rewards after episode 800': 186.58,
+    'Rewards after episode 900': 199.22,
+    'Rewards after episode 1000': 204.31
 }
 ```
 
