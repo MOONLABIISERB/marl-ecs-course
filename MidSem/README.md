@@ -5,10 +5,14 @@
 
 ## Method Used: Q-Learning
 
+### Requirements
+~~~
+pip install requirements.txt
+~~~
 
 ###  Run Code
 ```
-python main.py
+python q_learning.py
 
 ```
 ### Results
