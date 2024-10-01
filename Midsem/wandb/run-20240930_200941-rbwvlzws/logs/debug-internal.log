@@ -1,0 +1,14 @@
+{"time":"2024-09-30T20:09:41.899746069+05:30","level":"INFO","msg":"using version","core version":"0.18.1"}
+{"time":"2024-09-30T20:09:41.899757888+05:30","level":"INFO","msg":"created symlink","path":"/home/protomate/marl-ecs-course/Midsem/wandb/run-20240930_200941-rbwvlzws/logs/debug-core.log"}
+{"time":"2024-09-30T20:09:41.8997885+05:30","level":"INFO","msg":"using version","core version":"0.18.1"}
+{"time":"2024-09-30T20:09:41.899791466+05:30","level":"INFO","msg":"created symlink","path":"/home/protomate/marl-ecs-course/Midsem/wandb/run-20240930_200941-rbwvlzws/logs/debug-core.log"}
+{"time":"2024-09-30T20:09:41.901334493+05:30","level":"INFO","msg":"created new stream","id":"rbwvlzws"}
+{"time":"2024-09-30T20:09:41.901368966+05:30","level":"INFO","msg":"stream: started","id":"rbwvlzws"}
+{"time":"2024-09-30T20:09:41.90140606+05:30","level":"INFO","msg":"handler: started","stream_id":{"value":"rbwvlzws"}}
+{"time":"2024-09-30T20:09:41.901470165+05:30","level":"INFO","msg":"sender: started","stream_id":{"value":"rbwvlzws"}}
+{"time":"2024-09-30T20:09:41.901454301+05:30","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"rbwvlzws"}}
+{"time":"2024-09-30T20:09:42.307914491+05:30","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-09-30T20:09:42.308456158+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-09-30T20:10:35.568133007+05:30","level":"INFO","msg":"stream: closing","id":"rbwvlzws"}
+{"time":"2024-09-30T20:10:35.568144103+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-09-30T20:10:35.568205042+05:30","level":"INFO","msg":"Stopped system monitor"}

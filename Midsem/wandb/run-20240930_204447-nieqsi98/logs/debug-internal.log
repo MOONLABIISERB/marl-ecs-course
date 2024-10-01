@@ -1,0 +1,14 @@
+{"time":"2024-09-30T20:44:47.902252526+05:30","level":"INFO","msg":"using version","core version":"0.18.1"}
+{"time":"2024-09-30T20:44:47.902280825+05:30","level":"INFO","msg":"created symlink","path":"/home/protomate/marl-ecs-course/Midsem/wandb/run-20240930_204447-nieqsi98/logs/debug-core.log"}
+{"time":"2024-09-30T20:44:47.902356711+05:30","level":"INFO","msg":"using version","core version":"0.18.1"}
+{"time":"2024-09-30T20:44:47.902365739+05:30","level":"INFO","msg":"created symlink","path":"/home/protomate/marl-ecs-course/Midsem/wandb/run-20240930_204447-nieqsi98/logs/debug-core.log"}
+{"time":"2024-09-30T20:44:47.904178356+05:30","level":"INFO","msg":"created new stream","id":"nieqsi98"}
+{"time":"2024-09-30T20:44:47.904191067+05:30","level":"INFO","msg":"stream: started","id":"nieqsi98"}
+{"time":"2024-09-30T20:44:47.904212771+05:30","level":"INFO","msg":"handler: started","stream_id":{"value":"nieqsi98"}}
+{"time":"2024-09-30T20:44:47.904198955+05:30","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"nieqsi98"}}
+{"time":"2024-09-30T20:44:47.90422939+05:30","level":"INFO","msg":"sender: started","stream_id":{"value":"nieqsi98"}}
+{"time":"2024-09-30T20:44:48.348205901+05:30","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-09-30T20:44:48.34867297+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-09-30T20:48:58.496687937+05:30","level":"INFO","msg":"stream: closing","id":"nieqsi98"}
+{"time":"2024-09-30T20:48:58.49670466+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-09-30T20:48:58.496765998+05:30","level":"INFO","msg":"Stopped system monitor"}

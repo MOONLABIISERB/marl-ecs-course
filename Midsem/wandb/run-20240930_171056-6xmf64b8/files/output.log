@@ -1,0 +1,27 @@
+9 [0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+3 [0. 0. 0. 0. 0. 0. 0. 0. 0. 1.]
+6 [0. 0. 0. 1. 0. 0. 0. 0. 0. 1.]
+7 [0. 0. 0. 1. 0. 0. 1. 0. 0. 1.]
+0 [0. 0. 0. 1. 0. 0. 1. 1. 0. 1.]
+7 [1. 0. 0. 1. 0. 0. 1. 1. 0. 1.]
+5 tensor([[  0.0000, -37.0550,   2.9450,  -7.0550,  32.9450, -47.0550,  22.9450,
+          12.9450, -17.0550, -27.0550,  42.9450,   0.0000,   7.5257,  12.3632,
+           4.9133,   4.9797,   5.3171,  13.0325,  11.8671,   6.4758,   9.9297,
+           5.6181,  14.2607,  10.9799,   8.9799,   2.3403,   2.3399,   0.8713,
+          12.9926,   9.0167,  10.6211,   0.3088,  14.5486,  12.4866,   3.1851,
+           2.7274,   2.7511,   4.5636,   7.8713,   6.4792,   4.3684,   1.0000,
+           0.0000,   0.0000,   1.0000,   0.0000,   0.0000,   1.0000,   1.0000,
+           0.0000,   1.0000]], device='cuda:0')
+Traceback (most recent call last):
+  File "/home/protomate/marl-ecs-course/Midsem/modified_tsp.py", line 96, in <module>
+    main()
+  File "/home/protomate/marl-ecs-course/Midsem/modified_tsp.py", line 48, in main
+    action = agent.action(obs, exploration_prob=epsilon)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/protomate/marl-ecs-course/Midsem/agent.py", line 88, in action
+    action = self.action(state, exploration_prob)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/protomate/marl-ecs-course/Midsem/agent.py", line 87, in action
+    if visited_states[action] == 1:
+       ~~~~~~~~~~~~~~^^^^^^^^
+IndexError: index 5 is out of bounds for dimension 0 with size 1

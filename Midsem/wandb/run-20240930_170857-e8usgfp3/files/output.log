@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/home/protomate/marl-ecs-course/Midsem/modified_tsp.py", line 96, in <module>
+    main()
+  File "/home/protomate/marl-ecs-course/Midsem/modified_tsp.py", line 48, in main
+    action = agent.action(obs, exploration_prob=epsilon)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/protomate/marl-ecs-course/Midsem/agent.py", line 86, in action
+    if visited_states[action] == 1:
+       ~~~~~~~~~~~~~~^^^^^^^^
+IndexError: invalid index to scalar variable.

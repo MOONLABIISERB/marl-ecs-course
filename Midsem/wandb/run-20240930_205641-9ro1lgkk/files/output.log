@@ -1,0 +1,38 @@
+Episode 0, Avg Reward: -3.33, Total Reward: -30.00, Profit: -30.00, Distance: 84.89
+Episode 100, Avg Reward: 39.25, Total Reward: 353.22, Profit: 353.22, Distance: 38.87
+Episode 200, Avg Reward: 30.27, Total Reward: 272.41, Profit: 272.41, Distance: 51.94
+Episode 300, Avg Reward: 20.63, Total Reward: 185.69, Profit: 185.69, Distance: 66.32
+Episode 400, Avg Reward: 33.79, Total Reward: 304.15, Profit: 304.15, Distance: 47.25
+Episode 500, Avg Reward: 13.27, Total Reward: 119.46, Profit: 119.46, Distance: 73.66
+Episode 600, Avg Reward: 33.00, Total Reward: 297.02, Profit: 297.02, Distance: 58.17
+Episode 700, Avg Reward: 36.85, Total Reward: 331.69, Profit: 331.69, Distance: 40.32
+Episode 800, Avg Reward: 22.13, Total Reward: 199.21, Profit: 199.21, Distance: 62.67
+Episode 900, Avg Reward: 37.18, Total Reward: 334.60, Profit: 334.60, Distance: 44.17
+Episode 1000, Avg Reward: 38.93, Total Reward: 350.40, Profit: 350.40, Distance: 41.82
+Episode 1100, Avg Reward: 11.53, Total Reward: 103.76, Profit: 103.76, Distance: 74.87
+Episode 1200, Avg Reward: 32.94, Total Reward: 296.43, Profit: 296.43, Distance: 48.74
+Episode 1300, Avg Reward: 41.43, Total Reward: 372.87, Profit: 372.87, Distance: 34.10
+Episode 1400, Avg Reward: 28.94, Total Reward: 260.46, Profit: 260.46, Distance: 56.04
+Episode 1500, Avg Reward: 33.69, Total Reward: 303.24, Profit: 303.24, Distance: 42.88
+Episode 1600, Avg Reward: 41.43, Total Reward: 372.87, Profit: 372.87, Distance: 34.10
+Episode 1700, Avg Reward: 29.95, Total Reward: 269.53, Profit: 269.53, Distance: 55.45
+Episode 1800, Avg Reward: 32.27, Total Reward: 290.47, Profit: 290.47, Distance: 46.86
+Episode 1900, Avg Reward: 31.66, Total Reward: 284.98, Profit: 284.98, Distance: 55.44
+Episode 2000, Avg Reward: 39.84, Total Reward: 358.60, Profit: 358.60, Distance: 40.40
+Episode 2100, Avg Reward: 30.15, Total Reward: 271.35, Profit: 271.35, Distance: 54.09
+Episode 2200, Avg Reward: 21.55, Total Reward: 193.97, Profit: 193.97, Distance: 65.81
+Traceback (most recent call last):
+  File "/home/protomate/marl-ecs-course/Midsem/modified_tsp.py", line 148, in <module>
+  File "/home/protomate/marl-ecs-course/Midsem/modified_tsp.py", line 66, in main
+    loss = agent.learn_from_memory(batch_size=batchSize)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/protomate/marl-ecs-course/Midsem/agent.py", line 125, in learn_from_memory
+    loss.backward()
+  File "/home/protomate/.pyenv/versions/3.12.4/lib/python3.12/site-packages/torch/_tensor.py", line 521, in backward
+    torch.autograd.backward(
+  File "/home/protomate/.pyenv/versions/3.12.4/lib/python3.12/site-packages/torch/autograd/__init__.py", line 289, in backward
+    _engine_run_backward(
+  File "/home/protomate/.pyenv/versions/3.12.4/lib/python3.12/site-packages/torch/autograd/graph.py", line 769, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

@@ -1,0 +1,19 @@
+[  0.         30.         50.         80.         40.         90.
+  60.        100.         20.         10.         70.          0.
+   7.5257034  12.363232    4.913305    4.9797106   5.317136   13.032512
+  11.867109    6.4757957   9.929682    5.6181016  14.260715   10.979909
+   8.979877    2.3402796   2.339918    0.8712542  12.992642    9.016726
+  10.621089    0.3087674  14.548648   12.48664     3.1850867   2.7273746
+   2.7510676   4.5636334   7.8713465   6.479175    4.3684373   0.
+   0.          0.          0.          0.          0.          0.
+   0.          0.          0.       ]
+Traceback (most recent call last):
+  File "/home/protomate/marl-ecs-course/Midsem/modified_tsp.py", line 96, in <module>
+    main()
+  File "/home/protomate/marl-ecs-course/Midsem/modified_tsp.py", line 48, in main
+    action = agent.action(obs, exploration_prob=epsilon)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/protomate/marl-ecs-course/Midsem/agent.py", line 87, in action
+    if visited_states[action] == 1:
+       ~~~~~~~~~~~~~~^^^^^^^^
+IndexError: invalid index to scalar variable.

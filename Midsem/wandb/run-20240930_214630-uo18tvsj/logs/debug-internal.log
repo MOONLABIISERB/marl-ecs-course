@@ -1,0 +1,20 @@
+{"time":"2024-09-30T21:46:30.777683101+05:30","level":"INFO","msg":"using version","core version":"0.18.1"}
+{"time":"2024-09-30T21:46:30.777694505+05:30","level":"INFO","msg":"created symlink","path":"/home/protomate/marl-ecs-course/Midsem/wandb/run-20240930_214630-uo18tvsj/logs/debug-core.log"}
+{"time":"2024-09-30T21:46:30.777727008+05:30","level":"INFO","msg":"using version","core version":"0.18.1"}
+{"time":"2024-09-30T21:46:30.77773024+05:30","level":"INFO","msg":"created symlink","path":"/home/protomate/marl-ecs-course/Midsem/wandb/run-20240930_214630-uo18tvsj/logs/debug-core.log"}
+{"time":"2024-09-30T21:46:30.778725529+05:30","level":"INFO","msg":"created new stream","id":"uo18tvsj"}
+{"time":"2024-09-30T21:46:30.778735206+05:30","level":"INFO","msg":"stream: started","id":"uo18tvsj"}
+{"time":"2024-09-30T21:46:30.778746135+05:30","level":"INFO","msg":"handler: started","stream_id":{"value":"uo18tvsj"}}
+{"time":"2024-09-30T21:46:30.778742653+05:30","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"uo18tvsj"}}
+{"time":"2024-09-30T21:46:30.778744912+05:30","level":"INFO","msg":"sender: started","stream_id":{"value":"uo18tvsj"}}
+{"time":"2024-09-30T21:46:30.89689398+05:30","level":"INFO","msg":"stream: closing","id":"uo18tvsj"}
+{"time":"2024-09-30T21:46:31.55574164+05:30","level":"WARN","msg":"No requirements.txt found, not creating job artifact. See https://docs.wandb.ai/guides/launch/create-job"}
+{"time":"2024-09-30T21:46:31.555769714+05:30","level":"INFO","msg":"sender: sendDefer: no job artifact to save"}
+{"time":"2024-09-30T21:46:31.600367867+05:30","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2024-09-30T21:46:31.600449615+05:30","level":"ERROR","msg":"runfiles: CreateRunFiles returned error: returned error 404 Not Found: {\"errors\":[{\"message\":\"project /marl not found during createRunFiles\",\"path\":[\"createRunFiles\"]}],\"data\":{\"createRunFiles\":null}}"}
+{"time":"2024-09-30T21:46:31.893090203+05:30","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2024-09-30T21:46:31.89317816+05:30","level":"ERROR","msg":"runfiles: CreateRunFiles returned error: returned error 404 Not Found: {\"errors\":[{\"message\":\"project /marl not found during createRunFiles\",\"path\":[\"createRunFiles\"]}],\"data\":{\"createRunFiles\":null}}"}
+{"time":"2024-09-30T21:46:31.893350598+05:30","level":"INFO","msg":"handler: closed","stream_id":{"value":"uo18tvsj"}}
+{"time":"2024-09-30T21:46:31.893377124+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"uo18tvsj"}}
+{"time":"2024-09-30T21:46:31.893416548+05:30","level":"INFO","msg":"sender: closed","stream_id":{"value":"uo18tvsj"}}
+{"time":"2024-09-30T21:46:31.893488994+05:30","level":"INFO","msg":"stream: closed","id":"uo18tvsj"}

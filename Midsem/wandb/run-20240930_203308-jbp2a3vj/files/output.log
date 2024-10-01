@@ -1,0 +1,22 @@
+Episode 0, Avg Reward: 5.61, Total Reward: 50.52, Average Profit: 5.61, Average Distance: 9.37
+Episode 100, Avg Reward: 25.10, Total Reward: 225.92, Average Profit: 25.10, Average Distance: 6.52
+Episode 200, Avg Reward: 12.45, Total Reward: 112.04, Average Profit: 12.45, Average Distance: 9.26
+Episode 300, Avg Reward: 19.28, Total Reward: 173.52, Average Profit: 19.28, Average Distance: 7.11
+Episode 400, Avg Reward: 32.52, Total Reward: 292.67, Average Profit: 32.52, Average Distance: 5.71
+Episode 500, Avg Reward: 30.45, Total Reward: 274.03, Average Profit: 30.45, Average Distance: 6.42
+Episode 600, Avg Reward: 25.66, Total Reward: 230.92, Average Profit: 25.66, Average Distance: 7.39
+Traceback (most recent call last):
+  File "/home/protomate/marl-ecs-course/Midsem/modified_tsp.py", line 135, in <module>
+    main()
+  File "/home/protomate/marl-ecs-course/Midsem/modified_tsp.py", line 63, in main
+    loss = agent.learn_from_memory(batch_size=batchSize)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/protomate/marl-ecs-course/Midsem/agent.py", line 126, in learn_from_memory
+    torch.nn.utils.clip_grad_norm_(self.knowledge.parameters(), max_norm=1.0)
+  File "/home/protomate/.pyenv/versions/3.12.4/lib/python3.12/site-packages/torch/nn/utils/clip_grad.py", line 21, in _no_grad_wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/protomate/.pyenv/versions/3.12.4/lib/python3.12/site-packages/torch/nn/utils/clip_grad.py", line 86, in clip_grad_norm_
+    clip_coef_clamped = torch.clamp(clip_coef, max=1.0)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

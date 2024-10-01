@@ -1,0 +1,10 @@
+Episode 0, Avg Reward: -3316.53, Total Reward: -29848.79, Average Profit: 14.66, Average Distance: 9.00
+Episode 100, Avg Reward: -2206.52, Total Reward: -19858.67, Average Profit: 14.88, Average Distance: 8.32
+Episode 200, Avg Reward: -4423.43, Total Reward: -39810.87, Average Profit: 39.02, Average Distance: 6.39
+Episode 300, Avg Reward: -4429.57, Total Reward: -39866.16, Average Profit: 6.70, Average Distance: 8.27
+Traceback (most recent call last):
+  File "/home/protomate/marl-ecs-course/Midsem/modified_tsp.py", line 135, in <module>
+    main()
+  File "/home/protomate/marl-ecs-course/Midsem/modified_tsp.py", line 71, in main
+    episode_distances.append(info["distance_travelled"])
+KeyboardInterrupt

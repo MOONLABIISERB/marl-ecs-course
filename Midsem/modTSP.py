@@ -30,7 +30,7 @@ class ModTSP(gym.Env):
         """
         super().__init__()
 
-        np.random.seed(seed)
+        # np.random.seed(seed)
 
         self.total_distance = 0
 
@@ -96,6 +96,7 @@ class ModTSP(gym.Env):
 
         self.loc: int = 0
         self.visited_targets = np.zeros(self.num_targets, dtype=np.float32)
+        # self.visited_targets[self.loc] = 1
         self.current_profits = self.initial_profits.copy()
 
         self.dist: List = self.distances[self.loc]
@@ -198,3 +199,49 @@ class ModTSP(gym.Env):
         """
         reward = self.current_profits[next_loc] if not self.visited_targets[next_loc] else -1e4
         return float(reward)
+
+    def calculate_soft_upper_max_profit(self) -> float:
+        """
+        Calculate a soft upper maximum on the profit achievable in an episode.
+        This is an optimistic estimate based on the initial configuration.
+        """
+        # Sort profits in descending order
+        sorted_profits = np.sort(self.initial_profits)[::-1]
+
+        # Calculate the minimum spanning tree (MST) distance as a lower bound for travel
+        mst_distance = self._calculate_mst_distance()
+
+        # Estimate maximum achievable profit
+        max_profit = 0
+        remaining_distance = self.max_steps * np.mean(self.distances)  # Assume average distance per step
+
+        for profit in sorted_profits:
+            if remaining_distance > 0:
+                max_profit += max(0, profit - mst_distance / self.num_targets)
+                remaining_distance -= np.mean(self.distances)
+            else:
+                break
+
+        return max_profit
+
+    def _calculate_mst_distance(self) -> float:
+        """
+        Calculate the minimum spanning tree distance using Prim's algorithm.
+        This provides a lower bound on the distance required to visit all targets.
+        """
+        n = len(self.locations)
+        visited = [False] * n
+        min_distances = [float("inf")] * n
+        min_distances[0] = 0
+        mst_distance = 0
+
+        for _ in range(n):
+            v = min((d, i) for i, d in enumerate(min_distances) if not visited[i])[1]
+            visited[v] = True
+            mst_distance += min_distances[v]
+
+            for u in range(n):
+                if not visited[u]:
+                    min_distances[u] = min(min_distances[u], self.distances[v][u])
+
+        return mst_distance
