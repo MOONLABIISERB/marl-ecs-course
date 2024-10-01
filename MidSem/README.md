@@ -29,8 +29,6 @@ where:
 - number of episodes: 999
 
 ### Observations -
-![image](https://github.com/user-attachments/assets/52494c70-eb1c-4ab4-bc36-dacfbf36b72c)
-![image](https://github.com/user-attachments/assets/f6ecd475-7056-4153-b919-1d66eb231275)
 
 | Episode   | Reward                |
 |-----------|-----------------------|
@@ -43,6 +41,10 @@ where:
 | 700 / 999 | 159.57                |
 | 800 / 999 | 159.57                |
 | 900 / 999 | 159.57                |
+
+
+![image](https://github.com/user-attachments/assets/52494c70-eb1c-4ab4-bc36-dacfbf36b72c)
+![image](https://github.com/user-attachments/assets/f6ecd475-7056-4153-b919-1d66eb231275)
 
 
 - Converges at reward 159.56.
