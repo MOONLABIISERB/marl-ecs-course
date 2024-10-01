@@ -7,11 +7,11 @@ Agamdeep Singh 20021
 
 ## Inference Testing
 ```
-python modified_tsp.py --mode test
+python modified_tsp.py --mode train --model save_path.pth
 ```
 ## Training
 ```
-python modified_tsp.py
+python modified_tsp.py --mode test --model model_path.pth
 ```
 
 Requirements:
@@ -68,6 +68,7 @@ Deep Q-Network (DQN)
 | Epsilon Decay Rate | 0.0005 |
 | Target Network Update Frequency | Every 30 episodes |
 
+**Best results** : Early stopping at 15k episodes.
 
 ### Environment
 | Hyperparameter | Value |
@@ -81,23 +82,34 @@ Deep Q-Network (DQN)
 
 ## Results
 
+### Best (Early stopping - 15k steps)
+![Distance](plots/profit_15k.png)
+
+![Distance](plots/distance_15k.png)
+
+![Distance](plots/loss_15k.png)
+
+
+---
+### Long 
+Average Distance PER STEP
+
 ![Distance](plots/dist.png)
 
+Average loss PER STEP
 ![Distance](plots/loss.png)
 
+Average reward PER STEP
 ![Distance](plots/reward.png)
 
 ### Discussion of Results
-- **Average distance** per episode went down as training proceeding, this is a good thing as shorter paths weakly correalte to profit maximisation. This is due to the fact that longer path will allow profits to decay more.
+- **Distance** per episode went down as training proceeding, this is a good thing as shorter paths weakly correalte to profit maximisation. This is due to the fact that longer path will allow profits to decay more.
 
-- **Loss** The picture says everything that needs to be said.
+- **Loss** Loss Has started to converge`
 
-- **Episode Reward** 
+- **Episode Profit** 
     - The reward has actually gone up to be positive, which is amazing. 
     - This is amazing because that the agent is able to visit all cities before the profit decays enough to become negative.
-    - Positive rewards also mean the agent is not revisting nodes, as that has a huge negative reard.
-    - The ocasional dip in reward to -10000 is because the model still has a 0.01 probability to choose a random city. The probability of the random city being one that has already been visited is non-zero. Leading to -10000 reward.
-
-- Other thoughts
-    - You can easily decrease the number of episodes by an oorder of a magintue. The model convered a lot earlier.
+    - Model is effectively estimating Q values
+    
 

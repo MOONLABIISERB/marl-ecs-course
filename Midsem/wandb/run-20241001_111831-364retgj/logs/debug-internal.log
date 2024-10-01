@@ -1,0 +1,18 @@
+{"time":"2024-10-01T11:18:31.10764978+05:30","level":"INFO","msg":"using version","core version":"0.18.1"}
+{"time":"2024-10-01T11:18:31.107679589+05:30","level":"INFO","msg":"created symlink","path":"/home/protomate/marl-ecs-course/Midsem/wandb/run-20241001_111831-364retgj/logs/debug-core.log"}
+{"time":"2024-10-01T11:18:31.107760579+05:30","level":"INFO","msg":"using version","core version":"0.18.1"}
+{"time":"2024-10-01T11:18:31.107768776+05:30","level":"INFO","msg":"created symlink","path":"/home/protomate/marl-ecs-course/Midsem/wandb/run-20241001_111831-364retgj/logs/debug-core.log"}
+{"time":"2024-10-01T11:18:31.111023346+05:30","level":"INFO","msg":"created new stream","id":"364retgj"}
+{"time":"2024-10-01T11:18:31.111067097+05:30","level":"INFO","msg":"stream: started","id":"364retgj"}
+{"time":"2024-10-01T11:18:31.111107794+05:30","level":"INFO","msg":"handler: started","stream_id":{"value":"364retgj"}}
+{"time":"2024-10-01T11:18:31.111151221+05:30","level":"INFO","msg":"sender: started","stream_id":{"value":"364retgj"}}
+{"time":"2024-10-01T11:18:31.111166658+05:30","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"364retgj"}}
+{"time":"2024-10-01T11:18:31.565554198+05:30","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-01T11:18:31.566068497+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-01T11:20:58.080904566+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-01T11:20:58.080977062+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-01T11:21:04.933229241+05:30","level":"INFO","msg":"stream: closing","id":"364retgj"}
+{"time":"2024-10-01T11:21:04.933285746+05:30","level":"INFO","msg":"handler: closed","stream_id":{"value":"364retgj"}}
+{"time":"2024-10-01T11:21:04.933504796+05:30","level":"INFO","msg":"sender: closed","stream_id":{"value":"364retgj"}}
+{"time":"2024-10-01T11:21:04.933466654+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"364retgj"}}
+{"time":"2024-10-01T11:21:04.933701471+05:30","level":"INFO","msg":"stream: closed","id":"364retgj"}

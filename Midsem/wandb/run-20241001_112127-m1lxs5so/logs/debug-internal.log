@@ -1,0 +1,18 @@
+{"time":"2024-10-01T11:21:27.502565347+05:30","level":"INFO","msg":"using version","core version":"0.18.1"}
+{"time":"2024-10-01T11:21:27.502576478+05:30","level":"INFO","msg":"created symlink","path":"/home/protomate/marl-ecs-course/Midsem/wandb/run-20241001_112127-m1lxs5so/logs/debug-core.log"}
+{"time":"2024-10-01T11:21:27.502607489+05:30","level":"INFO","msg":"using version","core version":"0.18.1"}
+{"time":"2024-10-01T11:21:27.502610473+05:30","level":"INFO","msg":"created symlink","path":"/home/protomate/marl-ecs-course/Midsem/wandb/run-20241001_112127-m1lxs5so/logs/debug-core.log"}
+{"time":"2024-10-01T11:21:27.503785562+05:30","level":"INFO","msg":"created new stream","id":"m1lxs5so"}
+{"time":"2024-10-01T11:21:27.50379847+05:30","level":"INFO","msg":"stream: started","id":"m1lxs5so"}
+{"time":"2024-10-01T11:21:27.503808694+05:30","level":"INFO","msg":"handler: started","stream_id":{"value":"m1lxs5so"}}
+{"time":"2024-10-01T11:21:27.503819618+05:30","level":"INFO","msg":"sender: started","stream_id":{"value":"m1lxs5so"}}
+{"time":"2024-10-01T11:21:27.503801753+05:30","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"m1lxs5so"}}
+{"time":"2024-10-01T11:21:27.894824039+05:30","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-01T11:21:27.89527337+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-01T11:34:20.369375466+05:30","level":"INFO","msg":"stream: closing","id":"m1lxs5so"}
+{"time":"2024-10-01T11:34:20.369393966+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-01T11:34:20.369667458+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-01T11:34:23.534836493+05:30","level":"INFO","msg":"handler: closed","stream_id":{"value":"m1lxs5so"}}
+{"time":"2024-10-01T11:34:23.534921836+05:30","level":"INFO","msg":"sender: closed","stream_id":{"value":"m1lxs5so"}}
+{"time":"2024-10-01T11:34:23.53488355+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"m1lxs5so"}}
+{"time":"2024-10-01T11:34:23.535115213+05:30","level":"INFO","msg":"stream: closed","id":"m1lxs5so"}

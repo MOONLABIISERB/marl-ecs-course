@@ -24,17 +24,17 @@ def get_epsilon(episode, min_epsilon=0.01, max_epsilon=0.7, decay_rate=0.0005):
     return min_epsilon + (max_epsilon - min_epsilon) * np.exp(-decay_rate * episode)
 
 
-def main() -> None:
+def main(save_path) -> None:
     """Main function."""
     num_targets = 10
-    num_episodes = 10**4
+    num_episodes = 15000
     max_steps_per_episode = num_targets
 
     env = ModTSP(num_targets)
     obs, _ = env.reset()
     ep_rets = []
 
-    agent = Agent(10**4, env.observation_space.shape[0], env.action_space.n, 0.99)
+    agent = Agent(10**5, env.observation_space.shape[0], env.action_space.n, 0.99)
     batchSize = 256
 
     for ep in range(num_episodes):
@@ -44,6 +44,7 @@ def main() -> None:
         obs, _ = env.reset()
         soft_upper_max_profit = env.calculate_soft_upper_max_profit()
         # print(f"Episode {ep}, Soft Upper Max Profit: {soft_upper_max_profit:.2f}")
+        actions = []
 
         epsilon = get_epsilon(ep)
         n = 0
@@ -56,6 +57,7 @@ def main() -> None:
         for _ in range(max_steps_per_episode):
             # action = env.action_space.sample()  # You need to replace this with your algorithm that predicts the action.
             action = agent.action(obs, exploration_prob=epsilon)
+            actions.append(action)
             obs_, reward, terminated, truncated, info = env.step(action)
             done = terminated or truncated
             ret += reward
@@ -102,13 +104,14 @@ def main() -> None:
                 f"Distance: {np.sum(episode_distances):.2f}",
                 f"Loss: {avg_loss:.2f}",
                 f"Initial Profits: {env.initial_profits}",
+                f"actions: {actions}",
                 # f"Current profits {info["current_profits"]}",
             )
         ep_rets.append(ret)
         env.episodes += 1
 
     print(np.mean(ep_rets))
-    agent.save_model("model.pth")
+    agent.save_model(save_path)
     wandb.finish()
 
 
@@ -116,10 +119,11 @@ if __name__ == "__main__":
     # add argparse for train or test
     parser = argparse.ArgumentParser(description="Train or test the model.")
     parser.add_argument("--mode", choices=["train", "test"], help="Mode to run: train or test")
+    parser.add_argument("--model", type=str, help="Path to the model")
     args = parser.parse_args()
 
     if args.mode == "test":
-        run_inference("model.pth")
+        run_inference(model_path=args.model)
         exit()
 
     elif args.mode != "train":
@@ -129,7 +133,7 @@ if __name__ == "__main__":
     # Initialize wandb
     wandb.init(project="marl", name="mtsp_final")
 
-    main()
+    main(args.model)
 
     wandb.finish()
 

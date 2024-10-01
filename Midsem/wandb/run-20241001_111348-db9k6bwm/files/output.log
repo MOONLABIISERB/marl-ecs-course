@@ -1,0 +1,20 @@
+Episode 0,  Reward: 48.18, Profit: 129.33, Distance: 75.47 Loss: 1000.00 Initial Profits: [ 10.  20.  30.  40.  50.  60.  70.  80.  90. 100.] actions: [1, 7, 4, 2, 8, 5, 6, 9, 3, 0]
+Episode 100,  Reward: 112.42, Profit: 175.61, Distance: 69.80 Loss: 0.93 Initial Profits: [ 60.  40.  20.  90.  30.  70.  50.  80.  10. 100.] actions: [0, 8, 1, 9, 7, 4, 3, 6, 5, 2]
+Episode 200,  Reward: 92.42, Profit: 154.55, Distance: 78.57 Loss: 1.14 Initial Profits: [ 80.  60.  30.  90.  40. 100.  70.  50.  20.  10.] actions: [1, 8, 4, 3, 5, 6, 9, 0, 7, 2]
+Episode 300,  Reward: 47.86, Profit: 99.59, Distance: 83.67 Loss: 1.45 Initial Profits: [ 80.  20.  60.  90.  50. 100.  30.  10.  70.  40.] actions: [5, 3, 2, 6, 7, 4, 8, 0, 1, 9]
+Traceback (most recent call last):
+  File "/home/protomate/marl-ecs-course/Midsem/modified_tsp.py", line 136, in <module>
+    main(args.out)
+  File "/home/protomate/marl-ecs-course/Midsem/modified_tsp.py", line 72, in main
+    loss = agent.learn_from_memory(batch_size=batchSize)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/protomate/marl-ecs-course/Midsem/agent.py", line 106, in learn_from_memory
+    transitions = self.memory.sample(batch_size)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/protomate/marl-ecs-course/Midsem/agent.py", line 25, in sample
+    return random.sample(self.memory, batch_size)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/protomate/.pyenv/versions/3.12.4/lib/python3.12/random.py", line 444, in sample
+    selected = set()
+               ^^^^^
+KeyboardInterrupt
