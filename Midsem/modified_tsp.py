@@ -217,7 +217,9 @@ def plot_graph(cumulative_rewards, episode_rewards, n_episodes):
     plt.ylabel('Cumulative Reward')
     plt.grid()
     plt.legend()
+    plt.savefig("output.jpg")
     plt.show()
+    
 
 def main() -> None:
     """Main function."""
@@ -233,11 +235,11 @@ def main() -> None:
     ep_rets = [] #episodic rewards lsit
     cum = [] #cumilative rewards list
     
-    n_episodes = int(4e5) #number of episodes
+    n_episodes = int(2e1) #number of episodes
     
-    alpha = 0.001 #laerning rate
+    alpha = 0.0001 #laerning rate
     gamma = 0.9 #penalty
-    decay = 1.0001 #decay function
+    decay = 1.01 #decay function
     epsilon = 0.9 # espsilon for spsilon greedy policy
     threshold  = 4e4 #converging threshold for episodic reward value
     
@@ -247,7 +249,7 @@ def main() -> None:
        
        
         state = int(obs[0][0])  # You need to extract the current state from the observation.
-        epsilon = epsilon**(decay**(ep/5000)) # decaying epsilon value for more exploration in start and less in end
+        epsilon = epsilon**(decay**(ep/1000)) # decaying epsilon value for more exploration in start and less in end
     
         for _ in range(100):              
             
