@@ -34,7 +34,7 @@ python q_learning.py
 
 
 
-### Hyperparameter Comparison
+### Models Performance on various Hypreparameters
 
 - Run Code
 ```
