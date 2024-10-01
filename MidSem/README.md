@@ -12,5 +12,24 @@ where:
   - γ is the discount factor (0 ≤ γ ≤ 1).
   - r is the reward received after taking action a from state s.
   - max(Q(s', a')) is the maximum expected future reward from the next state s'..
-The agent balances exploration (trying new actions) and exploitation (choosing the best-known action) using strategies like epsilon-greedy.
-Converges to the optimal policy as long as every state-action pair is visited infinitely often and learning parameters are properly tuned
+- The agent balances exploration (trying new actions) and exploitation (choosing the best-known action) using strategies like epsilon-greedy.
+- Converges to the optimal policy as long as every state-action pair is visited infinitely often and learning parameters are properly tuned
+
+---
+### Hyperparameters Used - 
+**Environment (ModTSP)**
+- num_targets: 10 (Number of targets the agent needs to visit)
+- max_area: 15
+- shuffle_time: 50 (Number of episodes after which profits are shuffled)
+- seed: 42
+
+**Q-Learning Agent (QAgent)**
+- learning_rate: 0.1
+- discount_factor: 0.99
+- number of episodes: 999
+
+### Observations
+![image](https://github.com/user-attachments/assets/52494c70-eb1c-4ab4-bc36-dacfbf36b72c)
+![image](https://github.com/user-attachments/assets/f6ecd475-7056-4153-b919-1d66eb231275)
+
+  
