@@ -7,10 +7,10 @@ Roll No: 21224
 
 Implementing SARSA (which used epsilon-greedy policy) to solve with decaying epsilon.
 
-**Learning Rate (α):** A higher learning rate speeds up learning but may lead to instability.  
-**Discount Factor (γ):** Increasing the discount factor encourages long-term rewards, while lowering it focuses on immediate gains.  
-**Epsilon (ε):** High epsilon early encourages exploration; it decays over time for more exploitation.  
-**Number of Episodes:** More episodes lead to a better-trained agent but require more computation time.
++ **Learning Rate (α):** A higher learning rate speeds up learning but may lead to instability.  
++ **Discount Factor (γ):** Increasing the discount factor encourages long-term rewards, while lowering it focuses on immediate gains.  
++ **Epsilon (ε):** High epsilon early encourages exploration; it decays over time for more exploitation.  
++ **Number of Episodes:** More episodes lead to a better-trained agent but require more computation time.
 
 ### Run 1
 
@@ -22,7 +22,7 @@ Implementing SARSA (which used epsilon-greedy policy) to solve with decaying eps
 | Epsilon Decay Rate       | epsilon = max(0.00005, epsilon * 0.9999)  | 
 | Number of Episodes       | 10000                                     | 
 
-![Graph-TSP-SARSA](https://github.com/user-attachments/assets/619c2ffd-79be-49dd-821d-b1bd958ae6a2)
+<img src="https://github.com/user-attachments/assets/619c2ffd-79be-49dd-821d-b1bd958ae6a2" alt="Graph-TSP-SARSA" width="500"/>
 
 ![Path-TSP-Run-1](https://github.com/user-attachments/assets/6c9a8d0c-17f8-4319-90cc-8bfd894f1f89)
 
