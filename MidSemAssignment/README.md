@@ -4,8 +4,8 @@
 
 
 ## train.py explaination
-#### ----The state consists of the current location and a binary vector indicating whether each target has been visited.
-#### ----If simply current location as a state in the Q table then it would not be a Markov Decision Process. We need to include the previously visited states as part of the Q table. Therefore, the Q table is created as a dictionary where each key is a state-action pair, and the value is the Q-value (initialized to 0). So the total length of this dictionary is 102400.
+ ----The state consists of the current location and a binary vector indicating whether each target has been visited.
+ ----If simply current location as a state in the Q table then it would not be a Markov Decision Process. We need to include the previously visited states as part of the Q table. Therefore, the Q table is created as a dictionary where each key is a state-action pair, and the value is the Q-value (initialized to 0). So the total length of this dictionary is 102400.
 #### ----get_max: Finds the maximum Q-value for a given state.
 #### ----best_action: Returns the action with the highest Q-value for a given state.
 #### ----epsilon_greedy: Implements the epsilon-greedy policy where the agent either explores a random action (with probability epsilon) or exploits the best-known action.
