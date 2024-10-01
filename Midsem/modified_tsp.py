@@ -204,6 +204,19 @@ def epsilon_greedy(Q, state, epsilon):
     else:
         return random.randint(0, 9)  # You need to replace this with your algorithm that randomly selects an action.
 
+def path (Q, state):
+    visited_states = []
+    for i in range(10) :
+        next_state = np.argmax(Q[state])
+        
+        visited_states.append(next_state)
+        state = next_state
+    
+    visited_states = np.array(visited_states, dtype=int)
+    # print(visited_states)
+    
+    return visited_states
+
 def plot_graph(cumulative_rewards, episode_rewards, n_episodes):
     episodes = np.arange(1, len(cumulative_rewards)+1)  # 100 episodes
     
@@ -293,6 +306,9 @@ def main() -> None:
 
     print(f"Converged at Episode : {ep} with reward value : {converged_value}")
     #  Plots episodic and cumilative rewards at each episode 
+    paths = path(Q, 0)
+    print(f"path travelled : {paths}")
+    
     plot_graph(cum, ep_rets, n_episodes)
     
 
