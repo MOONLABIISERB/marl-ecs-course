@@ -5,14 +5,14 @@ import matplotlib.animation as animation
 
 
 class AgentQLearner:
-    def __init__(self, action_count, lr=0.1, discount=0.99):
+    def __init__(self, action_count, lr=0.001, discount=0.99):
         """Initialize the Q-learning agent."""
         self.action_count = action_count  # Number of actions (targets)
         self.lr = lr  # Learning rate
         self.discount = discount  # Discount factor for future rewards
         self.q_values = {}  # Q-value table to store state-action values
         self.exploration_rate = 1.0  # Initial exploration rate
-        self.min_exploration_rate = 0.1  # Minimum exploration rate for epsilon-greedy
+        self.min_exploration_rate = 0.01  # Minimum exploration rate for epsilon-greedy
         self.exploration_decay = 0.995  # Decay rate for exploration
 
     def choose_action(self, current_state):
@@ -74,7 +74,7 @@ def run_simulation():
     """Run the Q-learning agent in the custom TSP environment."""
     num_points = 10
     reshuffle_time = 10
-    total_episodes = 1000  # Number of episodes to run the Q-learning agent
+    total_episodes = 10000  # Number of episodes to run the Q-learning agent
 
     # Initialize environment and agent
     environment = ModTSP(num_points, shuffle_time=reshuffle_time)
