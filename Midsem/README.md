@@ -8,8 +8,6 @@ The solution is illustrated through:
 - The final path traversed by the agent (`Figure 2`).
 
 ---
-
-<<<<<<< HEAD
 ## Installation & Setup
 =======
 1. **sol.py**: This file contains the Q-learning agent's implementation and the environment interaction logic.
@@ -33,8 +31,6 @@ pip install gymnasium numpy matplotlib pandas
 ```
 
 ### Running the Code
-
-<<<<<<< HEAD
 1. Clone the repository:
    ```bash
    git clone https://github.com/MOONLABIISERB/marl-ecs-course.git
@@ -58,8 +54,6 @@ Upon running the code, you will see:
 ```bash
 python sol.py
 ```
->>>>>>> ae2fb4f99337219e3360612fc9689e83b90842fa
-
 ---
 
 ## Files and Directories
@@ -101,12 +95,15 @@ The following dictionary captures the cumulative rewards at intervals during the
 ---
 
 ## Results and Inference
+![tsp_path_render](https://github.com/user-attachments/assets/22c5855b-215d-4de4-9cfc-df487f8b7394)
 
 ### **Cumulative Reward Progression (Figure 1)**:
 - This plot shows how the agent improves over time, as its cumulative rewards stabilize around 200 after approximately 100 episodes. The dips represent exploration steps where the agent attempts non-optimal actions but eventually converges to a stable solution.
-
+- 
+![Figure_1](https://github.com/user-attachments/assets/4f6bd350-4ea1-4611-ae53-a43e6e4fddd7)
 ### **Final Path Traversed (Figure 2)**:
 - This figure illustrates the agent's final traversal of waypoints, demonstrating how it efficiently plans its route after learning the optimal path through exploration and exploitation.
+![Figure_2](https://github.com/user-attachments/assets/fda9d08f-f136-4c5a-a84b-9775f68cacc1)
 
 ---
 
