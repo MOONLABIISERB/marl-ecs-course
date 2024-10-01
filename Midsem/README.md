@@ -20,5 +20,5 @@ python3 -m modified_tsp
 - mean reward value = -4062.697492606985
 
 ### The cumulative vs episodic reward graph
-!img![image](output.jpg)
+![image](output.jpg)
 
