@@ -20,14 +20,22 @@ class MonteCarloSolver[T_State: State, T_Action: Action](
 
     def calculate_episode_returns(
         self,
+        mdp: MarkovDecisionProcess,
         episode: t.List[t.Tuple[T_State, T_Action, float]],
     ) -> t.List[float]:
-        g_episode = []
-        # TODO Calculate returns of the episode here
+        g_episode: t.List[float] = []
+        for _, _, r in episode:
+            if len(g_episode) > 0:
+                g_episode.insert(0, mdp.gamma * g_episode[0] + r)
+            else:
+                g_episode.append(r)
         return g_episode
 
     @override
     def solve(
         self, mdp: MarkovDecisionProcess[T_State, T_Action]
     ) -> t.Tuple[t.OrderedDict[T_State, float], Policy[T_State, T_Action]]:
+        self.calculate_episode_returns(
+            mdp=mdp, episode=mdp.generate_episode(policy=None)
+        )
         pass

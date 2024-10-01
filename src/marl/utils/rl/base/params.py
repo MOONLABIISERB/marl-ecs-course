@@ -25,6 +25,3 @@ class Action(NamedHashable):
 
 T_State = t.TypeVar("T_State", bound=State)
 T_Action = t.TypeVar("T_Action", bound=Action)
-
-ValueFunc = t.OrderedDict[T_State, float]
-ActionValueFunc = t.Dict[T_State, t.OrderedDict[T_Action, float]]

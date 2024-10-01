@@ -8,7 +8,9 @@ from typing_extensions import override
 from marl.utils.rl.base.params import Action, State
 from marl.utils.rl.base.reward import RewardFuncManager
 from marl.utils.rl.base.transition import TransitionProbaManager
-from marl.utils.rl.markov.process import MarkovDecisionProcess
+from marl.utils.rl.markov.process import (
+    ModelBasedMarkovDecisionProcess as MarkovDecisionProcess,
+)
 from marl.utils.rl.markov.solvers.policy_iter import PolicyIterationSolver
 from marl.utils.rl.markov.solvers.value_iter import ValueIterationSolver
 

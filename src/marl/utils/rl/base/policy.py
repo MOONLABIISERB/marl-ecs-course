@@ -1,68 +1,17 @@
-# import typing as t
-# from marl.utils.rl.base.params import State, Action
-
-
-# T_State = t.TypeVar("T_State", bound=State)
-# T_Action = t.TypeVar("T_Action", bound=Action)
-
-
-# class Policy[T_State, T_Action]:
-#     """An agent's policy"""
-
-#     state_actions: t.Dict[T_State, T_Action]
-
-#     def __init__(self) -> None:
-#         self.state_actions = dict()
-
-#     def __eq__(self, policy_) -> bool:
-#         """
-#         Check if two policies are equal.
-#         """
-#         equal = True
-#         for s1, s2 in zip(self.state_actions, policy_.state_actions):
-#             equal = equal and self.state_actions[s1] == policy_.state_actions[s2]
-#             if not equal:
-#                 return False
-#         return True
-
-#     def set_state_policy(self, state: T_State, action: T_Action) -> None:
-#         """
-#         Sets the policy for the given `state` to `action`
-
-#         Args:
-#             state (T_State): The state to set the policy for.
-#             action (T_Action): The action to be taken at the given state.
-#         """
-#         self.state_actions[state] = action
-
-#     def get_state_policy(self, state: T_State) -> T_Action:
-#         """
-#         Gets the policy for a state.
-
-#         Args:
-#             state (T_State): The state to get the policy of.
-
-#         Returns:
-#             T_Action: The best action for that state.
-#         """
-#         return self.state_actions[state]
-
-#     def show(self) -> None:
-#         for state in self.state_actions:
-#             print(f"{state} --> {self.state_actions[state]}")
-
-# ====================================
-
 import numpy as np
 import typing as t
-
 from marl.utils.rl.base.params import State, Action
+
 
 T_State = t.TypeVar("T_State")
 T_Action = t.TypeVar("T_Action")
 
 
 class Policy[T_State: State, T_Action: Action](t.OrderedDict[T_State, T_Action]):
+    """
+    The policy for an agent.
+    """
+
     _state_action_probas: t.OrderedDict[T_State, t.OrderedDict[T_Action, float]]
 
     def __init__(self, states: t.List[T_State], actions: t.List[T_Action]) -> None:
@@ -75,13 +24,19 @@ class Policy[T_State: State, T_Action: Action](t.OrderedDict[T_State, T_Action])
         """
         Randomizes the policy.
         """
+        # Generate a random matrix from the standard normal distribution
         state_action_proba_values = np.random.randn(
             len(self._states), len(self._actions)
         )
+
+        # Convert the matrix rows to probability dists using softmax
         state_action_proba_values = np.exp(state_action_proba_values)
         state_action_proba_values /= state_action_proba_values.sum(
             axis=1, keepdims=True
         )
+
+        # Assign the random probability distributions over actions to each
+        # of the states
         self._state_action_probas = t.OrderedDict(
             {
                 state: t.OrderedDict(
@@ -122,6 +77,11 @@ class Policy[T_State: State, T_Action: Action](t.OrderedDict[T_State, T_Action])
         self._state_action_probas[state][action] = 1.0
 
     def __eq__(self, value: object) -> bool:
+        """
+        Checks for equality of two policies.
+        Two policies are equal iff and only if the probabilities of performing
+        any given action for each of the states in both the policies is equal.
+        """
         equal = True
         for state in self._states:
             for action in self._actions:
