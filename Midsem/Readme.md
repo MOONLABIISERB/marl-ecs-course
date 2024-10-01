@@ -56,6 +56,11 @@ This table presents a summary of the Q-learning agent's total reward collected a
 
 
 
+For running the train file:
+python mod_tsp.py
+
+
+
 
 
 
