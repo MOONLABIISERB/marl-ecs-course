@@ -199,6 +199,9 @@ def main() -> None:
 
         print(f"Episode {ep} / {num_episodes}: Total Reward Collected: {total_reward}")
 
+    # Save the Q-matrix (learned Q-values) to a file after training
+    np.save('q_matrix.npy', agent.q_matrix)  # Save Q-matrix as a .npy file
+
     # Plot cumulative rewards and average losses
     fig, axes = plt.subplots(1, 2, figsize=(14, 5))
 
