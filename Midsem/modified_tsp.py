@@ -7,6 +7,7 @@ import numpy as np
 from numpy import typing as npt
 import random 
 import matplotlib.pyplot as plt
+from collections import Counter
 # from sarsa import SARSA
 
 
@@ -196,7 +197,7 @@ class ModTSP(gym.Env):
         reward = self.current_profits[next_loc] if not self.visited_targets[next_loc] else -1e4
         return float(reward)
 
-def epsilon_greedy(Q, obs, state, epsilon):
+def epsilon_greedy(Q, state, epsilon):
     state = state
     if random.random() > epsilon:
         return np.argmax(Q[state])
@@ -204,13 +205,13 @@ def epsilon_greedy(Q, obs, state, epsilon):
         return random.randint(0, 9)  # You need to replace this with your algorithm that randomly selects an action.
 
 def plot_graph(cumulative_rewards, episode_rewards, n_episodes):
-    episodes = np.arange(1, n_episodes + 1)  # 100 episodes
+    episodes = np.arange(1, len(cumulative_rewards)+1)  # 100 episodes
     
     # Plotting
     plt.figure(figsize=(12, 6))
-    plt.plot(episodes, episode_rewards, label='Episodic Reward', color='g', marker='o', linestyle='--', alpha=0.5)
+    plt.plot(episodes, episode_rewards, label='Episodic Reward', color='g', alpha=0.5)
 
-    plt.plot(episodes, cumulative_rewards, label='Cumulative Reward', color='b', marker='x')
+    plt.plot(episodes, cumulative_rewards, label='Cumulative Reward', color='b')
     plt.title('Episode vs Cumulative Reward')
     plt.xlabel('Episode')
     plt.ylabel('Cumulative Reward')
@@ -220,62 +221,77 @@ def plot_graph(cumulative_rewards, episode_rewards, n_episodes):
 
 def main() -> None:
     """Main function."""
-    num_targets = 10
-    
-    Q = np.zeros((num_targets,num_targets), dtype= float)
-    
+    num_targets = 10 #num of targets
+       
     env = ModTSP(num_targets)
     
-    obs = env.reset()
+    obs = env.reset() # initialize environment
     
-    ep_rets = []
-    cum = []
+    #initialize Q-value
+    Q = np.zeros((num_targets,num_targets), dtype= float)
+        
+    ep_rets = [] #episodic rewards lsit
+    cum = [] #cumilative rewards list
     
-    n_episodes = int(4e4)
+    n_episodes = int(4e5) #number of episodes
     
-    alpha = 0.001
-    gamma = 0.9
-    decay = 1.1
-    epsilon = 0.01
-
+    alpha = 0.001 #laerning rate
+    gamma = 0.9 #penalty
+    decay = 1.0001 #decay function
+    epsilon = 0.9 # espsilon for spsilon greedy policy
+    threshold  = 4e4 #converging threshold for episodic reward value
+    
     for ep in range(n_episodes):
         ret = 0 #total rewards
         obs = env.reset() #reset all initial reward,visited_states,distance etc
-        
-        state = int(obs[0][0]) # You need to extract the current state from the observation.
-        
-        epsilon = epsilon**(decay**(ep/1000)) # decaying epsilon value for more exploration in start and less in end
-        
+       
+       
+        state = int(obs[0][0])  # You need to extract the current state from the observation.
+        epsilon = epsilon**(decay**(ep/5000)) # decaying epsilon value for more exploration in start and less in end
+    
         for _ in range(100):              
-            action = epsilon_greedy(Q,obs,state,epsilon)  # You need to replace this with your algorithm that predicts the action.
-
-            obs_, reward, terminated, truncated, info = env.step(action)
             
-            next_state = int(obs_[0])
+            action = epsilon_greedy(Q,state,epsilon) # using epsilon_greedy for calculating  action
+            
+            obs_, reward, terminated, truncated, info = env.step(action) # returns next state and reward by taking an action
+            
+            next_state = int(obs_[0]) #extract location from the state
+            # print(next_state)
             
             # update Q values
-            Q[state][action] += alpha * (reward + gamma*(Q[next_state][action]) - Q[state][action]) # SARSA
+            Q[state][action] += alpha * (reward + gamma*(Q[next_state][action]) - Q[state][action]) # using SARSA
+            
+            
             
             done = terminated or truncated # if reached maximum steps
             ret += reward
-            obs = obs_
-            state = next_state
+            obs = obs_ # update current state as next state
+            state = next_state # update current location as next location
             
-            if done:
+            if done: # if reached max steps terminate
                 break
         
                 
-        ep_rets.append(ret)
-        mean = np.mean(ep_rets)
-        cum.append(mean)
-        print(f"Episode {ep} : {ret}")
-        print(f"Episode {ep} : {np.mean(ep_rets)}")
+        ep_rets.append(ret) #add total reward to episodic_reward list
+        mean = np.mean(ep_rets) #mean of array of total rewards per episode
+        cum.append(mean) # add mean total reward to episodic_reward list
+        
+        counter = Counter(ep_rets)
+        # Get the most common element and its frequency
+        converged_value, frequency = counter.most_common(1)[0]
+        
+        # Check if the value is converged or not
+        if frequency > threshold:
+            print(f"Converged at Episode : {ep} with reward value : {converged_value}") #if converged break out of loop
+            break
+        
+        print(f"Episode {ep} : {ret}") #prints current episodic reward
+        print(f"Episode {ep} : {mean}") #prints current mean episodic reward
 
-    
-    print(len(cum))
-    print(len(ep_rets))
+    print(f"Converged at Episode : {ep} with reward value : {converged_value}")
+    #  Plots episodic and cumilative rewards at each episode 
     plot_graph(cum, ep_rets, n_episodes)
-
+    
 
 if __name__ == "__main__":
     main()

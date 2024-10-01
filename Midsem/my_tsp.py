@@ -230,7 +230,7 @@ def main() -> None:
     sarsa = SARSA(states, actions, rewards, distances)
     
     
-    for ep in range(100):
+    for ep in range(10):
         ret = 0
         obs,_ = env.reset()
         state = int(obs[0])

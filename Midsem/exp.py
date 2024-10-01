@@ -3,7 +3,7 @@ import numpy as np
 # from modified_tsp import ModTSP
 
 class SARSA():
-    def __init__(self, states, actions, rewards, distances, steps = 9, n_episodes = 1000):
+    def __init__(self, states, actions, rewards, distances, steps = 9, n_episodes = 100000):
         self.states = states
         length = len(self.states)
         self.actions = actions
@@ -18,6 +18,8 @@ class SARSA():
         self.Q = np.zeros((10,10), dtype =float)
         episodic_rewards =[]
         cumilative_rewards = []
+        epsilon = 0.9
+        
 
         for ep in range(self.n_episodes):
             
@@ -26,13 +28,14 @@ class SARSA():
             visited_states = []
             visited_states.append(state)
             total_rewards = 0
-                
+            epsilon = epsilon**ep
+            
             for i in range(self.steps):
 
             # print(state)
                 reward = self.rewards[state]
 
-                next_state, temp_reward = self.q_value(state, reward, distance_traveled, visited_states)
+                next_state, temp_reward = self.q_value(state, reward, distance_traveled, visited_states, epsilon)
                 
                 total_rewards += temp_reward
 
@@ -45,10 +48,10 @@ class SARSA():
         
         return self.Q, cumilative_rewards, episodic_rewards
     
-    def q_value(self, state, rewards, dist, visited_states):
+    def q_value(self, state, rewards, dist, visited_states,esp):
         alpha = 0.001
         gamma = 0.9
-        epsilon = 0.1
+        epsilon = esp
 
         for action in self.actions:
 
