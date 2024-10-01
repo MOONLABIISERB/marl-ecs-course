@@ -56,7 +56,7 @@ class AgentQLearner:
         self.exploration_rate = max(self.min_exploration_rate, self.exploration_rate * self.exploration_decay)
 
 
-def render_path(environment, learner, path_traversed, save_file="D:/tsp_path_render.mp4"):
+def render_path(environment, learner, path_traversed, save_file="D:/tsp_path_render.gif"):
     """Animate and visualize the agent's path through the environment."""
     fig, ax = plt.subplots()
     ax.scatter(environment.locations[:, 0], environment.locations[:, 1], c='red', label='Waypoints')  # Target locations
@@ -76,7 +76,9 @@ def render_path(environment, learner, path_traversed, save_file="D:/tsp_path_ren
     path_animation = animation.FuncAnimation(fig, animate, frames=len(path_traversed), init_func=initialize, blit=True, repeat=False)
     plt.legend()
     # Save the animation to the specified file
-    path_animation.save(save_file, writer='ffmpeg', fps=2)
+    writergif = animation.PillowWriter(fps=300)
+    path_animation.save(save_file,writer=writergif)
+    # path_animation.save(save_file, writer='ffmpeg', fps=2)
     plt.show()
 
 
@@ -84,7 +86,7 @@ def run_simulation():
     """Run the Q-learning agent in the custom TSP environment."""
     num_points = 10
     reshuffle_time = 10
-    total_episodes = 10000  # Number of episodes to run the Q-learning agent
+    total_episodes = 1000  # Number of episodes to run the Q-learning agent
 
     # Initialize environment and agent
     environment = ModTSP(num_points, shuffle_time=reshuffle_time)
