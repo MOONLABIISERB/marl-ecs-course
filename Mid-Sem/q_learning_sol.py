@@ -3,6 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.animation as animation
 
+np.random.seed(42) # to reproduce the results
 
 class QLearningAgent:
     def __init__(self, n_actions, alpha=0.1, gamma=0.99):
@@ -19,10 +20,16 @@ class QLearningAgent:
         state_str = str(state)
         if state_str not in self.q_table:
             self.q_table[state_str] = np.zeros(self.n_actions)
-        
+        visited_state = state[1:11]
+        allowed = [i for i,s in enumerate(visited_state) if s == 0]   
         if np.random.rand() < self.epsilon:
-            return np.random.choice(self.n_actions)  # Explore
-        return np.argmax(self.q_table[state_str])  # Exploit
+            return np.random.choice(allowed) if allowed else np.random.choice(self.action_count)  # Explore
+        else: 
+            qvals = self.q_table[state_str].copy()
+            for id, visited in enumerate(visited_state):
+                if visited == 1:
+                    qvals[id] = float("-inf")
+        return np.argmax(qvals)  # Exploit
 
     def update_q_value(self, state, action, reward, next_state):
         """Update the Q-value using Q-learning update rule."""
