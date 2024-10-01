@@ -195,19 +195,20 @@ class ModTSP(gym.Env):
 
 
 def sarsa(env, episodes, alpha, gamma, epsilon, epsilon_decay, min_epsilon):
-    
+
     # Initialize the Q-table
     q_table = np.zeros((env.num_targets, env.num_targets))
-    
+
     episode_returns = []
 
     for episode in range(episodes):
         state, _ = env.reset()
         state = int(state[0])
         episode_return = 0
+        episode_distance = 0
         trajectory = []
 
-        
+
         # Action selection (epsilon greedy) for the first action
         if np.random.uniform(0, 1) < epsilon:
             action = env.action_space.sample()  # Explore
@@ -217,8 +218,8 @@ def sarsa(env, episodes, alpha, gamma, epsilon, epsilon_decay, min_epsilon):
         for _ in range(env.max_steps):
             next_state, reward, terminated, truncated, _ = env.step(action)
             next_state = int(next_state[0])
- 
-            # Action selection (epsilon greedy)
+
+            # Action selection for the next action (epsilon greedy)
             if np.random.uniform(0, 1) < epsilon:
                 next_action = env.action_space.sample()  # Explore
             else:
@@ -227,6 +228,7 @@ def sarsa(env, episodes, alpha, gamma, epsilon, epsilon_decay, min_epsilon):
             # Update Q-value
             q_table[state, action] += alpha * (reward + gamma * q_table[next_state, next_action] - q_table[state, action])
             trajectory.append(action)
+            episode_distance += env.distances[state, action]
 
             state, action = next_state, next_action
             episode_return += reward
@@ -238,9 +240,11 @@ def sarsa(env, episodes, alpha, gamma, epsilon, epsilon_decay, min_epsilon):
 
         epsilon = max(min_epsilon, epsilon * epsilon_decay)
 
-        print(f"Episode {episode + 1}: Return = {episode_return}")
+        print(f"\nEpisode {episode + 1}: Return = {episode_return}")
         print("Trajectory =", trajectory)
-      
+        print("initial profits = ",env.initial_profits)
+        print("Distance travelled =", episode_distance)
+        print("current profits =", env.current_profits)
     return episode_returns, q_table
 
 def plot_returns(returns):
