@@ -5,14 +5,15 @@ Agamdeep Singh 20021
 
 ### Average Profit: 266.87
 
-## Inference Testing
+## Training
 ```
 python modified_tsp.py --mode train --model save_path.pth
 ```
-## Training
+## Inference Testing
 ```
 python modified_tsp.py --mode test --model model_path.pth
 ```
+**Best model**: model_15k.pth
 
 Requirements:
 - Pytorch
