@@ -3,7 +3,7 @@ import numpy as np
 # from modified_tsp import ModTSP
 
 class SARSA():
-    def __init__(self, states, actions, rewards, distances, steps = 9, n_episodes = 100000):
+    def __init__(self, states, actions, rewards, distances, steps = 9, n_episodes = 100):
         self.states = states
         length = len(self.states)
         self.actions = actions

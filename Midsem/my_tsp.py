@@ -197,17 +197,27 @@ class ModTSP(gym.Env):
         return float(reward)
 
 
-def plot_graph(cumulative_rewards, episode_rewards):
-    episodes = np.arange(1, 101)  # 100 episodes
-    
+def plot_graph(cumulative_rewards, episode_rewards , n_episodes):
+    episodes = np.arange(1, n_episodes + 1)  # 100 episodes
+    error  = cumulative_rewards - episode_rewards
+    print(error)
     # Plotting
     plt.figure(figsize=(12, 6))
     plt.plot(episodes, episode_rewards, label='Episodic Reward', color='g', marker='o', linestyle='--', alpha=0.5)
+    figure, axis = plt.subplots(2)
 
-    plt.plot(episodes, cumulative_rewards, label='Cumulative Reward', color='b', marker='x')
-    plt.title('Episode vs Cumulative Reward')
-    plt.xlabel('Episode')
-    plt.ylabel('Cumulative Reward')
+    # For Sine Function
+    axis[0].plot(episodes, cumulative_rewards, label='Cumulative Reward', color='b', marker='x')
+    axis[0].set_title('Episode vs Cumulative Reward')
+    # axis[0].plot.xlabel('Episode')
+    # axis[0].plot.ylabel('Cumulative Reward')
+
+    # For Cosine Function
+    axis[1].plot(episodes, error, label='TD_error', color='r', marker='x')
+    axis[1].set_title("TD_error")
+    
+    plt.plot()
+    
     plt.grid()
     plt.legend()
     plt.show()
@@ -255,7 +265,7 @@ def main() -> None:
         
         cumulative_rewards.append(mean_rewards)
     
-    plot_graph(np.array(cumulative_rewards), np.array(ep_rets))
+    plot_graph(np.array(cumulative_rewards), np.array(ep_rets), n_episodes = 10)
 
 
 if __name__ == "__main__":

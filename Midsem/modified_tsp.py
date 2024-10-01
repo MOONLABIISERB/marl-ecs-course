@@ -235,13 +235,14 @@ def main() -> None:
     ep_rets = [] #episodic rewards lsit
     cum = [] #cumilative rewards list
     
-    n_episodes = int(2e1) #number of episodes
+    n_episodes = int(4e4) #number of episodes
     
-    alpha = 0.0001 #laerning rate
+    alpha = 0.001 #laerning rate
     gamma = 0.9 #penalty
-    decay = 1.01 #decay function
+    decay = 1.01
+    1 #decay function
     epsilon = 0.9 # espsilon for spsilon greedy policy
-    threshold  = 4e4 #converging threshold for episodic reward value
+    threshold  = 2e4 #converging threshold for episodic reward value
     
     for ep in range(n_episodes):
         ret = 0 #total rewards
