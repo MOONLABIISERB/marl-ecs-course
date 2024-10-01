@@ -52,3 +52,8 @@ To execute the code, follow these steps:
 1. Clone the repository:
    ```bash
    git clone <repository-url>
+
+## Results:
+
+![Result Image](/home/ananya/Pictures/Screenshots/MARL_Result.png)
+We see from result image that the rewards are converging implying that te training is successful.
