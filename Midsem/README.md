@@ -100,9 +100,10 @@ And it has the following functions:
     - This suggests that if we further train at k = 10,000 with large number of episodes, it might converge to an even higher value
 
 ## Results Replication
+In the ```__main___``` function of ```modified_tsp.py```, change the ```shuffle_time``` variable to your desired value and run the following script
 >python modified_tsp.py
 
-This will train the model and store the results in ```output.csv```, the plots of which can be seen by 
+This will train the model and store the results in ```output_k_{k}.csv```, where {k} is the value of shuffle time provided, the plots of which can be seen by changing the value of ```k``` to your desired value and running the following script
 >python plots.py
 
 Requirements:
