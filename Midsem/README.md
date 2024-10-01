@@ -34,10 +34,6 @@ Below is a graph illustrating the agent’s learning progress over 1000 episodes
 
 From the plot, it's clear that the agent's performance improves steadily and converges towards higher rewards.
 
-I have also attached a graph showing agent's learning progression over 500 episodes for better understanding.
-
-![Rewards Plot 2](Figure_2.png)
-
 ### 2.3 Discussion
 
 The Q-learning agent learned an efficient strategy for the TSP problem, balancing exploration and exploitation. Early episodes saw significant variance in rewards due to high exploration, but this gradually reduced as the agent learned more about the environment. The use of the epsilon-greedy strategy ensured that the agent explored enough before exploiting the learned knowledge.
@@ -49,12 +45,6 @@ Given the simplicity of the environment and the discrete nature of the problem, 
 ## 3. How to Run and Replicate the Code
 
 ### 3.1 Prerequisites
-
-To run the project, you need to have the following installed:
-- **Python 3.x**
-- **gymnasium**: A toolkit for developing and comparing reinforcement learning algorithms.
-- **numpy**: Library for numerical operations in Python.
-- **matplotlib**: For plotting the performance graphs.
 
 You can install the required dependencies by running:
 
@@ -83,17 +73,7 @@ To run the Q-learning agent and visualize the results, follow these steps:
    - Output the total reward for each episode.
 
 3. **View the Performance Plot**:
-   After training, the script will generate a plot that shows the total rewards per episode and the smoothed moving average.
-
-### 3.3 Code Structure
-
-```
-.
-├── qlearning_agent.py        # Main script with the Q-learning implementation and training
-├── environment.py            # Optional: Environment implementation for the Modified TSP
-├── requirements.txt          # List of dependencies
-└── README.md                 # This README file
-```
+   After training, the script will generate a plot that shows the total rewards per episode and the smoothed moving average. Also it will save the Q_table and Rewards per episode in the q_table.csv and episode_rewards.csv file.
 
 ### 3.4 Customizing Parameters
 
@@ -144,13 +124,5 @@ Potential future work includes:
 - Applying the algorithm to more complex TSP problems or other domains with similar characteristics.
 
 Feel free to experiment with the provided code and modify the hyperparameters to explore different learning behaviors!
-
----
-
-## 6. References
-
-- [Q-Learning Algorithm - Wikipedia](https://en.wikipedia.org/wiki/Q-learning)
-- [OpenAI Gym](https://gym.openai.com/)
-- [Gymnasium Documentation](https://gymnasium.farama.org/)
 
 ---
