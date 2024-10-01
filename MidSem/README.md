@@ -69,20 +69,14 @@ The Q-Learning agent effectively solved the Modified Traveling Salesman Problem 
 
 
 #### Key Insights:
-**Hyperparameter Impact:**
+**Hyperparameter Impact:** Model 3 balanced learning speed and stability, showing that careful tuning of learning rates and discount factors is crucial. Higher learning rates, as seen in Model 4, led to instability.
 
-Model 3 balanced learning speed and stability, showing that careful tuning of learning rates and discount factors is crucial. Higher learning rates, as seen in Model 4, led to instability.
-**Epsilon Decay:**
-
-A gradual epsilon decay allowed for early exploration and late-stage exploitation, ensuring that Models 1 and 3 maintained steady performance.
+**Epsilon Decay:** A gradual epsilon decay allowed for early exploration and late-stage exploitation, ensuring that Models 1 and 3 maintained steady performance.
 Convergence:
 
-Model 3 converged faster and more smoothly, whereas Model 4 struggled due to high learning rates.
-**Test Reward Comparison:**
+**Convergence:** Model 3 converged faster and more smoothly, whereas Model 4 struggled due to high learning rates.
+**Test Reward Comparison:** Model 3 emerged as the best performer, while Models 1 and 2 were competitive but less consistent.
+**Scalability:** The agent performed well on 10 targets, but larger TSP instances may require advanced methods like Deep Q-Networks (DQN) for scalability.
 
-Model 3 emerged as the best performer, while Models 1 and 2 were competitive but less consistent.
-**Scalability:**
-
-The agent performed well on 10 targets, but larger TSP instances may require advanced methods like Deep Q-Networks (DQN) for scalability.
 This highlights the importance of hyperparameter tuning and exploration-exploitation balancing for effective policy learning.
 # Thank You !! 😊
