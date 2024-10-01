@@ -17,8 +17,43 @@ Using SARSA and Keeping the Number of Episodes to be 5k
 ![img_3.png](img_3.png)
 Using SARSA and Keeping the Number of Episodes to be 10K
 ![img_2.png](img_2.png)
+Using SARSA and Keeping the Number of Episodes to be 1 Lakh
+![img_5.png](img_5.png)
+```
+{
+Episode 98600/100000, Total Reward: 78.48450469970703, Epsilon: 0.01
+Episode 98700/100000, Total Reward: 78.48450469970703, Epsilon: 0.01
+Episode 98800/100000, Total Reward: 78.48450469970703, Epsilon: 0.01
+Episode 98900/100000, Total Reward: 78.48450469970703, Epsilon: 0.01
+Episode 99000/100000, Total Reward: 78.48450469970703, Epsilon: 0.01
+Episode 99100/100000, Total Reward: 78.48450469970703, Epsilon: 0.01
+Episode 99200/100000, Total Reward: 78.48450469970703, Epsilon: 0.01
+Episode 99300/100000, Total Reward: 78.48450469970703, Epsilon: 0.01
+Episode 99400/100000, Total Reward: 78.48450469970703, Epsilon: 0.01
+Episode 99500/100000, Total Reward: 78.48450469970703, Epsilon: 0.01
+Episode 99600/100000, Total Reward: 78.48450469970703, Epsilon: 0.01
+Episode 99700/100000, Total Reward: 78.48450469970703, Epsilon: 0.01
+}
+```
 Using a reduced State space and SARSA with no. of Episodes to be 5K
 ![img_1.png](img_1.png)
+Using a reduced State space and SARSA with no. of episodes as 1 lakh
+![img_4.png](img_4.png)
+```
+    {Episode 98700/100000, Total Reward: 122.94517707824707, Epsilon: 0.01
+Episode 98800/100000, Total Reward: 122.94517707824707, Epsilon: 0.01
+Episode 98900/100000, Total Reward: 122.94517707824707, Epsilon: 0.01
+Episode 99000/100000, Total Reward: 122.94517707824707, Epsilon: 0.01
+Episode 99100/100000, Total Reward: 122.94517707824707, Epsilon: 0.01
+Episode 99200/100000, Total Reward: 122.94517707824707, Epsilon: 0.01
+Episode 99300/100000, Total Reward: 122.94517707824707, Epsilon: 0.01
+Episode 99400/100000, Total Reward: 122.94517707824707, Epsilon: 0.01
+Episode 99500/100000, Total Reward: 122.94517707824707, Epsilon: 0.01
+Episode 99600/100000, Total Reward: 122.94517707824707, Epsilon: 0.01
+Episode 99700/100000, Total Reward: 122.94517707824707, Epsilon: 0.01
+    }
+```
+
 Using a reduced State space and SARSA with no. of episodes to be 10k
 ![img.png](img.png)
 ### HyperParameters used
