@@ -14,6 +14,7 @@ We try to implement both Q-Learning and SARSA. However, Q-Learning did not conve
 
 ## Results
 Maximum Reward Attained: 190.90
+
 Convergence Reward: 64.48
 
 ## Plots
