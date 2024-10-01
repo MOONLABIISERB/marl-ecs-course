@@ -217,18 +217,17 @@ def sarsa(env, episodes, alpha, gamma, epsilon, epsilon_decay, min_epsilon):
         for _ in range(env.max_steps):
             next_state, reward, terminated, truncated, _ = env.step(action)
             next_state = int(next_state[0])
-
-            # Action selection for the next action
+ 
+            # Action selection (epsilon greedy)
             if np.random.uniform(0, 1) < epsilon:
                 next_action = env.action_space.sample()  # Explore
             else:
                 next_action = np.argmax(q_table[next_state])  # Exploit
 
-            # Update Q-value using SARSA update rule
+            # Update Q-value
             q_table[state, action] += alpha * (reward + gamma * q_table[next_state, next_action] - q_table[state, action])
             trajectory.append(action)
 
-            # Move to the next state and action
             state, action = next_state, next_action
             episode_return += reward
 
@@ -237,7 +236,6 @@ def sarsa(env, episodes, alpha, gamma, epsilon, epsilon_decay, min_epsilon):
 
         episode_returns.append(episode_return)
 
-        # Decay epsilon
         epsilon = max(min_epsilon, epsilon * epsilon_decay)
 
         print(f"Episode {episode + 1}: Return = {episode_return}")
