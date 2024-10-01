@@ -29,13 +29,19 @@ class ModTSP(gym.Env):
         self.current_profits: npt.NDArray[np.float32] = self.initial_profits.copy()
 
         self.obs_low = np.concatenate(
-            [np.array([0], dtype=np.float32), np.zeros(self.num_targets), np.zeros(self.num_targets),
-             np.zeros(self.num_targets), np.zeros(2 * self.num_targets)]
+            [np.array([0], dtype=np.float32), 
+            np.zeros(self.num_targets), 
+            np.zeros(self.num_targets),
+            np.zeros(self.num_targets), 
+            np.zeros(2 * self.num_targets)]
         )
 
         self.obs_high = np.concatenate(
-            [np.array([self.num_targets], dtype=np.float32), np.ones(self.num_targets), 100 * np.ones(self.num_targets),
-             2 * self.max_area * np.ones(self.num_targets), self.max_area * np.ones(2 * self.num_targets)]
+            [np.array([self.num_targets],dtype=np.float32),
+            np.ones(self.num_targets), 
+            100 * np.ones(self.num_targets),
+            2 * self.max_area * np.ones(self.num_targets), 
+            self.max_area * np.ones(2 * self.num_targets)]
         )
 
         self.observation_space = gym.spaces.Box(low=self.obs_low, high=self.obs_high)

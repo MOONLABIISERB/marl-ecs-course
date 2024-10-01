@@ -21,11 +21,21 @@ class AgentQLearner:
         # Initialize Q-values for unseen state
         if state_key not in self.q_values:
             self.q_values[state_key] = np.zeros(self.action_count)
+         
+        visited_state = current_state[1:11]
+        
+        allowed = [i for i,s in enumerate(visited_state) if s == 0]   
+        
         
         # Exploration vs. Exploitation decision
         if np.random.rand() < self.exploration_rate:
-            return np.random.choice(self.action_count)  # Explore
-        return np.argmax(self.q_values[state_key])  # Exploit
+            return np.random.choice(allowed) if allowed else np.random.choice(self.action_count)  # Explore
+        else: 
+            qvals = self.q_values[state_key].copy()
+            for id, visited in enumerate(visited_state):
+                if visited == 1:
+                    qvals[id] = float("-inf")
+        return np.argmax(qvals)  # Exploit
 
     def update_q_table(self, current_state, selected_action, reward_obtained, next_state):
         """Apply Q-learning update rule to adjust Q-values."""
