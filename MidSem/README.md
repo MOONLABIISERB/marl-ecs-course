@@ -15,13 +15,14 @@ python main.py
 
 Below is the episode vs cumulative reward plot that illustrates the training convergence.
 
-![Episode vs Cumulative Reward](path_to_your_graph) <!-- Update with the actual path to your graph -->
+![Episode vs. Cumulative Reward](https://github.com/MOONLABIISERB/marl-ecs-course/blob/gavit_20114/MidSem/episode_rewards_plot.png) <!-- Ensure the link is accessible -->
+
 
 | Metric                       | Value       |
 |------------------------------|-------------|
 | Total Episodes                | 10,000      |
-| Average Reward                | 12.47       |
-| Maximum Reward Achieved       | 20          |
+| Average Reward                | 275.53       |
+| Maximum Reward Achieved       | 515.05          |
 | Final Epsilon (Exploration Rate) | 0.0100   |
 
 ### Conclusion
