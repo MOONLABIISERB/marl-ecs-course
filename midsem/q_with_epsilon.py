@@ -306,8 +306,30 @@ class QLearning:
         # Update Q-value
         self.Q_table[state_rep][action] += self.alpha * td_error
         self.td_errors.append(abs(td_error)) # Store TD error for plotting
+    
 
 
+    def print_Q_table(self) -> None:
+        """Print the Q-value table for all states.
+
+        Returns:
+        - None
+        """
+        print("Q-Value Table:")
+        for state in self.Q_table:
+            print(f"Q-Values: {self.Q_table}")
+
+    
+    def save_Q_table(self) -> None:
+        """Save the Q-value table to a pickle file.
+
+        Returns:
+        - None
+        """
+        import pickle
+        with open('q_table.pkl', 'wb') as f:
+            pickle.dump(self.Q_table, f)
+        
 
 
 def plot_cum_rew(ep_returns: List[float], 
@@ -373,15 +395,67 @@ def plot_loss(loss: List[float],
 
 
 
+
+def visualize_optimal_path(env: ModTSP, path: List[int]) -> None:
+    """
+    Visualize the optimal path taken by the agent in the TSP environment using one-sided arrows (ax.arrow).
+
+    Args:
+    - env (ModTSP): The TSP environment containing the target locations.
+    - path (List[int]): The list of target indices representing the path taken by the agent.
+
+    Returns:
+    - None
+    """
+    locations = env.locations
+    fig, ax = plt.subplots(figsize=(8, 8))
+
+    # Plot the targets
+    ax.scatter(locations[:, 0], locations[:, 1], c='blue', label="Targets", s=100)
+
+    # Labelling each target
+    for i, (x, y) in enumerate(locations):
+        ax.text(x, y, f'{i}', fontsize=12, ha='right')
+        
+
+    path_locations = locations[path]
+    for i in range(len(path) - 1):
+        start_x, start_y = path_locations[i]
+        end_x, end_y = path_locations[i + 1]
+        
+        dx = end_x - start_x
+        dy = end_y - start_y
+        
+        # Arrow to next point
+        ax.arrow(start_x, start_y, dx, dy, head_width=0.3, head_length=0.5, fc='red', ec='red', alpha=0.7, length_includes_head=True)
+
+    # Highlight the start location
+    start_loc = locations[path[0]]
+    ax.scatter(start_loc[0], start_loc[1], c='green', label="Start", s=200, edgecolor='black', zorder=5)
+
+    ax.set_title("Path Visualization")
+    ax.set_xlabel("X Coordinate")
+    ax.set_ylabel("Y Coordinate")
+    ax.legend()
+    ax.grid(True)
+    
+    plt.savefig('optimal_path_ax_arrow.png')
+    plt.show()
+
+
+
+
+
+
 def main() -> None:
-    """Main function to train the Q-Learning agent."""
+    """Main function to train the Q-Learning agent and visualize the optimal path."""
     num_targets = 10
     env = ModTSP(num_targets)
     state, _ = env.reset()
 
     # Hyperparameters
     num_episodes = 64999
-    alpha = 0.03  # Learning rate
+    alpha = 0.03  
     gamma = 0.99
     epsilon_start = 0.5
     epsilon_end = 0.01
@@ -400,12 +474,16 @@ def main() -> None:
     ep_returns = []
     loss = []
 
+    optimal_path = []  
+
     for ep in range(1, num_episodes + 1):
         total_reward = 0
         state, _ = env.reset()
+        episode_path = []  
 
         for _ in range(env.max_steps):
             action = agent.select_action(state)
+            episode_path.append(action)  # Add action (target index) to the episode path
 
             next_state, reward, terminated, truncated, info = env.step(action)
             done = terminated or truncated
@@ -421,13 +499,18 @@ def main() -> None:
         ep_returns.append(total_reward)
         loss.append(np.mean(agent.td_errors))
 
-        # Print progress
+        
+        if ep == num_episodes:
+            optimal_path = episode_path
+
         if ep % 10 == 0:
             print(f"Episode {ep} : Total Reward = {total_reward:.2f} | Epsilon = {agent.epsilon:.3f}")
 
-    # Final evaluation
     print(f"Episodes: {num_episodes} | Average Return: {np.mean(ep_returns):.2f}")
     print(f"Episodes: {num_episodes} | Average TD error: {np.mean(loss):.2f}")
+
+    # agent.print_Q_table()
+    agent.save_Q_table()
 
     # Plot the learning curve with moving average
     window_size = 10
@@ -435,6 +518,10 @@ def main() -> None:
 
     plot_cum_rew(ep_returns, window_size, num_episodes, moving_avg, epsilon_start, epsilon_end, epsilon_decay_steps)
     plot_loss(loss, num_episodes, epsilon_start, epsilon_end, epsilon_decay_steps)
+
+    # Visualize the optimal path
+    print(f"Path: {optimal_path}")
+    visualize_optimal_path(env, optimal_path)
 
 
 if __name__ == "__main__":
