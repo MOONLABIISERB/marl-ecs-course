@@ -89,7 +89,7 @@ class ModTSP(gym.Env):
 
 
 class QLearningAgent:
-    def __init__(self, action_space, learning_rate=0.1, discount_factor=0.99, epsilon=0.1, epsilon_decay=0.99):
+    def __init__(self, action_space, learning_rate=0.1, discount_factor=0.75, epsilon=0.7, epsilon_decay=0.99):
         self.learning_rate = learning_rate
         self.discount_factor = discount_factor
         self.epsilon = epsilon
@@ -114,39 +114,47 @@ class QLearningAgent:
 # Main function 
 def main():
     num_targets = 10
-    env = ModTSP(num_targets)  
-
-    # Initialize 
+    env = ModTSP(num_targets)
     agent = QLearningAgent(env.action_space)
 
-    num_episodes = 2500  # Number of training episodes
-    cumulative_rewards = []  # Store total rewards for each episode
+    num_episodes = 2500
+    cumulative_rewards = []
+    
+    # Array to track visits for the last episode
+    last_episode_targets_visited = np.zeros(num_targets)
 
     for episode in range(num_episodes):
         state, _ = env.reset()
         state = tuple(state.astype(int))
-
         total_reward = 0
         terminated = False
+        
+        
+        targets_visited = np.zeros(num_targets)  
 
         while not terminated:
+            current_loc = state[0]  # Current location (first element of state)
+            targets_visited[current_loc] = 1  
+
             action = agent.get_action(state)
             next_state, reward, terminated, truncated, _ = env.step(action)
-            next_state = tuple(next_state.astype(int))  
+            next_state = tuple(next_state.astype(int))
 
-           
             agent.update(state, action, reward, next_state)
-
-            
             state = next_state
             total_reward += reward
 
-        # Decay epsilon for expolration reduction
         agent.decay_epsilon()
-
-        
         cumulative_rewards.append(total_reward)
-        print(f"Episode {episode + 1}/{num_episodes}, Total Reward: {total_reward}")
+
+        # Store the targets visited in the last episode
+        if episode == num_episodes - 1:
+            last_episode_targets_visited = targets_visited
+
+    # Print the targets visited in the last episode
+    visited_targets_indices = np.where(last_episode_targets_visited)[0]
+    print(f"Targets Visited in Last Episode: {visited_targets_indices}")
+    print(f"commulative reward after Last Episode: {total_reward}")
 
     # Plot of training data
     plt.plot(cumulative_rewards)
@@ -157,7 +165,9 @@ def main():
     plt.tight_layout()
     plt.savefig('training_results.png')
     plt.show()
-    
+
 if __name__ == "__main__":
     main()
+
+
 
