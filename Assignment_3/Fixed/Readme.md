@@ -27,7 +27,7 @@ Files Description
         It interacts with Fixed_env.py to execute agent actions and gather feedback.
 
     Visual_fix.py:
-        This file contains the visualization logic. It uses matplotlib to display the environment with agents, goals, and walls. The plot is saved in the plots/ directory.
+        This file contains the visualization logic. It uses matplotlib to display the environment with agents, goals, and walls. The plot is saved in same folder.
 
 ## Libraries Required
 
@@ -47,7 +47,7 @@ Step 3: run the Visual_fix.py script to visualize the environment and training a
 
     python Visual_fix.py
 
-    This will generate the plots in the plots/ directory.
+    This will generate the plots in the same directory.
 
 
 

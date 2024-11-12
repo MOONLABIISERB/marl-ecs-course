@@ -18,8 +18,8 @@ Random/
 ## Files Description
 
     Random_env.py:
-        This file contains the definition of the randomized MAPF environment, including randomly assigned agent positions and goal positions.
-        The agent positions and goals are randomly generated on each run. The movement and reward calculations are similar to the fixed environment.
+        This file contains the definition of the randomized MAPF environment, including randomly assigned agent positions with fixed goal positions.
+        The agent positions are randomly generated on each run. The movement and reward calculations are similar to the fixed environment.
         The execute_action function updates agent positions and calculates rewards.
 
     Trainer_ran.py:
@@ -27,7 +27,7 @@ Random/
         It interacts with Random_env.py to execute agent actions and gather feedback.
 
     Visual_ran.py:
-        This file contains the visualization logic. It uses matplotlib to display the environment with agents, goals, and walls. The plot is saved in the plots/ directory.
+        This file contains the visualization logic. It uses matplotlib to display the environment with agents, goals, and walls. The plot is saved in same folder.
 
 ## Libraries Required
 
