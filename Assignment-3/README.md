@@ -84,7 +84,7 @@ python train.py
 
 Training results will be saved with training logs that include training rewards of each episode, steps to taken to rech final position.
 
-![Agents at Final Positions](train.mkv)
+![Agents Training](train.mp4)
 ### Visualizing Rewards and Steps
 
 Rewards and steps during training can be visualized using:
@@ -98,7 +98,7 @@ To evaluate the trained agents using Q-tables:
    ```bash
    python evaluate.py
    ```
-![Agents at Final Positions](evaluate.mkv)
+![Agents Path Finding After Training](evaluate.mp4)
 ## Results Analysis
 
 ### Training Results
