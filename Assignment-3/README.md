@@ -1,27 +1,3 @@
-# MARL Assignment-3
-
-## Overview
-This assignment focuses on training multi-agent systems using reinforcement learning to achieve efficient pathfinding in a grid world.
-
-## Directory Structure
-.
-├── env2.py
-├── env.py
-├── evaluate.py
-├── __init__.py
-├── MARL - Assignment-3.pdf
-├── __pycache__
-│   ├── cac_network.cpython-312.pyc
-│   ├── env2.cpython-312.pyc
-│   ├── env.cpython-312.pyc
-│   ├── gae.cpython-312.pyc
-│   └── MAPPO.cpython-312.pyc
-├── requirements.txt
-├── rewards_and_steps.png
-├── train.py
-└── visualize.py
-
-
 # Multi-Agent Reinforcement Learning (MARL) - Assignment 3
 
 This repository contains the implementation of Assignment 3 for the course ECS/DSE-427/627: Multi-Agent Reinforcement Learning. The task involves solving the Multi-Agent Path Finding (MAPF) problem in a grid world environment using reinforcement learning strategies.
