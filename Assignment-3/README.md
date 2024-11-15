@@ -37,7 +37,7 @@ The goal is to minimize the overall time required for all agents to reach their 
 
 #### **Bonus Challenge**
 
-Solve the MAPF problem with randomized starting positions for agents in each episode.
+Solve the MAPF problem with randomized starting positions for agents in each episode. It is solved using env2.py file
 
 ### Environment Setup
 
@@ -82,12 +82,12 @@ Run the following command to train the agents:
 python train.py
 ```
 
-Training results will be saved and visualized.
+Training results will be saved with training logs that include training rewards of each episode, steps to taken to rech final position
 
 ### Visualizing Rewards and Steps
 
 Rewards and steps during training can be visualized using:
-- `rewards_and_steps.png`: Displays the agents' cumulative rewards and steps taken over episodes.
+- `visualize.py`: Displays the agents' cumulative rewards and steps taken over episodes. You will have to load the `training_logs.pkl` file.
 
 ### Evaluating Trained Agents
 
@@ -95,7 +95,7 @@ To evaluate the trained agents using Q-tables:
 1. Load the `q_tables.pkl` file.
 2. Run the `evaluate_agents()` function in `visualize.py`:
    ```bash
-   python visualize.py
+   python evaluate.py
    ```
 
 ## Results Analysis
