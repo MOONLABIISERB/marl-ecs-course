@@ -7,8 +7,8 @@ This repository contains the implementation of Assignment 3 for the course ECS/D
 ```
 .
 ├── trained_Agents.png              # Visualization of agents at their final positions
-├── env2.py                        # Alternate environment setup
-├── env.py                         # Environment script for the grid world
+├── random_environment.py                        # Alternate environment setup
+├── environment.py                         # Environment script for the grid world
 ├── evaluate.py                    # Script for evaluating the trained agents
 ├── __init__.py                    # Initialization file for the module
 ├── MARL - Assignment-3.pdf        # Assignment description document
@@ -16,7 +16,7 @@ This repository contains the implementation of Assignment 3 for the course ECS/D
 ├── README.md                      # This README file
 ├── requirements.txt               # Dependencies for the project
 ├── results.png                    # Visualization of rewards and steps over episodes
-├── train.py                       # Script for training the agents
+├── model_train.py                       # Script for training the agents
 └── visualize.py                   # Visualization of agent movements
 ```
 
@@ -37,7 +37,7 @@ The goal is to minimize the overall time required for all agents to reach their 
 
 #### **Bonus Challenge**
 
-Solve the MAPF problem with randomized starting positions for agents in each episode. It is solved using the `env2.py` file.
+Solve the MAPF problem with randomized starting positions for agents in each episode. It is solved using the `random_environment.py` file.
 
 ### Environment Setup
 
@@ -79,7 +79,7 @@ Minimize the maximum time taken by any agent to reach its goal.
 
 Run the following command to train the agents:
 ```bash
-python train.py
+python model_train.py
 ```
 
 Training results will be saved, including training logs of each episode (rewards and steps taken).
@@ -89,7 +89,7 @@ Training results will be saved, including training logs of each episode (rewards
 ### Visualizing Rewards and Steps
 
 Rewards and steps during training can be visualized using:
-- `visualize.py`: Displays the agents' cumulative rewards and steps taken over episodes. You will have to load the `training_logs.pkl` file.
+- `results_visualize.py`: Displays the agents' cumulative rewards and steps taken over episodes. You will have to load the `training_logs.pkl` file.
 
 ![Rewards and Steps Over Episodes](results.png)
 
@@ -97,7 +97,7 @@ Rewards and steps during training can be visualized using:
 
 To evaluate the trained agents:
 1. Load the `q_tables.pkl` file.
-2. Run the `evaluate_agents()` function in `visualize.py`:
+2. Run the `evaluate_agents()` function in `evaluate.py`:
    ```bash
    python evaluate.py
    ```
@@ -137,10 +137,3 @@ To evaluate the trained agents:
 ### Rewards and Steps
 ![Rewards and Steps Over Episodes](results.png)
 
-## Contribution
-
-Feel free to fork the repository and submit pull requests for improvements or bug fixes.
-
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
