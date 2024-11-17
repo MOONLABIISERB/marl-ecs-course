@@ -30,7 +30,7 @@ Minimum steps for each agent to reach their goal is 10.
 | Epsilon Decay Rate (```discount```) | 0.99 |
 
 Minimum steps for each agent to reach their goal: [13. 10. 15. 13.]  
-![mapf_env.png](mapf_env.png)  
+![mapf_env_fixed.png](mapf_env_fixed.png)  
 ![agent_rewards_fixed.png](agent_rewards_fixed.png)
 
 
@@ -46,6 +46,7 @@ Minimum steps for each agent to reach their goal is 0.
 | Epsilon Decay Rate (```discount```) | 0.99 |  
 
 Minimum steps for each agent to reach their goal: [14. 12. 9. 2.]   
+![mapf_env_random.png](mapf_env_random.png)
 ![agent_rewards_random.png](agent_rewards_random.png)
 
 
