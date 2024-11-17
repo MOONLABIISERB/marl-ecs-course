@@ -102,7 +102,7 @@ class PressurePlate(gym.Env):
 
     def step(self, actions):
         """obs, reward, done info"""
-        np.random.shuffle(self.agent_order)
+        # np.random.shuffle(self.agent_order)
 
         for i in self.agent_order:
             proposed_pos = [self.agents[i].x, self.agents[i].y]

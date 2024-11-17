@@ -136,9 +136,9 @@ def main():
                 ep_reward[agent] += reward[agent]
                 
                 # Render the environment
-                if episode >= 490:
-                    env.render()   
-                    time.sleep(0.1)
+                # if episode >= 490:
+                #     env.render()   
+                #     time.sleep(0.1)
                 
                 # Break if all agents have reached their goals
                 if sum(reward) == 0:
@@ -151,10 +151,14 @@ def main():
         avg_reward.append(rd)
 
         episode_reward.append(ep_reward)
-        print(f"episode{episode + 1} completed")
-        
-    plot(avg_reward, episode_reward)
        
+    # To plot the graph between cummulative reward and episode reward    
+    plot(avg_reward, episode_reward)
+    
+    # Prints the total time taken by the agents to reach their goals
+    print(f" Total time for all agents to reach the goal {-1 * min(ep_reward)}")   
+
 # Run the main function
-main()
+if __name__ == "__main__":
+    main()
 
