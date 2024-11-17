@@ -11,8 +11,8 @@ obs_ = env.reset()
 n_agents = 4           # Number of agents
 n_actions = 5          # Number of possible actions (0: Left, 1: Right, 2: Up, 3: Down, 4: No-op)
 grid_size = (10, 10)   # Grid dimensions
-max_episodes = 1000   # Maximum number of episodes
-max_steps = 500        # Maximum steps per episode
+max_episodes = 500   # Maximum number of episodes
+max_steps = 200        # Maximum steps per episode
 
 # Hyperparameters
 alpha = 0.1            # Learning rate
@@ -136,8 +136,9 @@ def main():
                 ep_reward[agent] += reward[agent]
                 
                 # Render the environment
-                # env.render()   
-                # time.sleep(0.1)
+                if episode >= 490:
+                    env.render()   
+                    time.sleep(0.1)
                 
                 # Break if all agents have reached their goals
                 if sum(reward) == 0:
@@ -150,7 +151,7 @@ def main():
         avg_reward.append(rd)
 
         episode_reward.append(ep_reward)
-        # print(f"episode{episode + 1} completed")
+        print(f"episode{episode + 1} completed")
         
     plot(avg_reward, episode_reward)
        
