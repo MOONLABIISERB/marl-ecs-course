@@ -45,4 +45,4 @@ Below is a sample randomized maze generated during training:
 
 ### Optimal Path Visualization
 After training, the optimal paths for each agent are visualized below. Each path is represented by arrows indicating the direction of movement, with destinations marked as colored crosses:
-![Optimal Paths](images/optimal_paths.png)
+![Optimal Paths](images/optimal_path.png)
