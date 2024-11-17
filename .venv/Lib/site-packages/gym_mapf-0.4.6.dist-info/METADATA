@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: gym-mapf
+Version: 0.4.6
+Summary: Multi-Agent Path Finding gym environment
+Home-page: https://github.com/LevyvoNet/gym-mapf
+Author: LevyvoNet
+Author-email: eladlevy2@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
+
+# gym-mapf
+
+Multi Agent Path Finding openAI gym environment.
+
+
+Installation
+------------
+```pip install gym-mapf```
+
+
+
+

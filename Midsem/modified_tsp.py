@@ -22,7 +22,7 @@ class ModTSP(gym.Env):
         self,
         num_targets: int = 10,
         max_area: int = 15,
-        shuffle_time: int = 10,
+        shuffle_time: int = 5e4,
         seed: int = 42,
     ) -> None:
         """Initialize the TSP environment.
@@ -220,6 +220,18 @@ def plot_graph(cumulative_rewards, episode_rewards, n_episodes):
     plt.savefig("output.jpg")
     plt.show()
     
+def path (Q, state):
+    visited_states = []
+    for i in range(9) :
+        next_state = np.argmax(Q[state])
+        
+        visited_states.append(next_state)
+        state = next_state
+    
+    visited_states = np.array(visited_states, dtype=int)
+    # print(visited_states)
+    
+    return visited_states
 
 def main() -> None:
     """Main function."""
@@ -237,12 +249,8 @@ def main() -> None:
     
     n_episodes = int(4e4) #number of episodes
     
-    alpha = 0.001 #laerning rate
-    gamma = 0.9 #penalty
-    decay = 1.01
-    1 #decay function
-    epsilon = 0.9 # espsilon for spsilon greedy policy
-    threshold  = 2e4 #converging threshold for episodic reward value
+    
+    00
     
     for ep in range(n_episodes):
         ret = 0 #total rewards
@@ -290,10 +298,17 @@ def main() -> None:
         
         print(f"Episode {ep} : {ret}") #prints current episodic reward
         print(f"Episode {ep} : {mean}") #prints current mean episodic reward
-
+    
+    
     print(f"Converged at Episode : {ep} with reward value : {converged_value}")
+    
+    # calculate_Path
+    
+    paths = path(Q, 0)
+    print(f"path travelled : {paths}")
     #  Plots episodic and cumilative rewards at each episode 
     plot_graph(cum, ep_rets, n_episodes)
+    
     
 
 if __name__ == "__main__":
