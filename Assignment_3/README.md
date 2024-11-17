@@ -7,6 +7,8 @@ the maximum time taken by any single agent to reach its goal. You may employ mul
 rollouts as part of your approach. Once complete, report the minimum time achieved by your
 solution.
 
+- Minimum average time required for all agents to reach there goal : **10 steps** 
+  >Here time is calculated as the number of steps required to reach the goal and is equal to the absolute value of the total reward accumulated over an episode by the agent.
 
 
 
