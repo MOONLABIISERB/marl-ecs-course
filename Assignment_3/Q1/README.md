@@ -30,7 +30,7 @@ Run: test.py
 
 To test the trained agents behaviour using Q-tables: Load `Q_tables.pickle` file.
 
-https://github.com/user-attachments/assets/aa44d4ae-5f3b-47ad-b323-0a32e10d63bc
+https://github.com/user-attachments/assets/6c503b9a-8ff7-4af9-b4ea-a56c45b370f4
 
 ## Visualizing Rewards and Steps
 
