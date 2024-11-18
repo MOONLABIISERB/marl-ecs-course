@@ -8,10 +8,10 @@ import pickle
 ACTIONS = [(0, 0), (-1, 0), (1, 0), (0, -1), (0, 1)]
 ACTION_NAMES = ['Stay', 'Up', 'Down', 'Left', 'Right']
 NUM_ACTIONS = len(ACTIONS)
-GAMMA = 0.9  # Discount factor
-ALPHA = 0.1  # Learning rate
+GAMMA = 0.9 
+ALPHA = 0.1 
 EPSILON = 0.2
-MAX_EPISODES = 500
+MAX_EPISODES = 1000
 
 # Default Q-Table initializer
 def default_q_table():
