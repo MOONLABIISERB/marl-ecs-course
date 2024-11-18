@@ -22,6 +22,3 @@ class Action(NamedHashable):
     def __init__(self, name: str | None = None) -> None:
         super().__init__(name or "ACTION")
 
-
-T_State = t.TypeVar("T_State", bound=State)
-T_Action = t.TypeVar("T_Action", bound=Action)
