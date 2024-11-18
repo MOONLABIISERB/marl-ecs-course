@@ -1,0 +1,98 @@
+import numpy as np
+from collections import defaultdict
+from env import maze, destinations, agents, maze_size
+
+# Actions: [Stay, Up, Down, Left, Right]
+ACTIONS = [(0, 0), (-1, 0), (1, 0), (0, -1), (0, 1)]
+ACTION_NAMES = ['Stay', 'Up', 'Down', 'Left', 'Right']
+NUM_ACTIONS = len(ACTIONS)
+GAMMA = 0.9  # Discount factor
+ALPHA = 0.1  # Learning rate
+EPSILON = 0.2
+MAX_EPISODES = 500
+
+# Maze environment
+class MultiAgentMazeMinMax:
+    def __init__(self, maze, agents, destinations):
+        self.maze = maze
+        self.agents = agents
+        self.destinations = destinations
+        self.num_agents = len(agents)
+        self.state = tuple(agents)
+        self.steps_taken = [0] * self.num_agents  # Track steps per agent
+
+    def is_valid_position(self, pos):
+        x, y = pos
+        return 0 <= x < maze_size and 0 <= y < maze_size and self.maze[x, y] != 1
+
+    def reset(self):
+        self.state = tuple(agents)
+        self.steps_taken = [0] * self.num_agents
+        return self.state
+
+    def step(self, actions):
+        next_state = list(self.state)
+        rewards = []
+        for i, action in enumerate(actions):
+            current_pos = self.state[i]
+            move = ACTIONS[action]
+            new_pos = (current_pos[0] + move[0], current_pos[1] + move[1])
+
+            # Check if new position is valid
+            if self.is_valid_position(new_pos) and new_pos not in next_state:
+                next_state[i] = new_pos
+
+            # Increment step count
+            self.steps_taken[i] += 1
+
+            # Calculate reward
+            if new_pos == self.destinations[i]:
+                reward = 10  # Reached goal
+            else:
+                reward = -1  # Step penalty
+            rewards.append(reward)
+
+        self.state = tuple(next_state)
+        done = all(next_state[i] == self.destinations[i] for i in range(self.num_agents))
+        return self.state, rewards, done, max(self.steps_taken)
+
+# Q-learning with max-time minimization
+def train_agents_minmax(maze_env):
+    q_tables = [defaultdict(lambda: np.zeros(NUM_ACTIONS)) for _ in range(maze_env.num_agents)]
+    min_max_time = float('inf')  # Track the minimum maximum time
+
+    for episode in range(MAX_EPISODES):
+        state = maze_env.reset()
+        done = False
+
+        while not done:
+            actions = []
+            for i in range(maze_env.num_agents):
+                if np.random.rand() < EPSILON:
+                    action = np.random.choice(NUM_ACTIONS)  # Explore
+                else:
+                    action = np.argmax(q_tables[i][state[i]])  # Exploit
+                actions.append(action)
+
+            next_state, rewards, done, max_time = maze_env.step(actions)
+
+            # Update Q-values
+            for i in range(maze_env.num_agents):
+                current_q = q_tables[i][state[i]][actions[i]]
+                next_max_q = np.max(q_tables[i][next_state[i]])
+                q_tables[i][state[i]][actions[i]] = current_q + ALPHA * (
+                    rewards[i] + GAMMA * next_max_q - current_q
+                )
+
+            state = next_state
+
+        # Update minimum max time
+        min_max_time = min(min_max_time, max_time)
+
+    return q_tables, min_max_time
+
+# Train and evaluate
+maze_env = MultiAgentMazeMinMax(maze, agents, destinations)
+q_tables, min_max_time = train_agents_minmax(maze_env)
+
+print(f"\nMinimum maximum time achieved: {min_max_time}")
