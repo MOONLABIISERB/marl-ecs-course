@@ -1,6 +1,8 @@
 import numpy as np
+import matplotlib.pyplot as plt
 from collections import defaultdict
 from env import maze, destinations, agents, maze_size
+import pickle  # For saving Q-tables
 
 # Actions: [Stay, Up, Down, Left, Right]
 ACTIONS = [(0, 0), (-1, 0), (1, 0), (0, -1), (0, 1)]
@@ -10,6 +12,10 @@ GAMMA = 0.9  # Discount factor
 ALPHA = 0.1  # Learning rate
 EPSILON = 0.2
 MAX_EPISODES = 500
+
+# Default Q-Table initializer
+def default_q_table():
+    return np.zeros(NUM_ACTIONS)
 
 # Maze environment
 class MultiAgentMazeMinMax:
@@ -58,12 +64,16 @@ class MultiAgentMazeMinMax:
 
 # Q-learning with max-time minimization
 def train_agents_minmax(maze_env):
-    q_tables = [defaultdict(lambda: np.zeros(NUM_ACTIONS)) for _ in range(maze_env.num_agents)]
+    q_tables = [defaultdict(default_q_table) for _ in range(maze_env.num_agents)]
     min_max_time = float('inf')  # Track the minimum maximum time
+    rewards_history = []
+    steps_history = []
 
     for episode in range(MAX_EPISODES):
         state = maze_env.reset()
         done = False
+        cumulative_rewards = 0
+        steps = 0
 
         while not done:
             actions = []
@@ -84,15 +94,57 @@ def train_agents_minmax(maze_env):
                     rewards[i] + GAMMA * next_max_q - current_q
                 )
 
+            # Track cumulative rewards and steps
+            cumulative_rewards += sum(rewards)
+            steps += 1
             state = next_state
 
         # Update minimum max time
         min_max_time = min(min_max_time, max_time)
 
-    return q_tables, min_max_time
+        # Record rewards and steps for this episode
+        rewards_history.append(cumulative_rewards)
+        steps_history.append(steps)
+
+    return q_tables, min_max_time, rewards_history, steps_history
+
+# Save Q-Tables
+def save_q_tables(q_tables, filename):
+    with open(filename, 'wb') as f:
+        pickle.dump(q_tables, f)
+    print(f"Q-tables saved to {filename}")
+
+# Plot Rewards and Steps
+def plot_training_metrics(rewards_history, steps_history):
+    plt.figure(figsize=(12, 5))
+
+    # Plot cumulative rewards
+    plt.subplot(1, 2, 1)
+    plt.plot(rewards_history, label="Cumulative Rewards")
+    plt.xlabel("Episodes")
+    plt.ylabel("Cumulative Rewards")
+    plt.title("Rewards Over Episodes")
+    plt.legend()
+
+    # Plot steps
+    plt.subplot(1, 2, 2)
+    plt.plot(steps_history, label="Steps Per Episode", color='orange')
+    plt.xlabel("Episodes")
+    plt.ylabel("Steps")
+    plt.title("Steps Over Episodes")
+    plt.legend()
+
+    plt.tight_layout()
+    plt.show()
 
 # Train and evaluate
 maze_env = MultiAgentMazeMinMax(maze, agents, destinations)
-q_tables, min_max_time = train_agents_minmax(maze_env)
+q_tables, min_max_time, rewards_history, steps_history = train_agents_minmax(maze_env)
+
+# Save Q-tables
+save_q_tables(q_tables, "q_tables.pkl")
+
+# Visualize rewards and steps
+plot_training_metrics(rewards_history, steps_history)
 
 print(f"\nMinimum maximum time achieved: {min_max_time}")
