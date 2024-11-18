@@ -30,7 +30,7 @@ Run: test.py
 
 To test the trained agents behaviour using Q-tables: Load `Q_tables.pickle` file.
 
-![Agents Path Finding During Testing](Simulation.mp4)
+![Agents Path Finding During Testing](https://github.com/user-attachments/assets/aa44d4ae-5f3b-47ad-b323-0a32e10d63bc)
 
 ## Visualizing Rewards and Steps
 
