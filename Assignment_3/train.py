@@ -1,5 +1,3 @@
-import numpy as np
-import pygame
 from environment import MultiAgentEnv
 import pickle
 from agent import QLearningAgent
@@ -25,13 +23,9 @@ def marl_learning_rollout(env, agents, num_rollouts=100, max_steps = 10000):
             for agent_id, agent in agents.items():
                 next_actions[agent_id], q_table = agent.choose_action(next_obs, q_table)
                 episode_reward[agent_id] += reward[agent_id]
-                # if agent_id == 1:
-                #     print(episode_reward[agent_id])
                 q_table = agent.learn(obs, actions[agent_id], reward[agent_id], next_obs, done, q_table)
     
             obs = next_obs
-            # env.render()
-            # pygame.time.delay(100)  # Delay in milliseconds
             step += 1
         
         if episode % (num_rollouts / 1000) == 0:
@@ -44,7 +38,6 @@ def marl_learning_rollout(env, agents, num_rollouts=100, max_steps = 10000):
     return rewards, {key: value / num_rollouts for key, value in total_rewards.items()}, q_table
 
 def save_q_tables(q_table, filename_prefix='q_table_agent'):
-    # for agent_id, agent in agents.items():
     filename = f"Assignment_3/{filename_prefix}.pkl"
     with open(filename, 'wb') as f:
         pickle.dump(q_table, f)

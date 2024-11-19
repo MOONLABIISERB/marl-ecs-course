@@ -1,6 +1,4 @@
 import pygame
-import gymnasium as gym
-from gymnasium import spaces
 import numpy as np
 
 # Define the Multi-Agent Environment
@@ -81,25 +79,6 @@ class MultiAgentEnv():
 
     def _get_observations(self):
         state = {}
-        # 0: Walkable, 1: Obstacle, 2: self pos, 3: self goal, 4: other agent, 5: other agent goal
-        
-        # obs = [agent_pos for id, agent_pos in self.agents.items()]
-        # obs.extend([self.goals[agent_id] for agent_id, goal_pos in self.goals.items()])
-        
-            # temp_grid = np.zeros((self.grid_rows, self.grid_columns))
-            # for row in range(self.grid_rows):
-            #     for col in range(self.grid_columns):
-            #         if (row, col) in self.obstacles:
-            #             temp_grid[row, col] = 1
-            #         elif row == self.agents[agent_id][0] and col == self.agents[agent_id][1]:
-            #             temp_grid[row, col] = 2
-            #         elif row == self.goals[agent_id][0] and col == self.goals[agent_id][1]:
-            #             temp_grid[row, col] = 3
-            #         elif (row, col) in self.agents.values():
-            #             temp_grid[row, col] = 4
-            #         elif (row, col) in self.goals.values():
-            #             temp_grid[row, col] = 5
-            # state[agent_id] = temp_grid
         for agent_id in self.agents.keys():
             state[agent_id] = [self.agents[agent_id], self.goals[agent_id]]
 
@@ -134,11 +113,6 @@ class MultiAgentEnv():
             self.done[agent_id] = self._is_goal_reached(agent_id)
 
             terminated = all(self.done.values())
-            # if self.done[agent_id]:
-            #     self.rewards[agent_id] = 2
-            # else:
-            #     self.rewards[agent_id] = -1
-            
             if not self.done[agent_id]:
                 self.rewards[agent_id] = -1
         
@@ -173,17 +147,6 @@ class MultiAgentEnv():
         elif action == 4:  # Righjt
             return row, col + 1
 
-        # if action == 0:  # Up
-        #     return row - 1, col
-        # elif action == 1:  # Down
-        #     return row + 1, col
-        # elif action == 2:  # Left
-        #     return row, col - 1
-        # elif action == 3:  # Right
-        #     return row, col + 1
-        # elif action == 4:  # Stay
-        #     return row, col
-    
     def _is_valid_position(self, position):
         """
         Check if a position is valid (within bounds and not an obstacle).
