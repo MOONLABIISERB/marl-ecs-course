@@ -1,15 +1,6 @@
 # Multi-Agent Pathfinding Using Q-Learning
 
-This project demonstrates a solution to a **Multi-Agent Pathfinding Problem (MAPF)** using **Q-Learning**, a reinforcement learning technique. It includes simulations of agents navigating a maze to reach their respective destinations while avoiding obstacles and conflicts.
-
----
-
-## Problem Overview
-
-### Objective
-- Multiple agents start at randomized positions in a maze.
-- Each agent must navigate to its specific destination.
-- Agents should avoid colliding with walls, each other, or revisiting their positions.
+This assignment demonstrates a solution to a **Multi-Agent Pathfinding Problem (MAPF)** using **Multi-Agent Rollout Q-Learning**. It includes simulations of agents navigating a maze to reach their respective destinations while avoiding obstacles and conflicts.
 
 ---
 
@@ -24,54 +15,20 @@ This project demonstrates a solution to a **Multi-Agent Pathfinding Problem (MAP
   - +10 for reaching the destination.
   - -1 penalty for each step taken.
 
-### Question 2: Optimal Path Visualization
-- **Visualization**: Dotted lines represent the optimal path for each agent, computed from trained Q-tables.
-- **Output**: Shows agents' paths, destinations, and invalid moves (if any).
-
----
-
-## Solution Technique: Q-Learning
-- **Q-Learning**: A model-free RL algorithm used to train agents to find optimal paths.
-  - **State**: Each agent's position in the maze.
-  - **Action**: Chosen based on an epsilon-greedy policy.
-  - **Reward**: Immediate feedback for each action (step penalty or goal reward).
-  - **Q-Table**: Learned policy mapping states to actions.
-- **Algorithm**:
-  1. Randomly initialize Q-tables for each agent.
-  2. Train agents for multiple episodes using trial-and-error.
-  3. Update Q-values using the Bellman equation:
-     \[
-     Q(s, a) \leftarrow Q(s, a) + \alpha [r + \gamma \max_a Q(s', a) - Q(s, a)]
-     \]
-  4. Visualize optimal paths based on the trained Q-tables.
-
+### Question 2: Optimal Pathfinding with random initialization at each step
+- Trained with same method and setup
 ---
 
 ## Key Features
-1. **Dynamic Maze Environment**:
-   - Randomized agent starting positions.
-   - Static wall configurations.
-2. **Optimal Path Visualization**:
-   - Graphical representation of agents' paths.
-   - Dotted lines for directions, color-coded by agent.
-3. **Efficient Training**:
-   - Independent Q-tables for agents with conflict handling.
+1. **Q-Learning**:
+   - Each agent learns to select actions that maximize its cumulative reward over time. Q-values are updated based on the agent’s experiences during the training episodes, considering the exploration-exploitation trade-off.
+2. **Rollout Policy**:
+   - The rollout process involves each agent following the optimal path determined by its Q-table. At each step, an agent either explores a random action or exploits the best-known action based on its learned Q-values.
+3. **Multi-Agent Setup**:
+   - Multiple agents are trained simultaneously with their own independent Q-tables, navigating through a shared environment. Agents update their Q-values based on their own actions and rewards, while also accounting for the presence of other agents.
 
 ---
 
-## How to Run
-1. Define the maze dimensions, wall positions, and agent destinations.
-2. Initialize the `MultiAgentMazeMAPF` environment.
-3. Train agents using the `train_agents_mapf` function.
-4. Visualize the optimal paths using the `visualize_optimal_paths_with_dotted_lines` function.
 
----
-
-## Libraries Used
-- **Python**: Numpy, Matplotlib, Collections
-
----
-
-### Example Outputs
-- Training results: Minimum time for agents to reach goals.
-- Visualization: Graph of the maze with agents' optimal paths.
+### Results
+-  Minimum time for agents to reach goals and visualization of the maze with agents' optimal paths are shown in the notebook.
