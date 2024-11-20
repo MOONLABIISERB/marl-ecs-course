@@ -7,7 +7,7 @@
 
 
 ---
-###**Minimum time required for all the agents to reach their goal:** **13 steps**  
+### Minimum time (or number of steps) required for all the agents to reach their goal: 13 steps 
 ---   
 
 ### The Episodic Reward vs Cumulative Reward curve for question-1 is as follows:
