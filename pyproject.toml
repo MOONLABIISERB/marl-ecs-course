@@ -15,6 +15,7 @@ matplotlib = "^3.9.2"
 typer = "^0.12.5"
 uuid = "^1.30"
 gymnasium = {extras = ["classic-control"], version = "^1.0.0"}
+tqdm = "^4.67.0"
 
 
 [tool.poetry.group.dev.dependencies]
