@@ -43,10 +43,10 @@ pip3 install matplotlib numpy
 python3 answer.py
 
 #To run question-1
-Enter mode (random or None): None
+Enter mode (1 for fixed, 2 for random): 1
 
 #To run question-2
-Enter mode (random or None): random
+Enter mode (1 for fixed, 2 for random): 2
 ```
 ---
 
