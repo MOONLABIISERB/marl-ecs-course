@@ -30,11 +30,9 @@ class GridEnvironment:
         rewards = {}
         done = True
 
-        # Propose new positions
         for agent_id, action in actions.items():
             x, y = self.current_positions[agent_id]
 
-            # If agent has reached its goal, it stays in place
             if (x, y) == self.goal_positions[agent_id]:
                 proposed_positions[agent_id] = (x, y)
             else:
@@ -49,18 +47,15 @@ class GridEnvironment:
                 else:  # "STAY"
                     nx, ny = x, y
 
-                # Validate move
                 if 0 <= nx < self.grid.shape[0] and 0 <= ny < self.grid.shape[1] and self.grid[nx, ny] != -1:
                     proposed_positions[agent_id] = (nx, ny)
                 else:
                     proposed_positions[agent_id] = (x, y)
 
-        # Resolve collisions
         for agent_id, pos in proposed_positions.items():
             if list(proposed_positions.values()).count(pos) > 1:
                 proposed_positions[agent_id] = self.current_positions[agent_id]
 
-        # Update positions and calculate rewards
         for agent_id, (x, y) in self.current_positions.items():
             new_pos = proposed_positions[agent_id]
             self.current_positions[agent_id] = new_pos
@@ -68,50 +63,45 @@ class GridEnvironment:
             if new_pos == self.goal_positions[agent_id]:
                 rewards[agent_id] = 10  # Goal reward
             else:
-                # Distance-based shaping reward
                 gx, gy = self.goal_positions[agent_id]
                 distance_before = abs(x - gx) + abs(y - gy)
                 distance_after = abs(new_pos[0] - gx) + abs(new_pos[1] - gy)
                 rewards[agent_id] = 1 if distance_after < distance_before else -1
 
-                done = False  # Not done if any agent is still moving
+                done = False
 
         return self.current_positions, rewards, done
 
     def render(self, step):
         """Visualizes the grid with agents and goals in the same Matplotlib window."""
-        plt.clf()  # Clear the previous plot
+        plt.clf()
 
         ax = plt.gca()
 
-        # Draw grid
         for x in range(self.grid.shape[0]):
             for y in range(self.grid.shape[1]):
-                if self.grid[x, y] == -1:  # Obstacle
+                if self.grid[x, y] == -1:
                     ax.add_patch(Rectangle((y, self.grid.shape[0] - 1 - x), 1, 1, color="gray"))
-                else:  # Empty cell
+                else:
                     ax.add_patch(Rectangle((y, self.grid.shape[0] - 1 - x), 1, 1, fill=False, edgecolor="black"))
 
-        # Draw goals
+
         colors = ["blue", "yellow", "green", "purple"]
         for agent_id, (gx, gy) in self.goal_positions.items():
             plt.text(gy + 0.5, self.grid.shape[0] - 1 - gx + 0.5, "+", color=colors[agent_id % len(colors)],
                      ha="center", va="center", fontsize=14)
 
-        # Draw agents
         for agent_id, (ax, ay) in self.current_positions.items():
             plt.text(ay + 0.5, self.grid.shape[0] - 1 - ax + 0.5, f"A{agent_id}", color=colors[agent_id % len(colors)],
                      ha="center", va="center", fontsize=12, bbox=dict(boxstyle="circle", facecolor="white"))
 
-        # Set axis limits and labels
         plt.xlim(0, self.grid.shape[1])
         plt.ylim(0, self.grid.shape[0])
         plt.gca().invert_yaxis()
         plt.title(f"Step {step}")
         plt.axis("off")
 
-        plt.pause(0.1)  # Pause for a short moment to display the frame
-
+        plt.pause(0.1)
 
 class QLearningWithRolloutsPolicy:
     def __init__(self, goal_positions, actions=["UP", "DOWN", "LEFT", "RIGHT", "STAY"], alpha=0.5, gamma=0.9, epsilon=0.9, rollout_depth=10, rollout_count=11):
@@ -120,21 +110,19 @@ class QLearningWithRolloutsPolicy:
         self.alpha = alpha
         self.gamma = gamma
         self.epsilon = epsilon
-        self.rollout_depth = rollout_depth  # How far to simulate into the future
-        self.rollout_count = rollout_count  # How many rollouts to perform per action
+        self.rollout_depth = rollout_depth 
+        self.rollout_count = rollout_count 
 
     def state_to_key(self, state):
-        return tuple(sorted(state.items()))  # Shared state key
+        return tuple(sorted(state.items()))
 
     def decay_epsilon(self, decay_rate=0.995, min_epsilon=0.1):
         self.epsilon = max(self.epsilon * decay_rate, min_epsilon)
 
     def choose_action(self, state, agent_id, env):
-        # Exploration: Random action
         if random.random() < self.epsilon:
             return random.choice(["UP", "DOWN", "LEFT", "RIGHT", "STAY"])
 
-        # Exploitation: Perform rollouts for each action
         best_action = None
         best_value = float("-inf")
 
@@ -151,23 +139,21 @@ class QLearningWithRolloutsPolicy:
         return best_action
 
     def perform_rollout(self, state, agent_id, action, env):
-        # Simulate the environment to estimate future rewards
         simulated_env = GridEnvironment(env.agent_positions, env.goal_positions)
         simulated_env.current_positions = state.copy()
 
         total_reward = 0
         current_state = state.copy()
         for _ in range(self.rollout_depth):
-            actions = {agent_id: action}  # Perform action for the current agent
+            actions = {agent_id: action}
             for other_id in state:
                 if other_id != agent_id:
-                    actions[other_id] = random.choice(["UP", "DOWN", "LEFT", "RIGHT", "STAY"])  # Base policy
+                    actions[other_id] = random.choice(["UP", "DOWN", "LEFT", "RIGHT", "STAY"])
 
             next_state, rewards, _ = simulated_env.step(actions)
             total_reward += rewards[agent_id]
             current_state = next_state
 
-            # Break early if the agent reaches the goal
             if current_state[agent_id] == self.goal_positions[agent_id]:
                 break
 
