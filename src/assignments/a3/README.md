@@ -52,10 +52,11 @@ The **GridWorld Environment** is a $10 \times 10$ grid with the following featur
 
 **Reward Mechanism**:
 
-- **Reaching the goal**: $+50$ reward.
+<!-- - **Reaching the goal**: $+50$ reward. -->
+
 - **Invalid move**: $-10$ penalty.
 - **Valid move**: $-1$ step penalty.
-- **All agents reaching their goals**: Additional $+500$.
+<!-- - **All agents reaching their goals**: Additional $+500$. -->
 
 ---
 
