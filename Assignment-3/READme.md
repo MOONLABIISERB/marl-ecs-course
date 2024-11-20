@@ -33,7 +33,7 @@ In an extended version of the problem, the maze environment introduces randomnes
 MAPF is a critical challenge in fields like robotics, warehouse automation, and gaming. Efficient solutions enable applications such as drone swarm coordination, autonomous vehicle routing, and managing large-scale agent systems.
 
 
-#Results
+# Results
 
 ![image](https://github.com/user-attachments/assets/f2ec34f1-f3ed-4bd1-86da-be316a8a4532)
 
