@@ -13,5 +13,12 @@ Q learning was applied to all the agents. Optimum values were calculated and sto
 #### Results:
 ![steps_](https://github.com/user-attachments/assets/b28cd39e-7582-4264-b3f8-a34f40e0c062)
 
-Steps Vs Iterations in training.
-We see the steps reduce as training proceeds
+##### Steps Vs Iterations in training.
+
+We see the steps to completions reduce as training proceeds
+
+<img width="443" alt="Screenshot 2024-11-20 200930" src="https://github.com/user-attachments/assets/20ea2ad7-ba78-4c38-b7b9-5f3bee79aeaa">
+
+
+
+
