@@ -27,10 +27,10 @@ def test(env, agents, q_table):
         pygame.time.delay(500)  # Delay in milliseconds
 
 agents = {
-        0: (1,1),
-        1: (8,1),
-        2: (1,8),
-        3: (8,8)
+        1: (1,1),
+        2: (8,1),
+        3: (1,8),
+        0: (8,8)
     }
 
 
@@ -62,13 +62,13 @@ obstacles=[
 
 num_agents = 4
 
-epsilon = 0.1
+epsilon = 0.2
 alpha = 0.2
-gamma = 0.9
+gamma = 0
 
 q_table = load_q_table('Assignment_3/q_table_agent.pkl')
 
-env = MultiAgentEnv(grid_size=(10, 10), goals=goals, obstacles=obstacles, num_agents=num_agents)
+env = MultiAgentEnv(grid_size=(10, 10), agents=agents, goals=goals, obstacles=obstacles, num_agents=num_agents)
 
 agents = {i: QLearningAgent(agent_id=i, action_space=env.action_spaces[i], epsilon=epsilon, alpha=alpha, gamma=gamma) for i in range(num_agents)}
 

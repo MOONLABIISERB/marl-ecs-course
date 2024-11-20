@@ -1,5 +1,6 @@
 from environment import MultiAgentEnv
 import pickle
+import csv
 from agent import QLearningAgent
 
 def marl_learning_rollout(env, agents, num_rollouts=100, max_steps = 10000):
@@ -28,11 +29,11 @@ def marl_learning_rollout(env, agents, num_rollouts=100, max_steps = 10000):
             obs = next_obs
             step += 1
         
-        if episode % (num_rollouts / 1000) == 0:
-            print(f'reward at episode: {episode} is {episode_reward}')
+        if episode % (num_rollouts / 10_000) == 0:
+            print(f'reward at episode: {episode}/{num_rollouts} is {episode_reward}')
 
         for agent_id in agents.keys():
-            rewards[agent_id].append(episode_reward)
+            rewards[agent_id].append(episode_reward[agent_id])
             total_rewards[agent_id] += episode_reward[agent_id]
 
     return rewards, {key: value / num_rollouts for key, value in total_rewards.items()}, q_table
@@ -73,8 +74,7 @@ if __name__ == "__main__":
 
     max_steps = 100_000
     num_agents = 4
-    num_rollouts = 1_000_000
-
+    num_rollouts = 10_000_000
     epsilon = 0.1
     alpha = 0.2
     gamma = 0.9

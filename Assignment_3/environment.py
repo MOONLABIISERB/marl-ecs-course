@@ -113,14 +113,12 @@ class MultiAgentEnv():
             self.done[agent_id] = self._is_goal_reached(agent_id)
 
             terminated = all(self.done.values())
-            if not self.done[agent_id]:
-                self.rewards[agent_id] = -1
         
         for agent_id in self.agents.keys():
             if self.done[agent_id]:
-                self.rewards[agent_id] = 1
+                self.rewards[agent_id] = 10
             else:
-                self.rewards[agent_id] = -1
+                self.rewards[agent_id] = -0.1
             if terminated:
                 self.rewards[agent_id] = 1000
 
