@@ -7,9 +7,15 @@
 
 
 ---
-- **Minimum time required for all the agents to reach their goal:** **13 steps**  
+**Minimum time required for all the agents to reach their goal:** **13 steps**  
 ---   
 
-### Episodic Reward vs Cumulative Reward (Convergence)
+### The Episodic Reward vs Cumulative Reward curve for question-1 is as follows:
 ![Episodic vs Cumulative Reward (Episodes 1-1000)](Question-1/rewards-q1.png)
+
+### The animation for question 1 is as follows:
+![Policy Learned when the starting point is is fixed](Question-1/path-q1.gif)
+
+
+
 
