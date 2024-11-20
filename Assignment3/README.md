@@ -18,6 +18,9 @@ Q learning was applied to all the agents. Optimum values were calculated and sto
 
 We see the steps to completions reduce as training proceeds
 
+##### Initial positions of agents.
+<img width="390" alt="Screenshot 2024-11-20 204533" src="https://github.com/user-attachments/assets/184ec542-917d-4bb7-8047-5f06513adf40">
+
 
 ##### Final positions of agents.
 <img width="443" alt="Screenshot 2024-11-20 200930" src="https://github.com/user-attachments/assets/20ea2ad7-ba78-4c38-b7b9-5f3bee79aeaa">
