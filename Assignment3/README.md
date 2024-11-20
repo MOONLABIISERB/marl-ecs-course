@@ -1,7 +1,7 @@
 ## Assignment 3
 ### Q1
 #### How to run code:
-Run test.py. 
+Run test.py. \n
 environment.py, rollout.py, q_table.npy must be in the same folder.
 
 #### Number of steps taken:
