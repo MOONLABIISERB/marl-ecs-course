@@ -27,6 +27,7 @@ We see the steps to completions reduce as training proceeds
 ### Q2
 #### How to run code:
 Run test_random.py. 
+
 environment.py, rollout.py, q_table_random.npy must be in the same folder.
 
 #### Number of steps taken:
