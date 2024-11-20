@@ -12,6 +12,11 @@ Number of steps taken for agents to reach final position was 13 steps.
 Q learning was applied to all the agents. Optimum values were calculated and stored in q_table.npy
 
 #### Results:
+
+![ezgif com-animated-gif-maker](https://github.com/user-attachments/assets/b0a06f72-ac04-444b-9493-4bac16af5682)
+
+
+
 ##### Steps Vs Iterations in training.
 ![steps_](https://github.com/user-attachments/assets/b28cd39e-7582-4264-b3f8-a34f40e0c062)
 
