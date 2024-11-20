@@ -25,12 +25,12 @@
 
 ---
 
-### The Episodic Reward vs Cumulative Reward curve for question-1 is as follows:
+### The Episodic Reward vs Cumulative Reward curve for question-2 is as follows:
 ![Episodic vs Cumulative Reward (Episodes 1-1000)](Question-2/rewards-q2.png)
 
 --- 
 
-### Policy Learned when the starting point is fixed is depicted below:
+### Policy Learned when the starting point is randomly initialised (intersection not allowed) is depicted below:
 ![](Question-2/path-q2.gif)
 
 --- 
