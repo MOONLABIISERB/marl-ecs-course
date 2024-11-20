@@ -93,16 +93,6 @@ Deep Q-Learning (DQN) is an enhancement of Q-Learning, using a neural network to
 
 ---
 
-### Running the Training Script
-
-To train the agents using DQN:
-
-```bash
-python train.py
-```
-
----
-
 ## Results
 
 ### Performance Metrics
@@ -114,6 +104,11 @@ We evaluated the performance of the agents based on the percentage of successful
 | Episodes Trained       | $500$         |
 | Success Rate           | $78.9238\ \%$ |
 | Average Reward/Episode | $-32.2456$    |
+
+### Discussion
+
+1. **Convergence**: Agents gradually learned to avoid walls and navigate toward goals.
+2. **Challenges**: The agents sometimes failed to explore sufficiently under low ϵ-values, leading to suboptimal policies.
 
 ---
 
