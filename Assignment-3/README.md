@@ -7,14 +7,33 @@
 
 
 ---
-**Minimum time required for all the agents to reach their goal:** **13 steps**  
+###**Minimum time required for all the agents to reach their goal:** **13 steps**  
 ---   
 
 ### The Episodic Reward vs Cumulative Reward curve for question-1 is as follows:
 ![Episodic vs Cumulative Reward (Episodes 1-1000)](Question-1/rewards-q1.png)
 
-### The animation for question 1 is as follows:
-![Policy Learned when the starting point is is fixed](Question-1/path-q1.gif)
+--- 
+
+### Policy Learned when the starting point is fixed is depicted below:
+![](Question-1/path-q1.gif)
+
+--- 
+
+## Question-2
+>As a bonus challenge, solve the MAPF problem where each agent’s starting position is randomized for every epoch or episode while all other parameters and conditions remain the same.
+
+---
+
+### The Episodic Reward vs Cumulative Reward curve for question-1 is as follows:
+![Episodic vs Cumulative Reward (Episodes 1-1000)](Question-2/rewards-q2.png)
+
+--- 
+
+### Policy Learned when the starting point is fixed is depicted below:
+![](Question-2/path-q2.gif)
+
+--- 
 
 
 
