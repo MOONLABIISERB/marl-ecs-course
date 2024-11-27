@@ -1,10 +1,11 @@
 
 ## Random Action Policy
-![Demo CountPages alpha](random.gif)
+![Demo CountPages alpha](https://github.com/MOONLABIISERB/marl-ecs-course/blob/agamdeep_20021/EndSem/random.gif)
 
 ## Learned Policy using DQN
 
-![Demo CountPages alpha](video.gif)
+![Demo CountPages alpha](https://github.com/MOONLABIISERB/marl-ecs-course/blob/agamdeep_20021/EndSem/video.gif)
+
 
 
 ## Report
