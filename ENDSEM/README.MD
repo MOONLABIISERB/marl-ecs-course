@@ -39,3 +39,8 @@ Move: Move without the ball to a more strategic position.
 To score a GOAL
 
 ![alt text](https://github.com/MOONLABIISERB/marl-ecs-course/blob/rugved_21294/ENDSEM/download%20(3).jpg)
+
+### Rewards
+
+$R_{BA} &= -\ln \left[ \min_{1 \leq i \leq n_{\text{agents}}} \left( \|\mathbf{p}_i - \mathbf{p}_{\text{ball}}\| \right) + \exp(-R_0) \right] \\
+$
