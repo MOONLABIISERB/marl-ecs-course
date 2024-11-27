@@ -20,22 +20,22 @@ Challenges:
 
 ### Environment
 
-● 3v3 mini football match
+- 3v3 mini football match
 
-● Team that scores goal wins
+- Team that scores goal wins
 
-● Episode ends if ball out of pitch
+- Episode ends if ball out of pitch
 
 
 ### Agent
 
-● Dribble: Move with the ball toward the goal.
+- Dribble: Move with the ball toward the goal.
 
-● Shoot: Shoot the ball toward the goal.
+- Shoot: Shoot the ball toward the goal.
 
-● Pass: Shoot the ball toward a teammate.
+- Pass: Shoot the ball toward a teammate.
 
-● Move: Move without the ball to a more strategic position.
+- Move: Move without the ball to a more strategic position.
 
 ### Goal
 
