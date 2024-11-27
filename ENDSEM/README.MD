@@ -38,4 +38,4 @@ Move: Move without the ball to a more strategic position.
 
 To score a GOAL
 
-![alt text](./download (3).jpg)
+![alt text](../download (3).jpg)
