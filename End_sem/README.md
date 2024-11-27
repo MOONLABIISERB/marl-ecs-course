@@ -43,6 +43,8 @@ A dashboard is added, in which current state of environment, rewards of the agen
 ├── walls.py               # For defining walls
 
 ```
+## System Overview
+![System Overview](System_overview.png)
 
 ## Visualization
 
