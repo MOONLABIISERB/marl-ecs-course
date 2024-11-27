@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 from environment import PressurePlate
 
 # Hyperparameters
-n_episodes = 300         
+n_episodes = 500         
 max_steps = 10000        
 gridsize = (15, 9)      
 n_agents = 4            
