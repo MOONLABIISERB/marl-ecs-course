@@ -1,0 +1,2 @@
+model_checkpoint_path: "DQN_simple_5M.h5f"
+all_model_checkpoint_paths: "DQN_simple_5M.h5f"
