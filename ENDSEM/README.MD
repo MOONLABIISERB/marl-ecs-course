@@ -38,4 +38,4 @@ Move: Move without the ball to a more strategic position.
 
 To score a GOAL
 
-![alt text](https://www.google.com/imgres?q=football%20goal%20ronaldo&imgurl=https%3A%2F%2Fimg.olympics.com%2Fimages%2Fimage%2Fprivate%2Ft_s_16_9_g_auto%2Ft_s_w960%2Ff_auto%2Fprimary%2Farwyln3kdko3mialnh8a&imgrefurl=https%3A%2F%2Folympics.com%2Fen%2Fnews%2Fcristiano-ronaldo-milestone-moments-900-career-goal&docid=7-83EIGLD2xXGM&tbnid=glgvxU9AuZVaSM&vet=12ahUKEwjUx_yI1fyJAxVusFYBHfv6L_MQM3oECBgQAA..i&w=960&h=540&hcb=2&ved=2ahUKEwjUx_yI1fyJAxVusFYBHfv6L_MQM3oECBgQAA)
+![alt text](./download (3).jpg)
