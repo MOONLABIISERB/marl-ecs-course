@@ -42,5 +42,4 @@ To score a GOAL
 
 ### Rewards
 
-$\R_{BA} &= -\ln \left[ \min_{1 \leq i \leq n_{\text{agents}}} \left( \|\mathbf{p}_i - \mathbf{p}_{\text{ball}}\| \right) + \exp(-R_0) \right] \\
-$
+$\R_{BA} &= -\ln \left[ \min_{1 \leq i \leq n_{\text{agents}}} \left( \|\mathbf{p}_i - \mathbf{p}_{\text{ball}}\| \right) + \exp(-R_0) \right]$
