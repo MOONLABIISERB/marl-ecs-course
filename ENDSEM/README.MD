@@ -2,6 +2,7 @@
 
 # Mini Football
 
+
 ## Problem Statement
 
 * To develop and optimize a multi-agent reinforcement learning (MARL) policy for playing mini football.
@@ -19,6 +20,8 @@ Challenges:
 ## Setup
 
 ### Environment
+
+![Demo](https://github.com/MOONLABIISERB/marl-ecs-course/blob/rugved_21294/ENDSEM/sim_video.webm)
 
 - 3v3 mini football match
 
