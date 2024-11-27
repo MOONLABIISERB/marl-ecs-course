@@ -41,11 +41,11 @@ Challenges:
 
 To score a GOAL
 
-![alt text](https://github.com/MOONLABIISERB/marl-ecs-course/blob/rugved_21294/ENDSEM/download%20(3).jpg)
+![alt text](https://github.com/MOONLABIISERB/marl-ecs-course/blob/rugved_21294/ENDSEM/goal.png)
 
 ### Rewards
 
-![alt text](https://github.com/MOONLABIISERB/marl-ecs-course/blob/rugved_21294/ENDSEM/Screenshot%202024-11-27%20193922.png)
+![alt text](https://github.com/MOONLABIISERB/marl-ecs-course/blob/rugved_21294/ENDSEM/rewards.png)
 
 ## Methodology
 
@@ -55,9 +55,21 @@ Multi-Agent Deep Deterministic Policy Gradient (MADDPG)
 
 ![alt text](https://github.com/MOONLABIISERB/marl-ecs-course/blob/578bc34c9252a28796c203e382b1f21a037a6da6/ENDSEM/ddpg.png)
 
+### Network Architecture
+
+* Actor Network:
+- Input: (s, a)
+- 3 hidden layer of size 64, 256 with ReLU activation.
+- Output: Q(s,a)
+
+* Critic Network:
+- Input: (s, a)
+- 1 hidden layer of size 64 with ReLU activation.
+- Output: Q(s,a)
 
 ## Results
 
+![alt text](https://github.com/MOONLABIISERB/marl-ecs-course/blob/rugved_21294/ENDSEM/ddpg_results.png)
 
 ## Observations
 
