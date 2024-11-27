@@ -38,4 +38,4 @@ Move: Move without the ball to a more strategic position.
 
 To score a GOAL
 
-![alt text](../download (3).jpg)
+![alt text](https://github.com/MOONLABIISERB/marl-ecs-course/blob/rugved_21294/ENDSEM/download%20(3).jpg)
