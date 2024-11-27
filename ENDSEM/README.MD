@@ -53,7 +53,7 @@ To score a GOAL
 
 Multi-Agent Deep Deterministic Policy Gradient (MADDPG)
 
-![alt text](https://github.com/MOONLABIISERB/marl-ecs-course/blob/rugved_21294/ENDSEM/ddpg.png)
+![alt text](https://github.com/MOONLABIISERB/marl-ecs-course/blob/578bc34c9252a28796c203e382b1f21a037a6da6/ENDSEM/ddpg.png)
 
 
 ## Results
