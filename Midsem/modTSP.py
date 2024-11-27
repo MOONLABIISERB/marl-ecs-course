@@ -17,7 +17,7 @@ class ModTSP(gym.Env):
         self,
         num_targets: int = 10,
         max_area: int = 15,
-        shuffle_time: int = 10,
+        shuffle_time: int = 1,
         seed: int = None,
     ) -> None:
         """Initialize the TSP environment.

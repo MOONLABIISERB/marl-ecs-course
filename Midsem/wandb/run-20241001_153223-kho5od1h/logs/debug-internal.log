@@ -1,0 +1,49 @@
+{"time":"2024-10-01T15:32:23.742835+05:30","level":"INFO","msg":"using version","core version":"0.18.2"}
+{"time":"2024-10-01T15:32:23.742902+05:30","level":"INFO","msg":"created symlink","path":"/Users/agam/projects/marl-ecs-course/Midsem/wandb/run-20241001_153223-kho5od1h/logs/debug-core.log"}
+{"time":"2024-10-01T15:32:23.75295+05:30","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-01T15:32:23.764267+05:30","level":"INFO","msg":"created new stream","id":"kho5od1h"}
+{"time":"2024-10-01T15:32:23.764301+05:30","level":"INFO","msg":"stream: started","id":"kho5od1h"}
+{"time":"2024-10-01T15:32:23.764317+05:30","level":"INFO","msg":"handler: started","stream_id":{"value":"kho5od1h"}}
+{"time":"2024-10-01T15:32:23.764326+05:30","level":"INFO","msg":"sender: started","stream_id":{"value":"kho5od1h"}}
+{"time":"2024-10-01T15:32:23.76434+05:30","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"kho5od1h"}}
+{"time":"2024-10-01T15:32:24.253327+05:30","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-01T15:32:24.256522+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-01T15:32:34.355817+05:30","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-01T15:32:44.357569+05:30","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-01T15:32:54.393013+05:30","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-01T15:33:04.354685+05:30","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-01T15:33:14.354044+05:30","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-01T15:33:24.353668+05:30","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-01T15:33:34.35418+05:30","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-01T15:33:44.35439+05:30","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-01T15:33:54.354378+05:30","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-01T15:34:04.353833+05:30","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-01T15:34:14.354179+05:30","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-01T15:34:24.360459+05:30","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-01T15:34:34.393316+05:30","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-01T15:34:44.355133+05:30","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-01T15:34:54.356922+05:30","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-01T15:35:04.355392+05:30","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-01T15:35:14.353633+05:30","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-01T15:35:24.354427+05:30","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-01T15:35:34.355999+05:30","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-01T15:35:44.354456+05:30","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-01T15:35:54.354773+05:30","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-01T15:36:04.352112+05:30","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-01T15:36:14.354342+05:30","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-01T15:36:24.361114+05:30","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-01T15:36:34.354716+05:30","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-01T15:36:44.354005+05:30","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-01T15:36:54.353729+05:30","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-01T15:37:04.353929+05:30","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-01T15:37:14.354415+05:30","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-01T15:37:24.354953+05:30","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-01T15:37:24.609987+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-01T15:37:24.610022+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-01T15:37:40.111802+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-01T15:37:42.683214+05:30","level":"INFO","msg":"stream: closing","id":"kho5od1h"}
+{"time":"2024-10-01T15:37:42.683281+05:30","level":"INFO","msg":"handler: closed","stream_id":{"value":"kho5od1h"}}
+{"time":"2024-10-01T15:37:42.683324+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"kho5od1h"}}
+{"time":"2024-10-01T15:37:42.683391+05:30","level":"ERROR","msg":"runfiles: CreateRunFiles returned error: api: failed sending: POST https://api.wandb.ai/graphql giving up after 1 attempt(s): context canceled"}
+{"time":"2024-10-01T15:37:42.683365+05:30","level":"INFO","msg":"sender: closed","stream_id":{"value":"kho5od1h"}}
+{"time":"2024-10-01T15:37:42.683474+05:30","level":"INFO","msg":"stream: closed","id":"kho5od1h"}
