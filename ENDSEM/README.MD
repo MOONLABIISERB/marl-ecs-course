@@ -7,7 +7,7 @@
 ● To develop and optimize a multi-agent reinforcement learning (MARL) policy for playing mini football.
 
 ● Challenges:</br>
-    ○ Cooperative & Competitive Strategies: To make the agents cooperatively and competitively learn strategies to score goals, dribble, pass, defence, and adapting to the actions of the opponent.
+        ○ Cooperative & Competitive Strategies: To make the agents cooperatively and competitively learn strategies to score goals, dribble, pass, defence, and adapting to the actions of the opponent.
 
 ○ Individual and Collective Learning: Each agent should learn to control the ball individually and also coordinate with teammates to keep possession of the ball with its own team.
 
