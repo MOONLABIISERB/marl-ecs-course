@@ -47,7 +47,7 @@ To score a GOAL
 
 ![alt text](https://github.com/MOONLABIISERB/marl-ecs-course/blob/rugved_21294/ENDSEM/Screenshot%202024-11-27%20193922.png)
 
-### Observations
+## Observations
 
 1.  In early episodes, blue agents are not wise whereas red agents know how to play. Therefore they goal. Defending them gives positive reward to our agents. So blue agents learn to defend, whereas their attacking learning is very poor.
 Thus, over some iterations, Blue agents become better defenders.
