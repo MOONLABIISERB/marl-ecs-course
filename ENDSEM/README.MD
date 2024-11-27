@@ -21,18 +21,21 @@
 ### Environment
 
 ● 3v3 mini football match
+
 ● Team that scores goal wins
+
 ● Episode ends if ball out of pitch
+
 
 ### Agent
 
-Dribble: Move with the ball toward the goal.
+● Dribble: Move with the ball toward the goal.
 
-Shoot: Shoot the ball toward the goal.
+● Shoot: Shoot the ball toward the goal.
 
-Pass: Shoot the ball toward a teammate.
+● Pass: Shoot the ball toward a teammate.
 
-Move: Move without the ball to a more strategic position.
+● Move: Move without the ball to a more strategic position.
 
 ### Goal
 
@@ -42,4 +45,12 @@ To score a GOAL
 
 ### Rewards
 
+![alt text](https://github.com/MOONLABIISERB/marl-ecs-course/blob/rugved_21294/ENDSEM/Screenshot%202024-11-27%20193922.png)
+
+### Observations
+
+1.  In early episodes, blue agents are not wise whereas red agents know how to play. Therefore they goal. Defending them gives positive reward to our agents. So blue agents learn to defend, whereas their attacking learning is very poor.
+Thus, over some iterations, Blue agents become better defenders.
+
+2.  In earlier experiments, it was observed that the agents tend to go towards the borders and corners of the pitch. The border penalty was added to mitigate this issue.
 
