@@ -27,6 +27,6 @@ python3 test_maddpg.py
 ```
 
 # Presentation
-[Presentation](MARL Project.pdf)
+Check MARL Project.pdf file.
 
 
