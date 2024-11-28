@@ -1,0 +1,39 @@
+{
+  "os": "Linux-5.15.0-125-generic-x86_64-with-glibc2.31",
+  "python": "3.11.10",
+  "startedAt": "2024-11-24T12:19:04.891199Z",
+  "program": "/home/elliot/Desktop/Shirish/PhD/Courses/MARL-ECS/Project/codes/train_mappo.py",
+  "codePath": "train_mappo.py",
+  "email": "shirish24@iiserb.ac.in",
+  "root": "/home/elliot/Desktop/Shirish/PhD/Courses/MARL-ECS/Project/codes",
+  "host": "hummingbird",
+  "username": "elliot",
+  "executable": "/home/elliot/anaconda3/envs/mappo/bin/python",
+  "codePathLocal": "train_mappo.py",
+  "cpu_count": 10,
+  "cpu_count_logical": 20,
+  "gpu": "NVIDIA GeForce RTX 3070",
+  "gpu_count": 1,
+  "disk": {
+    "/": {
+      "total": "982820896768",
+      "used": "461214130176"
+    }
+  },
+  "memory": {
+    "total": "67312259072"
+  },
+  "cpu": {
+    "count": 10,
+    "countLogical": 20
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA GeForce RTX 3070",
+      "memoryTotal": "8589934592",
+      "cudaCores": 5888,
+      "architecture": "Ampere"
+    }
+  ],
+  "cudaVersion": "12.4"
+}

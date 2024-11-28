@@ -1,0 +1,1315 @@
+Using device: cuda
+Collision! team_2_agent_0 caught by team_1_agent_0
+Episode 1/1000: Team 1 Rewards = 25, Team 2 Rewards = -25, Average Loss = -0.0220
+Episode 2/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0190
+Episode 3/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0184
+Episode 4/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0259
+Collision! team_2_agent_0 caught by team_1_agent_0
+Episode 5/1000: Team 1 Rewards = 25, Team 2 Rewards = -25, Average Loss = -0.0325
+Episode 6/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0276
+Episode 7/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0385
+Episode 8/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0248
+Episode 9/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0283
+Episode 10/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0105
+Episode 11/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0201
+Collision! team_2_agent_1 caught by team_1_agent_0
+Episode 12/1000: Team 1 Rewards = 25, Team 2 Rewards = -25, Average Loss = -0.0221
+Episode 13/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0465
+Episode 14/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0350
+Episode 15/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0214
+Episode 16/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0145
+Episode 17/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0180
+Collision! team_2_agent_0 caught by team_1_agent_0
+Episode 18/1000: Team 1 Rewards = 25, Team 2 Rewards = -25, Average Loss = -0.0372
+Episode 19/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0274
+Episode 20/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0189
+Episode 21/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0117
+Episode 22/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0130
+Episode 23/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0332
+Episode 24/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0187
+Episode 25/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0327
+Collision! team_2_agent_0 caught by team_1_agent_1
+Episode 26/1000: Team 1 Rewards = 25, Team 2 Rewards = -25, Average Loss = -0.0159
+Episode 27/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0184
+Collision! team_1_agent_1 caught by team_2_agent_1
+Episode 28/1000: Team 1 Rewards = -25, Team 2 Rewards = 25, Average Loss = -0.0337
+Episode 29/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0151
+Episode 30/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0219
+Episode 31/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0530
+Episode 32/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0179
+Collision! team_1_agent_0 caught by team_2_agent_0
+Collision! team_1_agent_0 caught by team_2_agent_0
+Collision! team_1_agent_0 caught by team_2_agent_1
+Collision! team_1_agent_0 caught by team_2_agent_0
+Episode 33/1000: Team 1 Rewards = -100, Team 2 Rewards = 100, Average Loss = -0.0460
+Episode 34/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0538
+Episode 35/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0154
+Episode 36/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0178
+Episode 37/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0184
+Episode 38/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0154
+Collision! team_1_agent_1 caught by team_2_agent_1
+Episode 39/1000: Team 1 Rewards = -25, Team 2 Rewards = 25, Average Loss = -0.0149
+Collision! team_1_agent_1 caught by team_2_agent_0
+Collision! team_1_agent_0 caught by team_2_agent_0
+Episode 40/1000: Team 1 Rewards = -50, Team 2 Rewards = 50, Average Loss = -0.0216
+Episode 41/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0334
+Episode 42/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0591
+Episode 43/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0259
+Episode 44/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0213
+Collision! team_1_agent_0 caught by team_2_agent_0
+Collision! team_1_agent_0 caught by team_2_agent_0
+Episode 45/1000: Team 1 Rewards = -50, Team 2 Rewards = 50, Average Loss = -0.0189
+Episode 46/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0195
+Episode 47/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0205
+Episode 48/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0172
+Episode 49/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0338
+Models saved for episode 50.
+Episode 50/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0336
+Episode 51/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0312
+Episode 52/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0170
+Episode 53/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0407
+Episode 54/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0204
+Episode 55/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0198
+Episode 56/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0196
+Episode 57/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0197
+Collision! team_2_agent_1 caught by team_1_agent_1
+Episode 58/1000: Team 1 Rewards = 25, Team 2 Rewards = -25, Average Loss = -0.0317
+Episode 59/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0412
+Episode 60/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0385
+Episode 61/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0183
+Episode 62/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0188
+Episode 63/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0233
+Episode 64/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0193
+Episode 65/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0133
+Episode 66/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0252
+Episode 67/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0197
+Episode 68/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0331
+Episode 69/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0192
+Episode 70/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0143
+Collision! team_1_agent_0 caught by team_2_agent_1
+Episode 71/1000: Team 1 Rewards = -25, Team 2 Rewards = 25, Average Loss = -0.0370
+Episode 72/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0227
+Collision! team_1_agent_1 caught by team_2_agent_0
+Episode 73/1000: Team 1 Rewards = -25, Team 2 Rewards = 25, Average Loss = -0.0265
+Episode 74/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0548
+Episode 75/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0234
+Collision! team_2_agent_0 caught by team_1_agent_1
+Collision! team_2_agent_0 caught by team_1_agent_1
+Episode 76/1000: Team 1 Rewards = 50, Team 2 Rewards = -50, Average Loss = -0.0132
+Episode 77/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0299
+Episode 78/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0320
+Episode 79/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0240
+Episode 80/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0250
+Episode 81/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0390
+Collision! team_2_agent_0 caught by team_1_agent_0
+Collision! team_2_agent_0 caught by team_1_agent_0
+Collision! team_1_agent_1 caught by team_2_agent_1
+Episode 82/1000: Team 1 Rewards = 25, Team 2 Rewards = -25, Average Loss = -0.0450
+Episode 83/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0339
+Collision! team_1_agent_1 caught by team_2_agent_0
+Collision! team_1_agent_1 caught by team_2_agent_0
+Episode 84/1000: Team 1 Rewards = -50, Team 2 Rewards = 50, Average Loss = -0.0330
+Episode 85/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0194
+Collision! team_1_agent_1 caught by team_2_agent_1
+Collision! team_1_agent_1 caught by team_2_agent_1
+Collision! team_1_agent_1 caught by team_2_agent_0
+Episode 86/1000: Team 1 Rewards = -75, Team 2 Rewards = 75, Average Loss = -0.0353
+Episode 87/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0408
+Collision! team_1_agent_1 caught by team_2_agent_0
+Episode 88/1000: Team 1 Rewards = -25, Team 2 Rewards = 25, Average Loss = -0.0318
+Episode 89/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0338
+Episode 90/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0280
+Collision! team_2_agent_1 caught by team_1_agent_0
+Episode 91/1000: Team 1 Rewards = 25, Team 2 Rewards = -25, Average Loss = -0.0173
+Collision! team_1_agent_1 caught by team_2_agent_1
+Episode 92/1000: Team 1 Rewards = -25, Team 2 Rewards = 25, Average Loss = -0.0302
+Episode 93/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0378
+Episode 94/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0349
+Episode 95/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0223
+Episode 96/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0284
+Episode 97/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0245
+Episode 98/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0197
+Episode 99/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0373
+Models saved for episode 100.
+Episode 100/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0207
+Episode 101/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0194
+Episode 102/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0152
+Collision! team_2_agent_0 caught by team_1_agent_0
+Collision! team_2_agent_0 caught by team_1_agent_0
+Collision! team_2_agent_0 caught by team_1_agent_0
+Episode 103/1000: Team 1 Rewards = 75, Team 2 Rewards = -75, Average Loss = -0.0023
+Episode 104/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0365
+Collision! team_1_agent_1 caught by team_2_agent_0
+Episode 105/1000: Team 1 Rewards = -25, Team 2 Rewards = 25, Average Loss = -0.0339
+Episode 106/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0177
+Episode 107/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0193
+Episode 108/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0322
+Episode 109/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0375
+Episode 110/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0370
+Collision! team_2_agent_1 caught by team_1_agent_0
+Episode 111/1000: Team 1 Rewards = 25, Team 2 Rewards = -25, Average Loss = -0.0233
+Collision! team_2_agent_0 caught by team_1_agent_0
+Episode 112/1000: Team 1 Rewards = 25, Team 2 Rewards = -25, Average Loss = -0.0324
+Episode 113/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0162
+Collision! team_2_agent_1 caught by team_1_agent_1
+Episode 114/1000: Team 1 Rewards = 25, Team 2 Rewards = -25, Average Loss = -0.0271
+Episode 115/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0419
+Episode 116/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0387
+Episode 117/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0316
+Episode 118/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0271
+Episode 119/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0204
+Episode 120/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0374
+Collision! team_1_agent_0 caught by team_2_agent_0
+Episode 121/1000: Team 1 Rewards = -25, Team 2 Rewards = 25, Average Loss = -0.0359
+Episode 122/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0325
+Episode 123/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0191
+Episode 124/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0231
+Episode 125/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0317
+Episode 126/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0222
+Episode 127/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0239
+Collision! team_1_agent_0 caught by team_2_agent_1
+Collision! team_1_agent_0 caught by team_2_agent_1
+Episode 128/1000: Team 1 Rewards = -50, Team 2 Rewards = 50, Average Loss = -0.0431
+Collision! team_2_agent_1 caught by team_1_agent_0
+Collision! team_2_agent_1 caught by team_1_agent_0
+Episode 129/1000: Team 1 Rewards = 50, Team 2 Rewards = -50, Average Loss = -0.0251
+Collision! team_2_agent_1 caught by team_1_agent_0
+Episode 130/1000: Team 1 Rewards = 25, Team 2 Rewards = -25, Average Loss = -0.0266
+Episode 131/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0203
+Collision! team_1_agent_1 caught by team_2_agent_0
+Episode 132/1000: Team 1 Rewards = -25, Team 2 Rewards = 25, Average Loss = -0.0182
+Episode 133/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0237
+Episode 134/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0203
+Episode 135/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0218
+Episode 136/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0174
+Episode 137/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0371
+Episode 138/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0399
+Episode 139/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0210
+Episode 140/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0295
+Episode 141/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0184
+Episode 142/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0286
+Episode 143/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0424
+Collision! team_1_agent_0 caught by team_2_agent_1
+Episode 144/1000: Team 1 Rewards = -25, Team 2 Rewards = 25, Average Loss = -0.0191
+Episode 145/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0416
+Collision! team_1_agent_1 caught by team_2_agent_1
+Episode 146/1000: Team 1 Rewards = -25, Team 2 Rewards = 25, Average Loss = -0.0183
+Episode 147/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0225
+Episode 148/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0202
+Episode 149/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0298
+Models saved for episode 150.
+Episode 150/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0454
+Episode 151/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0164
+Episode 152/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0195
+Episode 153/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0191
+Episode 154/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0203
+Episode 155/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0391
+Episode 156/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0211
+Collision! team_1_agent_0 caught by team_2_agent_0
+Episode 157/1000: Team 1 Rewards = -25, Team 2 Rewards = 25, Average Loss = -0.0141
+Episode 158/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0408
+Collision! team_2_agent_0 caught by team_1_agent_1
+Episode 159/1000: Team 1 Rewards = 25, Team 2 Rewards = -25, Average Loss = -0.0413
+Episode 160/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0326
+Episode 161/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0150
+Episode 162/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0356
+Episode 163/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0156
+Episode 164/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0163
+Episode 165/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0352
+Episode 166/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0192
+Collision! team_2_agent_1 caught by team_1_agent_0
+Episode 167/1000: Team 1 Rewards = 25, Team 2 Rewards = -25, Average Loss = -0.0309
+Episode 168/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0215
+Episode 169/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0218
+Episode 170/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0193
+Episode 171/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0234
+Collision! team_1_agent_0 caught by team_2_agent_1
+Episode 172/1000: Team 1 Rewards = -25, Team 2 Rewards = 25, Average Loss = -0.0460
+Episode 173/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0156
+Collision! team_1_agent_1 caught by team_2_agent_0
+Episode 174/1000: Team 1 Rewards = -25, Team 2 Rewards = 25, Average Loss = -0.0175
+Episode 175/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0274
+Episode 176/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0212
+Episode 177/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0177
+Episode 178/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0171
+Episode 179/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0195
+Episode 180/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0266
+Episode 181/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0190
+Episode 182/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0326
+Episode 183/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0207
+Collision! team_1_agent_0 caught by team_2_agent_0
+Episode 184/1000: Team 1 Rewards = -25, Team 2 Rewards = 25, Average Loss = -0.0272
+Episode 185/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0303
+Collision! team_2_agent_1 caught by team_1_agent_1
+Episode 186/1000: Team 1 Rewards = 25, Team 2 Rewards = -25, Average Loss = -0.0186
+Episode 187/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0402
+Episode 188/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0421
+Episode 189/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0177
+Episode 190/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0179
+Episode 191/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0139
+Collision! team_2_agent_1 caught by team_1_agent_0
+Episode 192/1000: Team 1 Rewards = 25, Team 2 Rewards = -25, Average Loss = -0.0559
+Episode 193/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0188
+Episode 194/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0206
+Collision! team_1_agent_1 caught by team_2_agent_1
+Episode 195/1000: Team 1 Rewards = -25, Team 2 Rewards = 25, Average Loss = -0.0289
+Episode 196/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0240
+Episode 197/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0163
+Episode 198/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0188
+Episode 199/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0310
+Models saved for episode 200.
+Episode 200/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0209
+Collision! team_1_agent_0 caught by team_2_agent_1
+Collision! team_1_agent_0 caught by team_2_agent_1
+Collision! team_1_agent_0 caught by team_2_agent_1
+Episode 201/1000: Team 1 Rewards = -75, Team 2 Rewards = 75, Average Loss = -0.0101
+Collision! team_1_agent_0 caught by team_2_agent_1
+Collision! team_1_agent_0 caught by team_2_agent_1
+Episode 202/1000: Team 1 Rewards = -50, Team 2 Rewards = 50, Average Loss = -0.0224
+Episode 203/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0307
+Episode 204/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0206
+Episode 205/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0226
+Episode 206/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0145
+Episode 207/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0181
+Episode 208/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0174
+Episode 209/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0201
+Episode 210/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0345
+Episode 211/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0213
+Episode 212/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0135
+Episode 213/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0179
+Collision! team_1_agent_1 caught by team_2_agent_1
+Collision! team_1_agent_1 caught by team_2_agent_1
+Episode 214/1000: Team 1 Rewards = -50, Team 2 Rewards = 50, Average Loss = -0.0284
+Episode 215/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0242
+Episode 216/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0338
+Collision! team_2_agent_0 caught by team_1_agent_0
+Collision! team_2_agent_0 caught by team_1_agent_0
+Episode 217/1000: Team 1 Rewards = 50, Team 2 Rewards = -50, Average Loss = -0.0203
+Episode 218/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0465
+Episode 219/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0464
+Episode 220/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0243
+Episode 221/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0251
+Episode 222/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0347
+Collision! team_1_agent_1 caught by team_2_agent_1
+Collision! team_1_agent_0 caught by team_2_agent_0
+Collision! team_1_agent_0 caught by team_2_agent_0
+Collision! team_1_agent_1 caught by team_2_agent_0
+Episode 223/1000: Team 1 Rewards = -100, Team 2 Rewards = 100, Average Loss = -0.0249
+Episode 224/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0305
+Episode 225/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0291
+Episode 226/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0198
+Episode 227/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0354
+Collision! team_2_agent_1 caught by team_1_agent_0
+Episode 228/1000: Team 1 Rewards = 25, Team 2 Rewards = -25, Average Loss = -0.0446
+Episode 229/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0317
+Episode 230/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0670
+Episode 231/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0193
+Episode 232/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0272
+Collision! team_2_agent_1 caught by team_1_agent_0
+Episode 233/1000: Team 1 Rewards = 25, Team 2 Rewards = -25, Average Loss = -0.0241
+Episode 234/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0200
+Episode 235/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0195
+Episode 236/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0209
+Episode 237/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0156
+Episode 238/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0449
+Episode 239/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0213
+Collision! team_2_agent_0 caught by team_1_agent_1
+Episode 240/1000: Team 1 Rewards = 25, Team 2 Rewards = -25, Average Loss = -0.0283
+Episode 241/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0165
+Episode 242/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0342
+Collision! team_2_agent_1 caught by team_1_agent_1
+Collision! team_2_agent_1 caught by team_1_agent_1
+Collision! team_2_agent_1 caught by team_1_agent_1
+Episode 243/1000: Team 1 Rewards = 75, Team 2 Rewards = -75, Average Loss = -0.0105
+Episode 244/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0206
+Episode 245/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0250
+Episode 246/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0186
+Episode 247/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0436
+Episode 248/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0302
+Collision! team_1_agent_1 caught by team_2_agent_0
+Collision! team_1_agent_1 caught by team_2_agent_0
+Collision! team_1_agent_1 caught by team_2_agent_0
+Episode 249/1000: Team 1 Rewards = -75, Team 2 Rewards = 75, Average Loss = -0.0396
+Models saved for episode 250.
+Episode 250/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0187
+Collision! team_1_agent_1 caught by team_2_agent_1
+Collision! team_1_agent_1 caught by team_2_agent_1
+Episode 251/1000: Team 1 Rewards = -50, Team 2 Rewards = 50, Average Loss = -0.0517
+Episode 252/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0454
+Collision! team_2_agent_0 caught by team_1_agent_0
+Episode 253/1000: Team 1 Rewards = 25, Team 2 Rewards = -25, Average Loss = -0.0369
+Episode 254/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0212
+Episode 255/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0199
+Episode 256/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0211
+Collision! team_2_agent_0 caught by team_1_agent_1
+Collision! team_2_agent_0 caught by team_1_agent_1
+Collision! team_2_agent_0 caught by team_1_agent_1
+Episode 257/1000: Team 1 Rewards = 75, Team 2 Rewards = -75, Average Loss = -0.0326
+Episode 258/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0262
+Episode 259/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0192
+Episode 260/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0342
+Episode 261/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0316
+Episode 262/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0132
+Episode 263/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0139
+Episode 264/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0142
+Episode 265/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0329
+Episode 266/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0206
+Episode 267/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0150
+Episode 268/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0324
+Episode 269/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0176
+Collision! team_2_agent_0 caught by team_1_agent_1
+Episode 270/1000: Team 1 Rewards = 25, Team 2 Rewards = -25, Average Loss = -0.0423
+Collision! team_1_agent_0 caught by team_2_agent_0
+Episode 271/1000: Team 1 Rewards = -25, Team 2 Rewards = 25, Average Loss = -0.0356
+Collision! team_1_agent_0 caught by team_2_agent_1
+Episode 272/1000: Team 1 Rewards = -25, Team 2 Rewards = 25, Average Loss = -0.0139
+Episode 273/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0248
+Collision! team_2_agent_0 caught by team_1_agent_0
+Episode 274/1000: Team 1 Rewards = 25, Team 2 Rewards = -25, Average Loss = -0.0378
+Episode 275/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0289
+Episode 276/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0154
+Episode 277/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0391
+Episode 278/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0162
+Collision! team_2_agent_0 caught by team_1_agent_1
+Collision! team_2_agent_0 caught by team_1_agent_1
+Episode 279/1000: Team 1 Rewards = 50, Team 2 Rewards = -50, Average Loss = -0.0362
+Episode 280/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0301
+Episode 281/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0186
+Episode 282/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0670
+Episode 283/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0209
+Episode 284/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0214
+Collision! team_2_agent_0 caught by team_1_agent_1
+Episode 285/1000: Team 1 Rewards = 25, Team 2 Rewards = -25, Average Loss = -0.0168
+Episode 286/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0370
+Episode 287/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0249
+Collision! team_2_agent_1 caught by team_1_agent_0
+Episode 288/1000: Team 1 Rewards = 25, Team 2 Rewards = -25, Average Loss = -0.0323
+Episode 289/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0223
+Episode 290/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0234
+Episode 291/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0242
+Collision! team_2_agent_1 caught by team_1_agent_1
+Episode 292/1000: Team 1 Rewards = 25, Team 2 Rewards = -25, Average Loss = -0.0604
+Episode 293/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0343
+Collision! team_1_agent_1 caught by team_2_agent_1
+Episode 294/1000: Team 1 Rewards = -25, Team 2 Rewards = 25, Average Loss = -0.0441
+Episode 295/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0346
+Episode 296/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0394
+Episode 297/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0189
+Episode 298/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0375
+Episode 299/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0245
+Models saved for episode 300.
+Episode 300/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0196
+Episode 301/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0212
+Collision! team_2_agent_0 caught by team_1_agent_1
+Collision! team_2_agent_0 caught by team_1_agent_0
+Episode 302/1000: Team 1 Rewards = 50, Team 2 Rewards = -50, Average Loss = -0.0247
+Episode 303/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0167
+Episode 304/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0197
+Episode 305/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0207
+Episode 306/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0198
+Collision! team_2_agent_0 caught by team_1_agent_0
+Episode 307/1000: Team 1 Rewards = 25, Team 2 Rewards = -25, Average Loss = -0.0267
+Episode 308/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0293
+Episode 309/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0370
+Episode 310/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0248
+Collision! team_1_agent_1 caught by team_2_agent_1
+Collision! team_1_agent_1 caught by team_2_agent_1
+Episode 311/1000: Team 1 Rewards = -50, Team 2 Rewards = 50, Average Loss = -0.0154
+Collision! team_1_agent_0 caught by team_2_agent_0
+Episode 312/1000: Team 1 Rewards = -25, Team 2 Rewards = 25, Average Loss = -0.0171
+Episode 313/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0190
+Episode 314/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0257
+Episode 315/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0338
+Episode 316/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0301
+Episode 317/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0228
+Episode 318/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0260
+Episode 319/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0273
+Episode 320/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0250
+Collision! team_1_agent_1 caught by team_2_agent_0
+Episode 321/1000: Team 1 Rewards = -25, Team 2 Rewards = 25, Average Loss = -0.0152
+Collision! team_1_agent_1 caught by team_2_agent_0
+Episode 322/1000: Team 1 Rewards = -25, Team 2 Rewards = 25, Average Loss = -0.0148
+Collision! team_2_agent_0 caught by team_1_agent_0
+Episode 323/1000: Team 1 Rewards = 25, Team 2 Rewards = -25, Average Loss = -0.0347
+Episode 324/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0312
+Episode 325/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0189
+Episode 326/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0168
+Episode 327/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0541
+Episode 328/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0207
+Episode 329/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0185
+Episode 330/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0365
+Episode 331/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0292
+Collision! team_2_agent_1 caught by team_1_agent_1
+Episode 332/1000: Team 1 Rewards = 25, Team 2 Rewards = -25, Average Loss = -0.0252
+Episode 333/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0338
+Episode 334/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0191
+Episode 335/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0110
+Collision! team_1_agent_1 caught by team_2_agent_1
+Episode 336/1000: Team 1 Rewards = -25, Team 2 Rewards = 25, Average Loss = -0.0271
+Episode 337/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0346
+Episode 338/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0248
+Episode 339/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0423
+Collision! team_1_agent_0 caught by team_2_agent_0
+Collision! team_1_agent_0 caught by team_2_agent_0
+Episode 340/1000: Team 1 Rewards = -50, Team 2 Rewards = 50, Average Loss = -0.0186
+Episode 341/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0277
+Episode 342/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0383
+Episode 343/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0196
+Episode 344/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0207
+Episode 345/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0330
+Episode 346/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0195
+Episode 347/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0267
+Episode 348/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0329
+Episode 349/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0252
+Models saved for episode 350.
+Episode 350/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0131
+Episode 351/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0197
+Collision! team_1_agent_1 caught by team_2_agent_0
+Episode 352/1000: Team 1 Rewards = -25, Team 2 Rewards = 25, Average Loss = -0.0277
+Collision! team_2_agent_1 caught by team_1_agent_0
+Collision! team_2_agent_1 caught by team_1_agent_0
+Episode 353/1000: Team 1 Rewards = 50, Team 2 Rewards = -50, Average Loss = -0.0402
+Episode 354/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0208
+Episode 355/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0401
+Episode 356/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0316
+Episode 357/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0214
+Episode 358/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0295
+Episode 359/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0321
+Episode 360/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0196
+Episode 361/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0236
+Episode 362/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0173
+Collision! team_1_agent_1 caught by team_2_agent_0
+Collision! team_1_agent_1 caught by team_2_agent_0
+Collision! team_1_agent_1 caught by team_2_agent_0
+Episode 363/1000: Team 1 Rewards = -75, Team 2 Rewards = 75, Average Loss = -0.0261
+Episode 364/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0223
+Episode 365/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0312
+Episode 366/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0269
+Collision! team_1_agent_0 caught by team_2_agent_0
+Collision! team_1_agent_0 caught by team_2_agent_0
+Collision! team_1_agent_0 caught by team_2_agent_1
+Episode 367/1000: Team 1 Rewards = -75, Team 2 Rewards = 75, Average Loss = -0.0267
+Episode 368/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0166
+Episode 369/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0315
+Episode 370/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0183
+Episode 371/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0195
+Episode 372/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0327
+Episode 373/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0384
+Episode 374/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0199
+Episode 375/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0173
+Episode 376/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0172
+Episode 377/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0243
+Episode 378/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0172
+Episode 379/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0192
+Episode 380/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0179
+Collision! team_2_agent_1 caught by team_1_agent_0
+Collision! team_2_agent_1 caught by team_1_agent_0
+Collision! team_2_agent_1 caught by team_1_agent_0
+Collision! team_2_agent_1 caught by team_1_agent_0
+Collision! team_2_agent_1 caught by team_1_agent_0
+Episode 381/1000: Team 1 Rewards = 125, Team 2 Rewards = -125, Average Loss = -0.0218
+Episode 382/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0211
+Collision! team_2_agent_0 caught by team_1_agent_1
+Episode 383/1000: Team 1 Rewards = 25, Team 2 Rewards = -25, Average Loss = -0.0367
+Collision! team_1_agent_1 caught by team_2_agent_1
+Episode 384/1000: Team 1 Rewards = -25, Team 2 Rewards = 25, Average Loss = -0.0387
+Collision! team_1_agent_0 caught by team_2_agent_1
+Episode 385/1000: Team 1 Rewards = -25, Team 2 Rewards = 25, Average Loss = -0.0161
+Episode 386/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0207
+Collision! team_1_agent_1 caught by team_2_agent_1
+Collision! team_1_agent_1 caught by team_2_agent_0
+Collision! team_1_agent_1 caught by team_2_agent_0
+Collision! team_1_agent_1 caught by team_2_agent_0
+Episode 387/1000: Team 1 Rewards = -100, Team 2 Rewards = 100, Average Loss = -0.0191
+Episode 388/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0379
+Episode 389/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0283
+Episode 390/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0187
+Collision! team_1_agent_1 caught by team_2_agent_0
+Collision! team_1_agent_1 caught by team_2_agent_0
+Episode 391/1000: Team 1 Rewards = -50, Team 2 Rewards = 50, Average Loss = -0.0299
+Episode 392/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0212
+Episode 393/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0227
+Episode 394/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0241
+Episode 395/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0287
+Collision! team_1_agent_0 caught by team_2_agent_0
+Collision! team_1_agent_0 caught by team_2_agent_0
+Episode 396/1000: Team 1 Rewards = -50, Team 2 Rewards = 50, Average Loss = -0.0279
+Episode 397/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0268
+Episode 398/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0191
+Episode 399/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0180
+Models saved for episode 400.
+Episode 400/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0200
+Episode 401/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0174
+Episode 402/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0254
+Collision! team_2_agent_0 caught by team_1_agent_0
+Collision! team_2_agent_0 caught by team_1_agent_0
+Collision! team_2_agent_0 caught by team_1_agent_0
+Episode 403/1000: Team 1 Rewards = 75, Team 2 Rewards = -75, Average Loss = -0.0023
+Episode 404/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0378
+Episode 405/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0342
+Episode 406/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0149
+Episode 407/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0215
+Episode 408/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0277
+Collision! team_1_agent_1 caught by team_2_agent_0
+Episode 409/1000: Team 1 Rewards = -25, Team 2 Rewards = 25, Average Loss = -0.0159
+Episode 410/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0172
+Collision! team_1_agent_0 caught by team_2_agent_1
+Episode 411/1000: Team 1 Rewards = -25, Team 2 Rewards = 25, Average Loss = -0.0189
+Episode 412/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0354
+Episode 413/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0480
+Collision! team_1_agent_1 caught by team_2_agent_1
+Episode 414/1000: Team 1 Rewards = -25, Team 2 Rewards = 25, Average Loss = -0.0275
+Episode 415/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0242
+Episode 416/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0353
+Episode 417/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0181
+Episode 418/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0187
+Episode 419/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0200
+Episode 420/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0230
+Episode 421/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0204
+Collision! team_2_agent_0 caught by team_1_agent_1
+Collision! team_2_agent_0 caught by team_1_agent_1
+Episode 422/1000: Team 1 Rewards = 50, Team 2 Rewards = -50, Average Loss = -0.0415
+Episode 423/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0381
+Episode 424/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0284
+Episode 425/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0264
+Episode 426/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0239
+Episode 427/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0518
+Episode 428/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0257
+Collision! team_2_agent_1 caught by team_1_agent_1
+Collision! team_2_agent_1 caught by team_1_agent_1
+Episode 429/1000: Team 1 Rewards = 50, Team 2 Rewards = -50, Average Loss = -0.0169
+Episode 430/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0481
+Collision! team_1_agent_1 caught by team_2_agent_1
+Collision! team_1_agent_1 caught by team_2_agent_1
+Episode 431/1000: Team 1 Rewards = -50, Team 2 Rewards = 50, Average Loss = -0.0228
+Episode 432/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0272
+Collision! team_2_agent_0 caught by team_1_agent_0
+Episode 433/1000: Team 1 Rewards = 25, Team 2 Rewards = -25, Average Loss = -0.0132
+Episode 434/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0253
+Episode 435/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0218
+Episode 436/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0289
+Episode 437/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0234
+Episode 438/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0318
+Collision! team_2_agent_1 caught by team_1_agent_0
+Episode 439/1000: Team 1 Rewards = 25, Team 2 Rewards = -25, Average Loss = -0.0446
+Episode 440/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0197
+Collision! team_1_agent_1 caught by team_2_agent_0
+Episode 441/1000: Team 1 Rewards = -25, Team 2 Rewards = 25, Average Loss = -0.0337
+Episode 442/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0259
+Episode 443/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0184
+Episode 444/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0298
+Collision! team_1_agent_1 caught by team_2_agent_0
+Episode 445/1000: Team 1 Rewards = -25, Team 2 Rewards = 25, Average Loss = -0.0328
+Episode 446/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0353
+Episode 447/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0377
+Episode 448/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0333
+Episode 449/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0376
+Models saved for episode 450.
+Episode 450/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0314
+Episode 451/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0310
+Episode 452/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0313
+Episode 453/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0153
+Episode 454/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0147
+Episode 455/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0742
+Episode 456/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0264
+Episode 457/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0221
+Episode 458/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0278
+Episode 459/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0206
+Episode 460/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0190
+Episode 461/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0355
+Episode 462/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0178
+Collision! team_1_agent_0 caught by team_2_agent_1
+Collision! team_1_agent_0 caught by team_2_agent_0
+Collision! team_1_agent_0 caught by team_2_agent_0
+Episode 463/1000: Team 1 Rewards = -75, Team 2 Rewards = 75, Average Loss = -0.0348
+Episode 464/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0317
+Collision! team_2_agent_0 caught by team_1_agent_0
+Collision! team_2_agent_0 caught by team_1_agent_0
+Episode 465/1000: Team 1 Rewards = 50, Team 2 Rewards = -50, Average Loss = -0.0325
+Episode 466/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0198
+Episode 467/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0183
+Episode 468/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0308
+Episode 469/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0214
+Episode 470/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0221
+Episode 471/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0165
+Episode 472/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0539
+Collision! team_2_agent_0 caught by team_1_agent_1
+Collision! team_2_agent_0 caught by team_1_agent_1
+Episode 473/1000: Team 1 Rewards = 50, Team 2 Rewards = -50, Average Loss = -0.0346
+Episode 474/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0288
+Episode 475/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0262
+Episode 476/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0315
+Episode 477/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0458
+Collision! team_1_agent_0 caught by team_2_agent_1
+Episode 478/1000: Team 1 Rewards = -25, Team 2 Rewards = 25, Average Loss = -0.0237
+Episode 479/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0345
+Episode 480/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0313
+Episode 481/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0189
+Episode 482/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0213
+Episode 483/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0545
+Episode 484/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0271
+Episode 485/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0192
+Episode 486/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0204
+Episode 487/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0360
+Episode 488/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0238
+Collision! team_1_agent_1 caught by team_2_agent_1
+Episode 489/1000: Team 1 Rewards = -25, Team 2 Rewards = 25, Average Loss = -0.0263
+Episode 490/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0241
+Episode 491/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0280
+Episode 492/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0339
+Episode 493/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0229
+Episode 494/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0269
+Collision! team_1_agent_1 caught by team_2_agent_1
+Episode 495/1000: Team 1 Rewards = -25, Team 2 Rewards = 25, Average Loss = -0.0172
+Episode 496/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0256
+Collision! team_1_agent_0 caught by team_2_agent_1
+Collision! team_1_agent_0 caught by team_2_agent_1
+Collision! team_1_agent_0 caught by team_2_agent_1
+Episode 497/1000: Team 1 Rewards = -75, Team 2 Rewards = 75, Average Loss = -0.0362
+Collision! team_1_agent_0 caught by team_2_agent_1
+Episode 498/1000: Team 1 Rewards = -25, Team 2 Rewards = 25, Average Loss = -0.0311
+Episode 499/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0287
+Models saved for episode 500.
+Episode 500/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0352
+Episode 501/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0213
+Episode 502/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0220
+Episode 503/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0183
+Episode 504/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0286
+Episode 505/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0183
+Episode 506/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0316
+Episode 507/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0312
+Episode 508/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0346
+Episode 509/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0376
+Episode 510/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0196
+Episode 511/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0287
+Episode 512/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0238
+Episode 513/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0185
+Episode 514/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0216
+Collision! team_1_agent_0 caught by team_2_agent_0
+Episode 515/1000: Team 1 Rewards = -25, Team 2 Rewards = 25, Average Loss = -0.0110
+Collision! team_1_agent_0 caught by team_2_agent_1
+Episode 516/1000: Team 1 Rewards = -25, Team 2 Rewards = 25, Average Loss = -0.0164
+Collision! team_1_agent_0 caught by team_2_agent_0
+Episode 517/1000: Team 1 Rewards = -25, Team 2 Rewards = 25, Average Loss = -0.0254
+Episode 518/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0222
+Episode 519/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0480
+Episode 520/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0525
+Episode 521/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0195
+Episode 522/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0214
+Episode 523/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0186
+Episode 524/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0306
+Episode 525/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0312
+Episode 526/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0414
+Episode 527/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0520
+Episode 528/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0221
+Episode 529/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0201
+Episode 530/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0154
+Episode 531/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0280
+Collision! team_1_agent_0 caught by team_2_agent_0
+Episode 532/1000: Team 1 Rewards = -25, Team 2 Rewards = 25, Average Loss = -0.0378
+Collision! team_1_agent_0 caught by team_2_agent_1
+Collision! team_1_agent_0 caught by team_2_agent_1
+Collision! team_1_agent_0 caught by team_2_agent_1
+Episode 533/1000: Team 1 Rewards = -75, Team 2 Rewards = 75, Average Loss = -0.0162
+Collision! team_2_agent_0 caught by team_1_agent_0
+Episode 534/1000: Team 1 Rewards = 25, Team 2 Rewards = -25, Average Loss = -0.0308
+Episode 535/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0277
+Collision! team_1_agent_0 caught by team_2_agent_0
+Episode 536/1000: Team 1 Rewards = -25, Team 2 Rewards = 25, Average Loss = -0.0282
+Episode 537/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0220
+Episode 538/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0201
+Collision! team_1_agent_0 caught by team_2_agent_0
+Episode 539/1000: Team 1 Rewards = -25, Team 2 Rewards = 25, Average Loss = -0.0351
+Collision! team_2_agent_1 caught by team_1_agent_1
+Episode 540/1000: Team 1 Rewards = 25, Team 2 Rewards = -25, Average Loss = -0.0334
+Episode 541/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0194
+Collision! team_1_agent_1 caught by team_2_agent_1
+Collision! team_1_agent_1 caught by team_2_agent_1
+Episode 542/1000: Team 1 Rewards = -50, Team 2 Rewards = 50, Average Loss = -0.0268
+Collision! team_1_agent_0 caught by team_2_agent_1
+Episode 543/1000: Team 1 Rewards = -25, Team 2 Rewards = 25, Average Loss = -0.0226
+Collision! team_1_agent_0 caught by team_2_agent_0
+Episode 544/1000: Team 1 Rewards = -25, Team 2 Rewards = 25, Average Loss = -0.0214
+Episode 545/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0163
+Episode 546/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0248
+Collision! team_1_agent_1 caught by team_2_agent_0
+Collision! team_1_agent_1 caught by team_2_agent_0
+Episode 547/1000: Team 1 Rewards = -50, Team 2 Rewards = 50, Average Loss = -0.0416
+Episode 548/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0207
+Episode 549/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0331
+Models saved for episode 550.
+Episode 550/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0220
+Episode 551/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0398
+Episode 552/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0211
+Episode 553/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0173
+Episode 554/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0394
+Episode 555/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0285
+Episode 556/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0312
+Episode 557/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0340
+Episode 558/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0230
+Episode 559/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0173
+Collision! team_2_agent_1 caught by team_1_agent_0
+Episode 560/1000: Team 1 Rewards = 25, Team 2 Rewards = -25, Average Loss = -0.0185
+Episode 561/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0179
+Episode 562/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0420
+Episode 563/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0265
+Episode 564/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0373
+Episode 565/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0161
+Episode 566/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0365
+Episode 567/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0208
+Episode 568/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0157
+Episode 569/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0235
+Episode 570/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0355
+Episode 571/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0274
+Episode 572/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0210
+Episode 573/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0414
+Episode 574/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0192
+Episode 575/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0220
+Collision! team_1_agent_1 caught by team_2_agent_1
+Collision! team_1_agent_1 caught by team_2_agent_1
+Episode 576/1000: Team 1 Rewards = -50, Team 2 Rewards = 50, Average Loss = -0.0159
+Episode 577/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0170
+Episode 578/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0425
+Episode 579/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0150
+Episode 580/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0297
+Episode 581/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0351
+Episode 582/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0184
+Episode 583/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0182
+Episode 584/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0414
+Collision! team_2_agent_1 caught by team_1_agent_1
+Episode 585/1000: Team 1 Rewards = 25, Team 2 Rewards = -25, Average Loss = -0.0130
+Episode 586/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0172
+Episode 587/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0142
+Episode 588/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0332
+Episode 589/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0457
+Collision! team_2_agent_0 caught by team_1_agent_1
+Episode 590/1000: Team 1 Rewards = 25, Team 2 Rewards = -25, Average Loss = -0.0156
+Episode 591/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0302
+Episode 592/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0158
+Episode 593/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0222
+Episode 594/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0190
+Episode 595/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0334
+Episode 596/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0298
+Episode 597/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0306
+Episode 598/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0206
+Episode 599/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0231
+Collision! team_2_agent_1 caught by team_1_agent_0
+Models saved for episode 600.
+Episode 600/1000: Team 1 Rewards = 25, Team 2 Rewards = -25, Average Loss = -0.0364
+Episode 601/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0190
+Episode 602/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0251
+Episode 603/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0199
+Episode 604/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0161
+Episode 605/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0342
+Episode 606/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0209
+Episode 607/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0466
+Collision! team_1_agent_1 caught by team_2_agent_1
+Episode 608/1000: Team 1 Rewards = -25, Team 2 Rewards = 25, Average Loss = -0.0216
+Episode 609/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0132
+Episode 610/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0378
+Episode 611/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0281
+Episode 612/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0344
+Episode 613/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0194
+Episode 614/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0370
+Episode 615/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0421
+Collision! team_1_agent_1 caught by team_2_agent_0
+Episode 616/1000: Team 1 Rewards = -25, Team 2 Rewards = 25, Average Loss = -0.0142
+Episode 617/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0172
+Collision! team_2_agent_1 caught by team_1_agent_1
+Episode 618/1000: Team 1 Rewards = 25, Team 2 Rewards = -25, Average Loss = -0.0289
+Episode 619/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0186
+Collision! team_1_agent_1 caught by team_2_agent_1
+Collision! team_1_agent_1 caught by team_2_agent_0
+Collision! team_1_agent_1 caught by team_2_agent_1
+Collision! team_1_agent_1 caught by team_2_agent_0
+Collision! team_1_agent_1 caught by team_2_agent_1
+Collision! team_1_agent_1 caught by team_2_agent_1
+Collision! team_1_agent_1 caught by team_2_agent_0
+Episode 620/1000: Team 1 Rewards = -175, Team 2 Rewards = 175, Average Loss = -0.0252
+Collision! team_2_agent_0 caught by team_1_agent_0
+Episode 621/1000: Team 1 Rewards = 25, Team 2 Rewards = -25, Average Loss = -0.0430
+Collision! team_2_agent_1 caught by team_1_agent_0
+Collision! team_2_agent_1 caught by team_1_agent_0
+Episode 622/1000: Team 1 Rewards = 50, Team 2 Rewards = -50, Average Loss = -0.0382
+Collision! team_1_agent_1 caught by team_2_agent_0
+Episode 623/1000: Team 1 Rewards = -25, Team 2 Rewards = 25, Average Loss = -0.0167
+Collision! team_1_agent_1 caught by team_2_agent_1
+Collision! team_1_agent_1 caught by team_2_agent_1
+Episode 624/1000: Team 1 Rewards = -50, Team 2 Rewards = 50, Average Loss = -0.0231
+Episode 625/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0278
+Collision! team_1_agent_1 caught by team_2_agent_0
+Episode 626/1000: Team 1 Rewards = -25, Team 2 Rewards = 25, Average Loss = -0.0295
+Episode 627/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0285
+Episode 628/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0306
+Episode 629/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0198
+Episode 630/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0254
+Episode 631/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0172
+Episode 632/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0164
+Episode 633/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0200
+Episode 634/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0246
+Episode 635/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0179
+Episode 636/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0305
+Collision! team_2_agent_0 caught by team_1_agent_1
+Episode 637/1000: Team 1 Rewards = 25, Team 2 Rewards = -25, Average Loss = -0.0246
+Episode 638/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0316
+Episode 639/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0472
+Episode 640/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0226
+Episode 641/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0200
+Episode 642/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0235
+Episode 643/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0294
+Episode 644/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0191
+Episode 645/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0203
+Episode 646/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0224
+Collision! team_2_agent_1 caught by team_1_agent_0
+Collision! team_2_agent_1 caught by team_1_agent_1
+Episode 647/1000: Team 1 Rewards = 50, Team 2 Rewards = -50, Average Loss = -0.0342
+Episode 648/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0245
+Episode 649/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0485
+Models saved for episode 650.
+Episode 650/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0194
+Episode 651/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0180
+Episode 652/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0178
+Episode 653/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0223
+Episode 654/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0307
+Episode 655/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0194
+Episode 656/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0246
+Episode 657/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0222
+Episode 658/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0116
+Episode 659/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0189
+Collision! team_1_agent_0 caught by team_2_agent_0
+Episode 660/1000: Team 1 Rewards = -25, Team 2 Rewards = 25, Average Loss = -0.0318
+Episode 661/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0354
+Episode 662/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0196
+Episode 663/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0349
+Episode 664/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0307
+Collision! team_1_agent_0 caught by team_2_agent_0
+Episode 665/1000: Team 1 Rewards = -25, Team 2 Rewards = 25, Average Loss = -0.0263
+Episode 666/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0309
+Episode 667/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0304
+Episode 668/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0162
+Episode 669/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0333
+Collision! team_1_agent_0 caught by team_2_agent_0
+Collision! team_1_agent_0 caught by team_2_agent_0
+Episode 670/1000: Team 1 Rewards = -50, Team 2 Rewards = 50, Average Loss = -0.0158
+Episode 671/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0324
+Episode 672/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0245
+Collision! team_1_agent_0 caught by team_2_agent_0
+Episode 673/1000: Team 1 Rewards = -25, Team 2 Rewards = 25, Average Loss = -0.0264
+Episode 674/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0199
+Episode 675/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0225
+Collision! team_1_agent_0 caught by team_2_agent_1
+Collision! team_1_agent_0 caught by team_2_agent_0
+Episode 676/1000: Team 1 Rewards = -50, Team 2 Rewards = 50, Average Loss = -0.0269
+Episode 677/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0185
+Collision! team_2_agent_1 caught by team_1_agent_1
+Episode 678/1000: Team 1 Rewards = 25, Team 2 Rewards = -25, Average Loss = -0.0223
+Episode 679/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0257
+Episode 680/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0145
+Collision! team_2_agent_0 caught by team_1_agent_0
+Episode 681/1000: Team 1 Rewards = 25, Team 2 Rewards = -25, Average Loss = -0.0284
+Episode 682/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0341
+Episode 683/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0142
+Episode 684/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0320
+Episode 685/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0197
+Episode 686/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0192
+Episode 687/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0214
+Episode 688/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0198
+Episode 689/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0192
+Episode 690/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0243
+Episode 691/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0177
+Collision! team_1_agent_0 caught by team_2_agent_1
+Episode 692/1000: Team 1 Rewards = -25, Team 2 Rewards = 25, Average Loss = -0.0229
+Collision! team_1_agent_0 caught by team_2_agent_1
+Episode 693/1000: Team 1 Rewards = -25, Team 2 Rewards = 25, Average Loss = -0.0148
+Episode 694/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0133
+Episode 695/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0275
+Collision! team_1_agent_0 caught by team_2_agent_1
+Episode 696/1000: Team 1 Rewards = -25, Team 2 Rewards = 25, Average Loss = -0.0163
+Collision! team_1_agent_1 caught by team_2_agent_1
+Episode 697/1000: Team 1 Rewards = -25, Team 2 Rewards = 25, Average Loss = -0.0176
+Episode 698/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0225
+Episode 699/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0188
+Models saved for episode 700.
+Episode 700/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0445
+Episode 701/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0278
+Episode 702/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0292
+Episode 703/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0140
+Episode 704/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0156
+Episode 705/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0330
+Episode 706/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0158
+Collision! team_1_agent_0 caught by team_2_agent_1
+Collision! team_1_agent_0 caught by team_2_agent_1
+Collision! team_1_agent_0 caught by team_2_agent_1
+Collision! team_1_agent_0 caught by team_2_agent_1
+Episode 707/1000: Team 1 Rewards = -100, Team 2 Rewards = 100, Average Loss = -0.0156
+Episode 708/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0328
+Episode 709/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0364
+Episode 710/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0187
+Episode 711/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0359
+Episode 712/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0214
+Episode 713/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0329
+Episode 714/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0341
+Episode 715/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0139
+Episode 716/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0207
+Episode 717/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0185
+Episode 718/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0359
+Episode 719/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0212
+Episode 720/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0186
+Episode 721/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0215
+Episode 722/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0183
+Episode 723/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0184
+Episode 724/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0217
+Episode 725/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0257
+Episode 726/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0259
+Episode 727/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0203
+Episode 728/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0212
+Episode 729/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0166
+Episode 730/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0377
+Episode 731/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0327
+Episode 732/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0275
+Episode 733/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0262
+Episode 734/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0330
+Episode 735/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0307
+Collision! team_2_agent_0 caught by team_1_agent_0
+Collision! team_2_agent_0 caught by team_1_agent_1
+Collision! team_2_agent_0 caught by team_1_agent_1
+Collision! team_2_agent_0 caught by team_1_agent_1
+Episode 736/1000: Team 1 Rewards = 100, Team 2 Rewards = -100, Average Loss = -0.0182
+Episode 737/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0468
+Episode 738/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0252
+Episode 739/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0254
+Collision! team_2_agent_1 caught by team_1_agent_0
+Collision! team_2_agent_1 caught by team_1_agent_0
+Collision! team_2_agent_1 caught by team_1_agent_0
+Episode 740/1000: Team 1 Rewards = 75, Team 2 Rewards = -75, Average Loss = -0.0369
+Episode 741/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0211
+Episode 742/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0329
+Episode 743/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0348
+Episode 744/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0367
+Episode 745/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0261
+Episode 746/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0267
+Collision! team_1_agent_0 caught by team_2_agent_1
+Episode 747/1000: Team 1 Rewards = -25, Team 2 Rewards = 25, Average Loss = -0.0273
+Collision! team_1_agent_0 caught by team_2_agent_0
+Episode 748/1000: Team 1 Rewards = -25, Team 2 Rewards = 25, Average Loss = -0.0203
+Episode 749/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0311
+Models saved for episode 750.
+Episode 750/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0161
+Episode 751/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0165
+Collision! team_1_agent_1 caught by team_2_agent_1
+Episode 752/1000: Team 1 Rewards = -25, Team 2 Rewards = 25, Average Loss = -0.0221
+Episode 753/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0456
+Episode 754/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0198
+Episode 755/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0210
+Episode 756/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0232
+Episode 757/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0175
+Episode 758/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0264
+Episode 759/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0379
+Episode 760/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0174
+Episode 761/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0199
+Collision! team_1_agent_1 caught by team_2_agent_1
+Collision! team_1_agent_1 caught by team_2_agent_1
+Episode 762/1000: Team 1 Rewards = -50, Team 2 Rewards = 50, Average Loss = -0.0223
+Episode 763/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0243
+Episode 764/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0212
+Episode 765/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0182
+Episode 766/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0570
+Episode 767/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0498
+Collision! team_1_agent_0 caught by team_2_agent_1
+Episode 768/1000: Team 1 Rewards = -25, Team 2 Rewards = 25, Average Loss = -0.0180
+Episode 769/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0139
+Episode 770/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0148
+Episode 771/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0227
+Episode 772/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0201
+Episode 773/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0206
+Episode 774/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0384
+Episode 775/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0424
+Episode 776/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0201
+Collision! team_1_agent_0 caught by team_2_agent_0
+Episode 777/1000: Team 1 Rewards = -25, Team 2 Rewards = 25, Average Loss = -0.0300
+Episode 778/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0286
+Episode 779/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0388
+Episode 780/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0194
+Episode 781/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0225
+Episode 782/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0151
+Collision! team_2_agent_0 caught by team_1_agent_1
+Collision! team_2_agent_0 caught by team_1_agent_1
+Episode 783/1000: Team 1 Rewards = 50, Team 2 Rewards = -50, Average Loss = -0.0057
+Episode 784/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0181
+Collision! team_1_agent_0 caught by team_2_agent_0
+Episode 785/1000: Team 1 Rewards = -25, Team 2 Rewards = 25, Average Loss = -0.0455
+Episode 786/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0258
+Episode 787/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0272
+Episode 788/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0176
+Collision! team_2_agent_1 caught by team_1_agent_0
+Episode 789/1000: Team 1 Rewards = 25, Team 2 Rewards = -25, Average Loss = -0.0271
+Episode 790/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0442
+Episode 791/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0369
+Episode 792/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0265
+Collision! team_2_agent_1 caught by team_1_agent_0
+Episode 793/1000: Team 1 Rewards = 25, Team 2 Rewards = -25, Average Loss = -0.0278
+Episode 794/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0238
+Collision! team_1_agent_1 caught by team_2_agent_1
+Episode 795/1000: Team 1 Rewards = -25, Team 2 Rewards = 25, Average Loss = -0.0108
+Episode 796/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0162
+Episode 797/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0263
+Episode 798/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0462
+Episode 799/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0327
+Models saved for episode 800.
+Episode 800/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0169
+Episode 801/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0318
+Episode 802/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0194
+Episode 803/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0387
+Episode 804/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0367
+Episode 805/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0276
+Episode 806/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0179
+Collision! team_2_agent_0 caught by team_1_agent_0
+Collision! team_2_agent_0 caught by team_1_agent_0
+Episode 807/1000: Team 1 Rewards = 50, Team 2 Rewards = -50, Average Loss = -0.0428
+Episode 808/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0138
+Episode 809/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0200
+Collision! team_1_agent_1 caught by team_2_agent_0
+Episode 810/1000: Team 1 Rewards = -25, Team 2 Rewards = 25, Average Loss = -0.0185
+Episode 811/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0170
+Episode 812/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0296
+Collision! team_1_agent_0 caught by team_2_agent_1
+Episode 813/1000: Team 1 Rewards = -25, Team 2 Rewards = 25, Average Loss = -0.0267
+Episode 814/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0234
+Episode 815/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0343
+Episode 816/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0306
+Episode 817/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0192
+Episode 818/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0164
+Collision! team_2_agent_0 caught by team_1_agent_1
+Collision! team_2_agent_0 caught by team_1_agent_0
+Episode 819/1000: Team 1 Rewards = 50, Team 2 Rewards = -50, Average Loss = -0.0150
+Episode 820/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0149
+Episode 821/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0186
+Episode 822/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0184
+Episode 823/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0205
+Episode 824/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0161
+Episode 825/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0186
+Episode 826/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0323
+Episode 827/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0307
+Collision! team_2_agent_0 caught by team_1_agent_0
+Episode 828/1000: Team 1 Rewards = 25, Team 2 Rewards = -25, Average Loss = -0.0244
+Episode 829/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0202
+Collision! team_2_agent_0 caught by team_1_agent_1
+Episode 830/1000: Team 1 Rewards = 25, Team 2 Rewards = -25, Average Loss = -0.0178
+Episode 831/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0312
+Collision! team_2_agent_1 caught by team_1_agent_1
+Episode 832/1000: Team 1 Rewards = 25, Team 2 Rewards = -25, Average Loss = -0.0405
+Episode 833/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0352
+Episode 834/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0148
+Episode 835/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0198
+Episode 836/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0377
+Episode 837/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0293
+Episode 838/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0205
+Episode 839/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0286
+Collision! team_1_agent_1 caught by team_2_agent_1
+Episode 840/1000: Team 1 Rewards = -25, Team 2 Rewards = 25, Average Loss = -0.0176
+Episode 841/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0160
+Collision! team_1_agent_0 caught by team_2_agent_0
+Episode 842/1000: Team 1 Rewards = -25, Team 2 Rewards = 25, Average Loss = -0.0491
+Episode 843/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0225
+Episode 844/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0391
+Episode 845/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0200
+Episode 846/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0287
+Episode 847/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0189
+Collision! team_2_agent_1 caught by team_1_agent_1
+Episode 848/1000: Team 1 Rewards = 25, Team 2 Rewards = -25, Average Loss = -0.0211
+Collision! team_1_agent_1 caught by team_2_agent_1
+Episode 849/1000: Team 1 Rewards = -25, Team 2 Rewards = 25, Average Loss = -0.0360
+Collision! team_1_agent_0 caught by team_2_agent_1
+Models saved for episode 850.
+Episode 850/1000: Team 1 Rewards = -25, Team 2 Rewards = 25, Average Loss = -0.0405
+Episode 851/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0140
+Episode 852/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0355
+Episode 853/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0201
+Collision! team_2_agent_0 caught by team_1_agent_0
+Episode 854/1000: Team 1 Rewards = 25, Team 2 Rewards = -25, Average Loss = -0.0270
+Episode 855/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0376
+Collision! team_1_agent_0 caught by team_2_agent_0
+Episode 856/1000: Team 1 Rewards = -25, Team 2 Rewards = 25, Average Loss = -0.0151
+Collision! team_1_agent_1 caught by team_2_agent_0
+Collision! team_1_agent_1 caught by team_2_agent_0
+Collision! team_1_agent_1 caught by team_2_agent_1
+Episode 857/1000: Team 1 Rewards = -75, Team 2 Rewards = 75, Average Loss = -0.0181
+Episode 858/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0214
+Episode 859/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0297
+Collision! team_2_agent_0 caught by team_1_agent_1
+Episode 860/1000: Team 1 Rewards = 25, Team 2 Rewards = -25, Average Loss = -0.0266
+Episode 861/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0216
+Episode 862/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0211
+Collision! team_1_agent_1 caught by team_2_agent_1
+Episode 863/1000: Team 1 Rewards = -25, Team 2 Rewards = 25, Average Loss = -0.0187
+Episode 864/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0209
+Episode 865/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0210
+Collision! team_2_agent_1 caught by team_1_agent_0
+Episode 866/1000: Team 1 Rewards = 25, Team 2 Rewards = -25, Average Loss = -0.0280
+Collision! team_2_agent_0 caught by team_1_agent_0
+Collision! team_2_agent_0 caught by team_1_agent_0
+Collision! team_2_agent_0 caught by team_1_agent_0
+Episode 867/1000: Team 1 Rewards = 75, Team 2 Rewards = -75, Average Loss = -0.0434
+Episode 868/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0294
+Episode 869/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0205
+Episode 870/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0350
+Episode 871/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0237
+Episode 872/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0207
+Episode 873/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0187
+Episode 874/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0361
+Episode 875/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0466
+Collision! team_2_agent_0 caught by team_1_agent_1
+Episode 876/1000: Team 1 Rewards = 25, Team 2 Rewards = -25, Average Loss = -0.0362
+Collision! team_2_agent_0 caught by team_1_agent_1
+Episode 877/1000: Team 1 Rewards = 25, Team 2 Rewards = -25, Average Loss = -0.0142
+Collision! team_2_agent_1 caught by team_1_agent_0
+Episode 878/1000: Team 1 Rewards = 25, Team 2 Rewards = -25, Average Loss = -0.0368
+Episode 879/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0360
+Collision! team_1_agent_0 caught by team_2_agent_0
+Collision! team_1_agent_0 caught by team_2_agent_0
+Episode 880/1000: Team 1 Rewards = -50, Team 2 Rewards = 50, Average Loss = -0.0369
+Episode 881/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0202
+Episode 882/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0146
+Episode 883/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0166
+Episode 884/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0360
+Episode 885/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0244
+Episode 886/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0232
+Episode 887/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0532
+Episode 888/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0175
+Episode 889/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0126
+Episode 890/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0200
+Collision! team_1_agent_1 caught by team_2_agent_0
+Episode 891/1000: Team 1 Rewards = -25, Team 2 Rewards = 25, Average Loss = -0.0392
+Episode 892/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0407
+Episode 893/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0202
+Episode 894/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0250
+Episode 895/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0388
+Episode 896/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0193
+Episode 897/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0219
+Episode 898/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0168
+Episode 899/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0387
+Models saved for episode 900.
+Episode 900/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0295
+Episode 901/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0191
+Episode 902/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0318
+Episode 903/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0157
+Episode 904/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0183
+Episode 905/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0275
+Episode 906/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0273
+Episode 907/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0231
+Episode 908/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0430
+Episode 909/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0190
+Episode 910/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0336
+Episode 911/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0234
+Collision! team_1_agent_1 caught by team_2_agent_1
+Collision! team_1_agent_1 caught by team_2_agent_0
+Episode 912/1000: Team 1 Rewards = -50, Team 2 Rewards = 50, Average Loss = -0.0215
+Episode 913/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0186
+Episode 914/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0217
+Episode 915/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0328
+Episode 916/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0166
+Episode 917/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0132
+Episode 918/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0191
+Episode 919/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0175
+Collision! team_1_agent_1 caught by team_2_agent_1
+Episode 920/1000: Team 1 Rewards = -25, Team 2 Rewards = 25, Average Loss = -0.0331
+Episode 921/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0273
+Collision! team_1_agent_0 caught by team_2_agent_1
+Episode 922/1000: Team 1 Rewards = -25, Team 2 Rewards = 25, Average Loss = -0.0152
+Episode 923/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0192
+Episode 924/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0301
+Episode 925/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0223
+Collision! team_1_agent_1 caught by team_2_agent_0
+Episode 926/1000: Team 1 Rewards = -25, Team 2 Rewards = 25, Average Loss = -0.0365
+Episode 927/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0296
+Episode 928/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0190
+Episode 929/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0175
+Episode 930/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0186
+Collision! team_1_agent_1 caught by team_2_agent_0
+Episode 931/1000: Team 1 Rewards = -25, Team 2 Rewards = 25, Average Loss = -0.0253
+Collision! team_2_agent_1 caught by team_1_agent_1
+Episode 932/1000: Team 1 Rewards = 25, Team 2 Rewards = -25, Average Loss = -0.0178
+Collision! team_2_agent_1 caught by team_1_agent_1
+Episode 933/1000: Team 1 Rewards = 25, Team 2 Rewards = -25, Average Loss = -0.0197
+Episode 934/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0226
+Episode 935/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0235
+Episode 936/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0301
+Episode 937/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0298
+Collision! team_2_agent_0 caught by team_1_agent_0
+Episode 938/1000: Team 1 Rewards = 25, Team 2 Rewards = -25, Average Loss = -0.0231
+Episode 939/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0226
+Episode 940/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0213
+Episode 941/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0161
+Episode 942/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0379
+Episode 943/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0230
+Episode 944/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0144
+Collision! team_1_agent_0 caught by team_2_agent_1
+Episode 945/1000: Team 1 Rewards = -25, Team 2 Rewards = 25, Average Loss = -0.0392
+Episode 946/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0188
+Episode 947/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0183
+Episode 948/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0212
+Episode 949/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0212
+Models saved for episode 950.
+Episode 950/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0440
+Episode 951/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0192
+Episode 952/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0186
+Episode 953/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0201
+Episode 954/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0189
+Episode 955/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0158
+Collision! team_2_agent_1 caught by team_1_agent_1
+Collision! team_2_agent_1 caught by team_1_agent_1
+Episode 956/1000: Team 1 Rewards = 50, Team 2 Rewards = -50, Average Loss = -0.0317
+Episode 957/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0172
+Episode 958/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0207
+Episode 959/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0333
+Collision! team_2_agent_0 caught by team_1_agent_0
+Episode 960/1000: Team 1 Rewards = 25, Team 2 Rewards = -25, Average Loss = -0.0361
+Episode 961/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0177
+Episode 962/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0168
+Episode 963/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0302
+Collision! team_1_agent_1 caught by team_2_agent_0
+Episode 964/1000: Team 1 Rewards = -25, Team 2 Rewards = 25, Average Loss = -0.0174
+Episode 965/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0189
+Episode 966/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0183
+Episode 967/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0164
+Episode 968/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0194
+Episode 969/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0239
+Episode 970/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0138
+Episode 971/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0201
+Episode 972/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0180
+Episode 973/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0186
+Episode 974/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0174
+Episode 975/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0218
+Episode 976/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0218
+Episode 977/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0195
+Collision! team_1_agent_0 caught by team_2_agent_0
+Episode 978/1000: Team 1 Rewards = -25, Team 2 Rewards = 25, Average Loss = -0.0289
+Collision! team_2_agent_1 caught by team_1_agent_1
+Collision! team_2_agent_1 caught by team_1_agent_1
+Episode 979/1000: Team 1 Rewards = 50, Team 2 Rewards = -50, Average Loss = 0.0100
+Episode 980/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0191
+Episode 981/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0221
+Episode 982/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0181
+Episode 983/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0376
+Episode 984/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0323
+Episode 985/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0320
+Episode 986/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0171
+Episode 987/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0160
+Collision! team_1_agent_1 caught by team_2_agent_0
+Collision! team_1_agent_1 caught by team_2_agent_0
+Episode 988/1000: Team 1 Rewards = -50, Team 2 Rewards = 50, Average Loss = -0.0248
+Episode 989/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0214
+Episode 990/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0169
+Episode 991/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0199
+Episode 992/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0375
+Episode 993/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0208
+Episode 994/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0220
+Episode 995/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0196
+Episode 996/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0528
+Collision! team_2_agent_0 caught by team_1_agent_0
+Episode 997/1000: Team 1 Rewards = 25, Team 2 Rewards = -25, Average Loss = -0.0210
+Episode 998/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0174
+Episode 999/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0165
+Models saved for episode 1000.
+Episode 1000/1000: Team 1 Rewards = 0, Team 2 Rewards = 0, Average Loss = -0.0133
+Models saved for episode final.
