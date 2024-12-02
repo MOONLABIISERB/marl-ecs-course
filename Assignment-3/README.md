@@ -1,7 +1,5 @@
 # Assignment-3
 
-```python
-# main.py
 
 ## Training Performance
 - Agents successfully learned optimal policies through Q-learning, with rewards stabilizing over 500 episodes.
