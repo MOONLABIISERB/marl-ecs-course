@@ -8,6 +8,6 @@
 
 ## Visualizations
 
-![image1](path_to_image1.png)
+![image1](https://github.com/MOONLABIISERB/marl-ecs-course/blob/gavit_20114/Assignment-3/graph.png)
 
-![image2](path_to_image2.png)
+![image2](https://github.com/MOONLABIISERB/marl-ecs-course/blob/gavit_20114/Assignment-3/map.png)
