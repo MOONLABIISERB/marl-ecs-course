@@ -12,7 +12,7 @@ Agent 4 path: [(1, 8), (1, 7), (2, 7), (3, 7), (3, 6), (4, 6), (4, 5), (4, 4), (
 
 ## Visualizations
 
-![Graph Visualization](https://github.com/MOONLABIISERB/marl-ecs-course/blob/gavit_20114/Assignment-3/graph.png)
+![Graph Visualization](https://github.com/MOONLABIISERB/marl-ecs-course/blob/gavit_20114/Assignment-3/training_plot.png)
 
 
-![Map Visualization](https://github.com/MOONLABIISERB/marl-ecs-course/blob/gavit_20114/Assignment-3/map.png)
+![Map Visualization](https://github.com/MOONLABIISERB/marl-ecs-course/blob/gavit_20114/Assignment-3/grid_plot.png)

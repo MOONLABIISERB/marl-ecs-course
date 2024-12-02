@@ -211,3 +211,5 @@ if __name__ == "__main__":
 
     plot_grid_with_paths(grid, start_positions, goal_positions, paths)
     plt.show()
+
+# ...
