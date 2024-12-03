@@ -37,4 +37,22 @@ python3 test_maddpg.py
 # Presentation
 Check MARL Project.pdf file.
 
+# MADDPG  Results
 
+Rewards accumulated by agent 1 over steps in as follows
+![agent_1_reward](agent_1_reward.png)    
+
+Rewards accumulated by agent 2 over steps in as follows
+![agent_2_reward](agent_2_reward.png)    
+
+Critic loss of agent 1  
+![agent_2_reward](agent_1_critic_loss.png)  
+
+Critic loss of agent 2  
+![agent_2_reward](agent_2_critic_loss.png)  
+
+Critic loss of agent 1  
+![agent_2_reward](agent_1_actor_loss.png)  
+
+Critic loss of agent 2   
+![agent_2_reward](agent_2_actor_loss.png)
