@@ -14,11 +14,12 @@ MAPPO was implemented by Rahul Kulkarni.
 
 The report is in Report folder
 
-# Run the Code
+# Run MADDPG
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate
 pip3 install matplotlib numpy torch rich wandb
+cd src
 python3 maddpg.py
 
 #To train, run on gpu.
@@ -36,35 +37,44 @@ python3 maddpg_env_random.py
 python3 test_maddpg.py
 ```
 
+# Run MAPPO
+```bash 
+cd src
+python3 mappo.py
+```
+
 # Presentation
 Check MARL Project.pptx file.
+
+# Environment
+![env](img/random_action.gif)
 
 # Random Trajectory
 
 Rewards accumulated by each agent following random trajectory
-![random_traj](random_traj_rew.png)
+![random_traj](img/random_traj_rew.png)
 
 # MADDPG  Results
 
 Rewards accumulated by agent 1 over steps in as follows
-![agent_1_reward](agent_1_reward.png)    
+![agent_1_reward](img/agent_1_reward.png)    
 
 Rewards accumulated by agent 2 over steps in as follows
-![agent_2_reward](agent_2_reward.png)    
+![agent_2_reward](img/agent_2_reward.png)    
 
 Critic loss of agent 1  
-![agent_1_critic_loss](agent_1_critic_loss.png)  
+![agent_1_critic_loss](img/agent_1_critic_loss.png)  
 
 Critic loss of agent 2  
-![agent_2_critic_loss](agent_2_critic_loss.png)  
+![agent_2_critic_loss](img/agent_2_critic_loss.png)  
 
 Actor loss of agent 1  
-![agent_1_actor_loss](agent_1_actor_loss.png)  
+![agent_1_actor_loss](img/agent_1_actor_loss.png)  
 
 Actor loss of agent 2   
-![agent_2_actor_loss](agent_2_actor_loss.png)
+![agent_2_actor_loss](img/agent_2_actor_loss.png)
 
 # MAPPO Results
 
 MAPPO results are as follows
-![mappo_results](mappo_results.png) 
+![mappo_results](img/mappo_results.png) 
