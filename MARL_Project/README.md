@@ -56,8 +56,8 @@ The folder structure for this project is as follows:
    Clone the repository and navigate to the project directory:
 
    ```bash
-   git clone https://github.com/your-repo-name.git
-   cd your-repo-name
+   git clone --branch Bhanu_2411006  https://github.com/MOONLABIISERB/marl-ecs-course.git
+   cd marl-ecs-course/MARL_Project
    ```
 
 2. **Run the baseline experiment:**
@@ -96,7 +96,7 @@ The folder structure for this project is as follows:
   - Dynamic obstacles are now considered during the agent's decision-making process, where the agent adjusts its path based on the predicted movement of obstacles.
   - The reward function has been modified to provide additional rewards for successfully avoiding dynamic obstacles.
 
-### 2. **`mrin_env.py` (Environment Modifications)**
+### 2. **`marineav_env.py` (Environment Modifications)**
 
 - **Dynamic Environment Support:**  
   The environment has been modified to support dynamic obstacles, which move based on predefined patterns or random behaviors. Changes made include:
