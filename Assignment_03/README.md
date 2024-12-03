@@ -21,11 +21,6 @@ To run the code, you need to have the following dependencies installed:
 - Python 3.7 or higher
 - Required libraries: `numpy`, `matplotlib`, `pandas` (for visualization), and any reinforcement learning framework such as `gym` or custom implementation.
 
-You can install the dependencies using `pip`:
-
-```bash
-pip install numpy matplotlib
-
 ## Results
 
 After running the code, the following results will be generated:
