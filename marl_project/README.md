@@ -2,7 +2,15 @@
 
 NAME: Mohammad Saifullah Khan  
 ROLL NO.: 21169  
-DEPARTMENT: EECS
+DEPARTMENT: EECS  
+
+Team:  
+Rahul Kulkarni  
+Mohammad Saifullah
+
+# NOTE:
+MADDPG was implemented by Mohammad Saifullah Khan.
+MAPPO was implemented by Rahul Kulkarni.
 
 # Run the Code
 ```bash
