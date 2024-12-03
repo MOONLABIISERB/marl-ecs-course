@@ -6,7 +6,7 @@ DEPARTMENT: EECS
 
 Team:  
 Rahul Kulkarni  
-Mohammad Saifullah
+Mohammad Saifullah Khan
 
 # NOTE:
 MADDPG was implemented by Mohammad Saifullah Khan.  
