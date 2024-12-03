@@ -41,4 +41,4 @@ After running the code, the following results will be generated:
 ![Graph plot](image.png)
 
 4. **Grid with Agent Paths**:
-![MAP](grid_plot.png)
+![MAP](https://github.com/MOONLABIISERB/marl-ecs-course/blob/abhinav_20008/Assignment_03/MAP_plot.png)
