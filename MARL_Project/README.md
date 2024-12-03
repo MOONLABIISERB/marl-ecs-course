@@ -136,6 +136,8 @@ The folder structure for this project is as follows:
    - Dynamic obstacles are introduced into the environment using pre-defined patterns or random motions.
    - The reward function has been updated to reflect the new goal of avoiding moving obstacles.
 
+   - You can see the video of IQN agent performance with dynamic obstacles in the video : IQN_model_eval_episode.mp4
+
 ### 3. **Updated Reward Structure:**
 
    The reward function has been updated in the following ways:
