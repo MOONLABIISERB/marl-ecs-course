@@ -40,13 +40,16 @@ if __name__ == '__main__':
 
     PRINT_INTERVAL = 100
     N_GAMES = 10000
-    MAX_STEPS = 10000
+    MAX_STEPS = 50000
     total_steps = 0
     best_score = [0,0]
-    evaluate = True
+
     score_history = {'P1':[],'P2':[]}#{'P1':0,'P2':0}
     ep_st={}
-
+    evaluate = False
+    resume = True
+    if resume:
+        maddpg_agents.load_checkpoint()
     if evaluate:
         maddpg_agents.load_checkpoint()
 
@@ -65,14 +68,14 @@ if __name__ == '__main__':
             #print(done)
             #print(f'Action: {actions} by agent: {env.agent_selection}')
             if episode_steps%2==0:
-                if i%10 and i<1000:
+                if i%10 and i<3000:
                     act=np.random.randint(0,25)
 
                     env.step(act)
                 else:
                     env.step(actions[0])
             else:
-                if i%10 and i<1000:
+                if i%10 and i<3000:
                     act=np.random.randint(0,25)
 
                     env.step(act)
