@@ -20,6 +20,7 @@ python3 -m venv .venv
 source .venv/bin/activate
 pip3 install matplotlib numpy torch rich wandb
 cd src
+mkdir saved_models
 python3 maddpg.py
 
 #To train, run on gpu.
