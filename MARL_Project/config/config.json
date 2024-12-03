@@ -1,0 +1,25 @@
+{
+    "seed": [9],
+    "total_timesteps": 120000,
+    "eval_freq": 12000,
+    "save_dir": "/home/rfal/Multi_Robot_Distributional_RL_Navigation/training_data",
+    "training_schedule": {
+        "timesteps": [0, 20000, 30000, 40000, 50000, 60000],
+        "num_cooperative": [2, 3, 5, 5, 5, 5],
+        "num_non_cooperative": [0, 0, 0, 0, 0, 0],
+        "num_cores": [2, 2,2, 2, 2, 2, 2],
+        "num_obstacles": [0, 1, 2, 2, 2, 2],
+        "min_start_goal_dis": [30.0, 35.0, 40.0, 40.0, 40.0, 40.0]
+    },
+    "eval_schedule": {
+        "num_episodes": [5, 5, 5, 5, 5, 5],
+        "num_cooperative": [2, 3, 5, 5, 5, 5],
+        "num_non_cooperative": [0, 0, 0, 0, 0, 0],
+        "num_cores": [2, 2,2, 2, 2, 2, 2],
+        "num_obstacles": [2, 2, 2, 2, 2, 2],
+        "min_start_goal_dis": [30.0, 35.0, 40.0, 40.0, 40.0, 40.0]
+    },
+    "use_iqn": false,
+    "dynamic_env": true
+}
+
