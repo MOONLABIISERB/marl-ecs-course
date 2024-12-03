@@ -9,7 +9,7 @@ Rahul Kulkarni
 Mohammad Saifullah
 
 # NOTE:
-MADDPG was implemented by Mohammad Saifullah Khan.
+MADDPG was implemented by Mohammad Saifullah Khan.  
 MAPPO was implemented by Rahul Kulkarni.
 
 # Run the Code
