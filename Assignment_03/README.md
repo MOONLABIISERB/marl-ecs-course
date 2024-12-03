@@ -38,7 +38,7 @@ After running the code, the following results will be generated:
      ```
 
 3. **Training Progress Plot**:
-![Graph plot](image.png)
+![Graph plot](https://github.com/MOONLABIISERB/marl-ecs-course/blob/abhinav_20008/Assignment_03/Training_plot.png)
 
 4. **Grid with Agent Paths**:
 ![MAP](https://github.com/MOONLABIISERB/marl-ecs-course/blob/abhinav_20008/Assignment_03/MAP_plot.png)
