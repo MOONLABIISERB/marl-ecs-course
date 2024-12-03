@@ -1,0 +1,109 @@
+{
+    "seed": [
+        9
+    ],
+    "total_timesteps": 3000000,
+    "eval_freq": 30000,
+    "save_dir": "C:/Users/Pavan/Desktop/Multi_Robot_Distributional_RL_Navigation-main/Results3/DQN",
+    "training_schedule": {
+        "timesteps": [
+            0,
+            500000,
+            1000000,
+            1500000,
+            2000000,
+            2500000
+        ],
+        "num_cooperative": [
+            3,
+            5,
+            7,
+            9,
+            11,
+            13
+        ],
+        "num_non_cooperative": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "num_cores": [
+            4,
+            6,
+            8,
+            10,
+            12,
+            12
+        ],
+        "num_obstacles": [
+            0,
+            2,
+            4,
+            8,
+            12,
+            16
+        ],
+        "min_start_goal_dis": [
+            30.0,
+            35.0,
+            40.0,
+            70.0,
+            80.0,
+            90.0
+        ]
+    },
+    "eval_schedule": {
+        "num_episodes": [
+            10,
+            10,
+            10,
+            10,
+            10,
+            10
+        ],
+        "num_cooperative": [
+            3,
+            5,
+            7,
+            9,
+            11,
+            13
+        ],
+        "num_non_cooperative": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "num_cores": [
+            4,
+            6,
+            8,
+            10,
+            12,
+            12
+        ],
+        "num_obstacles": [
+            0,
+            2,
+            4,
+            8,
+            12,
+            16
+        ],
+        "min_start_goal_dis": [
+            40.0,
+            50.0,
+            60.0,
+            70.0,
+            80.0,
+            90.0
+        ]
+    },
+    "use_iqn": false
+}
