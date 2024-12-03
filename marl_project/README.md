@@ -10,7 +10,9 @@ Mohammad Saifullah
 
 # NOTE:
 MADDPG was implemented by Mohammad Saifullah Khan.  
-MAPPO was implemented by Rahul Kulkarni.
+MAPPO was implemented by Rahul Kulkarni.  
+
+The report is in Report folder
 
 # Run the Code
 ```bash
@@ -35,7 +37,12 @@ python3 test_maddpg.py
 ```
 
 # Presentation
-Check MARL Project.pdf file.
+Check MARL Project.pptx file.
+
+# Random Trajectory
+
+Rewards accumulated by each agent following random trajectory
+![random_traj](random_traj_rew.png)
 
 # MADDPG  Results
 
@@ -46,13 +53,18 @@ Rewards accumulated by agent 2 over steps in as follows
 ![agent_2_reward](agent_2_reward.png)    
 
 Critic loss of agent 1  
-![agent_2_reward](agent_1_critic_loss.png)  
+![agent_1_critic_loss](agent_1_critic_loss.png)  
 
 Critic loss of agent 2  
-![agent_2_reward](agent_2_critic_loss.png)  
+![agent_2_critic_loss](agent_2_critic_loss.png)  
 
-Critic loss of agent 1  
-![agent_2_reward](agent_1_actor_loss.png)  
+Actor loss of agent 1  
+![agent_1_actor_loss](agent_1_actor_loss.png)  
 
-Critic loss of agent 2   
-![agent_2_reward](agent_2_actor_loss.png)
+Actor loss of agent 2   
+![agent_2_actor_loss](agent_2_actor_loss.png)
+
+# MAPPO Results
+
+MAPPO results are as follows
+![mappo_results](mappo_results.png) 
