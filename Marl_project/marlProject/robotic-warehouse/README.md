@@ -47,4 +47,12 @@ The goal of this project was for two agents to collaborate in moving requested s
  <img width="250" alt="large" src="https://github.com/user-attachments/assets/e6f8e05b-102b-40ca-b3e2-7c2b61e99297">
 
 
+ #### Training Results:
+
+ For Small Environment: 
+
+ ![output_main](https://github.com/user-attachments/assets/a7dff751-b3ec-4642-a1c1-752abff9af41)
+
+
+
  
