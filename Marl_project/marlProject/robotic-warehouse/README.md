@@ -41,4 +41,10 @@ The goal of this project was for two agents to collaborate in moving requested s
  
  <img width="460" alt="small" src="https://github.com/user-attachments/assets/032bd60e-c083-4539-9115-3e8fa18868e2">
 
+
+ Large Environment:
+
+ <img width="136" alt="large" src="https://github.com/user-attachments/assets/e6f8e05b-102b-40ca-b3e2-7c2b61e99297">
+
+
  
