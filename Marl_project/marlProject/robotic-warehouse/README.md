@@ -1,4 +1,4 @@
-## how to execute: run testlarge.py for large layout and testsmall.py for small layout
+## IMPORTANT!!------how to execute: run testlarge.py for large layout and testsmall.py for small layout
 
 #### FOR DETAILED PROJECT REPORT PLS SEE: "MARLProject_21008.pdf"
 
