@@ -19,10 +19,13 @@ The goal of this project was for two agents to collaborate in moving requested s
 
  #### Parameters Used:
  • Action space: 0, 1, 2, 3, 4
+ 
  • Observation space: 71 in length, providing information about surrounding grids.
- • Number of agents (n
- agents): 2
+ 
+ • Number of agents (nagents): 2
+ 
  • Reward type: Reward shaping was done with the following structure:
+ 
  – −0.4 for any action that is not an intermediate state.
  
  – −0.1 for picking up a requested shelf.
