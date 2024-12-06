@@ -32,4 +32,13 @@ The goal of this project was for two agents to collaborate in moving requested s
  
  – 2.0 for delivering a requested shelf to the goal.
  
- – 3.0 for delivering the shelf back to the empty spo
+ – 3.0 for delivering the shelf back to the empty spot
+
+ #### Environment:
+ Two types of environment were tested on:
+
+ Small Environment
+ 
+ <img width="460" alt="small" src="https://github.com/user-attachments/assets/032bd60e-c083-4539-9115-3e8fa18868e2">
+
+ 
