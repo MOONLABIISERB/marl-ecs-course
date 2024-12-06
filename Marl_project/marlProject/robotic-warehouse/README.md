@@ -1,6 +1,6 @@
 ## how to execute: run testlarge.py for large layout and testsmall.py for small layout
 
-#### Project report has name "MARLProject_21008"
+#### FOR DETAILED PROJECT REPORT PLS SEE: "MARLProject_21008.pdf"
 
 #### Objective
 The goal of this project was for two agents to collaborate in moving requested shelves containing goods to
