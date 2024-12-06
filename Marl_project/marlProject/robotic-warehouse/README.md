@@ -1,4 +1,4 @@
-## run testlarge.py and testsmall.py
+## run testlarge.py for large layout and testsmall.py for small layout
 
 #### Project report has name "MARLProject_21008"
 
