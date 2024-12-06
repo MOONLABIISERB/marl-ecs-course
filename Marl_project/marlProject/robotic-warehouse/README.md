@@ -10,5 +10,7 @@ The goal of this project was for two agents to collaborate in moving requested s
 
  #### Program Setup:
  • main.py: Calls dql.py for training the agents.
+ 
  • dql.py: Implements and trains the DQN network.
+ 
  • testlarge.py: Tests the saved DQN models on the environment.
